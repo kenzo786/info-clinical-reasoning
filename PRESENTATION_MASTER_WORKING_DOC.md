@@ -6,7 +6,7 @@ Source of truth date: `2026-03-18`
 
 Primary target format: `C:\Users\amjid\GitHub\drx-references\presentations`
 
-Primary governance analogue: `C:\Users\amjid\GitHub\Illness scripts\ILLNESS_SCRIPT_MASTER_WORKING_DOC.md`
+Primary governance analogue: `C:\Users\amjid\GitHub\Clinical Reasoning\ILLNESS_SCRIPT_MASTER_WORKING_DOC.md`
 
 ## Purpose
 - This document is the build brief for creating a new UKMLA presentation folder in the same simplified format as `drx-references/presentations`.
@@ -473,7 +473,7 @@ Use the repo gap-analysis document as the default sequencing source. If no owner
 If passing this to Manus, give these instructions first:
 
 ```text
-Use `C:\Users\amjid\GitHub\Illness scripts\PRESENTATION_MASTER_WORKING_DOC.md` as the governing brief.
+Use `C:\Users\amjid\GitHub\Clinical Reasoning\PRESENTATION_MASTER_WORKING_DOC.md` as the governing brief.
 
 Target output: simplified DRx presentation files in the same format as `C:\Users\amjid\GitHub\drx-references\presentations`.
 
