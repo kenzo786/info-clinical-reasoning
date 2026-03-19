@@ -1,0 +1,1074 @@
+{
+  "generated_at_utc": "2026-02-28T16:41:31.684791+00:00",
+  "mode": "lint",
+  "processed_files": 10,
+  "passed_files": 0,
+  "failed_files": 10,
+  "files": [
+    {
+      "slug": "is-anxiety",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 4 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 5 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 6 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 4 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 5 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "differential_discriminator",
+          "message": "Section 11 list item 1 must include discriminator delimiter ' - '",
+          "section": 11
+        },
+        {
+          "rule": "differential_discriminator",
+          "message": "Section 11 list item 2 must include discriminator delimiter ' - '",
+          "section": 11
+        },
+        {
+          "rule": "differential_discriminator",
+          "message": "Section 11 list item 3 must include discriminator delimiter ' - '",
+          "section": 11
+        },
+        {
+          "rule": "differential_discriminator",
+          "message": "Section 11 list item 4 must include discriminator delimiter ' - '",
+          "section": 11
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": true,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": false,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    },
+    {
+      "slug": "is-anxiety-hyperventilation",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 2 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 3 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 4 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 4 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 5 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 6 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": false,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": true,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    },
+    {
+      "slug": "is-anxiety-induced-dizziness",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 2 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 3 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 4 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 4 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 5 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "differential_length",
+          "message": "Section 11 list item 1 exceeds 26 words",
+          "section": 11
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": false,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": false,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    },
+    {
+      "slug": "is-aortic-aneurysm",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 2 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 4 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 5 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 4 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": false,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": true,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    },
+    {
+      "slug": "is-aortic-aneurysm-rupture-or-dissection",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 2 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 3 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 4 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 4 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 5 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 4 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 5 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": false,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": true,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    },
+    {
+      "slug": "is-aortic-aneurysm-thoracic",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 2 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 3 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 4 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 4 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 5 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 6 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 4 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 5 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": false,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": true,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    },
+    {
+      "slug": "is-aortic-coarctation",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 2 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 3 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 4 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 4 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 4 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": false,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": true,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    },
+    {
+      "slug": "is-aortic-stenosis",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 2 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 3 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 4 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 4 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 5 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 4 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "differential_length",
+          "message": "Section 11 list item 1 exceeds 26 words",
+          "section": 11
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": false,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": false,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    },
+    {
+      "slug": "is-aphthous-ulceration",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 2 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 3 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 4 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "differential_length",
+          "message": "Section 11 list item 1 exceeds 26 words",
+          "section": 11
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": false,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": false,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    },
+    {
+      "slug": "is-aplastic-anaemia",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "definition_li_count",
+          "message": "Section 1 must contain exactly 2 list items",
+          "section": 1
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 2 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 3 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "epi_unsourced_numeric",
+          "message": "Section 2 list item 4 has unsourced numeric epidemiology claim",
+          "section": 2
+        },
+        {
+          "rule": "unsourced_numeric_in_sti",
+          "message": "Section 2 list item 2 has unsourced numeric claim in STI script",
+          "section": 2
+        },
+        {
+          "rule": "unsourced_numeric_in_sti",
+          "message": "Section 2 list item 3 has unsourced numeric claim in STI script",
+          "section": 2
+        },
+        {
+          "rule": "unsourced_numeric_in_sti",
+          "message": "Section 2 list item 4 has unsourced numeric claim in STI script",
+          "section": 2
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 4 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "diagnostic_section_count",
+          "message": "Section 9 must contain exactly 2 list items",
+          "section": 9
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": false,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": false,
+        "unsourced_numeric_in_sti": false,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": false,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": true,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": false,
+        "item_count_ok": false,
+        "format_ok": false,
+        "word_count": 0,
+        "word_count_ok": false,
+        "specificity_ok": false,
+        "line": ""
+      }
+    }
+  ]
+}

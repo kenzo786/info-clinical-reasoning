@@ -1,0 +1,38 @@
+﻿{
+    "input_xml":  "C:\\Users\\amjid\\GitHub\\Illness scripts\\clinicalreasoningknowledgebase.WordPress.2026-02-28.xml",
+    "output_dir":  "C:\\Users\\amjid\\GitHub\\Illness scripts\\extracted-illness-scripts",
+    "total_is_items":  718,
+    "processed":  711,
+    "skipped":  7,
+    "skipped_items":  [
+                          {
+                              "slug":  "is-hypothermia",
+                              "reason":  "missing_c-is.13.0"
+                          },
+                          {
+                              "slug":  "is-closed-01",
+                              "reason":  "excluded_slug"
+                          },
+                          {
+                              "slug":  "is-open-start-01",
+                              "reason":  "excluded_slug"
+                          },
+                          {
+                              "slug":  "is-open-end-01",
+                              "reason":  "excluded_slug"
+                          },
+                          {
+                              "slug":  "is-test",
+                              "reason":  "excluded_slug"
+                          },
+                          {
+                              "slug":  "is-type-2-diabetes-mellitus",
+                              "reason":  "missing_c-is.13.0"
+                          },
+                          {
+                              "slug":  "is-type-2-diabetes-mellitus-guide",
+                              "reason":  "missing_c-is.13.0"
+                          }
+                      ],
+    "generated_at_utc":  "2026-02-28T08:34:28.9185908Z"
+}

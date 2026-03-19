@@ -1,0 +1,62 @@
+﻿{
+    "input_xml":  "C:\\Users\\amjid\\GitHub\\Illness scripts\\clinicalreasoningknowledgebase.WordPress.2026-02-28.xml",
+    "output_dir":  "C:\\Users\\amjid\\GitHub\\Illness scripts\\extracted-illness-scripts-v2",
+    "total_is_items":  718,
+    "processed":  705,
+    "skipped":  13,
+    "skipped_items":  [
+                          {
+                              "slug":  "is-dissecting-aortic-aneurysm",
+                              "reason":  "missing_top_level_summary_for_required_section"
+                          },
+                          {
+                              "slug":  "is-hypothermia",
+                              "reason":  "missing_c-is.13.0"
+                          },
+                          {
+                              "slug":  "is-medication-induced-arthropathy",
+                              "reason":  "missing_required_c-is_sections"
+                          },
+                          {
+                              "slug":  "is-bleeding-and-bruising",
+                              "reason":  "missing_required_c-is_sections"
+                          },
+                          {
+                              "slug":  "is-patellofemoral-pain-syndrome",
+                              "reason":  "missing_required_c-is_sections"
+                          },
+                          {
+                              "slug":  "is-knee-fracture-or-dislocation",
+                              "reason":  "missing_required_c-is_sections"
+                          },
+                          {
+                              "slug":  "is-hip-pain-and-back-pain",
+                              "reason":  "missing_required_c-is_sections"
+                          },
+                          {
+                              "slug":  "is-closed-01",
+                              "reason":  "excluded_slug"
+                          },
+                          {
+                              "slug":  "is-open-start-01",
+                              "reason":  "excluded_slug"
+                          },
+                          {
+                              "slug":  "is-open-end-01",
+                              "reason":  "excluded_slug"
+                          },
+                          {
+                              "slug":  "is-test",
+                              "reason":  "excluded_slug"
+                          },
+                          {
+                              "slug":  "is-type-2-diabetes-mellitus",
+                              "reason":  "missing_c-is.13.0"
+                          },
+                          {
+                              "slug":  "is-type-2-diabetes-mellitus-guide",
+                              "reason":  "missing_c-is.13.0"
+                          }
+                      ],
+    "generated_at_utc":  "2026-02-28T08:36:33.7513831Z"
+}

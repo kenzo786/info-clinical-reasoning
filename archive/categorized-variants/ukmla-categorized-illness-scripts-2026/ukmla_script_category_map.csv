@@ -1,0 +1,706 @@
+slug,title,matched_condition,matched_presentation,match_basis,match_method,match_confidence,requires_manual_review,coverage_status,categories,source_file
+is-abdominal-pain-appendicitis,Abdominal Pain - Appendicitis,Appendicitis,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-abdominal-pain-appendicitis.html
+is-ac-joint-disorder,AC Joint Disorder,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ac-joint-disorder.html
+is-ace-inhibitor-induced-cough,ACE-Inhibitor Induced Cough,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ace-inhibitor-induced-cough.html
+is-achalasia,Achalasia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-achalasia.html
+is-achilles-tendinopathy,Achilles Tendinopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-achilles-tendinopathy.html
+is-achilles-tendon-rupture,Achilles Tendon Rupture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-achilles-tendon-rupture.html
+is-acoustic-neuroma,Acoustic Neuroma (Vestibular Schwannoma),Vestibular schwannoma (acoustic neuroma),,condition,fuzzy:1.60,0.65,true,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-acoustic-neuroma.html
+is-acute-abdomen,Acute Abdomen,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-acute-abdomen.html
+is-acute-coronary-syndrome-old,Acute Coronary Syndrome (ACS),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-acute-coronary-syndrome-old.html
+is-acute-coronary-syndrome,Acute Coronary Syndrome (ACS),Acute coronary syndromes,,condition,exact,0.95,false,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-acute-coronary-syndrome.html
+is-acute-gastrointestinal-bleeding,Acute Gastrointestinal Bleeding,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-acute-gastrointestinal-bleeding.html
+is-acute-glaucoma,Acute Glaucoma,Acute glaucoma,,condition,exact,0.95,false,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-acute-glaucoma.html
+is-acute-limb-ischaemia,Acute Limb Ischaemia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-acute-limb-ischaemia.html
+is-acute-pancreatitis,Acute Pancreatitis,Acute pancreatitis,,condition,exact,0.95,false,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-acute-pancreatitis.html
+is-acute-ulcerative-gingivitis,Acute Ulcerative Gingivitis (AUG),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-acute-ulcerative-gingivitis.html
+is-acute-urinary-retention,Acute Urinary Retention (AUR),Urinary retention/ obstructive uropathy,,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-acute-urinary-retention.html
+is-acute-viral-myositis,Acute Viral Myositis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-acute-viral-myositis.html
+is-addisons-disease,Addison's Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-addisons-disease.html
+is-adenoid-hyperplasia,Adenoid Hyperplasia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-adenoid-hyperplasia.html
+is-adhesive-capsulitis,Adhesive Capsulitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-adhesive-capsulitis.html
+is-age-related-purpura,Age-Related Purpura,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-age-related-purpura.html
+is-agranulocytosis,Agranulocytosis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-agranulocytosis.html
+is-alcohol-abuse,Alcohol Abuse,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-alcohol-abuse.html
+is-alcohol-and-drug-withdrawal,Alcohol and Drug Withdrawal,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-alcohol-and-drug-withdrawal.html
+is-alcoholic-liver-disease,Alcoholic Liver Disease (ALD),Alcohol related liver disease,,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-alcoholic-liver-disease.html
+is-allergic-rhinitis,Allergic Rhinitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-allergic-rhinitis.html
+is-alzheimers-disease,Alzheimer's Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-alzheimers-disease.html
+is-amaurosis-fugax,Amaurosis Fugax,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-amaurosis-fugax.html
+is-anaemia-of-chronic-disease,Anaemia of Chronic Disease (ACD),Chronic kidney disease,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-anaemia-of-chronic-disease.html
+is-anaemia-sob,Anaemia (Shortness of Breath - SOB),Anaemia,,condition,fuzzy:1.25,0.65,true,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-anaemia-sob.html
+is-anaemia,Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-anaemia.html
+is-anal-fissure,Anal Fissure,Anal fissure,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-anal-fissure.html
+is-anaphylaxis,Anaphylaxis,Anaphylaxis,,condition,exact,0.95,false,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-anaphylaxis.html
+is-angina-old,Angina,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-angina-old.html
+is-angina,Angina,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-angina.html
+is-angiodysplasia,Angiodysplasia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-angiodysplasia.html
+is-ankle-or-foot-bone-fracture,Ankle or Foot Bone Fracture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ankle-or-foot-bone-fracture.html
+is-ankle-sprain,Ankle Sprain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ankle-sprain.html
+is-ankylosing-spondylitis,Ankylosing Spondylitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ankylosing-spondylitis.html
+is-anorectal-abscess,Anorectal Abscess,Abscess,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-anorectal-abscess.html
+is-anorexia-nervosa,Anorexia Nervosa,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-anorexia-nervosa.html
+is-anticoagulants-and-antiplatelets,Anticoagulants and Antiplatelets,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-anticoagulants-and-antiplatelets.html
+is-anticoagulants,Anticoagulants,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-anticoagulants.html
+is-anxiety-hyperventilation,Anxiety (Hyperventilation),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-anxiety-hyperventilation.html
+is-anxiety-induced-dizziness,Anxiety-Induced Dizziness,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-anxiety-induced-dizziness.html
+is-anxiety,Anxiety,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-anxiety.html
+is-aortic-aneurysm-rupture-or-dissection,Aortic Aneurysm (Rupture or Dissection),Aortic aneurysm,,condition,fuzzy:1.25,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-aortic-aneurysm-rupture-or-dissection.html
+is-aortic-aneurysm-thoracic,Aortic Aneurysm (Thoracic),Aortic aneurysm,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-aortic-aneurysm-thoracic.html
+is-aortic-aneurysm,Aortic Aneurysm,Aortic aneurysm,,condition,exact,0.95,false,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-aortic-aneurysm.html
+is-aortic-coarctation,Aortic Coarctation,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-aortic-coarctation.html
+is-aortic-stenosis,Aortic Stenosis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-aortic-stenosis.html
+is-aphthous-ulceration,Aphthous Ulceration,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-aphthous-ulceration.html
+is-aplastic-anaemia,Aplastic Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-aplastic-anaemia.html
+is-appendicitis,Appendicitis,Appendicitis,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-appendicitis.html
+is-arrhythmia,Arrhythmia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-arrhythmia.html
+is-arthropathy,Arthropathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-arthropathy.html
+is-ascites,Ascites,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ascites.html
+is-asthma,Asthma,Asthma,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-asthma.html
+is-atopic-dermatitis,Atopic Dermatitis,Atopic dermatitis/ eczema,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Skin and soft tissue,extracted-illness-scripts-2026\is-atopic-dermatitis.html
+is-atrial-fibrillation,Atrial Fibrillation (AF),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-atrial-fibrillation.html
+is-atrial-flutter,Atrial Flutter,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-atrial-flutter.html
+is-atrophic-vaginitis,Atrophic Vaginitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-atrophic-vaginitis.html
+is-atypical-myocardial-infarction,Atypical Myocardial Infarction,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-atypical-myocardial-infarction.html
+is-autoimmune-hepatitis,Autoimmune Hepatitis,"Hepatitis (including viral, autoimmune, alcoholic)",,condition,fuzzy:1.08,0.65,true,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-autoimmune-hepatitis.html
+is-autonomic-neuropathy,Autonomic Neuropathy,Autonomic neuropathy,,condition,exact,0.95,false,covered-needs-refresh,Peripheral nervous system and neuromuscular junction,extracted-illness-scripts-2026\is-autonomic-neuropathy.html
+is-av-block,Atrioventricular (AV) Block,Bradyarrhythmias (including AV block),,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-av-block.html
+is-bakers-cyst-rupture,Baker's Cyst Rupture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bakers-cyst-rupture.html
+is-bakers-cyst,Baker's Cyst,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bakers-cyst.html
+is-behavioural-disorders-in-children,Behavioural Disorders in Children,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-behavioural-disorders-in-children.html
+is-bells-palsy,Bell's Palsy,Bell palsy,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,Peripheral nervous system and neuromuscular junction,extracted-illness-scripts-2026\is-bells-palsy.html
+is-benign-prostatic-hypertrophy,Benign Prostatic Hypertrophy (BPH),Benign prostatic hyperplasia,,condition,exact,0.95,false,covered-needs-refresh,Male genitourinary tract,extracted-illness-scripts-2026\is-benign-prostatic-hypertrophy.html
+is-biliary-colic,Biliary Colic,Gallstones and biliary colic,,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-biliary-colic.html
+is-bipolar-disorder,Bipolar Disorder,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bipolar-disorder.html
+is-bladder-cancer,Bladder Cancer,Bladder cancer,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-bladder-cancer.html
+is-bleeding-disorders,Bleeding Disorders,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bleeding-disorders.html
+is-blepharitis,Blepharitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-blepharitis.html
+is-boils,Boils,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-boils.html
+is-bone-fracture,Bone Fracture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bone-fracture.html
+is-bone-tumours,Bone Tumours,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bone-tumours.html
+is-bowel-infarction-mesenteric-ischaemia,Bowel Infarction (Mesenteric Ischaemia),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bowel-infarction-mesenteric-ischaemia.html
+is-bppv,Benign Paroxysmal Positional Vertigo (BPPV),Benign paroxysmal positional vertigo (BPPV),,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-bppv.html
+is-bradycardia,Bradycardia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bradycardia.html
+is-brain-abscess,Brain Abscess,Brain abscess,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-brain-abscess.html
+is-brain-tumour-or-sol,Brain Tumour or Space-Occupying Lesion (SOL),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-brain-tumour-or-sol.html
+is-brain-tumour,Brain Tumour,Brain tumours (primary and secondary),,condition,fuzzy:1.08,0.65,true,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-brain-tumour.html
+is-branchial-cyst,Branchial Cyst,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-branchial-cyst.html
+is-breast-abscess,Breast Abscess,Abscess,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-breast-abscess.html
+is-breast-cancer,Breast Cancer,Breast cancer,,condition,exact,0.95,false,covered-needs-refresh,Breast,extracted-illness-scripts-2026\is-breast-cancer.html
+is-broad-complex-tachycardia,Broad Complex Tachycardia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-broad-complex-tachycardia.html
+is-bronchiectasis,Bronchiectasis,Bronchiectasis,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-bronchiectasis.html
+is-bronchiolitis,Bronchiolitis,Bronchiolitis,,condition,exact,0.95,false,covered-needs-refresh,Child health,extracted-illness-scripts-2026\is-bronchiolitis.html
+is-bronchitis,Bronchitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bronchitis.html
+is-bulimia-nervosa,Bulimia Nervosa,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-bulimia-nervosa.html
+is-burning-mouth-syndrome,Burning Mouth Syndrome (BMS),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-burning-mouth-syndrome.html
+is-bursitis,Bursitis,Bursitis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-bursitis.html
+is-caffeine-withdrawal,Caffeine Withdrawal,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-caffeine-withdrawal.html
+is-cancer-cachexia,Cancer Cachexia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cancer-cachexia.html
+is-carotid-aneurysm,Carotid Aneurysm,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-carotid-aneurysm.html
+is-carpal-tunnel-syndrome,Carpal Tunnel Syndrome,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-carpal-tunnel-syndrome.html
+is-cartilage-injury,Cartilage Injury,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cartilage-injury.html
+is-cat-scratch-disease,Cat Scratch Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cat-scratch-disease.html
+is-cataract,Cataract,Cataracts,,condition,exact,0.95,false,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-cataract.html
+is-cauda-equina-syndrome,Cauda Equina Syndrome,Cauda equina syndrome,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-cauda-equina-syndrome.html
+is-cellulitis,Cellulitis,Cellulitis,,condition,exact,0.95,false,covered-needs-refresh,Skin and soft tissue,extracted-illness-scripts-2026\is-cellulitis.html
+is-cerebellar-disorder,Cerebellar Disorder,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cerebellar-disorder.html
+is-cerebrovascular-disease,Cerebrovascular Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cerebrovascular-disease.html
+is-cervical-cancer,Cervical Cancer,Cervical cancer,,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-cervical-cancer.html
+is-cervical-cord-compression,Cervical Cord Compression,Spinal cord compression,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-cervical-cord-compression.html
+is-cervical-disc-disease,Cervical Disc Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cervical-disc-disease.html
+is-cervical-ectropion,Cervical Ectropion,Cervical ectropion,,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-cervical-ectropion.html
+is-cervical-lymphadenopathy,Cervical Lymphadenopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cervical-lymphadenopathy.html
+is-cervical-radiculopathy,Cervical Radiculopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cervical-radiculopathy.html
+is-cervical-rib,Cervical Rib,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cervical-rib.html
+is-cervical-spondylosis,Cervical Spondylosis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cervical-spondylosis.html
+is-cervical-sprain,Cervical Sprain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cervical-sprain.html
+is-cervicitis,Cervicitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cervicitis.html
+is-child-abuse,Child Abuse,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-child-abuse.html
+is-childhood-anaemia,Childhood Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-childhood-anaemia.html
+is-chlamydia,Chlamydia,Chlamydia,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-chlamydia.html
+is-cholangiocarcinoma,Cholangiocarcinoma,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cholangiocarcinoma.html
+is-cholangitis,Cholangitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cholangitis.html
+is-cholecystitis,Cholecystitis,Cholecystitis,,condition,exact,0.95,false,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-cholecystitis.html
+is-cholestasis,Cholestasis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cholestasis.html
+is-cholesteatoma,Cholesteatoma,Cholesteatoma,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-cholesteatoma.html
+is-chronic-fatigue-syndrome,Chronic Fatigue Syndrome (CFS),Myalgic encephalomyelitis (ME)/ chronic fatigue syndrome (CFS) (awareness and approach),,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-chronic-fatigue-syndrome.html
+is-chronic-glaucoma,Chronic Glaucoma,Chronic glaucoma,,condition,exact,0.95,false,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-chronic-glaucoma.html
+is-chronic-infections,Chronic Infections,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-chronic-infections.html
+is-chronic-kidney-disease,Chronic Kidney Disease (CKD),Chronic kidney disease,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-chronic-kidney-disease.html
+is-chronic-pain-syndromes,Chronic Pain Syndromes,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-chronic-pain-syndromes.html
+is-chronic-pancreatitis,Chronic Pancreatitis,Chronic pancreatitis,,condition,exact,0.95,false,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-chronic-pancreatitis.html
+is-chronic-pelvic-pain,Chronic Pelvic Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-chronic-pelvic-pain.html
+is-chronic-venous-insufficiency,Chronic Venous Insufficiency (CVI),Venous insufficiency (including varicose veins),,condition,fuzzy:1.08,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-chronic-venous-insufficiency.html
+is-cluster-headache,Cluster Headache,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cluster-headache.html
+is-coagulation-disorders,Coagulation Disorders,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-coagulation-disorders.html
+is-coeliac-disease,Coeliac Disease,Coeliac disease,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-coeliac-disease.html
+is-colonic-polyp,Colonic Polyp,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-colonic-polyp.html
+is-colorectal-cancer,Colorectal Cancer,Colorectal cancer,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-colorectal-cancer.html
+is-compartment-syndrome,Compartment Syndrome,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-compartment-syndrome.html
+is-complex-regional-pain-syndrome,Complex Regional Pain Syndrome (CRPS),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-complex-regional-pain-syndrome.html
+is-congenital-heart-disease,Congenital Heart Disease,Congenital heart disease,,condition,exact,0.95,false,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-congenital-heart-disease.html
+is-conjunctivitis,Conjunctivitis,Conjunctivitis,,condition,exact,0.95,false,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-conjunctivitis.html
+is-connective-tissue-diseases,Connective Tissue Diseases,Scleroderma and mixed connective tissue disease,,condition,fuzzy:1.18,0.65,true,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-connective-tissue-diseases.html
+is-constipation-induced-delirium,Constipation-Induced Delirium,Constipation,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-constipation-induced-delirium.html
+is-constipation,Constipation,Constipation,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-constipation.html
+is-contact-dermatitis,Contact Dermatitis,Contact dermatitis,,condition,exact,0.95,false,covered-needs-refresh,Skin and soft tissue,extracted-illness-scripts-2026\is-contact-dermatitis.html
+is-contact-lens-problems,Contact Lens Problems,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-contact-lens-problems.html
+is-contraceptive-related-bleeding,Contraceptive-Related Bleeding,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-contraceptive-related-bleeding.html
+is-contraceptives,Contraceptives,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-contraceptives.html
+is-copd-severe,COPD (Severe),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-copd-severe.html
+is-copd,COPD,Chronic obstructive pulmonary disease (COPD),,condition,fuzzy:1.36,0.65,true,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-copd.html
+is-corneal-abrasion,Corneal Abrasion,Corneal ulcer/ abrasion,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-corneal-abrasion.html
+is-corneal-disease,Corneal Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-corneal-disease.html
+is-corneal-ulcer,Corneal Ulcer,Corneal ulcer/ abrasion,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-corneal-ulcer.html
+is-corns-and-calluses,Corns and Calluses,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-corns-and-calluses.html
+is-costochondritis,Costochondritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-costochondritis.html
+is-covid-19,COVID-19,COVID-19,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-covid-19.html
+is-cows-milk-allergy,Cow’s Milk Allergy (CMA),Cow milk protein allergy,,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Child health,extracted-illness-scripts-2026\is-cows-milk-allergy.html
+is-crohns-disease,Crohn's Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-crohns-disease.html
+is-croup,Croup,Croup,,condition,exact,0.95,false,covered-needs-refresh,Child health,extracted-illness-scripts-2026\is-croup.html
+is-cruciate-ligament-injury,Cruciate Ligament Injury,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cruciate-ligament-injury.html
+is-cushings-syndrome,Cushing's Syndrome,Cushing syndrome,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-cushings-syndrome.html
+is-cyclical-breast-pain,Cyclical Breast Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cyclical-breast-pain.html
+is-cystic-fibrosis,Cystic Fibrosis (CF),Cystic fibrosis,,condition,exact,0.95,false,covered-needs-refresh,Genetic and congenital,extracted-illness-scripts-2026\is-cystic-fibrosis.html
+is-cytomegalovirus,Cytomegalovirus (CMV) Infection,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cytomegalovirus.html
+is-dehydration,Dehydration,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-dehydration.html
+is-delirium,Delirium,Delirium,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-delirium.html
+is-dementia,Dementia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-dementia.html
+is-dental-pain,Dental Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-dental-pain.html
+is-denture-related-pain,Denture-Related Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-denture-related-pain.html
+is-depression,Depression,Depression,,condition,exact,0.95,false,covered-needs-refresh,Mental health,extracted-illness-scripts-2026\is-depression.html
+is-dermatitis,Dermatitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-dermatitis.html
+is-detrusor-instability,Detrusor Instability,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-detrusor-instability.html
+is-developmental-dysplasia-of-the-hip,Developmental Dysplasia of the Hip (DDH),"Childhood hip/ leg disorders (including Perthes disease, slipped upper femoral epiphyses, developmental dysplasia of the hip)",,condition,fuzzy:1.10,0.65,true,covered-needs-refresh,Child health,extracted-illness-scripts-2026\is-developmental-dysplasia-of-the-hip.html
+is-diabetes,Diabetes,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-diabetes.html
+is-diabetic-autonomic-neuropathy,Diabetic Autonomic Neuropathy,Autonomic neuropathy,,condition,exact,0.95,false,covered-needs-refresh,Peripheral nervous system and neuromuscular junction,extracted-illness-scripts-2026\is-diabetic-autonomic-neuropathy.html
+is-diabetic-foot-painless,Diabetic Foot (Painless),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-diabetic-foot-painless.html
+is-diabetic-gastroparesis,Diabetic Gastroparesis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-diabetic-gastroparesis.html
+is-diabetic-ketoacidosis,Diabetic Ketoacidosis (DKA),Diabetic ketoacidosis (DKA),,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-diabetic-ketoacidosis.html
+is-diabetic-nephropathy,Diabetic Nephropathy,Diabetic nephropathy,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-diabetic-nephropathy.html
+is-diabetic-neuropathy,Diabetic Neuropathy,Diabetic neuropathy,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-diabetic-neuropathy.html
+is-diabetic-retinopathy,Diabetic Retinopathy,Diabetic retinopathy,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-diabetic-retinopathy.html
+is-disc-disease,Disc Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-disc-disease.html
+is-discitis,Discitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-discitis.html
+is-disuse-atrophy,Disuse Atrophy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-disuse-atrophy.html
+is-diverticular-disease,Diverticular Disease,Diverticular disease and diverticulitis,,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-diverticular-disease.html
+is-diverticulitis,Diverticulitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-diverticulitis.html
+is-dizziness,Dizziness,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-dizziness.html
+is-drug-abuse,Drug Abuse,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-drug-abuse.html
+is-drug-and-alcohol-abuse,Drug and Alcohol Abuse,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-drug-and-alcohol-abuse.html
+is-drug-induced-palpitations,Drug-Induced Palpitations,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-drug-induced-palpitations.html
+is-drug-withdrawal,Drug Withdrawal,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-drug-withdrawal.html
+is-dry-skin,Dry Skin (Xerosis),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-dry-skin.html
+is-dub,Dysfunctional Uterine Bleeding (DUB),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-dub.html
+is-dvt,Deep Vein Thrombosis (DVT),Deep vein thrombosis,,condition,fuzzy:1.45,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-dvt.html
+is-dysmenorrhoea,Dysmenorrhoea,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-dysmenorrhoea.html
+is-ear-boil,Ear Boil (Furuncle of the Ear Canal),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ear-boil.html
+is-ear-wax,Ear Wax (Cerumen Impaction),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ear-wax.html
+is-early-dementia,Early Dementia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-early-dementia.html
+is-early-pregnancy,Early Pregnancy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-early-pregnancy.html
+is-eating-disorder,Eating Disorder,Eating disorders,,condition,exact,0.95,false,covered-needs-refresh,Mental health,extracted-illness-scripts-2026\is-eating-disorder.html
+is-ectopic-pregnancy,Ectopic Pregnancy,Ectopic pregnancy,,condition,exact,0.95,false,covered-needs-refresh,Pregnancy and the puerperium,extracted-illness-scripts-2026\is-ectopic-pregnancy.html
+is-electrolyte-disturbance,Electrolyte Disturbance,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-electrolyte-disturbance.html
+is-encephalitis,Encephalitis,Encephalitis,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-encephalitis.html
+is-endometrial-cancer,Endometrial Cancer,Endometrial cancer,,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-endometrial-cancer.html
+is-endometrial-hyperplasia,Endometrial Hyperplasia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-endometrial-hyperplasia.html
+is-endometriosis,Endometriosis,Endometriosis,,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-endometriosis.html
+is-endometritis,Endometritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-endometritis.html
+is-endophthalmitis,Endophthalmitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-endophthalmitis.html
+is-epicondylitis,Epicondylitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-epicondylitis.html
+is-epiglottitis,Epiglottitis,Epiglottitis,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-epiglottitis.html
+is-epilepsy,Epilepsy,Epilepsy,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-epilepsy.html
+is-episcleritis,Episcleritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-episcleritis.html
+is-epistaxis,Epistaxis,Epistaxis,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-epistaxis.html
+is-essential-hypertension,Essential Hypertension,Hypertension (essential or secondary),,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-essential-hypertension.html
+is-essential-tremor,Essential Tremor,Essential tremor,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-essential-tremor.html
+is-eustachian-tube-dysfunction,Eustachian Tube Dysfunction,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-eustachian-tube-dysfunction.html
+is-exercise-induced-haematuria,Exercise-induced Haematuria,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-exercise-induced-haematuria.html
+is-eye-trauma-or-foreign-body,Eye Trauma or Foreign Body,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-eye-trauma-or-foreign-body.html
+is-faecal-impaction,Faecal Impaction (Overflow Diarrhoea),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-faecal-impaction.html
+is-fbao,Foreign Body Airway Obstruction (FBAO),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-fbao.html
+is-febrile-convulsions-children,Febrile Convulsions (Children),Febrile convulsions,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,Child health,extracted-illness-scripts-2026\is-febrile-convulsions-children.html
+is-femoral-artery-aneurysm,Femoral Artery Aneurysm,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-femoral-artery-aneurysm.html
+is-fever,Fever,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-fever.html
+is-fibrocystic-disease,Fibrocystic Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-fibrocystic-disease.html
+is-fibroids,Fibroids (Uterine Leiomyomas),Fibroids,,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-fibroids.html
+is-fibromyalgia,Fibromyalgia,Fibromyalgia,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-fibromyalgia.html
+is-folate-deficiency,Folate Deficiency,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-folate-deficiency.html
+is-food-allergy-and-intolerance,Food Allergy and Intolerance,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-food-allergy-and-intolerance.html
+is-food-poisoning,Food Poisoning,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-food-poisoning.html
+is-foot-deformities,Foot Deformities,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-foot-deformities.html
+is-foreign-body,Foreign Body,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-foreign-body.html
+is-fracture-or-dislocation,Fracture or Dislocation,Joint dislocation or subluxation,,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-fracture-or-dislocation.html
+is-frailty,Frailty,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-frailty.html
+is-frontal-lobe-lesions,Frontal Lobe Lesions,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-frontal-lobe-lesions.html
+is-functional-abdominal-pain-syndrome,Functional Abdominal Pain Syndrome (FAPS),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-functional-abdominal-pain-syndrome.html
+is-functional-disorder,Functional Disorder,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-functional-disorder.html
+is-gallstone-disease,Gallstone Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-gallstone-disease.html
+is-gastric-cancer,Gastric Cancer,Gastric cancer,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-gastric-cancer.html
+is-gastritis,Gastritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-gastritis.html
+is-gastroenteritis,Gastroenteritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-gastroenteritis.html
+is-generalised-anxiety-disorder,Generalised Anxiety Disorder (GAD),Generalised anxiety disorder,,condition,exact,0.95,false,covered-needs-refresh,Mental health,extracted-illness-scripts-2026\is-generalised-anxiety-disorder.html
+is-genital-herpes,Genital Herpes,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-genital-herpes.html
+is-genito-urinary-tract-infection,Genito-Urinary Tract Infection (UTI),Urinary tract infection,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-genito-urinary-tract-infection.html
+is-geographic-tongue,Geographic Tongue,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-geographic-tongue.html
+is-gestational-hypertension,Gestational Hypertension,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-gestational-hypertension.html
+is-gi-tract-cancer,GI Tract Cancer,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-gi-tract-cancer.html
+is-gilberts-syndrome,Gilbert's Syndrome,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-gilberts-syndrome.html
+is-glandular-fever,Glandular fever,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-glandular-fever.html
+is-globus-hystericus,Globus Hystericus,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-globus-hystericus.html
+is-glomerulonephritis,Glomerulonephritis,Glomerulonephritis,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-glomerulonephritis.html
+is-goitre,Goitre,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-goitre.html
+is-gonorrhoea,Gonorrhoea,Gonorrhoea,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-gonorrhoea.html
+is-gord,Gastro-Oesophageal Reflux Disease,Gastro-oesophageal reflux disease (including Barrett oesophagus),,condition,fuzzy:1.18,0.65,true,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-gord.html
+is-gout,Gout,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-gout.html
+is-gravitational-oedema,Gravitational Oedema,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-gravitational-oedema.html
+is-guillain-barre-syndrome,Guillain-Barré Syndrome,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-guillain-barre-syndrome.html
+is-haemochromatosis,Haemochromatosis,Haemochromatosis,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-haemochromatosis.html
+is-haemolytic-anaemia,Haemolytic Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-haemolytic-anaemia.html
+is-haemoptysis,Haemoptysis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-haemoptysis.html
+is-haemorrhoids,Haemorrhoids,Haemorrhoids,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-haemorrhoids.html
+is-hallux-valgus,Hallux Valgus,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hallux-valgus.html
+is-hand-foot-and-mouth-disease,"Hand, Foot, and Mouth Disease (HFMD)",,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hand-foot-and-mouth-disease.html
+is-head-injury,Head Injury,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-head-injury.html
+is-heart-failure,Heart Failure,Heart failure,,condition,exact,0.95,false,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-heart-failure.html
+is-heavy-metal-poisoning,Heavy Metal Poisoning,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-heavy-metal-poisoning.html
+is-hepatitis,Hepatitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hepatitis.html
+is-hepatocellular-carcinoma,Hepatocellular Carcinoma,Hepatocellular carcinoma,,condition,exact,0.95,false,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-hepatocellular-carcinoma.html
+is-hepatomegaly,Hepatomegaly,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hepatomegaly.html
+is-hernia,Hernia,Hernias,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-hernia.html
+is-herpes-simplex-keratitis,Herpes Simplex Keratitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-herpes-simplex-keratitis.html
+is-herpes-stomatitis,Herpes Stomatitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-herpes-stomatitis.html
+is-herpes-zoster-ophthalmicus,Herpes Zoster Ophthalmicus (HZO),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-herpes-zoster-ophthalmicus.html
+is-herpes-zoster,Herpes Zoster (Shingles),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-herpes-zoster.html
+is-hhs,Hyperosmolar Hyperglycaemic State (HHS),Hyperosmolar hyperglycaemic state (HHS),,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-hhs.html
+is-hiatus-hernia,Hiatus Hernia,Hiatus hernia,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-hiatus-hernia.html
+is-hidradenitis-suppurativa,Hidradenitis Suppurativa,Folliculitis and Hidradenitis suppurativa,,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Skin and soft tissue,extracted-illness-scripts-2026\is-hidradenitis-suppurativa.html
+is-hip-or-pelvis-fracture,Hip or Pelvis Fracture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hip-or-pelvis-fracture.html
+is-hirschsprungs-disease-children,Hirschsprung’s Disease (Children),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hirschsprungs-disease-children.html
+is-hiv-ars,HIV (Acute Retroviral Syndrome),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hiv-ars.html
+is-hiv-associated-pneumocystis-pneumonia,HIV-Associated Pneumocystis Pneumonia (PCP),Pneumonia,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-hiv-associated-pneumocystis-pneumonia.html
+is-hiv,HIV (Human Immunodeficiency Virus),Human immunodeficiency virus (HIV),,condition,fuzzy:1.60,0.65,true,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-hiv.html
+is-hsp,Henoch-Schönlein Purpura (HSP),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hsp.html
+is-huntingtons-disease,Huntington's Disease,Huntington disease,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,Genetic and congenital,extracted-illness-scripts-2026\is-huntingtons-disease.html
+is-hydrocephalus,Hydrocephalus,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hydrocephalus.html
+is-hyperaldosteronism,Hyperaldosteronism,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hyperaldosteronism.html
+is-hypercalcaemia,Hypercalcaemia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hypercalcaemia.html
+is-hyperemesis-gravidarum,Hyperemesis Gravidarum,Hyperemesis gravidarum,,condition,exact,0.95,false,covered-needs-refresh,Pregnancy and the puerperium,extracted-illness-scripts-2026\is-hyperemesis-gravidarum.html
+is-hyperglycaemic-crisis,Hyperglycaemic Crisis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hyperglycaemic-crisis.html
+is-hyperprolactinaemia,Hyperprolactinaemia,Hyperprolactinaemia,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-hyperprolactinaemia.html
+is-hyperthyroidism,Hyperthyroidism,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hyperthyroidism.html
+is-hyperventilation,Hyperventilation,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hyperventilation.html
+is-hypoalbuminaemia,Hypoalbuminaemia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hypoalbuminaemia.html
+is-hypoglycaemia,Hypoglycaemia,Hypoglycaemia,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-hypoglycaemia.html
+is-hypothyroidism-myxoedema,Hypothyroidism (Myxoedema),Hypothyroidism,,condition,fuzzy:1.25,0.65,true,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-hypothyroidism-myxoedema.html
+is-hypothyroidism,Hypothyroidism,Hypothyroidism,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-hypothyroidism.html
+is-hypovolaemic-shock,Hypovolaemic Shock,Shock,,condition,exact,0.95,false,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-hypovolaemic-shock.html
+is-hypoxia,Hypoxia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hypoxia.html
+is-idiopathic-intracranial-hypertension,Idiopathic Intracranial Hypertension (IIH),Idiopathic intracranial hypertension,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-idiopathic-intracranial-hypertension.html
+is-iliopsoas-abscess,Iliopsoas Abscess,Abscess,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-iliopsoas-abscess.html
+is-immunisation-reaction,Immunisation Reaction,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-immunisation-reaction.html
+is-immunodeficiency,Immunodeficiency,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-immunodeficiency.html
+is-impacted-ear-wax,Impacted Ear Wax (Cerumen Impaction),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-impacted-ear-wax.html
+is-inborn-errors-of-metabolism,Inborn Errors of Metabolism,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-inborn-errors-of-metabolism.html
+is-incarcerated-hernia,Incarcerated Hernia,Hernias,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-incarcerated-hernia.html
+is-incorrectly-sited-iucd,Incorrectly Sited IUCD,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-incorrectly-sited-iucd.html
+is-infantile-colic,Infantile Colic,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-infantile-colic.html
+is-infective-endocarditis,Infective Endocarditis,Infective endocarditis,,condition,exact,0.95,false,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-infective-endocarditis.html
+is-inflammatory-bowel-disease,Inflammatory Bowel Disease (IBD),"Inflammatory bowel disease (including Crohn disease, ulcerative colitis)",,condition,fuzzy:1.14,0.65,true,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-inflammatory-bowel-disease.html
+is-influenza,Influenza,Influenza,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-influenza.html
+is-ingrown-toenail,Ingrown Toenail (IGTN),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ingrown-toenail.html
+is-inguinal-or-femoral-hernia,Inguinal or Femoral Hernia,Hernias,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-inguinal-or-femoral-hernia.html
+is-insomnia,Insomnia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-insomnia.html
+is-intermittent-claudication,Intermittent Claudication,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-intermittent-claudication.html
+is-interstitial-cystitis,Interstitial Cystitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-interstitial-cystitis.html
+is-interstitial-lung-disease,Interstitial Lung Disease (ILD),Interstitial lung disease (including fibrotic lung disease),,condition,fuzzy:1.22,0.65,true,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-interstitial-lung-disease.html
+is-intestinal-obstruction,Intestinal Obstruction,Intestinal obstruction and ileus,,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-intestinal-obstruction.html
+is-intra-abdominal-abscess,Intra-abdominal Abscess,Abscess,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-intra-abdominal-abscess.html
+is-intussusception,Intussusception,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-intussusception.html
+is-iritis-uveitis,Iritis (Uveitis),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-iritis-uveitis.html
+is-iron-deficiency-anaemia,Iron Deficiency Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-iron-deficiency-anaemia.html
+is-iron-deficiency,Iron Deficiency,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-iron-deficiency.html
+is-irritable-bowel-syndrome-adolescents,Irritable Bowel Syndrome (Adolescents),Irritable bowel syndrome,,condition,fuzzy:1.45,0.65,true,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-irritable-bowel-syndrome-adolescents.html
+is-irritable-bowel-syndrome,Irritable Bowel Syndrome (IBS),Irritable bowel syndrome,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-irritable-bowel-syndrome.html
+is-ivc-obstruction,IVC Obstruction,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ivc-obstruction.html
+is-joint-pains,Joint Pains,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-joint-pains.html
+is-juvenile-idiopathic-arthritis,Juvenile Idiopathic Arthritis (JIA),Juvenile idiopathic arthritis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-juvenile-idiopathic-arthritis.html
+is-keratitis-bacterial,Keratitis (Bacterial),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-keratitis-bacterial.html
+is-keratoconjunctivitis,Keratoconjunctivitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-keratoconjunctivitis.html
+is-knee-osteoarthritis,Knee Osteoarthritis,Osteoarthritis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-knee-osteoarthritis.html
+is-labyrinthitis,Labyrinthitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-labyrinthitis.html
+is-lactose-intolerance,Lactose Intolerance,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-lactose-intolerance.html
+is-laryngeal-cancer,Laryngeal Cancer,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-laryngeal-cancer.html
+is-laryngitis,Laryngitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-laryngitis.html
+is-left-ventricular-failure,Left Ventricular Failure,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-left-ventricular-failure.html
+is-leukaemia,Leukaemia,Leukaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-leukaemia.html
+is-lichen-planus,Lichen Planus,Lichen planus,,condition,exact,0.95,false,covered-needs-refresh,Skin and soft tissue,extracted-illness-scripts-2026\is-lichen-planus.html
+is-lichen-simplex-chronicus,Lichen Simplex Chronicus,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-lichen-simplex-chronicus.html
+is-ligament-injury,Ligament Injury,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ligament-injury.html
+is-lipoma,Lipoma,Lipoma,,condition,exact,0.95,false,covered-needs-refresh,Skin and soft tissue,extracted-illness-scripts-2026\is-lipoma.html
+is-liver-cirrhosis,Liver Cirrhosis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-liver-cirrhosis.html
+is-liver-failure,Liver Failure,Liver failure,,condition,exact,0.95,false,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-liver-failure.html
+is-lrti,Lower Respiratory Tract Infection (LRTI),Lower respiratory tract infection,,condition,fuzzy:1.55,0.65,true,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-lrti.html
+is-lumbar-disc-prolapse,Lumbar Disc Prolapse,Intervertebral disc prolapse,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-lumbar-disc-prolapse.html
+is-lumbar-radiculopathy,Lumbar Radiculopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-lumbar-radiculopathy.html
+is-lung-cancer,Lung Cancer,Lung cancer,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-lung-cancer.html
+is-lyme-disease,Lyme Disease,Zoonotic infections (including Lyme disease),,condition,fuzzy:1.08,0.65,true,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-lyme-disease.html
+is-lymphadenopathy,Lymphadenopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-lymphadenopathy.html
+is-lymphoedema,Lymphoedema,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-lymphoedema.html
+is-lymphoma,Lymphoma,Lymphoma,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-lymphoma.html
+is-macrocytic-anaemia,Macrocytic Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-macrocytic-anaemia.html
+is-macular-degeneration,Macular Degeneration,Macular degeneration,,condition,exact,0.95,false,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-macular-degeneration.html
+is-malabsorption,Malabsorption,Malabsorption,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-malabsorption.html
+is-malignancy-related-weight-loss,Malignancy-related Weight Loss,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-malignancy-related-weight-loss.html
+is-malignancy,Malignancy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-malignancy.html
+is-malignant-hypertension,Malignant Hypertension,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-malignant-hypertension.html
+is-malignant-otitis-externa,Malignant Otitis Externa,Otitis externa,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-malignant-otitis-externa.html
+is-mallory-weiss-tear,Mallory-Weiss Tear,Mallory-Weiss tear,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-mallory-weiss-tear.html
+is-malnutrition,Malnutrition,Malnutrition,,condition,exact,0.95,false,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-malnutrition.html
+is-march-fracture,March Fracture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-march-fracture.html
+is-mastitis,Mastitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-mastitis.html
+is-mastoiditis,Mastoiditis,Mastoiditis,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-mastoiditis.html
+is-measles,Measles,Measles,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-measles.html
+is-mechanical-neck-pain,Mechanical Neck Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-mechanical-neck-pain.html
+is-mediastinal-lymphoma,Mediastinal Lymphoma,Lymphoma,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-mediastinal-lymphoma.html
+is-medically-unexplained-chest-pain,Medically Unexplained Chest Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medically-unexplained-chest-pain.html
+is-medically-unexplained-symptoms,Medically Unexplained Symptoms (MUS),Medically unexplained symptoms,,condition,exact,0.95,false,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-medically-unexplained-symptoms.html
+is-medication-induced-anaemia,Medication-Induced Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-medication-induced-anaemia.html
+is-medication-induced-anxiety,Medication-Induced Anxiety,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-anxiety.html
+is-medication-induced-bleeding-and-bruising,Medication-Induced Bleeding and Bruising,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-bleeding-and-bruising.html
+is-medication-induced-breast-pain-or-swelling,Medication-Induced Breast Pain or Swelling,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-breast-pain-or-swelling.html
+is-medication-induced-calf-pain,Medication-induced Calf Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-calf-pain.html
+is-medication-induced-constipation,Medication-induced Constipation,Constipation,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-medication-induced-constipation.html
+is-medication-induced-delirium,Medication-Induced Delirium,Delirium,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-medication-induced-delirium.html
+is-medication-induced-diarrhoea,Medication-Induced Diarrhoea,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-diarrhoea.html
+is-medication-induced-dizziness,Medication-Induced Dizziness,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-dizziness.html
+is-medication-induced-dyspepsia,Medication-Induced Dyspepsia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-dyspepsia.html
+is-medication-induced-dyspnoea,Medication-Induced Dyspnoea,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-dyspnoea.html
+is-medication-induced-falls,Medication-Induced Falls,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-falls.html
+is-medication-induced-fatigue,Medication-induced Fatigue,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-fatigue.html
+is-medication-induced-gait-abnormalities,Medication-Induced Gait Abnormalities,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-gait-abnormalities.html
+is-medication-induced-haematemesis-and-melaena,Medication-induced Haematemesis & Melaena,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-haematemesis-and-melaena.html
+is-medication-induced-haematuria,Medication-induced Haematuria,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-haematuria.html
+is-medication-induced-hand-and-arm-pain,Medication-Induced Hand and Arm Pain (e.g. Statins),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-hand-and-arm-pain.html
+is-medication-induced-hearing-loss,Medication-induced Hearing Loss,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-hearing-loss.html
+is-medication-induced-hip-pain-statins,Medication-Induced Hip Pain (e.g. Statins),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-hip-pain-statins.html
+is-medication-induced-hypertension,Medication-Induced Hypertension,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-hypertension.html
+is-medication-induced-jaundice,Medication-Induced Jaundice,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-jaundice.html
+is-medication-induced-leg-pain,Medication-Induced Leg Pain (e.g. Statins),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-leg-pain.html
+is-medication-induced-leg-swelling,Medication-Induced Leg Swelling,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-leg-swelling.html
+is-medication-induced-lymphadenopathy,Medication-induced Lymphadenopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-lymphadenopathy.html
+is-medication-induced-muscle-pain-and-weakness,Medication-Induced Muscle Pain and Weakness,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-muscle-pain-and-weakness.html
+is-medication-induced-nasal-symptoms,Medication-Induced Nasal Symptoms,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-nasal-symptoms.html
+is-medication-induced-nausea-and-vomiting,Medication-Induced Nausea and Vomiting,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-nausea-and-vomiting.html
+is-medication-induced-neuropathy,Medication-Induced Neuropathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-neuropathy.html
+is-medication-induced-pruritus,Medication-Induced Pruritus,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-pruritus.html
+is-medication-induced-syncope,Medication-Induced Syncope,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-syncope.html
+is-medication-induced-tremor,Medication-Induced Tremor,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-tremor.html
+is-medication-induced-urinary-symptoms,Medication-Induced Urinary Symptoms,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-urinary-symptoms.html
+is-medication-induced-vaginal-bleeding,Medication-Induced Vaginal Bleeding,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-vaginal-bleeding.html
+is-medication-induced-weight-loss,Medication-Induced Weight Loss,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-induced-weight-loss.html
+is-medication-overuse-headache,Medication Overuse Headache (MOH),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-medication-overuse-headache.html
+is-menieres-disease,Meniere's Disease,Ménière disease,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-menieres-disease.html
+is-meningitis,Meningitis,Meningitis,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-meningitis.html
+is-menopause,Menopause,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-menopause.html
+is-menorrhagia,Menorrhagia (Heavy Menstrual Bleeding),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-menorrhagia.html
+is-menstruation-contaminating-urine,Menstruation Contaminating Urine,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-menstruation-contaminating-urine.html
+is-meralgia-paraesthetica,Meralgia Paraesthetica,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-meralgia-paraesthetica.html
+is-mesenteric-adenitis,Mesenteric Adenitis,Mesenteric adenitis,,condition,exact,0.95,false,covered-needs-refresh,Child health,extracted-illness-scripts-2026\is-mesenteric-adenitis.html
+is-mesenteric-ischaemia,Mesenteric Ischaemia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-mesenteric-ischaemia.html
+is-metabolic-disorders,Metabolic Disorders,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-metabolic-disorders.html
+is-metabolic-neuropathy,Metabolic Neuropathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-metabolic-neuropathy.html
+is-metabolic-syndrome,Metabolic Syndrome,Metabolic syndrome,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-metabolic-syndrome.html
+is-metastatic-cancer-chest-wall,Metastatic Cancer (Chest Wall),Metastatic cancer,,condition,fuzzy:1.30,0.65,true,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-metastatic-cancer-chest-wall.html
+is-metastatic-cancer-prostate-cancer,"Metastatic Cancer (e.g., Prostate Cancer)",Prostate cancer,,condition,exact,0.95,false,covered-needs-refresh,Male genitourinary tract,extracted-illness-scripts-2026\is-metastatic-cancer-prostate-cancer.html
+is-metastatic-cancer,Metastatic Cancer,Metastatic cancer,,condition,exact,0.95,false,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-metastatic-cancer.html
+is-metastatic-disease,Metastatic Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-metastatic-disease.html
+is-metatarsalgia,Metatarsalgia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-metatarsalgia.html
+is-microcytic-anaemia,Microcytic Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-microcytic-anaemia.html
+is-migraine-in-children,Migraine in Children,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-migraine-in-children.html
+is-migraine-with-aura,Migraine with Aura,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-migraine-with-aura.html
+is-migraine,Migraine,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-migraine.html
+is-mild-cognitive-impairment,Mild Cognitive Impairment (MCI),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-mild-cognitive-impairment.html
+is-miscarriage,Miscarriage,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-miscarriage.html
+is-mittelschmerz,Mittelschmerz,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-mittelschmerz.html
+is-molar-pregnancy,Molar Pregnancy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-molar-pregnancy.html
+is-mononeuropathy,Mononeuropathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-mononeuropathy.html
+is-mortons-neuroma,Morton's Neuroma,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-mortons-neuroma.html
+is-motor-neurone-disease,Motor Neurone Disease (MND),Motor neurone disease,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-motor-neurone-disease.html
+is-msk-sprains-and-strains,MSK Sprains and Strains,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-msk-sprains-and-strains.html
+is-multiple-myeloma,Multiple Myeloma,Multiple myeloma,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-multiple-myeloma.html
+is-multiple-sclerosis,Multiple Sclerosis (MS),Multiple sclerosis (MS),,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-multiple-sclerosis.html
+is-muscle-cramps,Muscle Cramps,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-muscle-cramps.html
+is-musculoskeletal-pain,Musculoskeletal Chest Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-musculoskeletal-pain.html
+is-myasthenia-gravis,Myasthenia Gravis,Myasthenia gravis,,condition,exact,0.95,false,covered-needs-refresh,Peripheral nervous system and neuromuscular junction,extracted-illness-scripts-2026\is-myasthenia-gravis.html
+is-myelodysplastic-syndrome,Myelodysplastic Syndrome (MDS),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-myelodysplastic-syndrome.html
+is-myocardial-infarction,Myocardial Infarction (MI),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-myocardial-infarction.html
+is-narrow-complex-tachycardia,Narrow Complex Tachycardia (NCT),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-narrow-complex-tachycardia.html
+is-nasal-injury-septal-deviation,Nasal Injury/Septal Deviation,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-nasal-injury-septal-deviation.html
+is-nasal-polyps,Nasal Polyps,Nasal polyps,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-nasal-polyps.html
+is-nasopharyngeal-cancer,Nasopharyngeal Cancer,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-nasopharyngeal-cancer.html
+is-neonatal-respiratory-distress-syndrome,Neonatal Respiratory Distress Syndrome (RDS),Acute respiratory distress syndrome (ARDS),,condition,fuzzy:1.22,0.65,true,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-neonatal-respiratory-distress-syndrome.html
+is-nephrotic-syndrome,Nephrotic Syndrome,Nephrotic syndrome,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-nephrotic-syndrome.html
+is-noise-induced-hearing-loss,Noise-Induced Hearing Loss (NIHL),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-noise-induced-hearing-loss.html
+is-non-allergic-rhinitis,Non-allergic Rhinitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-non-allergic-rhinitis.html
+is-non-epileptic-seizure,Non-epileptic Seizure (NES),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-non-epileptic-seizure.html
+is-non-ulcer-dyspepsia,Non-ulcer Dyspepsia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-non-ulcer-dyspepsia.html
+is-non-venous-ulceration,Non-venous Ulceration,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-non-venous-ulceration.html
+is-normocytic-anaemia,Normocytic Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-normocytic-anaemia.html
+is-obesity,Obesity,Obesity,,condition,exact,0.95,false,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-obesity.html
+is-obstetric-cholestasis,Obstetric Cholestasis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-obstetric-cholestasis.html
+is-obstructive-sleep-apnoea,Obstructive Sleep Apnoea (OSA),Obstructive sleep apnoea,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-obstructive-sleep-apnoea.html
+is-ocular-sarcoidosis,Ocular Sarcoidosis,Sarcoidosis,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-ocular-sarcoidosis.html
+is-ocular-tumour,Ocular Tumour,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ocular-tumour.html
+is-oesophageal-cancer,Oesophageal Cancer,Oesophageal cancer,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-oesophageal-cancer.html
+is-oesophageal-spasm,Oesophageal Spasm,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-oesophageal-spasm.html
+is-oesophageal-strictures-and-webs,Oesophageal Strictures and Webs,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-oesophageal-strictures-and-webs.html
+is-oesophageal-varices,Oesophageal Varices,Variceal disease (including oesophageal varices),,condition,fuzzy:1.08,0.65,true,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-oesophageal-varices.html
+is-oesophagitis,Oesophagitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-oesophagitis.html
+is-olecranon-bursitis,Olecranon Bursitis,Bursitis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-olecranon-bursitis.html
+is-optic-neuritis,Optic Neuritis,Optic neuritis,,condition,exact,0.95,false,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-optic-neuritis.html
+is-oral-cancer,Oral Cancer,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-oral-cancer.html
+is-oral-candidiasis,Oral Candidiasis,Candidiasis,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-oral-candidiasis.html
+is-orbital-cellulitis,Orbital Cellulitis,Cellulitis,,condition,exact,0.95,false,covered-needs-refresh,Skin and soft tissue,extracted-illness-scripts-2026\is-orbital-cellulitis.html
+is-oropharyngeal-cancer,Oropharyngeal Cancer,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-oropharyngeal-cancer.html
+is-orthostatic-hypotension,Orthostatic Hypotension,Orthostatic/ postural hypotension,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-orthostatic-hypotension.html
+is-osgood-schlatters-disease,Osgood-Schlatter's Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-osgood-schlatters-disease.html
+is-osteoarthritis,Osteoarthritis,Osteoarthritis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-osteoarthritis.html
+is-osteochondritis-dissecans,Osteochondritis Dissecans,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-osteochondritis-dissecans.html
+is-osteomalacia,Osteomalacia,Osteomalacia,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-osteomalacia.html
+is-osteomyelitis,Osteomyelitis,Osteomyelitis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-osteomyelitis.html
+is-osteoporotic-vertebral-fracture-2,Fracture (including Osteoporotic Vertebral Fracture),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-osteoporotic-vertebral-fracture-2.html
+is-osteoporotic-vertebral-fracture,Osteoporotic Vertebral Fracture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-osteoporotic-vertebral-fracture.html
+is-other-causes,Other Causes,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-other-causes.html
+is-otitis-externa,Otitis Externa,Otitis externa,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-otitis-externa.html
+is-otitis-media,Otitis Media,Otitis media,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-otitis-media.html
+is-otosclerosis,Otosclerosis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-otosclerosis.html
+is-ovarian-cancer,Ovarian Cancer,Ovarian cancer,,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-ovarian-cancer.html
+is-ovarian-cyst,Ovarian Cyst,Ovarian cysts,,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-ovarian-cyst.html
+is-ovarian-torsion,Ovarian Torsion,Ovarian torsion,,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-ovarian-torsion.html
+is-overfeeding-in-infants,Overfeeding in Infants,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-overfeeding-in-infants.html
+is-pagets-disease,Paget's Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pagets-disease.html
+is-painful-ano-rectal-conditions,Painful Ano-Rectal Conditions,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-painful-ano-rectal-conditions.html
+is-painful-peripheral-neuropathy,Painful Peripheral Neuropathy,Peripheral neuropathy,,condition,exact,0.95,false,covered-needs-refresh,Peripheral nervous system and neuromuscular junction,extracted-illness-scripts-2026\is-painful-peripheral-neuropathy.html
+is-pancoasts-tumour,Pancoast's Tumour,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pancoasts-tumour.html
+is-pancreatic-cancer,Pancreatic Cancer,Pancreatic cancer,,condition,exact,0.95,false,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-pancreatic-cancer.html
+is-pancreatic-insufficiency,Pancreatic Insufficiency,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pancreatic-insufficiency.html
+is-pancreatitis,Pancreatitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pancreatitis.html
+is-panic-disorder,Panic Disorder,Panic disorder,,condition,exact,0.95,false,covered-needs-refresh,Mental health,extracted-illness-scripts-2026\is-panic-disorder.html
+is-paraneoplastic-syndrome,Paraneoplastic Syndrome,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-paraneoplastic-syndrome.html
+is-parasites-gastrointestinal,Parasites (Gastrointestinal),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-parasites-gastrointestinal.html
+is-parkinsons-disease,Parkinson's Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-parkinsons-disease.html
+is-patellar-tendon-rupture,Patellar Tendon Rupture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-patellar-tendon-rupture.html
+is-pckd,Polycystic Kidney Disease (PCKD),Polycystic kidney disease,,condition,fuzzy:1.45,0.65,true,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-pckd.html
+is-pcos,Polycystic Ovary Syndrome (PCOS),Polycystic ovary syndrome (PCOS),,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-pcos.html
+is-pelvic-abscess,Pelvic Abscess,Abscess,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-pelvic-abscess.html
+is-pelvic-inflammatory-disease,Pelvic Inflammatory Disease,Pelvic inflammatory disease,,condition,exact,0.95,false,covered-needs-refresh,Gynaecological tract,extracted-illness-scripts-2026\is-pelvic-inflammatory-disease.html
+is-pelvic-mass,Pelvic Mass,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pelvic-mass.html
+is-peptic-ulcer-disease,Peptic Ulcer Disease (PUD),Peptic ulcer disease and gastritis,,condition,fuzzy:1.22,0.65,true,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-peptic-ulcer-disease.html
+is-pericarditis,Pericarditis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pericarditis.html
+is-peripheral-arterial-disease-buttock-claudication,Peripheral Arterial Disease (Buttock Claudication),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-peripheral-arterial-disease-buttock-claudication.html
+is-peripheral-arterial-disease,Peripheral Arterial Disease (PAD),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-peripheral-arterial-disease.html
+is-peripheral-neuropathy,Peripheral Neuropathy,Peripheral neuropathy,,condition,exact,0.95,false,covered-needs-refresh,Peripheral nervous system and neuromuscular junction,extracted-illness-scripts-2026\is-peripheral-neuropathy.html
+is-peritonitis,Peritonitis,Peritonitis,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-peritonitis.html
+is-peritonsillar-abscess,Peritonsillar Abscess,Abscess,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-peritonsillar-abscess.html
+is-perthes-disease,Perthes' Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-perthes-disease.html
+is-phaeochromocytoma,Phaeochromocytoma,Phaeochromocytoma,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-phaeochromocytoma.html
+is-pharyngeal-pouch,Pharyngeal Pouch (Zenker's Diverticulum),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pharyngeal-pouch.html
+is-pharyngitis,Pharyngitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pharyngitis.html
+is-placenta-praevia,Placenta Praevia,Placenta praevia,,condition,exact,0.95,false,covered-needs-refresh,Pregnancy and the puerperium,extracted-illness-scripts-2026\is-placenta-praevia.html
+is-placental-abruption,Placental Abruption,Placental abruption,,condition,exact,0.95,false,covered-needs-refresh,Pregnancy and the puerperium,extracted-illness-scripts-2026\is-placental-abruption.html
+is-plantar-fasciitis,Plantar Fasciitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-plantar-fasciitis.html
+is-pleural-effusion,Pleural Effusion,Pleural effusion,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-pleural-effusion.html
+is-pneumonia,Pneumonia,Pneumonia,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-pneumonia.html
+is-pneumothorax,Pneumothorax,Pneumothorax,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-pneumothorax.html
+is-polycythaemia,Polycythaemia,Polycythaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-polycythaemia.html
+is-polymyalgia-rheumatica-gca,Polymyalgia Rheumatica (PMR) and Giant Cell Arteritis (GCA),Polymyalgia rheumatica,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-polymyalgia-rheumatica-gca.html
+is-polymyalgia-rheumatica,Polymyalgia Rheumatica (PMR),Polymyalgia rheumatica,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-polymyalgia-rheumatica.html
+is-polymyositis,Polymyositis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-polymyositis.html
+is-polyps,Polyps,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-polyps.html
+is-post-concussion-headache,Post-Concussion Headache,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-post-concussion-headache.html
+is-post-concussion-syndrome,Post-Concussion Syndrome (PCS),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-post-concussion-syndrome.html
+is-post-operative-infection,Post-Operative Infection,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-post-operative-infection.html
+is-post-vaccination-reactions,Post-Vaccination Reactions,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-post-vaccination-reactions.html
+is-pre-eclampsia,Pre-eclampsia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pre-eclampsia.html
+is-pregnancy,Pregnancy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pregnancy.html
+is-premature-ectopic-beats,Premature Ectopic Beats,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-premature-ectopic-beats.html
+is-prepatellar-bursitis,Prepatellar Bursitis,Bursitis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-prepatellar-bursitis.html
+is-presbycusis,Presbycusis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-presbycusis.html
+is-primary-biliary-cirrhosis,Primary Biliary Cirrhosis (PBC),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-primary-biliary-cirrhosis.html
+is-proctalgia-fugax,Proctalgia Fugax,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-proctalgia-fugax.html
+is-prostate-cancer,Prostate Cancer,Prostate cancer,,condition,exact,0.95,false,covered-needs-refresh,Male genitourinary tract,extracted-illness-scripts-2026\is-prostate-cancer.html
+is-prostatitis,Prostatitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-prostatitis.html
+is-psoriatic-arthritis,Psoriatic Arthritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-psoriatic-arthritis.html
+is-psvt,Paroxysmal Supraventricular Tachycardia (PSVT),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-psvt.html
+is-psychogenic,Psychogenic Disorder,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-psychogenic.html
+is-psychosis-and-schizophrenia,Psychosis and Schizophrenia,Schizophrenia,,condition,exact,0.95,false,covered-needs-refresh,Mental health,extracted-illness-scripts-2026\is-psychosis-and-schizophrenia.html
+is-pulmonary-embolism,Pulmonary Embolism (PE),Pulmonary embolism,,condition,exact,0.95,false,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-pulmonary-embolism.html
+is-pulmonary-hypertension,Pulmonary Hypertension,Pulmonary hypertension,,condition,exact,0.95,false,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-pulmonary-hypertension.html
+is-pyelonephritis,Pyelonephritis,Pyelonephritis,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-pyelonephritis.html
+is-pyloric-stenosis,Pyloric Stenosis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-pyloric-stenosis.html
+is-radiculopathy,Radiculopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-radiculopathy.html
+is-raised-intracranial-pressure,Raised Intracranial Pressure (ICP),Raised intracranial pressure,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-raised-intracranial-pressure.html
+is-ramsay-hunt-syndrome,Ramsay Hunt Syndrome,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ramsay-hunt-syndrome.html
+is-reactive-arthritis,Reactive Arthritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-reactive-arthritis.html
+is-reactive-lymphadenopathy,Reactive Lymphadenopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-reactive-lymphadenopathy.html
+is-recurrent-laryngeal-nerve-palsy,Recurrent Laryngeal Nerve (RLN) Palsy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-recurrent-laryngeal-nerve-palsy.html
+is-referred-neck-pain,Referred Neck Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-referred-neck-pain.html
+is-refraction-errors,Refraction Errors,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-refraction-errors.html
+is-reiters-syndrome,Reiter's Syndrome (Reactive Arthritis),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-reiters-syndrome.html
+is-renal-carcinoma,Renal Carcinoma,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-renal-carcinoma.html
+is-renal-colic-urinary-tract-stone,Renal Colic (Urinary Tract Stone),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-renal-colic-urinary-tract-stone.html
+is-renal-failure,Renal Failure,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-renal-failure.html
+is-renovascular-disease,Renovascular Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-renovascular-disease.html
+is-repetitive-strain-injury,Repetitive Strain Injury (RSI),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-repetitive-strain-injury.html
+is-respiratory-failure,Respiratory Failure,Respiratory failure,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-respiratory-failure.html
+is-restless-leg-syndrome,Restless Leg Syndrome (RLS),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-restless-leg-syndrome.html
+is-retinal-artery-occlusion,Retinal Artery Occlusion,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-retinal-artery-occlusion.html
+is-retinal-detachment,Retinal Detachment,Retinal detachment,,condition,exact,0.95,false,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-retinal-detachment.html
+is-retinal-vein-occlusion,Retinal Vein Occlusion (RVO),Central retinal vein occlusion,,condition,fuzzy:1.26,0.65,true,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-retinal-vein-occlusion.html
+is-retropharyngeal-abscess,Retropharyngeal Abscess,Abscess,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-retropharyngeal-abscess.html
+is-rhabdomyolysis,Rhabdomyolysis (including Statin-related),Rhabdomyolysis,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-rhabdomyolysis.html
+is-rheumatic-fever,Rheumatic Fever,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-rheumatic-fever.html
+is-rheumatoid-arthritis,Rheumatoid Arthritis,Rheumatoid arthritis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-rheumatoid-arthritis.html
+is-rhinosinusitis,Rhinosinusitis,Rhinosinusitis,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-rhinosinusitis.html
+is-rib-fracture,Rib Fracture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-rib-fracture.html
+is-rotator-cuff-disorder,Rotator Cuff Disorder,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-rotator-cuff-disorder.html
+is-rubella,Rubella (German Measles),Rubella,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-rubella.html
+is-salivary-gland-disorder,Salivary Gland Disorder,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-salivary-gland-disorder.html
+is-salivary-gland-tumour,Salivary Gland Tumour,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-salivary-gland-tumour.html
+is-sarcoidosis,Sarcoidosis,Sarcoidosis,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-sarcoidosis.html
+is-sarcoma,Sarcoma,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sarcoma.html
+is-scabies,Scabies,Scabies,,condition,exact,0.95,false,covered-needs-refresh,Skin and soft tissue,extracted-illness-scripts-2026\is-scabies.html
+is-scleritis,Scleritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-scleritis.html
+is-scleroderma,Scleroderma,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-scleroderma.html
+is-sebaceous-cyst,Sebaceous Cyst,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sebaceous-cyst.html
+is-seizure,Seizure,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-seizure.html
+is-sepsis-in-children,Sepsis in Children,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sepsis-in-children.html
+is-sepsis,Sepsis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sepsis.html
+is-septal-haematoma,Septal Haematoma,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-septal-haematoma.html
+is-septic-arthritis,Septic Arthritis,Septic arthritis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-septic-arthritis.html
+is-serotonin-syndrome,Serotonin Syndrome,Serotonin syndrome,,condition,exact,0.95,false,covered-needs-refresh,Drugs and drug effects,extracted-illness-scripts-2026\is-serotonin-syndrome.html
+is-severe-upper-gastrointestinal-bleeding,Severe Upper Gastrointestinal Bleeding (UGIB),Gastrointestinal bleeding (upper and lower GI bleeding),,condition,fuzzy:1.18,0.65,true,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-severe-upper-gastrointestinal-bleeding.html
+is-sexual-abuse,Sexual Abuse,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sexual-abuse.html
+is-shin-splints,Shin Splints,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-shin-splints.html
+is-short-bowel-syndrome,Short Bowel Syndrome (SBS),Irritable bowel syndrome,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-short-bowel-syndrome.html
+is-shoulder-osteoarthritis,Shoulder Osteoarthritis,Osteoarthritis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-shoulder-osteoarthritis.html
+is-shoulder-pain,Shoulder Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-shoulder-pain.html
+is-sick-sinus-syndrome,Sick Sinus Syndrome (SSS),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sick-sinus-syndrome.html
+is-sickle-cell-crisis,Sickle Cell Crisis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sickle-cell-crisis.html
+is-sickle-cell-disease,Sickle Cell Disease,Sickle cell disease,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-sickle-cell-disease.html
+is-sideroblastic-anaemia,Sideroblastic Anaemia,Anaemia,,condition,exact,0.95,false,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-sideroblastic-anaemia.html
+is-silent-myocardial-infarction,Silent Myocardial Infarction (SMI),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-silent-myocardial-infarction.html
+is-simple-constipation,Simple Constipation,Constipation,,condition,exact,0.95,false,covered-needs-refresh,Gastrointestinal tract,extracted-illness-scripts-2026\is-simple-constipation.html
+is-sinus-tachycardia,Sinus Tachycardia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sinus-tachycardia.html
+is-sinusitis,Sinusitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sinusitis.html
+is-sjogrens-syndrome,Sjogren's Syndrome,Sjogren syndrome,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-sjogrens-syndrome.html
+is-skin-infection,Skin Infection,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-skin-infection.html
+is-slipped-capital-femoral-epiphysis,Slipped Capital Femoral Epiphysis (SCFE),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-slipped-capital-femoral-epiphysis.html
+is-smokers-laryngitis,Smokers Laryngitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-smokers-laryngitis.html
+is-soft-tissue-injury,Soft Tissue Injury,Soft tissue injury,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-soft-tissue-injury.html
+is-space-occupying-lesion,Space-Occupying Lesion (SOL),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-space-occupying-lesion.html
+is-spinal-abscess,Spinal Abscess,Abscess,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-spinal-abscess.html
+is-spinal-cord-compression,Spinal Cord Compression,Spinal cord compression,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-spinal-cord-compression.html
+is-spinal-cord-tumour,Spinal Cord Tumour,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-spinal-cord-tumour.html
+is-spinal-sprains-and-strains,Spinal Sprains and Strains,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-spinal-sprains-and-strains.html
+is-spinal-stenosis,Spinal Stenosis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-spinal-stenosis.html
+is-spinal-tuberculosis,Spinal Tuberculosis,Tuberculosis,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-spinal-tuberculosis.html
+is-splenomegaly,Splenomegaly,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-splenomegaly.html
+is-spondyloarthropathies,Spondyloarthropathies,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-spondyloarthropathies.html
+is-spondylolisthesis,Spondylolisthesis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-spondylolisthesis.html
+is-spondylosis,Spondylosis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-spondylosis.html
+is-sprains-and-strains-overuse,Sprains and Strains (Including Overuse),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sprains-and-strains-overuse.html
+is-sprains-and-strains,Sprains and Strains,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sprains-and-strains.html
+is-statin-related-myopathy-inc-rhabdomyolysis,Statin-Related Myopathy (Including Rhabdomyolysis),Rhabdomyolysis,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-statin-related-myopathy-inc-rhabdomyolysis.html
+is-stevens-johnson-syndrome,Stevens-Johnson Syndrome (SJS),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-stevens-johnson-syndrome.html
+is-stomatitis,Stomatitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-stomatitis.html
+is-stress-and-overwork,Stress and Overwork,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-stress-and-overwork.html
+is-stress-or-anxiety,Stress or Anxiety,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-stress-or-anxiety.html
+is-stye-hordeolum,Stye (Hordeolum),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-stye-hordeolum.html
+is-subarachnoid-haemorrhage,Subarachnoid Haemorrhage (SAH),Subarachnoid haemorrhage,,condition,exact,0.95,false,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-subarachnoid-haemorrhage.html
+is-subconjunctival-haemorrhage,Subconjunctival Haemorrhage,Subconjunctival haemorrhage,,condition,exact,0.95,false,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-subconjunctival-haemorrhage.html
+is-subdural-haematoma,Subdural Haematoma,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-subdural-haematoma.html
+is-sudden-sensorineural-hearing-loss,Sudden Sensorineural Hearing Loss (SSNHL),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-sudden-sensorineural-hearing-loss.html
+is-systemic-lupus-erythematosus,Systemic Lupus Erythematosus (SLE),Systemic lupus erythematosus,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-systemic-lupus-erythematosus.html
+is-teething,Teething,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-teething.html
+is-temporal-arteritis-gca,Temporal Arteritis (Giant Cell Arteritis - GCA),Giant cell arteritis,,condition,fuzzy:1.45,0.65,true,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-temporal-arteritis-gca.html
+is-tension-type-headache,Tension Type Headache (TTH),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-tension-type-headache.html
+is-testicular-torsion,Testicular Torsion,Testicular torsion,,condition,exact,0.95,false,covered-needs-refresh,Male genitourinary tract,extracted-illness-scripts-2026\is-testicular-torsion.html
+is-thalassaemia,Thalassaemia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-thalassaemia.html
+is-thoracic-radiculopathy,Thoracic Radiculopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-thoracic-radiculopathy.html
+is-threatened-miscarriage,Threatened Miscarriage,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-threatened-miscarriage.html
+is-thrombocytopenia,Thrombocytopenia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-thrombocytopenia.html
+is-thrombocytopenic-purpura,Thrombocytopenic Purpura,Idiopathic thrombocytopenic purpura (ITP),,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Blood and lymph,extracted-illness-scripts-2026\is-thrombocytopenic-purpura.html
+is-thrombophlebitis,Thrombophlebitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-thrombophlebitis.html
+is-thyroglossal-cyst,Thyroglossal Cyst,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-thyroglossal-cyst.html
+is-thyroid-cancer,Thyroid Cancer,Thyroid cancer,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-thyroid-cancer.html
+is-thyroid-lump,Thyroid Lump,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-thyroid-lump.html
+is-tmj-dysfunction,TMJ Dysfunction,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-tmj-dysfunction.html
+is-toddlers-diarrhoea,Toddler’s Diarrhoea (Paediatrics),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-toddlers-diarrhoea.html
+is-tonsillitis,Tonsillitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-tonsillitis.html
+is-torsades-de-pointes,Torsades de Pointes,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-torsades-de-pointes.html
+is-torticollis,Torticollis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-torticollis.html
+is-toxic-and-nutritional-optic-neuropathy,Toxic and Nutritional Optic Neuropathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-toxic-and-nutritional-optic-neuropathy.html
+is-transient-global-amnesia,Transient Global Amnesia (TGA),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-transient-global-amnesia.html
+is-transient-ischaemic-attack,Transient Ischaemic Attack (TIA),Transient ischaemic attacks (TIA),,condition,fuzzy:1.26,0.65,true,covered-needs-refresh,Brain and spinal cord,extracted-illness-scripts-2026\is-transient-ischaemic-attack.html
+is-transient-synovitis,Transient Synovitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-transient-synovitis.html
+is-trauma-induced-bleeding-and-bruising,Trauma-Induced Bleeding and Bruising,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-trauma-induced-bleeding-and-bruising.html
+is-trauma-induced-breast-pain-or-swelling,Trauma-induced Breast Pain or Swelling,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-trauma-induced-breast-pain-or-swelling.html
+is-trauma-induced-ear-pain,Trauma-induced Ear Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-trauma-induced-ear-pain.html
+is-trauma-induced-haematuria,Trauma-Induced Haematuria,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-trauma-induced-haematuria.html
+is-trauma-induced-mouth-pain,Trauma-Induced Mouth Pain,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-trauma-induced-mouth-pain.html
+is-traumatic-ulcer,Traumatic Ulcer,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-traumatic-ulcer.html
+is-travellers-diarrhoea,Traveller’s Diarrhoea,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-travellers-diarrhoea.html
+is-trigeminal-neuralgia,Trigeminal Neuralgia,Trigeminal neuralgia,,condition,exact,0.95,false,covered-needs-refresh,Peripheral nervous system and neuromuscular junction,extracted-illness-scripts-2026\is-trigeminal-neuralgia.html
+is-trochanteric-bursitis,Trochanteric Bursitis,Bursitis,,condition,exact,0.95,false,covered-needs-refresh,Musculoskeletal,extracted-illness-scripts-2026\is-trochanteric-bursitis.html
+is-tropical-diseases,Tropical Diseases,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-tropical-diseases.html
+is-tuberculosis-lymphadenopathy,Tuberculosis (Lymphadenopathy),Tuberculosis,,condition,fuzzy:1.25,0.65,true,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-tuberculosis-lymphadenopathy.html
+is-tuberculosis,Tuberculosis (TB),Tuberculosis,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-tuberculosis.html
+is-type-1-diabetes-mellitus,Type 1 Diabetes Mellitus,Diabetes mellitus,,condition,exact,0.95,false,covered-needs-refresh,Endocrine and metabolic,extracted-illness-scripts-2026\is-type-1-diabetes-mellitus.html
+is-ulcerative-colitis,Ulcerative Colitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ulcerative-colitis.html
+is-ulnar-neuropathy,Ulnar Neuropathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ulnar-neuropathy.html
+is-undescended-testis,Undescended Testis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-undescended-testis.html
+is-urethral-stricture,Urethral Stricture,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-urethral-stricture.html
+is-urethritis,Urethritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-urethritis.html
+is-urinary-tract-stone,Urinary Tract Stone (Urolithiasis),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-urinary-tract-stone.html
+is-urinary-tract-tuberculosis,Urinary Tract Tuberculosis (UTB),Tuberculosis,,condition,exact,0.95,false,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-urinary-tract-tuberculosis.html
+is-urti,URTI (Common cold),Upper respiratory tract infection,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-urti.html
+is-urticaria,Urticaria,Urticaria,,condition,exact,0.95,false,covered-needs-refresh,Skin and soft tissue,extracted-illness-scripts-2026\is-urticaria.html
+is-uti,Urinary Tract Infection (UTI),Urinary tract infection,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-uti.html
+is-vaginal-cancer,Vaginal Cancer,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vaginal-cancer.html
+is-vaginitis,Vaginitis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vaginitis.html
+is-valvular-heart-disease,Valvular Heart Disease,Congenital heart disease,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-valvular-heart-disease.html
+is-varicella,Varicella (Chickenpox),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-varicella.html
+is-varicose-veins,Varicose Veins,Venous insufficiency (including varicose veins),,condition,fuzzy:1.08,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-varicose-veins.html
+is-vascular-dementia,Vascular Dementia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vascular-dementia.html
+is-vasovagal-syncope,Vasovagal Syncope,"Syncope (including vasovagal, cardiac)",,condition,fuzzy:1.12,0.65,true,covered-needs-refresh,Heart and vasculature,extracted-illness-scripts-2026\is-vasovagal-syncope.html
+is-venous-eczema,Venous Eczema,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-venous-eczema.html
+is-venous-leg-ulcer,Venous Leg Ulcer,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-venous-leg-ulcer.html
+is-ventricular-fibrillation,Ventricular Fibrillation (VF),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ventricular-fibrillation.html
+is-ventricular-tachycardia,Ventricular Tachycardia (VT),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-ventricular-tachycardia.html
+is-vertebrobasilar-insufficiency,Vertebrobasilar Insufficiency,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vertebrobasilar-insufficiency.html
+is-vestibular-migraine,Vestibular Migraine,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vestibular-migraine.html
+is-vestibular-neuritis,Vestibular Neuritis,Labyrinthitis / vestibular neuritis,,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-vestibular-neuritis.html
+is-viral-gastroenteritis,Viral Gastroenteritis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-viral-gastroenteritis.html
+is-viral-hepatitis,Viral Hepatitis,"Hepatitis (including viral, autoimmune, alcoholic)",,condition,fuzzy:1.08,0.65,true,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-viral-hepatitis.html
+is-viral-induced-wheeze,Viral Induced Wheeze,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-viral-induced-wheeze.html
+is-viral-infection,Viral Infection,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-viral-infection.html
+is-visual-problems,Visual Problems,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-visual-problems.html
+is-vitamin-b12-deficiency,Vitamin B12 Deficiency,Vitamin B12 and/ or folate deficiency,,condition,fuzzy:1.18,0.65,true,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-vitamin-b12-deficiency.html
+is-vitamin-c-deficiency,Vitamin C Deficiency,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vitamin-c-deficiency.html
+is-vitamin-d-deficiency,Vitamin D Deficiency,Vitamin D deficiency,,condition,exact,0.95,false,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-vitamin-d-deficiency.html
+is-vitamin-deficiencies,Vitamin Deficiencies,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vitamin-deficiencies.html
+is-vitamin-k-deficiency,Vitamin K Deficiency,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vitamin-k-deficiency.html
+is-vitreous-haemorrhage,Vitreous Haemorrhage,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vitreous-haemorrhage.html
+is-vocal-cord-nodules,Vocal Cord Nodules,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-vocal-cord-nodules.html
+is-voice-overuse,Voice Overuse,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-voice-overuse.html
+is-warts-and-verrucae,Warts and Verrucae,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-warts-and-verrucae.html
+is-wernicke-korsakoff-syndrome-alcohol,Wernicke-Korsakoff Syndrome (Alcohol),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-wernicke-korsakoff-syndrome-alcohol.html
+is-whiplash-injury,Whiplash Injury,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-whiplash-injury.html
+is-white-coat-hypertension,White Coat Hypertension,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-white-coat-hypertension.html
+is-whooping-cough,Whooping Cough (Pertussis),Whooping cough,,condition,exact,0.95,false,covered-needs-refresh,Child health,extracted-illness-scripts-2026\is-whooping-cough.html
+is-wilsons-disease,Wilson's Disease,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-wilsons-disease.html
+is-wpw,Wolff-Parkinson-White (WPW) Syndrome,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-wpw.html
+is-wrist-tendinopathy,Wrist Tendinopathy,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-wrist-tendinopathy.html
+is-xerostomia,Xerostomia (Dry Mouth),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-xerostomia.html

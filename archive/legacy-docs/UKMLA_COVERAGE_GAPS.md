@@ -1,0 +1,598 @@
+# UKMLA Illness Script Coverage Report
+
+- Generated (UTC): 2026-02-28T08:53:15.285385+00:00
+- Source scripts folder: `extracted-illness-scripts`
+- UKMLA conditions extracted from appendix: **291**
+- Illness script files scanned: **711**
+- Script files categorized (condition or presentation match): **288**
+- Categorized via condition match: **215**
+- Categorized via presentation match: **73**
+- UKMLA conditions currently covered by at least one script: **162**
+- UKMLA conditions not yet covered: **129**
+
+## Files Per UKMLA Category
+
+- Acute and emergency: 51
+- Cancer: 31
+- Cardiovascular: 29
+- Child health: 126
+- Clinical haematology: 32
+- Clinical imaging: 7
+- Dermatology: 5
+- Ear, nose and throat: 18
+- Endocrine and metabolic: 23
+- Gastrointestinal including liver: 47
+- General practice and primary healthcare: 129
+- Infection: 41
+- Medicine of older adult: 15
+- Mental health: 13
+- Musculoskeletal: 31
+- Neurosciences: 47
+- Obstetrics and gynaecology: 46
+- Ophthalmology: 10
+- Palliative and end of life care: 1
+- Perioperative medicine and anaesthesia: 39
+- Renal and urology: 18
+- Respiratory: 19
+- Sexual health: 2
+- Surgery: 31
+- All areas of clinical practice: 0
+- _Unmapped: 423
+
+## UKMLA Conditions Not Yet Covered
+
+- Acid-base abnormality
+- Acne vulgaris
+- Acute bronchitis
+- Acute cholangitis
+- Acute kidney injury
+- Acute stress reaction
+- Adverse drug effects
+- Alcoholic hepatitis
+- Allergic disorder
+- Aneurysms, ischaemic limb and occlusions
+- Anxiety disorder: post-traumatic stress disorder
+- Anxiety, phobias, OCD
+- Aortic valve disease
+- Arterial thrombosis
+- Arterial ulcers
+- Asthma COPD overlap syndrome
+- Attention deficit hyperactivity disorder
+- Autism spectrum disorder
+- Bacterial vaginosis
+- Basal cell carcinoma
+- Benign eyelid disorders
+- Biliary atresia
+- Brain metastases
+- Breast cysts
+- Cardiac arrest
+- Cardiac failure
+- Central retinal arterial occlusion
+- Cerebral palsy and hypoxic-ischaemic encephalopathy
+- Cervical screening (HPV)
+- Colorectal tumours
+- Cord prolapse
+- Crystal arthropathy
+- Cutaneous fungal infection
+- Cutaneous warts
+- Developmental delay
+- Diabetes in pregnancy (gestational and pre- existing)
+- Diabetes insipidus
+- Diabetic eye disease
+- Disease prevention/screening
+- Disseminated intravascular coagulation
+- Down's syndrome
+- Drug overdose
+- Epididymitis and orchitis
+- Extradural haemorrhage
+- Febrile convulsion
+- Fibroadenoma
+- Fibrotic lung disease
+- Folliculitis
+- Gangrene
+- Gastrointestinal perforation
+- Haemoglobinopathies
+- Haemophilia
+- Head lice
+- Henoch-Schonlein purpura
+- Herpes simplex virus
+- Hospital acquired infections
+- Human papilloma virus infection
+- Hypercalcaemia of malignancy
+- Hyperlipidemia
+- Hyperparathyroidism
+- Hyperthermia and hypothermia
+- Hypoparathyroidism
+- Hyposplenism/splenectomy
+- Impetigo
+- Infectious colitis
+- Infectious diarrhoea
+- Infectious mononucleosis
+- Infective keratitis
+- Intestinal ischaemia
+- Kawasaki disease
+- Lower limb fractures
+- Malaria
+- Malignant melanoma
+- Mitral valve disease
+- Multi-organ dysfunction syndrome
+- Mumps
+- Muscular dystrophies
+- Myeloproliferative disorders
+- Myocarditis
+- Necrotising fasciitis
+- Non-accidental injury
+- Obesity and pregnancy
+- Osteoporosis
+- Pancytopenia
+- Pathological fracture
+- Patient on anti-coagulant therapy
+- Patient on anti-platelet therapy
+- Perianal abscesses and fistulae
+- Pericardial disease
+- Periorbital and orbital cellulitis
+- Peripheral nerve injuries/palsies
+- Peripheral vascular disease
+- Personality disorder
+- Postpartum haemorrhage
+- Pressure sores
+- Psoriasis
+- Radiculopathies
+- Respiratory arrest
+- Right heart valve disease
+- Self-harm
+- Somatisation
+- Spinal cord injury
+- Spinal fracture
+- Squamous cell carcinoma
+- Stroke
+- Subdural haemorrhage
+- Substance use disorder
+- Surgical site infection
+- Syphilis
+- Termination of pregnancy
+- Testicular cancer
+- Thyroid eye disease
+- Thyroid nodules
+- Thyrotoxicosis
+- Toxic shock syndrome
+- Transfusion reactions
+- Trichomonas vaginalis
+- Unstable angina
+- Upper limb fractures
+- Upper limb soft tissue injury
+- Urinary incontinence
+- VTE in pregnancy and puerperium
+- Varicella zoster
+- Vasa praevia
+- Viral exanthema
+- Viral hepatitides
+- Visual field defects
+- Volvulus
+- Wernicke's encephalopathy
+
+## Unmatched Illness Script Topics
+
+- is-ac-joint-disorder: AC Joint Disorder
+- is-achalasia: Achalasia
+- is-achilles-tendinopathy: Achilles Tendinopathy
+- is-achilles-tendon-rupture: Achilles Tendon Rupture
+- is-acute-abdomen: Acute Abdomen
+- is-acute-coronary-syndrome-old: Acute Coronary Syndrome (ACS)
+- is-acute-gastrointestinal-bleeding: Acute Gastrointestinal Bleeding
+- is-acute-limb-ischaemia: Acute Limb Ischaemia
+- is-acute-ulcerative-gingivitis: Acute Ulcerative Gingivitis (AUG)
+- is-acute-urinary-retention: Acute Urinary Retention (AUR)
+- is-acute-viral-myositis: Acute Viral Myositis
+- is-adenoid-hyperplasia: Adenoid Hyperplasia
+- is-adhesive-capsulitis: Adhesive Capsulitis
+- is-agranulocytosis: Agranulocytosis
+- is-alcohol-abuse: Alcohol Abuse
+- is-alcohol-and-drug-withdrawal: Alcohol and Drug Withdrawal
+- is-alcoholic-liver-disease: Alcoholic Liver Disease (ALD)
+- is-allergic-rhinitis: Allergic Rhinitis
+- is-alzheimers-disease: Alzheimer's Disease
+- is-amaurosis-fugax: Amaurosis Fugax
+- is-angina-old: Angina
+- is-angina: Angina
+- is-angiodysplasia: Angiodysplasia
+- is-ankle-or-foot-bone-fracture: Ankle or Foot Bone Fracture
+- is-ankle-sprain: Ankle Sprain
+- is-anorectal-abscess: Anorectal Abscess
+- is-anorexia-nervosa: Anorexia Nervosa
+- is-anticoagulants-and-antiplatelets: Anticoagulants and Antiplatelets
+- is-anticoagulants: Anticoagulants
+- is-anxiety-hyperventilation: Anxiety (Hyperventilation)
+- is-anxiety: Anxiety
+- is-aortic-coarctation: Aortic Coarctation
+- is-aortic-stenosis: Aortic Stenosis
+- is-aphthous-ulceration: Aphthous Ulceration
+- is-arthropathy: Arthropathy
+- is-atrial-fibrillation: Atrial Fibrillation (AF)
+- is-atrial-flutter: Atrial Flutter
+- is-autonomic-neuropathy: Autonomic Neuropathy
+- is-av-block: Atrioventricular (AV) Block
+- is-bakers-cyst-rupture: Baker's Cyst Rupture
+- is-bakers-cyst: Baker's Cyst
+- is-behavioural-disorders-in-children: Behavioural Disorders in Children
+- is-bleeding-disorders: Bleeding Disorders
+- is-boils: Boils
+- is-bone-fracture: Bone Fracture
+- is-bone-tumours: Bone Tumours
+- is-bowel-infarction-mesenteric-ischaemia: Bowel Infarction (Mesenteric Ischaemia)
+- is-bradycardia: Bradycardia
+- is-brain-tumour-or-sol: Brain Tumour or Space-Occupying Lesion (SOL)
+- is-brain-tumour: Brain Tumour
+- is-branchial-cyst: Branchial Cyst
+- is-broad-complex-tachycardia: Broad Complex Tachycardia
+- is-bronchitis: Bronchitis
+- is-bulimia-nervosa: Bulimia Nervosa
+- is-burning-mouth-syndrome: Burning Mouth Syndrome (BMS)
+- is-caffeine-withdrawal: Caffeine Withdrawal
+- is-cancer-cachexia: Cancer Cachexia
+- is-carotid-aneurysm: Carotid Aneurysm
+- is-carpal-tunnel-syndrome: Carpal Tunnel Syndrome
+- is-cartilage-injury: Cartilage Injury
+- is-cat-scratch-disease: Cat Scratch Disease
+- is-cauda-equina-syndrome: Cauda Equina Syndrome
+- is-cerebellar-disorder: Cerebellar Disorder
+- is-cerebrovascular-disease: Cerebrovascular Disease
+- is-cervical-disc-disease: Cervical Disc Disease
+- is-cervical-ectropion: Cervical Ectropion
+- is-cervical-radiculopathy: Cervical Radiculopathy
+- is-cervical-rib: Cervical Rib
+- is-cervical-spondylosis: Cervical Spondylosis
+- is-cervical-sprain: Cervical Sprain
+- is-cervicitis: Cervicitis
+- is-cholangiocarcinoma: Cholangiocarcinoma
+- is-cholangitis: Cholangitis
+- is-cholestasis: Cholestasis
+- is-cholesteatoma: Cholesteatoma
+- is-chronic-infections: Chronic Infections
+- is-chronic-pain-syndromes: Chronic Pain Syndromes
+- is-chronic-pancreatitis: Chronic Pancreatitis
+- is-chronic-venous-insufficiency: Chronic Venous Insufficiency (CVI)
+- is-coagulation-disorders: Coagulation Disorders
+- is-colonic-polyp: Colonic Polyp
+- is-colorectal-cancer: Colorectal Cancer
+- is-complex-regional-pain-syndrome: Complex Regional Pain Syndrome (CRPS)
+- is-connective-tissue-diseases: Connective Tissue Diseases
+- is-contact-lens-problems: Contact Lens Problems
+- is-contraceptive-related-bleeding: Contraceptive-Related Bleeding
+- is-contraceptives: Contraceptives
+- is-copd-severe: COPD (Severe)
+- is-corneal-abrasion: Corneal Abrasion
+- is-corneal-disease: Corneal Disease
+- is-corneal-ulcer: Corneal Ulcer
+- is-corns-and-calluses: Corns and Calluses
+- is-costochondritis: Costochondritis
+- is-cows-milk-allergy: Cowâ€™s Milk Allergy (CMA)
+- is-crohns-disease: Crohn's Disease
+- is-cruciate-ligament-injury: Cruciate Ligament Injury
+- is-cytomegalovirus: Cytomegalovirus (CMV) Infection
+- is-dental-pain: Dental Pain
+- is-denture-related-pain: Denture-Related Pain
+- is-dermatitis: Dermatitis
+- is-detrusor-instability: Detrusor Instability
+- is-developmental-dysplasia-of-the-hip: Developmental Dysplasia of the Hip (DDH)
+- is-diabetes: Diabetes
+- is-diabetic-foot-painless: Diabetic Foot (Painless)
+- is-diabetic-gastroparesis: Diabetic Gastroparesis
+- is-diabetic-retinopathy: Diabetic Retinopathy
+- is-disc-disease: Disc Disease
+- is-discitis: Discitis
+- is-disuse-atrophy: Disuse Atrophy
+- is-diverticulitis: Diverticulitis
+- is-drug-abuse: Drug Abuse
+- is-drug-and-alcohol-abuse: Drug and Alcohol Abuse
+- is-drug-withdrawal: Drug Withdrawal
+- is-dry-skin: Dry Skin (Xerosis)
+- is-dub: Dysfunctional Uterine Bleeding (DUB)
+- is-dysmenorrhoea: Dysmenorrhoea
+- is-ear-boil: Ear Boil (Furuncle of the Ear Canal)
+- is-ear-wax: Ear Wax (Cerumen Impaction)
+- is-early-pregnancy: Early Pregnancy
+- is-electrolyte-disturbance: Electrolyte Disturbance
+- is-endometrial-hyperplasia: Endometrial Hyperplasia
+- is-endometritis: Endometritis
+- is-endophthalmitis: Endophthalmitis
+- is-epicondylitis: Epicondylitis
+- is-episcleritis: Episcleritis
+- is-eustachian-tube-dysfunction: Eustachian Tube Dysfunction
+- is-fbao: Foreign Body Airway Obstruction (FBAO)
+- is-febrile-convulsions-children: Febrile Convulsions (Children)
+- is-femoral-artery-aneurysm: Femoral Artery Aneurysm
+- is-fibrocystic-disease: Fibrocystic Disease
+- is-folate-deficiency: Folate Deficiency
+- is-foot-deformities: Foot Deformities
+- is-fracture-or-dislocation: Fracture or Dislocation
+- is-frontal-lobe-lesions: Frontal Lobe Lesions
+- is-functional-abdominal-pain-syndrome: Functional Abdominal Pain Syndrome (FAPS)
+- is-functional-disorder: Functional Disorder
+- is-gallstone-disease: Gallstone Disease
+- is-gastritis: Gastritis
+- is-gastroenteritis: Gastroenteritis
+- is-genital-herpes: Genital Herpes
+- is-geographic-tongue: Geographic Tongue
+- is-gi-tract-cancer: GI Tract Cancer
+- is-gilberts-syndrome: Gilbert's Syndrome
+- is-globus-hystericus: Globus Hystericus
+- is-glomerulonephritis: Glomerulonephritis
+- is-goitre: Goitre
+- is-gout: Gout
+- is-gravitational-oedema: Gravitational Oedema
+- is-guillain-barre-syndrome: Guillain-BarrÃ© Syndrome
+- is-hallux-valgus: Hallux Valgus
+- is-hand-foot-and-mouth-disease: Hand, Foot, and Mouth Disease (HFMD)
+- is-heart-failure: Heart Failure
+- is-hepatocellular-carcinoma: Hepatocellular Carcinoma
+- is-hepatomegaly: Hepatomegaly
+- is-herpes-simplex-keratitis: Herpes Simplex Keratitis
+- is-herpes-stomatitis: Herpes Stomatitis
+- is-herpes-zoster-ophthalmicus: Herpes Zoster Ophthalmicus (HZO)
+- is-herpes-zoster: Herpes Zoster (Shingles)
+- is-hidradenitis-suppurativa: Hidradenitis Suppurativa
+- is-hip-or-pelvis-fracture: Hip or Pelvis Fracture
+- is-hirschsprungs-disease-children: Hirschsprungâ€™s Disease (Children)
+- is-hiv-ars: HIV (Acute Retroviral Syndrome)
+- is-huntingtons-disease: Huntington's Disease
+- is-hydrocephalus: Hydrocephalus
+- is-hyperaldosteronism: Hyperaldosteronism
+- is-hypercalcaemia: Hypercalcaemia
+- is-hyperglycaemic-crisis: Hyperglycaemic Crisis
+- is-hyperprolactinaemia: Hyperprolactinaemia
+- is-hyperthyroidism: Hyperthyroidism
+- is-hyperventilation: Hyperventilation
+- is-hypoalbuminaemia: Hypoalbuminaemia
+- is-hypoxia: Hypoxia
+- is-iliopsoas-abscess: Iliopsoas Abscess
+- is-immunisation-reaction: Immunisation Reaction
+- is-immunodeficiency: Immunodeficiency
+- is-impacted-ear-wax: Impacted Ear Wax (Cerumen Impaction)
+- is-inborn-errors-of-metabolism: Inborn Errors of Metabolism
+- is-incorrectly-sited-iucd: Incorrectly Sited IUCD
+- is-infantile-colic: Infantile Colic
+- is-ingrown-toenail: Ingrown Toenail (IGTN)
+- is-insomnia: Insomnia
+- is-intermittent-claudication: Intermittent Claudication
+- is-interstitial-cystitis: Interstitial Cystitis
+- is-intra-abdominal-abscess: Intra-abdominal Abscess
+- is-iron-deficiency: Iron Deficiency
+- is-ivc-obstruction: IVC Obstruction
+- is-keratitis-bacterial: Keratitis (Bacterial)
+- is-keratoconjunctivitis: Keratoconjunctivitis
+- is-knee-fracture-or-dislocation: Knee Fracture or Dislocation
+- is-labyrinthitis: Labyrinthitis
+- is-lactose-intolerance: Lactose Intolerance
+- is-laryngeal-cancer: Laryngeal Cancer
+- is-laryngitis: Laryngitis
+- is-left-ventricular-failure: Left Ventricular Failure
+- is-lichen-planus: Lichen Planus
+- is-lichen-simplex-chronicus: Lichen Simplex Chronicus
+- is-ligament-injury: Ligament Injury
+- is-lipoma: Lipoma
+- is-liver-failure: Liver Failure
+- is-lumbar-disc-prolapse: Lumbar Disc Prolapse
+- is-lumbar-radiculopathy: Lumbar Radiculopathy
+- is-lymphoedema: Lymphoedema
+- is-malabsorption: Malabsorption
+- is-malignancy: Malignancy
+- is-mallory-weiss-tear: Mallory-Weiss Tear
+- is-march-fracture: March Fracture
+- is-mastitis: Mastitis
+- is-mastoiditis: Mastoiditis
+- is-medication-induced-anxiety: Medication-Induced Anxiety
+- is-medication-induced-arthropathy: Medication-Induced Arthropathy
+- is-medication-induced-calf-pain: Medication-induced Calf Pain
+- is-medication-induced-dyspepsia: Medication-Induced Dyspepsia
+- is-medication-induced-dyspnoea: Medication-Induced Dyspnoea
+- is-medication-induced-gait-abnormalities: Medication-Induced Gait Abnormalities
+- is-medication-induced-hand-and-arm-pain: Medication-Induced Hand and Arm Pain (e.g. Statins)
+- is-medication-induced-hip-pain-statins: Medication-Induced Hip Pain (e.g. Statins)
+- is-medication-induced-leg-pain: Medication-Induced Leg Pain (e.g. Statins)
+- is-medication-induced-leg-swelling: Medication-Induced Leg Swelling
+- is-medication-induced-muscle-pain-and-weakness: Medication-Induced Muscle Pain and Weakness
+- is-medication-induced-nasal-symptoms: Medication-Induced Nasal Symptoms
+- is-medication-induced-neuropathy: Medication-Induced Neuropathy
+- is-medication-induced-syncope: Medication-Induced Syncope
+- is-medication-induced-vaginal-bleeding: Medication-Induced Vaginal Bleeding
+- is-menorrhagia: Menorrhagia (Heavy Menstrual Bleeding)
+- is-menstruation-contaminating-urine: Menstruation Contaminating Urine
+- is-meralgia-paraesthetica: Meralgia Paraesthetica
+- is-mesenteric-adenitis: Mesenteric Adenitis
+- is-mesenteric-ischaemia: Mesenteric Ischaemia
+- is-metabolic-disorders: Metabolic Disorders
+- is-metabolic-neuropathy: Metabolic Neuropathy
+- is-metabolic-syndrome: Metabolic Syndrome
+- is-metastatic-cancer-chest-wall: Metastatic Cancer (Chest Wall)
+- is-metastatic-cancer: Metastatic Cancer
+- is-metatarsalgia: Metatarsalgia
+- is-mild-cognitive-impairment: Mild Cognitive Impairment (MCI)
+- is-miscarriage: Miscarriage
+- is-mittelschmerz: Mittelschmerz
+- is-molar-pregnancy: Molar Pregnancy
+- is-mononeuropathy: Mononeuropathy
+- is-mortons-neuroma: Morton's Neuroma
+- is-msk-sprains-and-strains: MSK Sprains and Strains
+- is-muscle-cramps: Muscle Cramps
+- is-myelodysplastic-syndrome: Myelodysplastic Syndrome (MDS)
+- is-narrow-complex-tachycardia: Narrow Complex Tachycardia (NCT)
+- is-nasal-injury-septal-deviation: Nasal Injury/Septal Deviation
+- is-nasal-polyps: Nasal Polyps
+- is-nasopharyngeal-cancer: Nasopharyngeal Cancer
+- is-neonatal-respiratory-distress-syndrome: Neonatal Respiratory Distress Syndrome (RDS)
+- is-non-allergic-rhinitis: Non-allergic Rhinitis
+- is-non-epileptic-seizure: Non-epileptic Seizure (NES)
+- is-non-ulcer-dyspepsia: Non-ulcer Dyspepsia
+- is-non-venous-ulceration: Non-venous Ulceration
+- is-obstetric-cholestasis: Obstetric Cholestasis
+- is-ocular-sarcoidosis: Ocular Sarcoidosis
+- is-ocular-tumour: Ocular Tumour
+- is-oesophageal-spasm: Oesophageal Spasm
+- is-oesophageal-strictures-and-webs: Oesophageal Strictures and Webs
+- is-oesophageal-varices: Oesophageal Varices
+- is-oesophagitis: Oesophagitis
+- is-oral-cancer: Oral Cancer
+- is-oropharyngeal-cancer: Oropharyngeal Cancer
+- is-orthostatic-hypotension: Orthostatic Hypotension
+- is-osgood-schlatters-disease: Osgood-Schlatter's Disease
+- is-osteochondritis-dissecans: Osteochondritis Dissecans
+- is-osteoporotic-vertebral-fracture-2: Fracture (including Osteoporotic Vertebral Fracture)
+- is-osteoporotic-vertebral-fracture: Osteoporotic Vertebral Fracture
+- is-other-causes: Other Causes
+- is-otosclerosis: Otosclerosis
+- is-ovarian-cyst: Ovarian Cyst
+- is-ovarian-torsion: Ovarian Torsion
+- is-overfeeding-in-infants: Overfeeding in Infants
+- is-pagets-disease: Paget's Disease
+- is-painful-ano-rectal-conditions: Painful Ano-Rectal Conditions
+- is-painful-peripheral-neuropathy: Painful Peripheral Neuropathy
+- is-pancoasts-tumour: Pancoast's Tumour
+- is-pancreatic-insufficiency: Pancreatic Insufficiency
+- is-pancreatitis: Pancreatitis
+- is-panic-disorder: Panic Disorder
+- is-paraneoplastic-syndrome: Paraneoplastic Syndrome
+- is-parasites-gastrointestinal: Parasites (Gastrointestinal)
+- is-patellar-tendon-rupture: Patellar Tendon Rupture
+- is-patellofemoral-pain-syndrome: Patellofemoral Pain Syndrome
+- is-pckd: Polycystic Kidney Disease (PCKD)
+- is-pcos: Polycystic Ovary Syndrome (PCOS)
+- is-pelvic-abscess: Pelvic Abscess
+- is-pericarditis: Pericarditis
+- is-peripheral-arterial-disease-buttock-claudication: Peripheral Arterial Disease (Buttock Claudication)
+- is-peripheral-arterial-disease: Peripheral Arterial Disease (PAD)
+- is-peripheral-neuropathy: Peripheral Neuropathy
+- is-peritonsillar-abscess: Peritonsillar Abscess
+- is-perthes-disease: Perthes' Disease
+- is-phaeochromocytoma: Phaeochromocytoma
+- is-pharyngeal-pouch: Pharyngeal Pouch (Zenker's Diverticulum)
+- is-pharyngitis: Pharyngitis
+- is-plantar-fasciitis: Plantar Fasciitis
+- is-polycythaemia: Polycythaemia
+- is-polymyositis: Polymyositis
+- is-polyps: Polyps
+- is-post-concussion-syndrome: Post-Concussion Syndrome (PCS)
+- is-post-operative-infection: Post-Operative Infection
+- is-pre-eclampsia: Pre-eclampsia
+- is-pregnancy: Pregnancy
+- is-premature-ectopic-beats: Premature Ectopic Beats
+- is-presbycusis: Presbycusis
+- is-proctalgia-fugax: Proctalgia Fugax
+- is-prostatitis: Prostatitis
+- is-psoriatic-arthritis: Psoriatic Arthritis
+- is-psvt: Paroxysmal Supraventricular Tachycardia (PSVT)
+- is-psychogenic: Psychogenic Disorder
+- is-pyelonephritis: Pyelonephritis
+- is-radiculopathy: Radiculopathy
+- is-ramsay-hunt-syndrome: Ramsay Hunt Syndrome
+- is-recurrent-laryngeal-nerve-palsy: Recurrent Laryngeal Nerve (RLN) Palsy
+- is-refraction-errors: Refraction Errors
+- is-renal-carcinoma: Renal Carcinoma
+- is-renal-colic-urinary-tract-stone: Renal Colic (Urinary Tract Stone)
+- is-renal-failure: Renal Failure
+- is-renovascular-disease: Renovascular Disease
+- is-repetitive-strain-injury: Repetitive Strain Injury (RSI)
+- is-restless-leg-syndrome: Restless Leg Syndrome (RLS)
+- is-retinal-artery-occlusion: Retinal Artery Occlusion
+- is-retinal-detachment: Retinal Detachment
+- is-retinal-vein-occlusion: Retinal Vein Occlusion (RVO)
+- is-retropharyngeal-abscess: Retropharyngeal Abscess
+- is-rhabdomyolysis: Rhabdomyolysis (including Statin-related)
+- is-rheumatoid-arthritis: Rheumatoid Arthritis
+- is-rib-fracture: Rib Fracture
+- is-rotator-cuff-disorder: Rotator Cuff Disorder
+- is-salivary-gland-disorder: Salivary Gland Disorder
+- is-salivary-gland-tumour: Salivary Gland Tumour
+- is-sarcoidosis: Sarcoidosis
+- is-sarcoma: Sarcoma
+- is-scabies: Scabies
+- is-scleritis: Scleritis
+- is-scleroderma: Scleroderma
+- is-sebaceous-cyst: Sebaceous Cyst
+- is-seizure: Seizure
+- is-septal-haematoma: Septal Haematoma
+- is-serotonin-syndrome: Serotonin Syndrome
+- is-severe-upper-gastrointestinal-bleeding: Severe Upper Gastrointestinal Bleeding (UGIB)
+- is-sexual-abuse: Sexual Abuse
+- is-shin-splints: Shin Splints
+- is-shoulder-pain: Shoulder Pain
+- is-sick-sinus-syndrome: Sick Sinus Syndrome (SSS)
+- is-sickle-cell-crisis: Sickle Cell Crisis
+- is-sinus-tachycardia: Sinus Tachycardia
+- is-sinusitis: Sinusitis
+- is-sjogrens-syndrome: Sjogren's Syndrome
+- is-skin-infection: Skin Infection
+- is-slipped-capital-femoral-epiphysis: Slipped Capital Femoral Epiphysis (SCFE)
+- is-smokers-laryngitis: Smokers Laryngitis
+- is-space-occupying-lesion: Space-Occupying Lesion (SOL)
+- is-spinal-abscess: Spinal Abscess
+- is-spinal-cord-tumour: Spinal Cord Tumour
+- is-spinal-sprains-and-strains: Spinal Sprains and Strains
+- is-spinal-stenosis: Spinal Stenosis
+- is-splenomegaly: Splenomegaly
+- is-spondyloarthropathies: Spondyloarthropathies
+- is-spondylolisthesis: Spondylolisthesis
+- is-spondylosis: Spondylosis
+- is-sprains-and-strains-overuse: Sprains and Strains (Including Overuse)
+- is-sprains-and-strains: Sprains and Strains
+- is-statin-related-myopathy-inc-rhabdomyolysis: Statin-Related Myopathy (Including Rhabdomyolysis)
+- is-stevens-johnson-syndrome: Stevens-Johnson Syndrome (SJS)
+- is-stomatitis: Stomatitis
+- is-stress-and-overwork: Stress and Overwork
+- is-stress-or-anxiety: Stress or Anxiety
+- is-stye-hordeolum: Stye (Hordeolum)
+- is-subconjunctival-haemorrhage: Subconjunctival Haemorrhage
+- is-subdural-haematoma: Subdural Haematoma
+- is-systemic-lupus-erythematosus: Systemic Lupus Erythematosus (SLE)
+- is-teething: Teething
+- is-temporal-arteritis-gca: Temporal Arteritis (Giant Cell Arteritis - GCA)
+- is-thalassaemia: Thalassaemia
+- is-thoracic-radiculopathy: Thoracic Radiculopathy
+- is-threatened-miscarriage: Threatened Miscarriage
+- is-thrombocytopenia: Thrombocytopenia
+- is-thrombophlebitis: Thrombophlebitis
+- is-thyroglossal-cyst: Thyroglossal Cyst
+- is-thyroid-cancer: Thyroid Cancer
+- is-thyroid-lump: Thyroid Lump
+- is-tmj-dysfunction: TMJ Dysfunction
+- is-torsades-de-pointes: Torsades de Pointes
+- is-torticollis: Torticollis
+- is-toxic-and-nutritional-optic-neuropathy: Toxic and Nutritional Optic Neuropathy
+- is-transient-global-amnesia: Transient Global Amnesia (TGA)
+- is-transient-synovitis: Transient Synovitis
+- is-traumatic-ulcer: Traumatic Ulcer
+- is-tropical-diseases: Tropical Diseases
+- is-ulcerative-colitis: Ulcerative Colitis
+- is-ulnar-neuropathy: Ulnar Neuropathy
+- is-undescended-testis: Undescended Testis
+- is-urethral-stricture: Urethral Stricture
+- is-urethritis: Urethritis
+- is-urinary-tract-stone: Urinary Tract Stone (Urolithiasis)
+- is-vaginal-cancer: Vaginal Cancer
+- is-vaginitis: Vaginitis
+- is-varicella: Varicella (Chickenpox)
+- is-varicose-veins: Varicose Veins
+- is-vasovagal-syncope: Vasovagal Syncope
+- is-venous-eczema: Venous Eczema
+- is-venous-leg-ulcer: Venous Leg Ulcer
+- is-ventricular-fibrillation: Ventricular Fibrillation (VF)
+- is-ventricular-tachycardia: Ventricular Tachycardia (VT)
+- is-vertebrobasilar-insufficiency: Vertebrobasilar Insufficiency
+- is-vestibular-neuritis: Vestibular Neuritis
+- is-viral-infection: Viral Infection
+- is-visual-problems: Visual Problems
+- is-vitamin-b12-deficiency: Vitamin B12 Deficiency
+- is-vitamin-c-deficiency: Vitamin C Deficiency
+- is-vitamin-d-deficiency: Vitamin D Deficiency
+- is-vitamin-deficiencies: Vitamin Deficiencies
+- is-vitamin-k-deficiency: Vitamin K Deficiency
+- is-vitreous-haemorrhage: Vitreous Haemorrhage
+- is-vocal-cord-nodules: Vocal Cord Nodules
+- is-voice-overuse: Voice Overuse
+- is-warts-and-verrucae: Warts and Verrucae
+- is-wernicke-korsakoff-syndrome-alcohol: Wernicke-Korsakoff Syndrome (Alcohol)
+- is-whiplash-injury: Whiplash Injury
+- is-wilsons-disease: Wilson's Disease
+- is-wpw: Wolff-Parkinson-White (WPW) Syndrome
+- is-wrist-tendinopathy: Wrist Tendinopathy
+- is-xerostomia: Xerostomia (Dry Mouth)

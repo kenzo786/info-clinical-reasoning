@@ -1,0 +1,63 @@
+{
+  "forbidden_prescriptive_patterns": [
+    "(?is)\\b(start|give|administer|prescribe)\\b.{0,40}\\b\\d+(\\.\\d+)?\\s*(mg|mcg|g|ml|units?)\\b",
+    "(?is)\\bdose of\\b",
+    "(?is)\\b\\d+(\\.\\d+)?\\s*(mg|mcg|g|ml|units?)\\b",
+    "(?is)\\b(once|twice|three times|tds|bd|od|qds|qid|tid)\\s+(daily|a day|per day)\\b",
+    "(?is)\\bstart\\s+supportive\\s+measures\\b"
+  ],
+  "_drug_naming_rule": "Generic drug names are ALLOWED in the Treatment section only, inside a clearly labelled 'Exam pharmacology reference (UKMLA/MRCGP)' bullet with guideline attribution (BTS/NICE/SIGN/BNF) and a local-formulary caveat. The forbidden_prescriptive_patterns above catch doses and frequencies (absolutely forbidden) and prescriptive verbs + doses (absolutely forbidden). Brand names are caught by the uk_spelling_violations list if US spellings, and should be flagged manually otherwise.",
+  "prescriptive_whitelist_patterns": [
+    "(?is)\\bserum magnesium\\b",
+    "(?is)\\bphosphate\\b"
+  ],
+  "section_budgets": {
+    "1": [1, 2],
+    "2": [3, 5],
+    "3": [1, 3],
+    "4": [2, 4],
+    "5": [3, 6],
+    "6": [3, 6],
+    "7": [3, 5],
+    "8": [2, 4],
+    "9": [4, 7],
+    "10": [2, 2],
+    "11": [4, 7],
+    "12": [4, 6],
+    "13": [3, 5]
+  },
+  "required_section_ids": [
+    "c-is.1.0", "c-is.2.0", "c-is.3.0", "c-is.4.0",
+    "c-is.5.0", "c-is.6.0", "c-is.7.0", "c-is.8.0",
+    "c-is.9.0", "c-is.10.0", "c-is.11.0", "c-is.12.0", "c-is.13.0"
+  ],
+  "open_sections": ["c-is.5.0", "c-is.6.0", "c-is.7.0"],
+  "ddx_min_discriminators": 4,
+  "timing_consistency_check": {
+    "note": "Timing language in sections 4 (Time Course), 7 (Red Flags), and 13 (Complications) must use the same phrasing. Flag any section that uses 'after 72 hours' without a lower bound.",
+    "forbidden_timing_phrases": [
+      "(?is)\\bafter\\s+(exactly\\s+)?72\\s+hours\\b",
+      "(?is)\\bsignificantly\\s+after\\s+72\\b"
+    ]
+  },
+  "uk_spelling_violations": [
+    "recognized", "stigmatizing", "pediatric", "edema",
+    "anemia", "esophagus", "esophageal", "fecal", "fecalith",
+    "colored", "labored", "favor", "harbor", "tumor"
+  ],
+  "category_safety_anchors": {
+    "eating_disorders": [
+      "refeeding risk",
+      "electrolyte monitoring including phosphate and magnesium",
+      "ecg and cardiovascular instability",
+      "combined medical and psychiatric escalation"
+    ],
+    "sepsis": [
+      "haemodynamic compromise",
+      "lactate",
+      "senior review",
+      "local sepsis pathway"
+    ]
+  },
+  "_comment": "Updated 2026-03 (v2) — replaced blanket drug-name prohibition with two-tier rule: doses/frequencies always forbidden; generic drug names allowed in Treatment 'Exam pharmacology reference' bullet only with guideline attribution. Added dose-only pattern and frequency patterns. See CLAUDE.md for full drug naming rule."
+}

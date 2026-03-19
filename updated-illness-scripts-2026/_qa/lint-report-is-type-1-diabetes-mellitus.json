@@ -1,0 +1,109 @@
+{
+  "generated_at_utc": "2026-02-28T17:15:05.798834+00:00",
+  "mode": "lint",
+  "processed_files": 1,
+  "passed_files": 0,
+  "failed_files": 1,
+  "files": [
+    {
+      "slug": "is-type-1-diabetes-mellitus",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.1.0\"",
+          "section": 1
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.2.0\"",
+          "section": 2
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.3.0\"",
+          "section": 3
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.4.0\"",
+          "section": 4
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.5.0\"",
+          "section": 5
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.6.0\"",
+          "section": 6
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.7.0\"",
+          "section": 7
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.8.0\"",
+          "section": 8
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.9.0\"",
+          "section": 9
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.10.0\"",
+          "section": 10
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.11.0\"",
+          "section": 11
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.12.0\"",
+          "section": 12
+        },
+        {
+          "rule": "required_ids",
+          "message": "Missing id=\"o-is.13.0\"",
+          "section": 13
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": false,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": true,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": true,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": true,
+        "signs_action_verb": true,
+        "diagnostic_section_contract": true,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": true,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": true,
+        "item_count_ok": true,
+        "format_ok": true,
+        "word_count": 11,
+        "word_count_ok": true,
+        "specificity_ok": true,
+        "line": "UKMLA essentials: recognise type features, identify urgent deterioration, prioritise focused testing."
+      }
+    }
+  ]
+}

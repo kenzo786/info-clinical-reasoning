@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-02-28T15:50:28.083947+00:00",
+  "mode": "rewrite-and-lint",
+  "source_dir": "C:\\Users\\amjid\\GitHub\\Illness scripts\\extracted-illness-scripts-2026",
+  "output_dir": "C:\\Users\\amjid\\GitHub\\Illness scripts\\updated-illness-scripts-2026",
+  "processed_files": 1,
+  "files": [
+    {
+      "slug": "is-acute-pancreatitis",
+      "source_file": "extracted-illness-scripts-2026\\is-acute-pancreatitis.html",
+      "output_file": "C:\\Users\\amjid\\GitHub\\Illness scripts\\updated-illness-scripts-2026\\is-acute-pancreatitis.html",
+      "sections_changed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "keep_count": 20,
+      "compress_count": 13,
+      "drop_count": 7,
+      "old_word_count": 752,
+      "new_word_count": 761,
+      "word_count_delta": 9
+    }
+  ]
+}

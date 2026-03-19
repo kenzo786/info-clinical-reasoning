@@ -1,0 +1,10 @@
+is-anxiety
+is-anxiety-hyperventilation
+is-anxiety-induced-dizziness
+is-aortic-aneurysm
+is-aortic-aneurysm-rupture-or-dissection
+is-aortic-aneurysm-thoracic
+is-aortic-coarctation
+is-aortic-stenosis
+is-aphthous-ulceration
+is-aplastic-anaemia

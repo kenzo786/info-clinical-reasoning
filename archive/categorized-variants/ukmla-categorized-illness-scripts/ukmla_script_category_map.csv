@@ -1,0 +1,712 @@
+slug,title,matched_condition,matched_presentation,match_basis,match_method,categories,source_file
+is-abdominal-pain-appendicitis,Abdominal Pain - Appendicitis,Appendicitis,,condition,exact,Child health; Gastrointestinal including liver; Surgery,extracted-illness-scripts\is-abdominal-pain-appendicitis.html
+is-ac-joint-disorder,AC Joint Disorder,,,unmatched,unmatched,,extracted-illness-scripts\is-ac-joint-disorder.html
+is-ace-inhibitor-induced-cough,ACE-Inhibitor Induced Cough,,Cough,presentation,exact,"Cancer; Cardiovascular; Child health; Ear, nose and throat; General practice and primary healthcare; Respiratory",extracted-illness-scripts\is-ace-inhibitor-induced-cough.html
+is-achalasia,Achalasia,,,unmatched,unmatched,,extracted-illness-scripts\is-achalasia.html
+is-achilles-tendinopathy,Achilles Tendinopathy,,,unmatched,unmatched,,extracted-illness-scripts\is-achilles-tendinopathy.html
+is-achilles-tendon-rupture,Achilles Tendon Rupture,,,unmatched,unmatched,,extracted-illness-scripts\is-achilles-tendon-rupture.html
+is-acoustic-neuroma,Acoustic Neuroma (Vestibular Schwannoma),Acoustic neuroma,,condition,exact,"Ear, nose and throat; Neurosciences",extracted-illness-scripts\is-acoustic-neuroma.html
+is-acute-abdomen,Acute Abdomen,,,unmatched,unmatched,,extracted-illness-scripts\is-acute-abdomen.html
+is-acute-coronary-syndrome-old,Acute Coronary Syndrome (ACS),,,unmatched,unmatched,,extracted-illness-scripts\is-acute-coronary-syndrome-old.html
+is-acute-coronary-syndrome,Acute Coronary Syndrome (ACS),Acute coronary syndromes,,condition,exact,Acute and emergency; Cardiovascular,extracted-illness-scripts\is-acute-coronary-syndrome.html
+is-acute-gastrointestinal-bleeding,Acute Gastrointestinal Bleeding,,,unmatched,unmatched,,extracted-illness-scripts\is-acute-gastrointestinal-bleeding.html
+is-acute-glaucoma,Acute Glaucoma,Acute glaucoma,,condition,exact,Ophthalmology,extracted-illness-scripts\is-acute-glaucoma.html
+is-acute-limb-ischaemia,Acute Limb Ischaemia,,,unmatched,unmatched,,extracted-illness-scripts\is-acute-limb-ischaemia.html
+is-acute-pancreatitis,Acute Pancreatitis,Acute pancreatitis,,condition,exact,Gastrointestinal including liver; Surgery,extracted-illness-scripts\is-acute-pancreatitis.html
+is-acute-ulcerative-gingivitis,Acute Ulcerative Gingivitis (AUG),,,unmatched,unmatched,,extracted-illness-scripts\is-acute-ulcerative-gingivitis.html
+is-acute-urinary-retention,Acute Urinary Retention (AUR),,,unmatched,unmatched,,extracted-illness-scripts\is-acute-urinary-retention.html
+is-acute-viral-myositis,Acute Viral Myositis,,,unmatched,unmatched,,extracted-illness-scripts\is-acute-viral-myositis.html
+is-addisons-disease,Addison's Disease,Addison's disease,,condition,exact,Endocrine and metabolic,extracted-illness-scripts\is-addisons-disease.html
+is-adenoid-hyperplasia,Adenoid Hyperplasia,,,unmatched,unmatched,,extracted-illness-scripts\is-adenoid-hyperplasia.html
+is-adhesive-capsulitis,Adhesive Capsulitis,,,unmatched,unmatched,,extracted-illness-scripts\is-adhesive-capsulitis.html
+is-age-related-purpura,Age-Related Purpura,,Purpura,presentation,exact,Clinical haematology,extracted-illness-scripts\is-age-related-purpura.html
+is-agranulocytosis,Agranulocytosis,,,unmatched,unmatched,,extracted-illness-scripts\is-agranulocytosis.html
+is-alcohol-abuse,Alcohol Abuse,,,unmatched,unmatched,,extracted-illness-scripts\is-alcohol-abuse.html
+is-alcohol-and-drug-withdrawal,Alcohol and Drug Withdrawal,,,unmatched,unmatched,,extracted-illness-scripts\is-alcohol-and-drug-withdrawal.html
+is-alcoholic-liver-disease,Alcoholic Liver Disease (ALD),,,unmatched,unmatched,,extracted-illness-scripts\is-alcoholic-liver-disease.html
+is-allergic-rhinitis,Allergic Rhinitis,,,unmatched,unmatched,,extracted-illness-scripts\is-allergic-rhinitis.html
+is-alzheimers-disease,Alzheimer's Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-alzheimers-disease.html
+is-amaurosis-fugax,Amaurosis Fugax,,,unmatched,unmatched,,extracted-illness-scripts\is-amaurosis-fugax.html
+is-anaemia-of-chronic-disease,Anaemia of Chronic Disease (ACD),Chronic kidney disease,,condition,fuzzy:1.16,Child health; General practice and primary healthcare; Perioperative medicine and anaesthesia; Renal and urology,extracted-illness-scripts\is-anaemia-of-chronic-disease.html
+is-anaemia-sob,Anaemia (Shortness of Breath - SOB),Anaemia,,condition,fuzzy:1.25,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-anaemia-sob.html
+is-anaemia,Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-anaemia.html
+is-anal-fissure,Anal Fissure,Anal fissure,,condition,exact,Gastrointestinal including liver; General practice and primary healthcare; Surgery,extracted-illness-scripts\is-anal-fissure.html
+is-anaphylaxis,Anaphylaxis,Anaphylaxis,,condition,exact,Acute and emergency; Child health; General practice and primary healthcare; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-anaphylaxis.html
+is-angina-old,Angina,,,unmatched,unmatched,,extracted-illness-scripts\is-angina-old.html
+is-angina,Angina,,,unmatched,unmatched,,extracted-illness-scripts\is-angina.html
+is-angiodysplasia,Angiodysplasia,,,unmatched,unmatched,,extracted-illness-scripts\is-angiodysplasia.html
+is-ankle-or-foot-bone-fracture,Ankle or Foot Bone Fracture,,,unmatched,unmatched,,extracted-illness-scripts\is-ankle-or-foot-bone-fracture.html
+is-ankle-sprain,Ankle Sprain,,,unmatched,unmatched,,extracted-illness-scripts\is-ankle-sprain.html
+is-ankylosing-spondylitis,Ankylosing Spondylitis,Ankylosing spondylitis,,condition,exact,Musculoskeletal,extracted-illness-scripts\is-ankylosing-spondylitis.html
+is-anorectal-abscess,Anorectal Abscess,,,unmatched,unmatched,,extracted-illness-scripts\is-anorectal-abscess.html
+is-anorexia-nervosa,Anorexia Nervosa,,,unmatched,unmatched,,extracted-illness-scripts\is-anorexia-nervosa.html
+is-anticoagulants-and-antiplatelets,Anticoagulants and Antiplatelets,,,unmatched,unmatched,,extracted-illness-scripts\is-anticoagulants-and-antiplatelets.html
+is-anticoagulants,Anticoagulants,,,unmatched,unmatched,,extracted-illness-scripts\is-anticoagulants.html
+is-anxiety-hyperventilation,Anxiety (Hyperventilation),,,unmatched,unmatched,,extracted-illness-scripts\is-anxiety-hyperventilation.html
+is-anxiety-induced-dizziness,Anxiety-Induced Dizziness,,Dizziness,presentation,exact,"Cardiovascular; Ear, nose and throat; General practice and primary healthcare; Medicine of older adult; Neurosciences",extracted-illness-scripts\is-anxiety-induced-dizziness.html
+is-anxiety,Anxiety,,,unmatched,unmatched,,extracted-illness-scripts\is-anxiety.html
+is-aortic-aneurysm-rupture-or-dissection,Aortic Aneurysm (Rupture or Dissection),Aortic aneurysm,,condition,fuzzy:1.25,Acute and emergency; Cardiovascular; Surgery,extracted-illness-scripts\is-aortic-aneurysm-rupture-or-dissection.html
+is-aortic-aneurysm-thoracic,Aortic Aneurysm (Thoracic),Aortic aneurysm,,condition,fuzzy:1.35,Acute and emergency; Cardiovascular; Surgery,extracted-illness-scripts\is-aortic-aneurysm-thoracic.html
+is-aortic-aneurysm,Aortic Aneurysm,Aortic aneurysm,,condition,exact,Acute and emergency; Cardiovascular; Surgery,extracted-illness-scripts\is-aortic-aneurysm.html
+is-aortic-coarctation,Aortic Coarctation,,,unmatched,unmatched,,extracted-illness-scripts\is-aortic-coarctation.html
+is-aortic-stenosis,Aortic Stenosis,,,unmatched,unmatched,,extracted-illness-scripts\is-aortic-stenosis.html
+is-aphthous-ulceration,Aphthous Ulceration,,,unmatched,unmatched,,extracted-illness-scripts\is-aphthous-ulceration.html
+is-aplastic-anaemia,Aplastic Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-aplastic-anaemia.html
+is-appendicitis,Appendicitis,Appendicitis,,condition,exact,Child health; Gastrointestinal including liver; Surgery,extracted-illness-scripts\is-appendicitis.html
+is-arrhythmia,Arrhythmia,Arrhythmias,,condition,exact,Acute and emergency; Cardiovascular; General practice and primary healthcare; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-arrhythmia.html
+is-arthropathy,Arthropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-arthropathy.html
+is-ascites,Ascites,Ascites,,condition,exact,Gastrointestinal including liver,extracted-illness-scripts\is-ascites.html
+is-asthma,Asthma,Asthma,,condition,exact,Child health; General practice and primary healthcare; Perioperative medicine and anaesthesia; Respiratory,extracted-illness-scripts\is-asthma.html
+is-atopic-dermatitis,Atopic Dermatitis,Atopic dermatitis and eczema,,condition,fuzzy:1.12,Child health; Dermatology; General practice and primary healthcare,extracted-illness-scripts\is-atopic-dermatitis.html
+is-atrial-fibrillation,Atrial Fibrillation (AF),,,unmatched,unmatched,,extracted-illness-scripts\is-atrial-fibrillation.html
+is-atrial-flutter,Atrial Flutter,,,unmatched,unmatched,,extracted-illness-scripts\is-atrial-flutter.html
+is-atrophic-vaginitis,Atrophic Vaginitis,Atrophic vaginitis,,condition,exact,General practice and primary healthcare; Obstetrics and gynaecology,extracted-illness-scripts\is-atrophic-vaginitis.html
+is-atypical-myocardial-infarction,Atypical Myocardial Infarction,Myocardial infarction,,condition,exact,Acute and emergency,extracted-illness-scripts\is-atypical-myocardial-infarction.html
+is-autoimmune-hepatitis,Autoimmune Hepatitis,Hepatitis,,condition,exact,Child health; Gastrointestinal including liver,extracted-illness-scripts\is-autoimmune-hepatitis.html
+is-autonomic-neuropathy,Autonomic Neuropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-autonomic-neuropathy.html
+is-av-block,Atrioventricular (AV) Block,,,unmatched,unmatched,,extracted-illness-scripts\is-av-block.html
+is-bakers-cyst-rupture,Baker's Cyst Rupture,,,unmatched,unmatched,,extracted-illness-scripts\is-bakers-cyst-rupture.html
+is-bakers-cyst,Baker's Cyst,,,unmatched,unmatched,,extracted-illness-scripts\is-bakers-cyst.html
+is-behavioural-disorders-in-children,Behavioural Disorders in Children,,,unmatched,unmatched,,extracted-illness-scripts\is-behavioural-disorders-in-children.html
+is-bells-palsy,Bell's Palsy,Bell's palsy,,condition,exact,General practice and primary healthcare; Neurosciences,extracted-illness-scripts\is-bells-palsy.html
+is-benign-prostatic-hypertrophy,Benign Prostatic Hypertrophy (BPH),Benign prostatic hyperplasia,,condition,exact,General practice and primary healthcare; Renal and urology,extracted-illness-scripts\is-benign-prostatic-hypertrophy.html
+is-biliary-colic,Biliary Colic,Gallstones and biliary colic,,condition,fuzzy:1.12,Gastrointestinal including liver,extracted-illness-scripts\is-biliary-colic.html
+is-bipolar-disorder,Bipolar Disorder,Bipolar affective disorder,,condition,fuzzy:1.16,Mental health,extracted-illness-scripts\is-bipolar-disorder.html
+is-bladder-cancer,Bladder Cancer,Bladder cancer,,condition,exact,Cancer; Clinical imaging; Renal and urology,extracted-illness-scripts\is-bladder-cancer.html
+is-bleeding-and-bruising,Bleeding & Bruising,,Bruising,presentation,exact,Child health; Clinical haematology; Musculoskeletal,extracted-illness-scripts\is-bleeding-and-bruising.html
+is-bleeding-disorders,Bleeding Disorders,,,unmatched,unmatched,,extracted-illness-scripts\is-bleeding-disorders.html
+is-blepharitis,Blepharitis,Blepharitis,,condition,exact,Ophthalmology,extracted-illness-scripts\is-blepharitis.html
+is-boils,Boils,,,unmatched,unmatched,,extracted-illness-scripts\is-boils.html
+is-bone-fracture,Bone Fracture,,,unmatched,unmatched,,extracted-illness-scripts\is-bone-fracture.html
+is-bone-tumours,Bone Tumours,,,unmatched,unmatched,,extracted-illness-scripts\is-bone-tumours.html
+is-bowel-infarction-mesenteric-ischaemia,Bowel Infarction (Mesenteric Ischaemia),,,unmatched,unmatched,,extracted-illness-scripts\is-bowel-infarction-mesenteric-ischaemia.html
+is-bppv,Benign Paroxysmal Positional Vertigo (BPPV),Benign paroxysmal positional vertigo,,condition,exact,"Ear, nose and throat; General practice and primary healthcare; Medicine of older adult",extracted-illness-scripts\is-bppv.html
+is-bradycardia,Bradycardia,,,unmatched,unmatched,,extracted-illness-scripts\is-bradycardia.html
+is-brain-abscess,Brain Abscess,Brain abscess,,condition,exact,Infection; Neurosciences,extracted-illness-scripts\is-brain-abscess.html
+is-brain-tumour-or-sol,Brain Tumour or Space-Occupying Lesion (SOL),,,unmatched,unmatched,,extracted-illness-scripts\is-brain-tumour-or-sol.html
+is-brain-tumour,Brain Tumour,,,unmatched,unmatched,,extracted-illness-scripts\is-brain-tumour.html
+is-branchial-cyst,Branchial Cyst,,,unmatched,unmatched,,extracted-illness-scripts\is-branchial-cyst.html
+is-breast-abscess,Breast Abscess,Breast abscess/ mastitis,,condition,fuzzy:1.16,General practice and primary healthcare; Infection; Surgery,extracted-illness-scripts\is-breast-abscess.html
+is-breast-cancer,Breast Cancer,Breast cancer,,condition,exact,Cancer; Surgery,extracted-illness-scripts\is-breast-cancer.html
+is-broad-complex-tachycardia,Broad Complex Tachycardia,,,unmatched,unmatched,,extracted-illness-scripts\is-broad-complex-tachycardia.html
+is-bronchiectasis,Bronchiectasis,Bronchiectasis,,condition,exact,Child health; Respiratory,extracted-illness-scripts\is-bronchiectasis.html
+is-bronchiolitis,Bronchiolitis,Bronchiolitis,,condition,exact,Child health; General practice and primary healthcare; Respiratory,extracted-illness-scripts\is-bronchiolitis.html
+is-bronchitis,Bronchitis,,,unmatched,unmatched,,extracted-illness-scripts\is-bronchitis.html
+is-bulimia-nervosa,Bulimia Nervosa,,,unmatched,unmatched,,extracted-illness-scripts\is-bulimia-nervosa.html
+is-burning-mouth-syndrome,Burning Mouth Syndrome (BMS),,,unmatched,unmatched,,extracted-illness-scripts\is-burning-mouth-syndrome.html
+is-bursitis,Bursitis,Bursitis,,condition,exact,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-bursitis.html
+is-caffeine-withdrawal,Caffeine Withdrawal,,,unmatched,unmatched,,extracted-illness-scripts\is-caffeine-withdrawal.html
+is-cancer-cachexia,Cancer Cachexia,,,unmatched,unmatched,,extracted-illness-scripts\is-cancer-cachexia.html
+is-carotid-aneurysm,Carotid Aneurysm,,,unmatched,unmatched,,extracted-illness-scripts\is-carotid-aneurysm.html
+is-carpal-tunnel-syndrome,Carpal Tunnel Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-carpal-tunnel-syndrome.html
+is-cartilage-injury,Cartilage Injury,,,unmatched,unmatched,,extracted-illness-scripts\is-cartilage-injury.html
+is-cat-scratch-disease,Cat Scratch Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-cat-scratch-disease.html
+is-cataract,Cataract,Cataracts,,condition,exact,Ophthalmology,extracted-illness-scripts\is-cataract.html
+is-cauda-equina-syndrome,Cauda Equina Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-cauda-equina-syndrome.html
+is-cellulitis,Cellulitis,Cellulitis,,condition,exact,Child health; Dermatology; Infection,extracted-illness-scripts\is-cellulitis.html
+is-cerebellar-disorder,Cerebellar Disorder,,,unmatched,unmatched,,extracted-illness-scripts\is-cerebellar-disorder.html
+is-cerebrovascular-disease,Cerebrovascular Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-cerebrovascular-disease.html
+is-cervical-cancer,Cervical Cancer,Cervical cancer,,condition,exact,Cancer; Obstetrics and gynaecology,extracted-illness-scripts\is-cervical-cancer.html
+is-cervical-cord-compression,Cervical Cord Compression,Spinal cord compression,,condition,fuzzy:1.16,Acute and emergency; Cancer; Neurosciences,extracted-illness-scripts\is-cervical-cord-compression.html
+is-cervical-disc-disease,Cervical Disc Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-cervical-disc-disease.html
+is-cervical-ectropion,Cervical Ectropion,,,unmatched,unmatched,,extracted-illness-scripts\is-cervical-ectropion.html
+is-cervical-lymphadenopathy,Cervical Lymphadenopathy,,Lymphadenopathy,presentation,exact,Cancer; Child health; Clinical haematology; General practice and primary healthcare,extracted-illness-scripts\is-cervical-lymphadenopathy.html
+is-cervical-radiculopathy,Cervical Radiculopathy,,,unmatched,unmatched,,extracted-illness-scripts\is-cervical-radiculopathy.html
+is-cervical-rib,Cervical Rib,,,unmatched,unmatched,,extracted-illness-scripts\is-cervical-rib.html
+is-cervical-spondylosis,Cervical Spondylosis,,,unmatched,unmatched,,extracted-illness-scripts\is-cervical-spondylosis.html
+is-cervical-sprain,Cervical Sprain,,,unmatched,unmatched,,extracted-illness-scripts\is-cervical-sprain.html
+is-cervicitis,Cervicitis,,,unmatched,unmatched,,extracted-illness-scripts\is-cervicitis.html
+is-child-abuse,Child Abuse,,Child abuse,presentation,exact,Child health; Mental health,extracted-illness-scripts\is-child-abuse.html
+is-childhood-anaemia,Childhood Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-childhood-anaemia.html
+is-chlamydia,Chlamydia,Chlamydia,,condition,exact,General practice and primary healthcare; Infection; Obstetrics and gynaecology; Sexual health,extracted-illness-scripts\is-chlamydia.html
+is-cholangiocarcinoma,Cholangiocarcinoma,,,unmatched,unmatched,,extracted-illness-scripts\is-cholangiocarcinoma.html
+is-cholangitis,Cholangitis,,,unmatched,unmatched,,extracted-illness-scripts\is-cholangitis.html
+is-cholecystitis,Cholecystitis,Cholecystitis,,condition,exact,Gastrointestinal including liver,extracted-illness-scripts\is-cholecystitis.html
+is-cholestasis,Cholestasis,,,unmatched,unmatched,,extracted-illness-scripts\is-cholestasis.html
+is-cholesteatoma,Cholesteatoma,,,unmatched,unmatched,,extracted-illness-scripts\is-cholesteatoma.html
+is-chronic-fatigue-syndrome,Chronic Fatigue Syndrome (CFS),Chronic fatigue syndrome,,condition,exact,General practice and primary healthcare; Neurosciences,extracted-illness-scripts\is-chronic-fatigue-syndrome.html
+is-chronic-glaucoma,Chronic Glaucoma,Chronic glaucoma,,condition,exact,Ophthalmology,extracted-illness-scripts\is-chronic-glaucoma.html
+is-chronic-infections,Chronic Infections,,,unmatched,unmatched,,extracted-illness-scripts\is-chronic-infections.html
+is-chronic-kidney-disease,Chronic Kidney Disease (CKD),Chronic kidney disease,,condition,exact,Child health; General practice and primary healthcare; Perioperative medicine and anaesthesia; Renal and urology,extracted-illness-scripts\is-chronic-kidney-disease.html
+is-chronic-pain-syndromes,Chronic Pain Syndromes,,,unmatched,unmatched,,extracted-illness-scripts\is-chronic-pain-syndromes.html
+is-chronic-pancreatitis,Chronic Pancreatitis,,,unmatched,unmatched,,extracted-illness-scripts\is-chronic-pancreatitis.html
+is-chronic-pelvic-pain,Chronic Pelvic Pain,,Pelvic pain,presentation,exact,General practice and primary healthcare; Obstetrics and gynaecology,extracted-illness-scripts\is-chronic-pelvic-pain.html
+is-chronic-venous-insufficiency,Chronic Venous Insufficiency (CVI),,,unmatched,unmatched,,extracted-illness-scripts\is-chronic-venous-insufficiency.html
+is-cluster-headache,Cluster Headache,,Headache,presentation,exact,Acute and emergency; Cancer; Child health; General practice and primary healthcare; Neurosciences; Obstetrics and gynaecology,extracted-illness-scripts\is-cluster-headache.html
+is-coagulation-disorders,Coagulation Disorders,,,unmatched,unmatched,,extracted-illness-scripts\is-coagulation-disorders.html
+is-coeliac-disease,Coeliac Disease,Coeliac disease,,condition,exact,Child health; Gastrointestinal including liver,extracted-illness-scripts\is-coeliac-disease.html
+is-colonic-polyp,Colonic Polyp,,,unmatched,unmatched,,extracted-illness-scripts\is-colonic-polyp.html
+is-colorectal-cancer,Colorectal Cancer,,,unmatched,unmatched,,extracted-illness-scripts\is-colorectal-cancer.html
+is-compartment-syndrome,Compartment Syndrome,Compartment syndrome,,condition,exact,Acute and emergency; Musculoskeletal,extracted-illness-scripts\is-compartment-syndrome.html
+is-complex-regional-pain-syndrome,Complex Regional Pain Syndrome (CRPS),,,unmatched,unmatched,,extracted-illness-scripts\is-complex-regional-pain-syndrome.html
+is-congenital-heart-disease,Congenital Heart Disease,Ischaemic heart disease,,condition,fuzzy:1.16,Cardiovascular,extracted-illness-scripts\is-congenital-heart-disease.html
+is-conjunctivitis,Conjunctivitis,Conjunctivitis,,condition,exact,Child health; General practice and primary healthcare; Infection; Ophthalmology,extracted-illness-scripts\is-conjunctivitis.html
+is-connective-tissue-diseases,Connective Tissue Diseases,,,unmatched,unmatched,,extracted-illness-scripts\is-connective-tissue-diseases.html
+is-constipation-induced-delirium,Constipation-Induced Delirium,Constipation,,condition,exact,Child health; Gastrointestinal including liver; General practice and primary healthcare,extracted-illness-scripts\is-constipation-induced-delirium.html
+is-constipation,Constipation,Constipation,,condition,exact,Child health; Gastrointestinal including liver; General practice and primary healthcare,extracted-illness-scripts\is-constipation.html
+is-contact-dermatitis,Contact Dermatitis,Contact dermatitis,,condition,exact,Dermatology; General practice and primary healthcare,extracted-illness-scripts\is-contact-dermatitis.html
+is-contact-lens-problems,Contact Lens Problems,,,unmatched,unmatched,,extracted-illness-scripts\is-contact-lens-problems.html
+is-contraceptive-related-bleeding,Contraceptive-Related Bleeding,,,unmatched,unmatched,,extracted-illness-scripts\is-contraceptive-related-bleeding.html
+is-contraceptives,Contraceptives,,,unmatched,unmatched,,extracted-illness-scripts\is-contraceptives.html
+is-copd-severe,COPD (Severe),,,unmatched,unmatched,,extracted-illness-scripts\is-copd-severe.html
+is-copd,COPD,Chronic obstructive pulmonary disease,,condition,exact,Acute and emergency; General practice and primary healthcare; Perioperative medicine and anaesthesia; Respiratory,extracted-illness-scripts\is-copd.html
+is-corneal-abrasion,Corneal Abrasion,,,unmatched,unmatched,,extracted-illness-scripts\is-corneal-abrasion.html
+is-corneal-disease,Corneal Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-corneal-disease.html
+is-corneal-ulcer,Corneal Ulcer,,,unmatched,unmatched,,extracted-illness-scripts\is-corneal-ulcer.html
+is-corns-and-calluses,Corns and Calluses,,,unmatched,unmatched,,extracted-illness-scripts\is-corns-and-calluses.html
+is-costochondritis,Costochondritis,,,unmatched,unmatched,,extracted-illness-scripts\is-costochondritis.html
+is-covid-19,COVID-19,Covid-19,,condition,exact,Infection,extracted-illness-scripts\is-covid-19.html
+is-cows-milk-allergy,Cowâ€™s Milk Allergy (CMA),,,unmatched,unmatched,,extracted-illness-scripts\is-cows-milk-allergy.html
+is-crohns-disease,Crohn's Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-crohns-disease.html
+is-croup,Croup,Croup,,condition,exact,Child health; General practice and primary healthcare; Infection,extracted-illness-scripts\is-croup.html
+is-cruciate-ligament-injury,Cruciate Ligament Injury,,,unmatched,unmatched,,extracted-illness-scripts\is-cruciate-ligament-injury.html
+is-cushings-syndrome,Cushing's Syndrome,Cushing’s syndrome,,condition,exact,Child health; Endocrine and metabolic,extracted-illness-scripts\is-cushings-syndrome.html
+is-cyclical-breast-pain,Cyclical Breast Pain,,Breast tenderness/pain,presentation,fuzzy:1.16,General practice and primary healthcare; Surgery,extracted-illness-scripts\is-cyclical-breast-pain.html
+is-cystic-fibrosis,Cystic Fibrosis (CF),Cystic fibrosis,,condition,exact,Child health; Respiratory,extracted-illness-scripts\is-cystic-fibrosis.html
+is-cytomegalovirus,Cytomegalovirus (CMV) Infection,,,unmatched,unmatched,,extracted-illness-scripts\is-cytomegalovirus.html
+is-dehydration,Dehydration,Dehydration,,condition,exact,Acute and emergency; Child health; Perioperative medicine and anaesthesia; Renal and urology,extracted-illness-scripts\is-dehydration.html
+is-delirium,Delirium,Delirium,,condition,exact,Medicine of older adult; Mental health,extracted-illness-scripts\is-delirium.html
+is-dementia,Dementia,Dementias,,condition,exact,General practice and primary healthcare; Medicine of older adult; Mental health; Neurosciences,extracted-illness-scripts\is-dementia.html
+is-dental-pain,Dental Pain,,,unmatched,unmatched,,extracted-illness-scripts\is-dental-pain.html
+is-denture-related-pain,Denture-Related Pain,,,unmatched,unmatched,,extracted-illness-scripts\is-denture-related-pain.html
+is-depression,Depression,Depression,,condition,exact,General practice and primary healthcare; Mental health; Obstetrics and gynaecology,extracted-illness-scripts\is-depression.html
+is-dermatitis,Dermatitis,,,unmatched,unmatched,,extracted-illness-scripts\is-dermatitis.html
+is-detrusor-instability,Detrusor Instability,,,unmatched,unmatched,,extracted-illness-scripts\is-detrusor-instability.html
+is-developmental-dysplasia-of-the-hip,Developmental Dysplasia of the Hip (DDH),,,unmatched,unmatched,,extracted-illness-scripts\is-developmental-dysplasia-of-the-hip.html
+is-diabetes,Diabetes,,,unmatched,unmatched,,extracted-illness-scripts\is-diabetes.html
+is-diabetic-autonomic-neuropathy,Diabetic Autonomic Neuropathy,Diabetic neuropathy,,condition,fuzzy:1.35,Endocrine and metabolic; Neurosciences,extracted-illness-scripts\is-diabetic-autonomic-neuropathy.html
+is-diabetic-foot-painless,Diabetic Foot (Painless),,,unmatched,unmatched,,extracted-illness-scripts\is-diabetic-foot-painless.html
+is-diabetic-gastroparesis,Diabetic Gastroparesis,,,unmatched,unmatched,,extracted-illness-scripts\is-diabetic-gastroparesis.html
+is-diabetic-ketoacidosis,Diabetic Ketoacidosis (DKA),Diabetic ketoacidosis,,condition,exact,Acute and emergency; Child health; Endocrine and metabolic,extracted-illness-scripts\is-diabetic-ketoacidosis.html
+is-diabetic-nephropathy,Diabetic Nephropathy,Diabetic nephropathy,,condition,exact,Endocrine and metabolic; Renal and urology,extracted-illness-scripts\is-diabetic-nephropathy.html
+is-diabetic-neuropathy,Diabetic Neuropathy,Diabetic neuropathy,,condition,exact,Endocrine and metabolic; Neurosciences,extracted-illness-scripts\is-diabetic-neuropathy.html
+is-diabetic-retinopathy,Diabetic Retinopathy,,,unmatched,unmatched,,extracted-illness-scripts\is-diabetic-retinopathy.html
+is-disc-disease,Disc Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-disc-disease.html
+is-discitis,Discitis,,,unmatched,unmatched,,extracted-illness-scripts\is-discitis.html
+is-dissecting-aortic-aneurysm,Aortic Dissection,Aortic dissection,,condition,exact,Cardiovascular; Surgery,extracted-illness-scripts\is-dissecting-aortic-aneurysm.html
+is-disuse-atrophy,Disuse Atrophy,,,unmatched,unmatched,,extracted-illness-scripts\is-disuse-atrophy.html
+is-diverticular-disease,Diverticular Disease,Diverticular disease,,condition,exact,Gastrointestinal including liver; General practice and primary healthcare,extracted-illness-scripts\is-diverticular-disease.html
+is-diverticulitis,Diverticulitis,,,unmatched,unmatched,,extracted-illness-scripts\is-diverticulitis.html
+is-dizziness,Dizziness,,Dizziness,presentation,exact,"Cardiovascular; Ear, nose and throat; General practice and primary healthcare; Medicine of older adult; Neurosciences",extracted-illness-scripts\is-dizziness.html
+is-drug-abuse,Drug Abuse,,,unmatched,unmatched,,extracted-illness-scripts\is-drug-abuse.html
+is-drug-and-alcohol-abuse,Drug and Alcohol Abuse,,,unmatched,unmatched,,extracted-illness-scripts\is-drug-and-alcohol-abuse.html
+is-drug-induced-palpitations,Drug-Induced Palpitations,,Palpitations,presentation,exact,Cardiovascular; Endocrine and metabolic,extracted-illness-scripts\is-drug-induced-palpitations.html
+is-drug-withdrawal,Drug Withdrawal,,,unmatched,unmatched,,extracted-illness-scripts\is-drug-withdrawal.html
+is-dry-skin,Dry Skin (Xerosis),,,unmatched,unmatched,,extracted-illness-scripts\is-dry-skin.html
+is-dub,Dysfunctional Uterine Bleeding (DUB),,,unmatched,unmatched,,extracted-illness-scripts\is-dub.html
+is-dvt,Deep Vein Thrombosis (DVT),Deep vein thrombosis,,condition,fuzzy:1.45,Acute and emergency; Cardiovascular; Clinical haematology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-dvt.html
+is-dysmenorrhoea,Dysmenorrhoea,,,unmatched,unmatched,,extracted-illness-scripts\is-dysmenorrhoea.html
+is-ear-boil,Ear Boil (Furuncle of the Ear Canal),,,unmatched,unmatched,,extracted-illness-scripts\is-ear-boil.html
+is-ear-wax,Ear Wax (Cerumen Impaction),,,unmatched,unmatched,,extracted-illness-scripts\is-ear-wax.html
+is-early-dementia,Early Dementia,Dementias,,condition,exact,General practice and primary healthcare; Medicine of older adult; Mental health; Neurosciences,extracted-illness-scripts\is-early-dementia.html
+is-early-pregnancy,Early Pregnancy,,,unmatched,unmatched,,extracted-illness-scripts\is-early-pregnancy.html
+is-eating-disorder,Eating Disorder,Eating disorders,,condition,exact,Child health; Gastrointestinal including liver; Mental health,extracted-illness-scripts\is-eating-disorder.html
+is-ectopic-pregnancy,Ectopic Pregnancy,Ectopic pregnancy,,condition,exact,Acute and emergency; Obstetrics and gynaecology,extracted-illness-scripts\is-ectopic-pregnancy.html
+is-electrolyte-disturbance,Electrolyte Disturbance,,,unmatched,unmatched,,extracted-illness-scripts\is-electrolyte-disturbance.html
+is-encephalitis,Encephalitis,Encephalitis,,condition,exact,Infection; Neurosciences,extracted-illness-scripts\is-encephalitis.html
+is-endometrial-cancer,Endometrial Cancer,Endometrial cancer,,condition,exact,Cancer; Obstetrics and gynaecology,extracted-illness-scripts\is-endometrial-cancer.html
+is-endometrial-hyperplasia,Endometrial Hyperplasia,,,unmatched,unmatched,,extracted-illness-scripts\is-endometrial-hyperplasia.html
+is-endometriosis,Endometriosis,Endometriosis,,condition,exact,Obstetrics and gynaecology,extracted-illness-scripts\is-endometriosis.html
+is-endometritis,Endometritis,,,unmatched,unmatched,,extracted-illness-scripts\is-endometritis.html
+is-endophthalmitis,Endophthalmitis,,,unmatched,unmatched,,extracted-illness-scripts\is-endophthalmitis.html
+is-epicondylitis,Epicondylitis,,,unmatched,unmatched,,extracted-illness-scripts\is-epicondylitis.html
+is-epiglottitis,Epiglottitis,Epiglottitis,,condition,exact,"Child health; Ear, nose and throat; Perioperative medicine and anaesthesia",extracted-illness-scripts\is-epiglottitis.html
+is-epilepsy,Epilepsy,Epilepsy,,condition,exact,Acute and emergency; Child health; Neurosciences; Obstetrics and gynaecology,extracted-illness-scripts\is-epilepsy.html
+is-episcleritis,Episcleritis,,,unmatched,unmatched,,extracted-illness-scripts\is-episcleritis.html
+is-epistaxis,Epistaxis,Epistaxis,,condition,exact,"Acute and emergency; Clinical haematology; Ear, nose and throat",extracted-illness-scripts\is-epistaxis.html
+is-essential-hypertension,Essential Hypertension,Essential or secondary hypertension,,condition,fuzzy:1.12,Cardiovascular; Endocrine and metabolic; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-essential-hypertension.html
+is-essential-tremor,Essential Tremor,Essential tremor,,condition,exact,Neurosciences,extracted-illness-scripts\is-essential-tremor.html
+is-eustachian-tube-dysfunction,Eustachian Tube Dysfunction,,,unmatched,unmatched,,extracted-illness-scripts\is-eustachian-tube-dysfunction.html
+is-exercise-induced-haematuria,Exercise-induced Haematuria,,Haematuria,presentation,exact,Cancer; Child health; General practice and primary healthcare; Infection; Renal and urology; Surgery,extracted-illness-scripts\is-exercise-induced-haematuria.html
+is-eye-trauma-or-foreign-body,Eye Trauma or Foreign Body,,Eye trauma,presentation,fuzzy:1.25,Acute and emergency; Ophthalmology,extracted-illness-scripts\is-eye-trauma-or-foreign-body.html
+is-faecal-impaction,Faecal Impaction (Overflow Diarrhoea),,Diarrhoea,presentation,fuzzy:1.15,Child health; Gastrointestinal including liver; General practice and primary healthcare; Infection,extracted-illness-scripts\is-faecal-impaction.html
+is-fbao,Foreign Body Airway Obstruction (FBAO),,,unmatched,unmatched,,extracted-illness-scripts\is-fbao.html
+is-febrile-convulsions-children,Febrile Convulsions (Children),,,unmatched,unmatched,,extracted-illness-scripts\is-febrile-convulsions-children.html
+is-femoral-artery-aneurysm,Femoral Artery Aneurysm,,,unmatched,unmatched,,extracted-illness-scripts\is-femoral-artery-aneurysm.html
+is-fever,Fever,,Fever,presentation,exact,Cardiovascular; Child health; Clinical haematology; General practice and primary healthcare; Infection; Musculoskeletal; Respiratory,extracted-illness-scripts\is-fever.html
+is-fibrocystic-disease,Fibrocystic Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-fibrocystic-disease.html
+is-fibroids,Fibroids (Uterine Leiomyomas),Fibroids,,condition,exact,Obstetrics and gynaecology; Surgery,extracted-illness-scripts\is-fibroids.html
+is-fibromyalgia,Fibromyalgia,Fibromyalgia,,condition,exact,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-fibromyalgia.html
+is-folate-deficiency,Folate Deficiency,,,unmatched,unmatched,,extracted-illness-scripts\is-folate-deficiency.html
+is-food-allergy-and-intolerance,Food Allergy and Intolerance,,Food intolerance,presentation,fuzzy:1.30,Child health; Gastrointestinal including liver,extracted-illness-scripts\is-food-allergy-and-intolerance.html
+is-food-poisoning,Food Poisoning,,Poisoning,presentation,exact,Acute and emergency; Child health,extracted-illness-scripts\is-food-poisoning.html
+is-foot-deformities,Foot Deformities,,,unmatched,unmatched,,extracted-illness-scripts\is-foot-deformities.html
+is-foreign-body,Foreign Body,,Foreign body in eye,presentation,fuzzy:1.12,Acute and emergency; Ophthalmology,extracted-illness-scripts\is-foreign-body.html
+is-fracture-or-dislocation,Fracture or Dislocation,,,unmatched,unmatched,,extracted-illness-scripts\is-fracture-or-dislocation.html
+is-frailty,Frailty,,Frailty,presentation,exact,General practice and primary healthcare; Medicine of older adult; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-frailty.html
+is-frontal-lobe-lesions,Frontal Lobe Lesions,,,unmatched,unmatched,,extracted-illness-scripts\is-frontal-lobe-lesions.html
+is-functional-abdominal-pain-syndrome,Functional Abdominal Pain Syndrome (FAPS),,,unmatched,unmatched,,extracted-illness-scripts\is-functional-abdominal-pain-syndrome.html
+is-functional-disorder,Functional Disorder,,,unmatched,unmatched,,extracted-illness-scripts\is-functional-disorder.html
+is-gallstone-disease,Gallstone Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-gallstone-disease.html
+is-gastric-cancer,Gastric Cancer,Gastric cancer,,condition,exact,Cancer; Gastrointestinal including liver,extracted-illness-scripts\is-gastric-cancer.html
+is-gastritis,Gastritis,,,unmatched,unmatched,,extracted-illness-scripts\is-gastritis.html
+is-gastroenteritis,Gastroenteritis,,,unmatched,unmatched,,extracted-illness-scripts\is-gastroenteritis.html
+is-generalised-anxiety-disorder,Generalised Anxiety Disorder (GAD),Anxiety disorder: generalised,,condition,fuzzy:1.50,General practice and primary healthcare; Mental health,extracted-illness-scripts\is-generalised-anxiety-disorder.html
+is-genital-herpes,Genital Herpes,,,unmatched,unmatched,,extracted-illness-scripts\is-genital-herpes.html
+is-genito-urinary-tract-infection,Genito-Urinary Tract Infection (UTI),Urinary tract infection,,condition,exact,Child health; Infection; Obstetrics and gynaecology,extracted-illness-scripts\is-genito-urinary-tract-infection.html
+is-geographic-tongue,Geographic Tongue,,,unmatched,unmatched,,extracted-illness-scripts\is-geographic-tongue.html
+is-gestational-hypertension,Gestational Hypertension,"Pre-eclampsia, gestational hypertension",,condition,fuzzy:1.16,Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-gestational-hypertension.html
+is-gi-tract-cancer,GI Tract Cancer,,,unmatched,unmatched,,extracted-illness-scripts\is-gi-tract-cancer.html
+is-gilberts-syndrome,Gilbert's Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-gilberts-syndrome.html
+is-glandular-fever,Glandular fever,,Fever,presentation,exact,Cardiovascular; Child health; Clinical haematology; General practice and primary healthcare; Infection; Musculoskeletal; Respiratory,extracted-illness-scripts\is-glandular-fever.html
+is-globus-hystericus,Globus Hystericus,,,unmatched,unmatched,,extracted-illness-scripts\is-globus-hystericus.html
+is-glomerulonephritis,Glomerulonephritis,,,unmatched,unmatched,,extracted-illness-scripts\is-glomerulonephritis.html
+is-goitre,Goitre,,,unmatched,unmatched,,extracted-illness-scripts\is-goitre.html
+is-gonorrhoea,Gonorrhoea,Gonorrhoea,,condition,exact,General practice and primary healthcare; Infection; Obstetrics and gynaecology; Sexual health,extracted-illness-scripts\is-gonorrhoea.html
+is-gord,Gastro-Oesophageal Reflux Disease,Gastro-oesophageal reflux disease,,condition,exact,Child health; Gastrointestinal including liver; General practice and primary healthcare; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-gord.html
+is-gout,Gout,,,unmatched,unmatched,,extracted-illness-scripts\is-gout.html
+is-gravitational-oedema,Gravitational Oedema,,,unmatched,unmatched,,extracted-illness-scripts\is-gravitational-oedema.html
+is-guillain-barre-syndrome,Guillain-BarrÃ© Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-guillain-barre-syndrome.html
+is-haemochromatosis,Haemochromatosis,Haemochromatosis,,condition,exact,Cardiovascular; Clinical haematology; Gastrointestinal including liver,extracted-illness-scripts\is-haemochromatosis.html
+is-haemolytic-anaemia,Haemolytic Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-haemolytic-anaemia.html
+is-haemoptysis,Haemoptysis,,Haemoptysis,presentation,exact,Cancer; General practice and primary healthcare; Infection; Respiratory,extracted-illness-scripts\is-haemoptysis.html
+is-haemorrhoids,Haemorrhoids,Haemorrhoids,,condition,exact,Gastrointestinal including liver; General practice and primary healthcare,extracted-illness-scripts\is-haemorrhoids.html
+is-hallux-valgus,Hallux Valgus,,,unmatched,unmatched,,extracted-illness-scripts\is-hallux-valgus.html
+is-hand-foot-and-mouth-disease,"Hand, Foot, and Mouth Disease (HFMD)",,,unmatched,unmatched,,extracted-illness-scripts\is-hand-foot-and-mouth-disease.html
+is-head-injury,Head Injury,,Head injury,presentation,exact,Acute and emergency; Neurosciences; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-head-injury.html
+is-heart-failure,Heart Failure,,,unmatched,unmatched,,extracted-illness-scripts\is-heart-failure.html
+is-heavy-metal-poisoning,Heavy Metal Poisoning,,Poisoning,presentation,exact,Acute and emergency; Child health,extracted-illness-scripts\is-heavy-metal-poisoning.html
+is-hepatitis,Hepatitis,Hepatitis,,condition,exact,Child health; Gastrointestinal including liver,extracted-illness-scripts\is-hepatitis.html
+is-hepatocellular-carcinoma,Hepatocellular Carcinoma,,,unmatched,unmatched,,extracted-illness-scripts\is-hepatocellular-carcinoma.html
+is-hepatomegaly,Hepatomegaly,,,unmatched,unmatched,,extracted-illness-scripts\is-hepatomegaly.html
+is-hernia,Hernia,Hernias,,condition,exact,Child health; Gastrointestinal including liver; Surgery,extracted-illness-scripts\is-hernia.html
+is-herpes-simplex-keratitis,Herpes Simplex Keratitis,,,unmatched,unmatched,,extracted-illness-scripts\is-herpes-simplex-keratitis.html
+is-herpes-stomatitis,Herpes Stomatitis,,,unmatched,unmatched,,extracted-illness-scripts\is-herpes-stomatitis.html
+is-herpes-zoster-ophthalmicus,Herpes Zoster Ophthalmicus (HZO),,,unmatched,unmatched,,extracted-illness-scripts\is-herpes-zoster-ophthalmicus.html
+is-herpes-zoster,Herpes Zoster (Shingles),,,unmatched,unmatched,,extracted-illness-scripts\is-herpes-zoster.html
+is-hhs,Hyperosmolar Hyperglycaemic State (HHS),Hyperosmolar hyperglycaemic state,,condition,fuzzy:1.45,Acute and emergency; Endocrine and metabolic,extracted-illness-scripts\is-hhs.html
+is-hiatus-hernia,Hiatus Hernia,Hiatus hernia,,condition,exact,Gastrointestinal including liver; General practice and primary healthcare,extracted-illness-scripts\is-hiatus-hernia.html
+is-hidradenitis-suppurativa,Hidradenitis Suppurativa,,,unmatched,unmatched,,extracted-illness-scripts\is-hidradenitis-suppurativa.html
+is-hip-or-pelvis-fracture,Hip or Pelvis Fracture,,,unmatched,unmatched,,extracted-illness-scripts\is-hip-or-pelvis-fracture.html
+is-hip-pain-and-back-pain,Hip Pain and Back Pain,,Back pain,presentation,exact,General practice and primary healthcare; Musculoskeletal; Neurosciences; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-hip-pain-and-back-pain.html
+is-hirschsprungs-disease-children,Hirschsprungâ€™s Disease (Children),,,unmatched,unmatched,,extracted-illness-scripts\is-hirschsprungs-disease-children.html
+is-hiv-ars,HIV (Acute Retroviral Syndrome),,,unmatched,unmatched,,extracted-illness-scripts\is-hiv-ars.html
+is-hiv-associated-pneumocystis-pneumonia,HIV-Associated Pneumocystis Pneumonia (PCP),Pneumonia,,condition,exact,Acute and emergency,extracted-illness-scripts\is-hiv-associated-pneumocystis-pneumonia.html
+is-hiv,HIV (Human Immunodeficiency Virus),Human immunodeficiency virus,,condition,fuzzy:1.45,Infection,extracted-illness-scripts\is-hiv.html
+is-hsp,Henoch-SchÃ¶nlein Purpura (HSP),,Purpura,presentation,fuzzy:1.15,Clinical haematology,extracted-illness-scripts\is-hsp.html
+is-huntingtons-disease,Huntington's Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-huntingtons-disease.html
+is-hydrocephalus,Hydrocephalus,,,unmatched,unmatched,,extracted-illness-scripts\is-hydrocephalus.html
+is-hyperaldosteronism,Hyperaldosteronism,,,unmatched,unmatched,,extracted-illness-scripts\is-hyperaldosteronism.html
+is-hypercalcaemia,Hypercalcaemia,,,unmatched,unmatched,,extracted-illness-scripts\is-hypercalcaemia.html
+is-hyperemesis-gravidarum,Hyperemesis Gravidarum,,Hyperemesis,presentation,fuzzy:1.25,Obstetrics and gynaecology,extracted-illness-scripts\is-hyperemesis-gravidarum.html
+is-hyperglycaemic-crisis,Hyperglycaemic Crisis,,,unmatched,unmatched,,extracted-illness-scripts\is-hyperglycaemic-crisis.html
+is-hyperprolactinaemia,Hyperprolactinaemia,,,unmatched,unmatched,,extracted-illness-scripts\is-hyperprolactinaemia.html
+is-hyperthyroidism,Hyperthyroidism,,,unmatched,unmatched,,extracted-illness-scripts\is-hyperthyroidism.html
+is-hyperventilation,Hyperventilation,,,unmatched,unmatched,,extracted-illness-scripts\is-hyperventilation.html
+is-hypoalbuminaemia,Hypoalbuminaemia,,,unmatched,unmatched,,extracted-illness-scripts\is-hypoalbuminaemia.html
+is-hypoglycaemia,Hypoglycaemia,Hypoglycaemia,,condition,exact,Child health; Endocrine and metabolic,extracted-illness-scripts\is-hypoglycaemia.html
+is-hypothyroidism-myxoedema,Hypothyroidism (Myxoedema),Hypothyroidism,,condition,fuzzy:1.25,Child health; Endocrine and metabolic; General practice and primary healthcare,extracted-illness-scripts\is-hypothyroidism-myxoedema.html
+is-hypothyroidism,Hypothyroidism,Hypothyroidism,,condition,exact,Child health; Endocrine and metabolic; General practice and primary healthcare,extracted-illness-scripts\is-hypothyroidism.html
+is-hypovolaemic-shock,Hypovolaemic Shock,,Shock,presentation,exact,Acute and emergency; Child health; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-hypovolaemic-shock.html
+is-hypoxia,Hypoxia,,,unmatched,unmatched,,extracted-illness-scripts\is-hypoxia.html
+is-idiopathic-intracranial-hypertension,Idiopathic Intracranial Hypertension (IIH),,Hypertension,presentation,exact,Cardiovascular; Endocrine and metabolic; General practice and primary healthcare; Obstetrics and gynaecology; Renal and urology,extracted-illness-scripts\is-idiopathic-intracranial-hypertension.html
+is-iliopsoas-abscess,Iliopsoas Abscess,,,unmatched,unmatched,,extracted-illness-scripts\is-iliopsoas-abscess.html
+is-immunisation-reaction,Immunisation Reaction,,,unmatched,unmatched,,extracted-illness-scripts\is-immunisation-reaction.html
+is-immunodeficiency,Immunodeficiency,,,unmatched,unmatched,,extracted-illness-scripts\is-immunodeficiency.html
+is-impacted-ear-wax,Impacted Ear Wax (Cerumen Impaction),,,unmatched,unmatched,,extracted-illness-scripts\is-impacted-ear-wax.html
+is-inborn-errors-of-metabolism,Inborn Errors of Metabolism,,,unmatched,unmatched,,extracted-illness-scripts\is-inborn-errors-of-metabolism.html
+is-incarcerated-hernia,Incarcerated Hernia,Hernias,,condition,exact,Child health; Gastrointestinal including liver; Surgery,extracted-illness-scripts\is-incarcerated-hernia.html
+is-incorrectly-sited-iucd,Incorrectly Sited IUCD,,,unmatched,unmatched,,extracted-illness-scripts\is-incorrectly-sited-iucd.html
+is-infantile-colic,Infantile Colic,,,unmatched,unmatched,,extracted-illness-scripts\is-infantile-colic.html
+is-infective-endocarditis,Infective Endocarditis,Infective endocarditis,,condition,exact,Cardiovascular,extracted-illness-scripts\is-infective-endocarditis.html
+is-inflammatory-bowel-disease,Inflammatory Bowel Disease (IBD),Inflammatory bowel disease,,condition,exact,Child health; Musculoskeletal,extracted-illness-scripts\is-inflammatory-bowel-disease.html
+is-influenza,Influenza,Influenza,,condition,exact,Child health; General practice and primary healthcare; Respiratory,extracted-illness-scripts\is-influenza.html
+is-ingrown-toenail,Ingrown Toenail (IGTN),,,unmatched,unmatched,,extracted-illness-scripts\is-ingrown-toenail.html
+is-inguinal-or-femoral-hernia,Inguinal or Femoral Hernia,Hernias,,condition,exact,Child health; Gastrointestinal including liver; Surgery,extracted-illness-scripts\is-inguinal-or-femoral-hernia.html
+is-insomnia,Insomnia,,,unmatched,unmatched,,extracted-illness-scripts\is-insomnia.html
+is-intermittent-claudication,Intermittent Claudication,,,unmatched,unmatched,,extracted-illness-scripts\is-intermittent-claudication.html
+is-interstitial-cystitis,Interstitial Cystitis,,,unmatched,unmatched,,extracted-illness-scripts\is-interstitial-cystitis.html
+is-interstitial-lung-disease,Interstitial Lung Disease (ILD),Asbestos-related lung disease,,condition,fuzzy:1.16,Respiratory,extracted-illness-scripts\is-interstitial-lung-disease.html
+is-intestinal-obstruction,Intestinal Obstruction,Intestinal obstruction and ileus,,condition,fuzzy:1.12,Child health; Perioperative medicine and anaesthesia; Surgery,extracted-illness-scripts\is-intestinal-obstruction.html
+is-intra-abdominal-abscess,Intra-abdominal Abscess,,,unmatched,unmatched,,extracted-illness-scripts\is-intra-abdominal-abscess.html
+is-intussusception,Intussusception,Intussusception,,condition,exact,Child health; Surgery,extracted-illness-scripts\is-intussusception.html
+is-iritis-uveitis,Iritis (Uveitis),Iritis,,condition,fuzzy:1.25,Ophthalmology,extracted-illness-scripts\is-iritis-uveitis.html
+is-iron-deficiency-anaemia,Iron Deficiency Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-iron-deficiency-anaemia.html
+is-iron-deficiency,Iron Deficiency,,,unmatched,unmatched,,extracted-illness-scripts\is-iron-deficiency.html
+is-irritable-bowel-syndrome-adolescents,Irritable Bowel Syndrome (Adolescents),Irritable bowel syndrome,,condition,fuzzy:1.45,General practice and primary healthcare,extracted-illness-scripts\is-irritable-bowel-syndrome-adolescents.html
+is-irritable-bowel-syndrome,Irritable Bowel Syndrome (IBS),Irritable bowel syndrome,,condition,exact,General practice and primary healthcare,extracted-illness-scripts\is-irritable-bowel-syndrome.html
+is-ivc-obstruction,IVC Obstruction,,,unmatched,unmatched,,extracted-illness-scripts\is-ivc-obstruction.html
+is-joint-pains,Joint Pains,,Acute joint pain/swelling,presentation,fuzzy:1.12,Child health; General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-joint-pains.html
+is-juvenile-idiopathic-arthritis,Juvenile Idiopathic Arthritis (JIA),Idiopathic arthritis,,condition,exact,Child health; Musculoskeletal,extracted-illness-scripts\is-juvenile-idiopathic-arthritis.html
+is-keratitis-bacterial,Keratitis (Bacterial),,,unmatched,unmatched,,extracted-illness-scripts\is-keratitis-bacterial.html
+is-keratoconjunctivitis,Keratoconjunctivitis,,,unmatched,unmatched,,extracted-illness-scripts\is-keratoconjunctivitis.html
+is-knee-fracture-or-dislocation,Knee Fracture or Dislocation,,,unmatched,unmatched,,extracted-illness-scripts\is-knee-fracture-or-dislocation.html
+is-knee-osteoarthritis,Knee Osteoarthritis,Osteoarthritis,,condition,exact,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-knee-osteoarthritis.html
+is-labyrinthitis,Labyrinthitis,,,unmatched,unmatched,,extracted-illness-scripts\is-labyrinthitis.html
+is-lactose-intolerance,Lactose Intolerance,,,unmatched,unmatched,,extracted-illness-scripts\is-lactose-intolerance.html
+is-laryngeal-cancer,Laryngeal Cancer,,,unmatched,unmatched,,extracted-illness-scripts\is-laryngeal-cancer.html
+is-laryngitis,Laryngitis,,,unmatched,unmatched,,extracted-illness-scripts\is-laryngitis.html
+is-left-ventricular-failure,Left Ventricular Failure,,,unmatched,unmatched,,extracted-illness-scripts\is-left-ventricular-failure.html
+is-leukaemia,Leukaemia,Leukaemia,,condition,exact,Cancer; Child health; Clinical haematology,extracted-illness-scripts\is-leukaemia.html
+is-lichen-planus,Lichen Planus,,,unmatched,unmatched,,extracted-illness-scripts\is-lichen-planus.html
+is-lichen-simplex-chronicus,Lichen Simplex Chronicus,,,unmatched,unmatched,,extracted-illness-scripts\is-lichen-simplex-chronicus.html
+is-ligament-injury,Ligament Injury,,,unmatched,unmatched,,extracted-illness-scripts\is-ligament-injury.html
+is-lipoma,Lipoma,,,unmatched,unmatched,,extracted-illness-scripts\is-lipoma.html
+is-liver-cirrhosis,Liver Cirrhosis,Cirrhosis,,condition,exact,Gastrointestinal including liver,extracted-illness-scripts\is-liver-cirrhosis.html
+is-liver-failure,Liver Failure,,,unmatched,unmatched,,extracted-illness-scripts\is-liver-failure.html
+is-lrti,Lower Respiratory Tract Infection (LRTI),Lower respiratory tract infection,,condition,fuzzy:1.55,Child health; Respiratory,extracted-illness-scripts\is-lrti.html
+is-lumbar-disc-prolapse,Lumbar Disc Prolapse,,,unmatched,unmatched,,extracted-illness-scripts\is-lumbar-disc-prolapse.html
+is-lumbar-radiculopathy,Lumbar Radiculopathy,,,unmatched,unmatched,,extracted-illness-scripts\is-lumbar-radiculopathy.html
+is-lung-cancer,Lung Cancer,Lung cancer,,condition,exact,Cancer; Respiratory,extracted-illness-scripts\is-lung-cancer.html
+is-lyme-disease,Lyme Disease,Lyme disease,,condition,exact,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-lyme-disease.html
+is-lymphadenopathy,Lymphadenopathy,,Lymphadenopathy,presentation,exact,Cancer; Child health; Clinical haematology; General practice and primary healthcare,extracted-illness-scripts\is-lymphadenopathy.html
+is-lymphoedema,Lymphoedema,,,unmatched,unmatched,,extracted-illness-scripts\is-lymphoedema.html
+is-lymphoma,Lymphoma,Lymphoma,,condition,exact,Cancer; Child health; Clinical haematology,extracted-illness-scripts\is-lymphoma.html
+is-macrocytic-anaemia,Macrocytic Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-macrocytic-anaemia.html
+is-macular-degeneration,Macular Degeneration,Macular degeneration,,condition,exact,Ophthalmology,extracted-illness-scripts\is-macular-degeneration.html
+is-malabsorption,Malabsorption,,,unmatched,unmatched,,extracted-illness-scripts\is-malabsorption.html
+is-malignancy-related-weight-loss,Malignancy-related Weight Loss,,Weight loss,presentation,exact,Endocrine and metabolic; Infection,extracted-illness-scripts\is-malignancy-related-weight-loss.html
+is-malignancy,Malignancy,,,unmatched,unmatched,,extracted-illness-scripts\is-malignancy.html
+is-malignant-hypertension,Malignant Hypertension,,Hypertension,presentation,exact,Cardiovascular; Endocrine and metabolic; General practice and primary healthcare; Obstetrics and gynaecology; Renal and urology,extracted-illness-scripts\is-malignant-hypertension.html
+is-malignant-otitis-externa,Malignant Otitis Externa,Otitis externa,,condition,exact,"Ear, nose and throat; General practice and primary healthcare",extracted-illness-scripts\is-malignant-otitis-externa.html
+is-mallory-weiss-tear,Mallory-Weiss Tear,,,unmatched,unmatched,,extracted-illness-scripts\is-mallory-weiss-tear.html
+is-malnutrition,Malnutrition,Malnutrition,,condition,exact,Child health; Medicine of older adult,extracted-illness-scripts\is-malnutrition.html
+is-march-fracture,March Fracture,,,unmatched,unmatched,,extracted-illness-scripts\is-march-fracture.html
+is-mastitis,Mastitis,,,unmatched,unmatched,,extracted-illness-scripts\is-mastitis.html
+is-mastoiditis,Mastoiditis,,,unmatched,unmatched,,extracted-illness-scripts\is-mastoiditis.html
+is-measles,Measles,Measles,,condition,exact,Child health; General practice and primary healthcare,extracted-illness-scripts\is-measles.html
+is-mechanical-neck-pain,Mechanical Neck Pain,,Neck pain/stiffness,presentation,fuzzy:1.16,Infection; Musculoskeletal; Neurosciences,extracted-illness-scripts\is-mechanical-neck-pain.html
+is-mediastinal-lymphoma,Mediastinal Lymphoma,Lymphoma,,condition,exact,Cancer; Child health; Clinical haematology,extracted-illness-scripts\is-mediastinal-lymphoma.html
+is-medically-unexplained-chest-pain,Medically Unexplained Chest Pain,,Chest pain,presentation,exact,Acute and emergency; Cardiovascular; General practice and primary healthcare; Infection; Medicine of older adult; Obstetrics and gynaecology; Respiratory,extracted-illness-scripts\is-medically-unexplained-chest-pain.html
+is-medically-unexplained-symptoms,Medically Unexplained Symptoms (MUS),,Somatisation/ medically unexplained physical symptoms,presentation,fuzzy:1.22,General practice and primary healthcare,extracted-illness-scripts\is-medically-unexplained-symptoms.html
+is-medication-induced-anaemia,Medication-Induced Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-medication-induced-anaemia.html
+is-medication-induced-anxiety,Medication-Induced Anxiety,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-anxiety.html
+is-medication-induced-arthropathy,Medication-Induced Arthropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-arthropathy.html
+is-medication-induced-bleeding-and-bruising,Medication-Induced Bleeding and Bruising,,Bruising,presentation,exact,Child health; Clinical haematology; Musculoskeletal,extracted-illness-scripts\is-medication-induced-bleeding-and-bruising.html
+is-medication-induced-breast-pain-or-swelling,Medication-Induced Breast Pain or Swelling,,Scrotal/testicular pain and/or lump/swelling,presentation,fuzzy:1.14,Acute and emergency; Child health; Renal and urology; Surgery,extracted-illness-scripts\is-medication-induced-breast-pain-or-swelling.html
+is-medication-induced-calf-pain,Medication-induced Calf Pain,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-calf-pain.html
+is-medication-induced-constipation,Medication-induced Constipation,Constipation,,condition,exact,Child health; Gastrointestinal including liver; General practice and primary healthcare,extracted-illness-scripts\is-medication-induced-constipation.html
+is-medication-induced-delirium,Medication-Induced Delirium,Delirium,,condition,exact,Medicine of older adult; Mental health,extracted-illness-scripts\is-medication-induced-delirium.html
+is-medication-induced-diarrhoea,Medication-Induced Diarrhoea,,Diarrhoea,presentation,exact,Child health; Gastrointestinal including liver; General practice and primary healthcare; Infection,extracted-illness-scripts\is-medication-induced-diarrhoea.html
+is-medication-induced-dizziness,Medication-Induced Dizziness,,Dizziness,presentation,exact,"Cardiovascular; Ear, nose and throat; General practice and primary healthcare; Medicine of older adult; Neurosciences",extracted-illness-scripts\is-medication-induced-dizziness.html
+is-medication-induced-dyspepsia,Medication-Induced Dyspepsia,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-dyspepsia.html
+is-medication-induced-dyspnoea,Medication-Induced Dyspnoea,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-dyspnoea.html
+is-medication-induced-falls,Medication-Induced Falls,,Falls,presentation,exact,General practice and primary healthcare; Medicine of older adult,extracted-illness-scripts\is-medication-induced-falls.html
+is-medication-induced-fatigue,Medication-induced Fatigue,,Fatigue,presentation,exact,Cancer; Clinical haematology; Endocrine and metabolic; General practice and primary healthcare; Mental health,extracted-illness-scripts\is-medication-induced-fatigue.html
+is-medication-induced-gait-abnormalities,Medication-Induced Gait Abnormalities,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-gait-abnormalities.html
+is-medication-induced-haematemesis-and-melaena,Medication-induced Haematemesis & Melaena,,Melaena,presentation,exact,Acute and emergency; Gastrointestinal including liver,extracted-illness-scripts\is-medication-induced-haematemesis-and-melaena.html
+is-medication-induced-haematuria,Medication-induced Haematuria,,Haematuria,presentation,exact,Cancer; Child health; General practice and primary healthcare; Infection; Renal and urology; Surgery,extracted-illness-scripts\is-medication-induced-haematuria.html
+is-medication-induced-hand-and-arm-pain,Medication-Induced Hand and Arm Pain (e.g. Statins),,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-hand-and-arm-pain.html
+is-medication-induced-hearing-loss,Medication-induced Hearing Loss,,Hearing loss,presentation,exact,"Ear, nose and throat",extracted-illness-scripts\is-medication-induced-hearing-loss.html
+is-medication-induced-hip-pain-statins,Medication-Induced Hip Pain (e.g. Statins),,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-hip-pain-statins.html
+is-medication-induced-hypertension,Medication-Induced Hypertension,,Hypertension,presentation,exact,Cardiovascular; Endocrine and metabolic; General practice and primary healthcare; Obstetrics and gynaecology; Renal and urology,extracted-illness-scripts\is-medication-induced-hypertension.html
+is-medication-induced-jaundice,Medication-Induced Jaundice,,Jaundice,presentation,exact,Cancer; Child health; Clinical haematology; Gastrointestinal including liver; Obstetrics and gynaecology,extracted-illness-scripts\is-medication-induced-jaundice.html
+is-medication-induced-leg-pain,Medication-Induced Leg Pain (e.g. Statins),,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-leg-pain.html
+is-medication-induced-leg-swelling,Medication-Induced Leg Swelling,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-leg-swelling.html
+is-medication-induced-lymphadenopathy,Medication-induced Lymphadenopathy,,Lymphadenopathy,presentation,exact,Cancer; Child health; Clinical haematology; General practice and primary healthcare,extracted-illness-scripts\is-medication-induced-lymphadenopathy.html
+is-medication-induced-muscle-pain-and-weakness,Medication-Induced Muscle Pain and Weakness,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-muscle-pain-and-weakness.html
+is-medication-induced-nasal-symptoms,Medication-Induced Nasal Symptoms,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-nasal-symptoms.html
+is-medication-induced-nausea-and-vomiting,Medication-Induced Nausea and Vomiting,,Vomiting,presentation,exact,Acute and emergency; Child health; Gastrointestinal including liver; Infection,extracted-illness-scripts\is-medication-induced-nausea-and-vomiting.html
+is-medication-induced-neuropathy,Medication-Induced Neuropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-neuropathy.html
+is-medication-induced-pruritus,Medication-Induced Pruritus,,Pruritus,presentation,exact,Dermatology; Gastrointestinal including liver; Obstetrics and gynaecology,extracted-illness-scripts\is-medication-induced-pruritus.html
+is-medication-induced-syncope,Medication-Induced Syncope,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-syncope.html
+is-medication-induced-tremor,Medication-Induced Tremor,,Tremor,presentation,exact,General practice and primary healthcare; Neurosciences,extracted-illness-scripts\is-medication-induced-tremor.html
+is-medication-induced-urinary-symptoms,Medication-Induced Urinary Symptoms,,Urinary symptoms,presentation,exact,Child health; Endocrine and metabolic; General practice and primary healthcare; Infection; Neurosciences; Renal and urology; Surgery,extracted-illness-scripts\is-medication-induced-urinary-symptoms.html
+is-medication-induced-vaginal-bleeding,Medication-Induced Vaginal Bleeding,,,unmatched,unmatched,,extracted-illness-scripts\is-medication-induced-vaginal-bleeding.html
+is-medication-induced-weight-loss,Medication-Induced Weight Loss,,Weight loss,presentation,exact,Endocrine and metabolic; Infection,extracted-illness-scripts\is-medication-induced-weight-loss.html
+is-medication-overuse-headache,Medication Overuse Headache (MOH),,Headache,presentation,exact,Acute and emergency; Cancer; Child health; General practice and primary healthcare; Neurosciences; Obstetrics and gynaecology,extracted-illness-scripts\is-medication-overuse-headache.html
+is-menieres-disease,Meniere's Disease,Ménière's disease,,condition,exact,"Ear, nose and throat; Neurosciences",extracted-illness-scripts\is-menieres-disease.html
+is-meningitis,Meningitis,Meningitis,,condition,exact,Acute and emergency; Child health; Neurosciences,extracted-illness-scripts\is-meningitis.html
+is-menopause,Menopause,Menopause,,condition,exact,General practice and primary healthcare; Obstetrics and gynaecology,extracted-illness-scripts\is-menopause.html
+is-menorrhagia,Menorrhagia (Heavy Menstrual Bleeding),,,unmatched,unmatched,,extracted-illness-scripts\is-menorrhagia.html
+is-menstruation-contaminating-urine,Menstruation Contaminating Urine,,,unmatched,unmatched,,extracted-illness-scripts\is-menstruation-contaminating-urine.html
+is-meralgia-paraesthetica,Meralgia Paraesthetica,,,unmatched,unmatched,,extracted-illness-scripts\is-meralgia-paraesthetica.html
+is-mesenteric-adenitis,Mesenteric Adenitis,,,unmatched,unmatched,,extracted-illness-scripts\is-mesenteric-adenitis.html
+is-mesenteric-ischaemia,Mesenteric Ischaemia,,,unmatched,unmatched,,extracted-illness-scripts\is-mesenteric-ischaemia.html
+is-metabolic-disorders,Metabolic Disorders,,,unmatched,unmatched,,extracted-illness-scripts\is-metabolic-disorders.html
+is-metabolic-neuropathy,Metabolic Neuropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-metabolic-neuropathy.html
+is-metabolic-syndrome,Metabolic Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-metabolic-syndrome.html
+is-metastatic-cancer-chest-wall,Metastatic Cancer (Chest Wall),,,unmatched,unmatched,,extracted-illness-scripts\is-metastatic-cancer-chest-wall.html
+is-metastatic-cancer-prostate-cancer,"Metastatic Cancer (e.g., Prostate Cancer)",Prostate cancer,,condition,exact,Cancer; General practice and primary healthcare; Renal and urology,extracted-illness-scripts\is-metastatic-cancer-prostate-cancer.html
+is-metastatic-cancer,Metastatic Cancer,,,unmatched,unmatched,,extracted-illness-scripts\is-metastatic-cancer.html
+is-metastatic-disease,Metastatic Disease,Metastatic disease,,condition,exact,Cancer; Musculoskeletal; Neurosciences; Palliative and end of life care; Respiratory,extracted-illness-scripts\is-metastatic-disease.html
+is-metatarsalgia,Metatarsalgia,,,unmatched,unmatched,,extracted-illness-scripts\is-metatarsalgia.html
+is-microcytic-anaemia,Microcytic Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-microcytic-anaemia.html
+is-migraine-in-children,Migraine in Children,Migraine,,condition,fuzzy:1.20,Child health; General practice and primary healthcare; Neurosciences,extracted-illness-scripts\is-migraine-in-children.html
+is-migraine-with-aura,Migraine with Aura,Migraine,,condition,fuzzy:1.20,Child health; General practice and primary healthcare; Neurosciences,extracted-illness-scripts\is-migraine-with-aura.html
+is-migraine,Migraine,Migraine,,condition,exact,Child health; General practice and primary healthcare; Neurosciences,extracted-illness-scripts\is-migraine.html
+is-mild-cognitive-impairment,Mild Cognitive Impairment (MCI),,,unmatched,unmatched,,extracted-illness-scripts\is-mild-cognitive-impairment.html
+is-miscarriage,Miscarriage,,,unmatched,unmatched,,extracted-illness-scripts\is-miscarriage.html
+is-mittelschmerz,Mittelschmerz,,,unmatched,unmatched,,extracted-illness-scripts\is-mittelschmerz.html
+is-molar-pregnancy,Molar Pregnancy,,,unmatched,unmatched,,extracted-illness-scripts\is-molar-pregnancy.html
+is-mononeuropathy,Mononeuropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-mononeuropathy.html
+is-mortons-neuroma,Morton's Neuroma,,,unmatched,unmatched,,extracted-illness-scripts\is-mortons-neuroma.html
+is-motor-neurone-disease,Motor Neurone Disease (MND),Motor neurone disease,,condition,exact,Neurosciences,extracted-illness-scripts\is-motor-neurone-disease.html
+is-msk-sprains-and-strains,MSK Sprains and Strains,,,unmatched,unmatched,,extracted-illness-scripts\is-msk-sprains-and-strains.html
+is-multiple-myeloma,Multiple Myeloma,Multiple myeloma,,condition,exact,Cancer; Clinical haematology; Renal and urology,extracted-illness-scripts\is-multiple-myeloma.html
+is-multiple-sclerosis,Multiple Sclerosis (MS),Multiple sclerosis,,condition,exact,Neurosciences,extracted-illness-scripts\is-multiple-sclerosis.html
+is-muscle-cramps,Muscle Cramps,,,unmatched,unmatched,,extracted-illness-scripts\is-muscle-cramps.html
+is-musculoskeletal-pain,Musculoskeletal Chest Pain,,Chest pain,presentation,fuzzy:1.35,Acute and emergency; Cardiovascular; General practice and primary healthcare; Infection; Medicine of older adult; Obstetrics and gynaecology; Respiratory,extracted-illness-scripts\is-musculoskeletal-pain.html
+is-myasthenia-gravis,Myasthenia Gravis,Myasthenia gravis,,condition,exact,Neurosciences,extracted-illness-scripts\is-myasthenia-gravis.html
+is-myelodysplastic-syndrome,Myelodysplastic Syndrome (MDS),,,unmatched,unmatched,,extracted-illness-scripts\is-myelodysplastic-syndrome.html
+is-myocardial-infarction,Myocardial Infarction (MI),Myocardial infarction,,condition,exact,Acute and emergency,extracted-illness-scripts\is-myocardial-infarction.html
+is-narrow-complex-tachycardia,Narrow Complex Tachycardia (NCT),,,unmatched,unmatched,,extracted-illness-scripts\is-narrow-complex-tachycardia.html
+is-nasal-injury-septal-deviation,Nasal Injury/Septal Deviation,,,unmatched,unmatched,,extracted-illness-scripts\is-nasal-injury-septal-deviation.html
+is-nasal-polyps,Nasal Polyps,,,unmatched,unmatched,,extracted-illness-scripts\is-nasal-polyps.html
+is-nasopharyngeal-cancer,Nasopharyngeal Cancer,,,unmatched,unmatched,,extracted-illness-scripts\is-nasopharyngeal-cancer.html
+is-neonatal-respiratory-distress-syndrome,Neonatal Respiratory Distress Syndrome (RDS),,,unmatched,unmatched,,extracted-illness-scripts\is-neonatal-respiratory-distress-syndrome.html
+is-nephrotic-syndrome,Nephrotic Syndrome,Nephrotic syndrome,,condition,exact,Renal and urology,extracted-illness-scripts\is-nephrotic-syndrome.html
+is-noise-induced-hearing-loss,Noise-Induced Hearing Loss (NIHL),,Hearing loss,presentation,exact,"Ear, nose and throat",extracted-illness-scripts\is-noise-induced-hearing-loss.html
+is-non-allergic-rhinitis,Non-allergic Rhinitis,,,unmatched,unmatched,,extracted-illness-scripts\is-non-allergic-rhinitis.html
+is-non-epileptic-seizure,Non-epileptic Seizure (NES),,,unmatched,unmatched,,extracted-illness-scripts\is-non-epileptic-seizure.html
+is-non-ulcer-dyspepsia,Non-ulcer Dyspepsia,,,unmatched,unmatched,,extracted-illness-scripts\is-non-ulcer-dyspepsia.html
+is-non-venous-ulceration,Non-venous Ulceration,,,unmatched,unmatched,,extracted-illness-scripts\is-non-venous-ulceration.html
+is-normocytic-anaemia,Normocytic Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-normocytic-anaemia.html
+is-obesity,Obesity,Obesity,,condition,exact,Child health; Endocrine and metabolic; General practice and primary healthcare; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-obesity.html
+is-obstetric-cholestasis,Obstetric Cholestasis,,,unmatched,unmatched,,extracted-illness-scripts\is-obstetric-cholestasis.html
+is-obstructive-sleep-apnoea,Obstructive Sleep Apnoea (OSA),Obstructive sleep apnoea,,condition,exact,"Child health; Ear, nose and throat; Perioperative medicine and anaesthesia",extracted-illness-scripts\is-obstructive-sleep-apnoea.html
+is-ocular-sarcoidosis,Ocular Sarcoidosis,,,unmatched,unmatched,,extracted-illness-scripts\is-ocular-sarcoidosis.html
+is-ocular-tumour,Ocular Tumour,,,unmatched,unmatched,,extracted-illness-scripts\is-ocular-tumour.html
+is-oesophageal-cancer,Oesophageal Cancer,Oesophageal cancer,,condition,exact,Cancer; Surgery,extracted-illness-scripts\is-oesophageal-cancer.html
+is-oesophageal-spasm,Oesophageal Spasm,,,unmatched,unmatched,,extracted-illness-scripts\is-oesophageal-spasm.html
+is-oesophageal-strictures-and-webs,Oesophageal Strictures and Webs,,,unmatched,unmatched,,extracted-illness-scripts\is-oesophageal-strictures-and-webs.html
+is-oesophageal-varices,Oesophageal Varices,,,unmatched,unmatched,,extracted-illness-scripts\is-oesophageal-varices.html
+is-oesophagitis,Oesophagitis,,,unmatched,unmatched,,extracted-illness-scripts\is-oesophagitis.html
+is-olecranon-bursitis,Olecranon Bursitis,Bursitis,,condition,exact,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-olecranon-bursitis.html
+is-optic-neuritis,Optic Neuritis,Optic neuritis,,condition,exact,Ophthalmology,extracted-illness-scripts\is-optic-neuritis.html
+is-oral-cancer,Oral Cancer,,,unmatched,unmatched,,extracted-illness-scripts\is-oral-cancer.html
+is-oral-candidiasis,Oral Candidiasis,Candidiasis,,condition,exact,Child health; General practice and primary healthcare; Infection,extracted-illness-scripts\is-oral-candidiasis.html
+is-orbital-cellulitis,Orbital Cellulitis,Cellulitis,,condition,exact,Child health; Dermatology; Infection,extracted-illness-scripts\is-orbital-cellulitis.html
+is-oropharyngeal-cancer,Oropharyngeal Cancer,,,unmatched,unmatched,,extracted-illness-scripts\is-oropharyngeal-cancer.html
+is-orthostatic-hypotension,Orthostatic Hypotension,,,unmatched,unmatched,,extracted-illness-scripts\is-orthostatic-hypotension.html
+is-osgood-schlatters-disease,Osgood-Schlatter's Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-osgood-schlatters-disease.html
+is-osteoarthritis,Osteoarthritis,Osteoarthritis,,condition,exact,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-osteoarthritis.html
+is-osteochondritis-dissecans,Osteochondritis Dissecans,,,unmatched,unmatched,,extracted-illness-scripts\is-osteochondritis-dissecans.html
+is-osteomalacia,Osteomalacia,Osteomalacia,,condition,exact,Endocrine and metabolic; Musculoskeletal,extracted-illness-scripts\is-osteomalacia.html
+is-osteomyelitis,Osteomyelitis,Osteomyelitis,,condition,exact,Musculoskeletal,extracted-illness-scripts\is-osteomyelitis.html
+is-osteoporotic-vertebral-fracture-2,Fracture (including Osteoporotic Vertebral Fracture),,,unmatched,unmatched,,extracted-illness-scripts\is-osteoporotic-vertebral-fracture-2.html
+is-osteoporotic-vertebral-fracture,Osteoporotic Vertebral Fracture,,,unmatched,unmatched,,extracted-illness-scripts\is-osteoporotic-vertebral-fracture.html
+is-other-causes,Other Causes,,,unmatched,unmatched,,extracted-illness-scripts\is-other-causes.html
+is-otitis-externa,Otitis Externa,Otitis externa,,condition,exact,"Ear, nose and throat; General practice and primary healthcare",extracted-illness-scripts\is-otitis-externa.html
+is-otitis-media,Otitis Media,Otitis media,,condition,exact,"Child health; Ear, nose and throat; General practice and primary healthcare",extracted-illness-scripts\is-otitis-media.html
+is-otosclerosis,Otosclerosis,,,unmatched,unmatched,,extracted-illness-scripts\is-otosclerosis.html
+is-ovarian-cancer,Ovarian Cancer,Ovarian cancer,,condition,exact,Cancer; Obstetrics and gynaecology; Surgery,extracted-illness-scripts\is-ovarian-cancer.html
+is-ovarian-cyst,Ovarian Cyst,,,unmatched,unmatched,,extracted-illness-scripts\is-ovarian-cyst.html
+is-ovarian-torsion,Ovarian Torsion,,,unmatched,unmatched,,extracted-illness-scripts\is-ovarian-torsion.html
+is-overfeeding-in-infants,Overfeeding in Infants,,,unmatched,unmatched,,extracted-illness-scripts\is-overfeeding-in-infants.html
+is-pagets-disease,Paget's Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-pagets-disease.html
+is-painful-ano-rectal-conditions,Painful Ano-Rectal Conditions,,,unmatched,unmatched,,extracted-illness-scripts\is-painful-ano-rectal-conditions.html
+is-painful-peripheral-neuropathy,Painful Peripheral Neuropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-painful-peripheral-neuropathy.html
+is-pancoasts-tumour,Pancoast's Tumour,,,unmatched,unmatched,,extracted-illness-scripts\is-pancoasts-tumour.html
+is-pancreatic-cancer,Pancreatic Cancer,Pancreatic cancer,,condition,exact,Cancer; Surgery,extracted-illness-scripts\is-pancreatic-cancer.html
+is-pancreatic-insufficiency,Pancreatic Insufficiency,,,unmatched,unmatched,,extracted-illness-scripts\is-pancreatic-insufficiency.html
+is-pancreatitis,Pancreatitis,,,unmatched,unmatched,,extracted-illness-scripts\is-pancreatitis.html
+is-panic-disorder,Panic Disorder,,,unmatched,unmatched,,extracted-illness-scripts\is-panic-disorder.html
+is-paraneoplastic-syndrome,Paraneoplastic Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-paraneoplastic-syndrome.html
+is-parasites-gastrointestinal,Parasites (Gastrointestinal),,,unmatched,unmatched,,extracted-illness-scripts\is-parasites-gastrointestinal.html
+is-parkinsons-disease,Parkinson's Disease,Parkinson's disease,,condition,exact,General practice and primary healthcare; Medicine of older adult; Neurosciences,extracted-illness-scripts\is-parkinsons-disease.html
+is-patellar-tendon-rupture,Patellar Tendon Rupture,,,unmatched,unmatched,,extracted-illness-scripts\is-patellar-tendon-rupture.html
+is-patellofemoral-pain-syndrome,Patellofemoral Pain Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-patellofemoral-pain-syndrome.html
+is-pckd,Polycystic Kidney Disease (PCKD),,,unmatched,unmatched,,extracted-illness-scripts\is-pckd.html
+is-pcos,Polycystic Ovary Syndrome (PCOS),,,unmatched,unmatched,,extracted-illness-scripts\is-pcos.html
+is-pelvic-abscess,Pelvic Abscess,,,unmatched,unmatched,,extracted-illness-scripts\is-pelvic-abscess.html
+is-pelvic-inflammatory-disease,Pelvic Inflammatory Disease,Pelvic inflammatory disease,,condition,exact,General practice and primary healthcare; Obstetrics and gynaecology; Surgery,extracted-illness-scripts\is-pelvic-inflammatory-disease.html
+is-pelvic-mass,Pelvic Mass,,Pelvic mass,presentation,exact,Obstetrics and gynaecology,extracted-illness-scripts\is-pelvic-mass.html
+is-peptic-ulcer-disease,Peptic Ulcer Disease (PUD),Peptic ulcer disease and gastritis,,condition,fuzzy:1.22,Child health,extracted-illness-scripts\is-peptic-ulcer-disease.html
+is-pericarditis,Pericarditis,,,unmatched,unmatched,,extracted-illness-scripts\is-pericarditis.html
+is-peripheral-arterial-disease-buttock-claudication,Peripheral Arterial Disease (Buttock Claudication),,,unmatched,unmatched,,extracted-illness-scripts\is-peripheral-arterial-disease-buttock-claudication.html
+is-peripheral-arterial-disease,Peripheral Arterial Disease (PAD),,,unmatched,unmatched,,extracted-illness-scripts\is-peripheral-arterial-disease.html
+is-peripheral-neuropathy,Peripheral Neuropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-peripheral-neuropathy.html
+is-peritonitis,Peritonitis,Peritonitis,,condition,exact,Child health; Surgery,extracted-illness-scripts\is-peritonitis.html
+is-peritonsillar-abscess,Peritonsillar Abscess,,,unmatched,unmatched,,extracted-illness-scripts\is-peritonsillar-abscess.html
+is-perthes-disease,Perthes' Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-perthes-disease.html
+is-phaeochromocytoma,Phaeochromocytoma,,,unmatched,unmatched,,extracted-illness-scripts\is-phaeochromocytoma.html
+is-pharyngeal-pouch,Pharyngeal Pouch (Zenker's Diverticulum),,,unmatched,unmatched,,extracted-illness-scripts\is-pharyngeal-pouch.html
+is-pharyngitis,Pharyngitis,,,unmatched,unmatched,,extracted-illness-scripts\is-pharyngitis.html
+is-placenta-praevia,Placenta Praevia,Placenta praevia,,condition,exact,Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-placenta-praevia.html
+is-placental-abruption,Placental Abruption,Placental abruption,,condition,exact,Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-placental-abruption.html
+is-plantar-fasciitis,Plantar Fasciitis,,,unmatched,unmatched,,extracted-illness-scripts\is-plantar-fasciitis.html
+is-pleural-effusion,Pleural Effusion,,Pleural effusion,presentation,exact,Infection; Respiratory,extracted-illness-scripts\is-pleural-effusion.html
+is-pneumonia,Pneumonia,Pneumonia,,condition,exact,Acute and emergency,extracted-illness-scripts\is-pneumonia.html
+is-pneumothorax,Pneumothorax,Pneumothorax,,condition,exact,Acute and emergency; Child health,extracted-illness-scripts\is-pneumothorax.html
+is-polycythaemia,Polycythaemia,,,unmatched,unmatched,,extracted-illness-scripts\is-polycythaemia.html
+is-polymyalgia-rheumatica-gca,Polymyalgia Rheumatica (PMR) and Giant Cell Arteritis (GCA),Polymyalgia rheumatica,,condition,fuzzy:1.35,General practice and primary healthcare,extracted-illness-scripts\is-polymyalgia-rheumatica-gca.html
+is-polymyalgia-rheumatica,Polymyalgia Rheumatica (PMR),Polymyalgia rheumatica,,condition,exact,General practice and primary healthcare,extracted-illness-scripts\is-polymyalgia-rheumatica.html
+is-polymyositis,Polymyositis,,,unmatched,unmatched,,extracted-illness-scripts\is-polymyositis.html
+is-polyps,Polyps,,,unmatched,unmatched,,extracted-illness-scripts\is-polyps.html
+is-post-concussion-headache,Post-Concussion Headache,,Headache,presentation,exact,Acute and emergency; Cancer; Child health; General practice and primary healthcare; Neurosciences; Obstetrics and gynaecology,extracted-illness-scripts\is-post-concussion-headache.html
+is-post-concussion-syndrome,Post-Concussion Syndrome (PCS),,,unmatched,unmatched,,extracted-illness-scripts\is-post-concussion-syndrome.html
+is-post-operative-infection,Post-Operative Infection,,,unmatched,unmatched,,extracted-illness-scripts\is-post-operative-infection.html
+is-post-vaccination-reactions,Post-Vaccination Reactions,,Vaccination,presentation,fuzzy:1.25,Child health; General practice and primary healthcare; Infection,extracted-illness-scripts\is-post-vaccination-reactions.html
+is-pre-eclampsia,Pre-eclampsia,,,unmatched,unmatched,,extracted-illness-scripts\is-pre-eclampsia.html
+is-pregnancy,Pregnancy,,,unmatched,unmatched,,extracted-illness-scripts\is-pregnancy.html
+is-premature-ectopic-beats,Premature Ectopic Beats,,,unmatched,unmatched,,extracted-illness-scripts\is-premature-ectopic-beats.html
+is-prepatellar-bursitis,Prepatellar Bursitis,Bursitis,,condition,exact,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-prepatellar-bursitis.html
+is-presbycusis,Presbycusis,,,unmatched,unmatched,,extracted-illness-scripts\is-presbycusis.html
+is-primary-biliary-cirrhosis,Primary Biliary Cirrhosis (PBC),Cirrhosis,,condition,exact,Gastrointestinal including liver,extracted-illness-scripts\is-primary-biliary-cirrhosis.html
+is-proctalgia-fugax,Proctalgia Fugax,,,unmatched,unmatched,,extracted-illness-scripts\is-proctalgia-fugax.html
+is-prostate-cancer,Prostate Cancer,Prostate cancer,,condition,exact,Cancer; General practice and primary healthcare; Renal and urology,extracted-illness-scripts\is-prostate-cancer.html
+is-prostatitis,Prostatitis,,,unmatched,unmatched,,extracted-illness-scripts\is-prostatitis.html
+is-psoriatic-arthritis,Psoriatic Arthritis,,,unmatched,unmatched,,extracted-illness-scripts\is-psoriatic-arthritis.html
+is-psvt,Paroxysmal Supraventricular Tachycardia (PSVT),,,unmatched,unmatched,,extracted-illness-scripts\is-psvt.html
+is-psychogenic,Psychogenic Disorder,,,unmatched,unmatched,,extracted-illness-scripts\is-psychogenic.html
+is-psychosis-and-schizophrenia,Psychosis and Schizophrenia,Schizophrenia,,condition,exact,Mental health,extracted-illness-scripts\is-psychosis-and-schizophrenia.html
+is-pulmonary-embolism,Pulmonary Embolism (PE),Pulmonary embolism,,condition,exact,Acute and emergency; Cardiovascular,extracted-illness-scripts\is-pulmonary-embolism.html
+is-pulmonary-hypertension,Pulmonary Hypertension,Pulmonary hypertension,,condition,exact,Cardiovascular,extracted-illness-scripts\is-pulmonary-hypertension.html
+is-pyelonephritis,Pyelonephritis,,,unmatched,unmatched,,extracted-illness-scripts\is-pyelonephritis.html
+is-pyloric-stenosis,Pyloric Stenosis,Pyloric stenosis,,condition,exact,Child health,extracted-illness-scripts\is-pyloric-stenosis.html
+is-radiculopathy,Radiculopathy,,,unmatched,unmatched,,extracted-illness-scripts\is-radiculopathy.html
+is-raised-intracranial-pressure,Raised Intracranial Pressure (ICP),Raised intracranial pressure,,condition,exact,Acute and emergency; Child health; Neurosciences,extracted-illness-scripts\is-raised-intracranial-pressure.html
+is-ramsay-hunt-syndrome,Ramsay Hunt Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-ramsay-hunt-syndrome.html
+is-reactive-arthritis,Reactive Arthritis,Reactive arthritis,,condition,exact,Child health; General practice and primary healthcare,extracted-illness-scripts\is-reactive-arthritis.html
+is-reactive-lymphadenopathy,Reactive Lymphadenopathy,,Lymphadenopathy,presentation,exact,Cancer; Child health; Clinical haematology; General practice and primary healthcare,extracted-illness-scripts\is-reactive-lymphadenopathy.html
+is-recurrent-laryngeal-nerve-palsy,Recurrent Laryngeal Nerve (RLN) Palsy,,,unmatched,unmatched,,extracted-illness-scripts\is-recurrent-laryngeal-nerve-palsy.html
+is-referred-neck-pain,Referred Neck Pain,,Neck pain/stiffness,presentation,fuzzy:1.16,Infection; Musculoskeletal; Neurosciences,extracted-illness-scripts\is-referred-neck-pain.html
+is-refraction-errors,Refraction Errors,,,unmatched,unmatched,,extracted-illness-scripts\is-refraction-errors.html
+is-reiters-syndrome,Reiter's Syndrome (Reactive Arthritis),Reactive arthritis,,condition,fuzzy:1.25,Child health; General practice and primary healthcare,extracted-illness-scripts\is-reiters-syndrome.html
+is-renal-carcinoma,Renal Carcinoma,,,unmatched,unmatched,,extracted-illness-scripts\is-renal-carcinoma.html
+is-renal-colic-urinary-tract-stone,Renal Colic (Urinary Tract Stone),,,unmatched,unmatched,,extracted-illness-scripts\is-renal-colic-urinary-tract-stone.html
+is-renal-failure,Renal Failure,,,unmatched,unmatched,,extracted-illness-scripts\is-renal-failure.html
+is-renovascular-disease,Renovascular Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-renovascular-disease.html
+is-repetitive-strain-injury,Repetitive Strain Injury (RSI),,,unmatched,unmatched,,extracted-illness-scripts\is-repetitive-strain-injury.html
+is-respiratory-failure,Respiratory Failure,Respiratory failure,,condition,exact,Acute and emergency; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-respiratory-failure.html
+is-restless-leg-syndrome,Restless Leg Syndrome (RLS),,,unmatched,unmatched,,extracted-illness-scripts\is-restless-leg-syndrome.html
+is-retinal-artery-occlusion,Retinal Artery Occlusion,,,unmatched,unmatched,,extracted-illness-scripts\is-retinal-artery-occlusion.html
+is-retinal-detachment,Retinal Detachment,,,unmatched,unmatched,,extracted-illness-scripts\is-retinal-detachment.html
+is-retinal-vein-occlusion,Retinal Vein Occlusion (RVO),,,unmatched,unmatched,,extracted-illness-scripts\is-retinal-vein-occlusion.html
+is-retropharyngeal-abscess,Retropharyngeal Abscess,,,unmatched,unmatched,,extracted-illness-scripts\is-retropharyngeal-abscess.html
+is-rhabdomyolysis,Rhabdomyolysis (including Statin-related),,,unmatched,unmatched,,extracted-illness-scripts\is-rhabdomyolysis.html
+is-rheumatic-fever,Rheumatic Fever,,Fever,presentation,exact,Cardiovascular; Child health; Clinical haematology; General practice and primary healthcare; Infection; Musculoskeletal; Respiratory,extracted-illness-scripts\is-rheumatic-fever.html
+is-rheumatoid-arthritis,Rheumatoid Arthritis,,,unmatched,unmatched,,extracted-illness-scripts\is-rheumatoid-arthritis.html
+is-rhinosinusitis,Rhinosinusitis,Rhinosinusitis,,condition,exact,"Ear, nose and throat; General practice and primary healthcare",extracted-illness-scripts\is-rhinosinusitis.html
+is-rib-fracture,Rib Fracture,,,unmatched,unmatched,,extracted-illness-scripts\is-rib-fracture.html
+is-rotator-cuff-disorder,Rotator Cuff Disorder,,,unmatched,unmatched,,extracted-illness-scripts\is-rotator-cuff-disorder.html
+is-rubella,Rubella (German Measles),Rubella,,condition,exact,Child health,extracted-illness-scripts\is-rubella.html
+is-salivary-gland-disorder,Salivary Gland Disorder,,,unmatched,unmatched,,extracted-illness-scripts\is-salivary-gland-disorder.html
+is-salivary-gland-tumour,Salivary Gland Tumour,,,unmatched,unmatched,,extracted-illness-scripts\is-salivary-gland-tumour.html
+is-sarcoidosis,Sarcoidosis,,,unmatched,unmatched,,extracted-illness-scripts\is-sarcoidosis.html
+is-sarcoma,Sarcoma,,,unmatched,unmatched,,extracted-illness-scripts\is-sarcoma.html
+is-scabies,Scabies,,,unmatched,unmatched,,extracted-illness-scripts\is-scabies.html
+is-scleritis,Scleritis,,,unmatched,unmatched,,extracted-illness-scripts\is-scleritis.html
+is-scleroderma,Scleroderma,,,unmatched,unmatched,,extracted-illness-scripts\is-scleroderma.html
+is-sebaceous-cyst,Sebaceous Cyst,,,unmatched,unmatched,,extracted-illness-scripts\is-sebaceous-cyst.html
+is-seizure,Seizure,,,unmatched,unmatched,,extracted-illness-scripts\is-seizure.html
+is-sepsis-in-children,Sepsis in Children,Sepsis,,condition,fuzzy:1.20,Acute and emergency; Obstetrics and gynaecology,extracted-illness-scripts\is-sepsis-in-children.html
+is-sepsis,Sepsis,Sepsis,,condition,exact,Acute and emergency; Obstetrics and gynaecology,extracted-illness-scripts\is-sepsis.html
+is-septal-haematoma,Septal Haematoma,,,unmatched,unmatched,,extracted-illness-scripts\is-septal-haematoma.html
+is-septic-arthritis,Septic Arthritis,Septic arthritis,,condition,exact,Child health,extracted-illness-scripts\is-septic-arthritis.html
+is-serotonin-syndrome,Serotonin Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-serotonin-syndrome.html
+is-severe-upper-gastrointestinal-bleeding,Severe Upper Gastrointestinal Bleeding (UGIB),,,unmatched,unmatched,,extracted-illness-scripts\is-severe-upper-gastrointestinal-bleeding.html
+is-sexual-abuse,Sexual Abuse,,,unmatched,unmatched,,extracted-illness-scripts\is-sexual-abuse.html
+is-shin-splints,Shin Splints,,,unmatched,unmatched,,extracted-illness-scripts\is-shin-splints.html
+is-short-bowel-syndrome,Short Bowel Syndrome (SBS),Irritable bowel syndrome,,condition,fuzzy:1.16,General practice and primary healthcare,extracted-illness-scripts\is-short-bowel-syndrome.html
+is-shoulder-osteoarthritis,Shoulder Osteoarthritis,Osteoarthritis,,condition,exact,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-shoulder-osteoarthritis.html
+is-shoulder-pain,Shoulder Pain,,,unmatched,unmatched,,extracted-illness-scripts\is-shoulder-pain.html
+is-sick-sinus-syndrome,Sick Sinus Syndrome (SSS),,,unmatched,unmatched,,extracted-illness-scripts\is-sick-sinus-syndrome.html
+is-sickle-cell-crisis,Sickle Cell Crisis,,,unmatched,unmatched,,extracted-illness-scripts\is-sickle-cell-crisis.html
+is-sickle-cell-disease,Sickle Cell Disease,Sickle cell disease,,condition,exact,Child health,extracted-illness-scripts\is-sickle-cell-disease.html
+is-sideroblastic-anaemia,Sideroblastic Anaemia,Anaemia,,condition,exact,Child health; Clinical haematology; Gastrointestinal including liver; General practice and primary healthcare; Obstetrics and gynaecology; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-sideroblastic-anaemia.html
+is-silent-myocardial-infarction,Silent Myocardial Infarction (SMI),Myocardial infarction,,condition,exact,Acute and emergency,extracted-illness-scripts\is-silent-myocardial-infarction.html
+is-simple-constipation,Simple Constipation,Constipation,,condition,exact,Child health; Gastrointestinal including liver; General practice and primary healthcare,extracted-illness-scripts\is-simple-constipation.html
+is-sinus-tachycardia,Sinus Tachycardia,,,unmatched,unmatched,,extracted-illness-scripts\is-sinus-tachycardia.html
+is-sinusitis,Sinusitis,,,unmatched,unmatched,,extracted-illness-scripts\is-sinusitis.html
+is-sjogrens-syndrome,Sjogren's Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-sjogrens-syndrome.html
+is-skin-infection,Skin Infection,,,unmatched,unmatched,,extracted-illness-scripts\is-skin-infection.html
+is-slipped-capital-femoral-epiphysis,Slipped Capital Femoral Epiphysis (SCFE),,,unmatched,unmatched,,extracted-illness-scripts\is-slipped-capital-femoral-epiphysis.html
+is-smokers-laryngitis,Smokers Laryngitis,,,unmatched,unmatched,,extracted-illness-scripts\is-smokers-laryngitis.html
+is-soft-tissue-injury,Soft Tissue Injury,Lower limb soft tissue injury,,condition,fuzzy:1.22,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-soft-tissue-injury.html
+is-space-occupying-lesion,Space-Occupying Lesion (SOL),,,unmatched,unmatched,,extracted-illness-scripts\is-space-occupying-lesion.html
+is-spinal-abscess,Spinal Abscess,,,unmatched,unmatched,,extracted-illness-scripts\is-spinal-abscess.html
+is-spinal-cord-compression,Spinal Cord Compression,Spinal cord compression,,condition,exact,Acute and emergency; Cancer; Neurosciences,extracted-illness-scripts\is-spinal-cord-compression.html
+is-spinal-cord-tumour,Spinal Cord Tumour,,,unmatched,unmatched,,extracted-illness-scripts\is-spinal-cord-tumour.html
+is-spinal-sprains-and-strains,Spinal Sprains and Strains,,,unmatched,unmatched,,extracted-illness-scripts\is-spinal-sprains-and-strains.html
+is-spinal-stenosis,Spinal Stenosis,,,unmatched,unmatched,,extracted-illness-scripts\is-spinal-stenosis.html
+is-spinal-tuberculosis,Spinal Tuberculosis,Tuberculosis,,condition,exact,Child health; Infection,extracted-illness-scripts\is-spinal-tuberculosis.html
+is-splenomegaly,Splenomegaly,,,unmatched,unmatched,,extracted-illness-scripts\is-splenomegaly.html
+is-spondyloarthropathies,Spondyloarthropathies,,,unmatched,unmatched,,extracted-illness-scripts\is-spondyloarthropathies.html
+is-spondylolisthesis,Spondylolisthesis,,,unmatched,unmatched,,extracted-illness-scripts\is-spondylolisthesis.html
+is-spondylosis,Spondylosis,,,unmatched,unmatched,,extracted-illness-scripts\is-spondylosis.html
+is-sprains-and-strains-overuse,Sprains and Strains (Including Overuse),,,unmatched,unmatched,,extracted-illness-scripts\is-sprains-and-strains-overuse.html
+is-sprains-and-strains,Sprains and Strains,,,unmatched,unmatched,,extracted-illness-scripts\is-sprains-and-strains.html
+is-statin-related-myopathy-inc-rhabdomyolysis,Statin-Related Myopathy (Including Rhabdomyolysis),,,unmatched,unmatched,,extracted-illness-scripts\is-statin-related-myopathy-inc-rhabdomyolysis.html
+is-stevens-johnson-syndrome,Stevens-Johnson Syndrome (SJS),,,unmatched,unmatched,,extracted-illness-scripts\is-stevens-johnson-syndrome.html
+is-stomatitis,Stomatitis,,,unmatched,unmatched,,extracted-illness-scripts\is-stomatitis.html
+is-stress-and-overwork,Stress and Overwork,,,unmatched,unmatched,,extracted-illness-scripts\is-stress-and-overwork.html
+is-stress-or-anxiety,Stress or Anxiety,,,unmatched,unmatched,,extracted-illness-scripts\is-stress-or-anxiety.html
+is-stye-hordeolum,Stye (Hordeolum),,,unmatched,unmatched,,extracted-illness-scripts\is-stye-hordeolum.html
+is-subarachnoid-haemorrhage,Subarachnoid Haemorrhage (SAH),Subarachnoid haemorrhage,,condition,exact,Acute and emergency; Child health; Clinical imaging; Neurosciences,extracted-illness-scripts\is-subarachnoid-haemorrhage.html
+is-subconjunctival-haemorrhage,Subconjunctival Haemorrhage,,,unmatched,unmatched,,extracted-illness-scripts\is-subconjunctival-haemorrhage.html
+is-subdural-haematoma,Subdural Haematoma,,,unmatched,unmatched,,extracted-illness-scripts\is-subdural-haematoma.html
+is-sudden-sensorineural-hearing-loss,Sudden Sensorineural Hearing Loss (SSNHL),,Hearing loss,presentation,exact,"Ear, nose and throat",extracted-illness-scripts\is-sudden-sensorineural-hearing-loss.html
+is-systemic-lupus-erythematosus,Systemic Lupus Erythematosus (SLE),,,unmatched,unmatched,,extracted-illness-scripts\is-systemic-lupus-erythematosus.html
+is-teething,Teething,,,unmatched,unmatched,,extracted-illness-scripts\is-teething.html
+is-temporal-arteritis-gca,Temporal Arteritis (Giant Cell Arteritis - GCA),,,unmatched,unmatched,,extracted-illness-scripts\is-temporal-arteritis-gca.html
+is-tension-type-headache,Tension Type Headache (TTH),Tension headache,,condition,fuzzy:1.35,Child health; General practice and primary healthcare; Mental health; Neurosciences,extracted-illness-scripts\is-tension-type-headache.html
+is-testicular-torsion,Testicular Torsion,Testicular torsion,,condition,exact,Acute and emergency; Child health,extracted-illness-scripts\is-testicular-torsion.html
+is-thalassaemia,Thalassaemia,,,unmatched,unmatched,,extracted-illness-scripts\is-thalassaemia.html
+is-thoracic-radiculopathy,Thoracic Radiculopathy,,,unmatched,unmatched,,extracted-illness-scripts\is-thoracic-radiculopathy.html
+is-threatened-miscarriage,Threatened Miscarriage,,,unmatched,unmatched,,extracted-illness-scripts\is-threatened-miscarriage.html
+is-thrombocytopenia,Thrombocytopenia,,,unmatched,unmatched,,extracted-illness-scripts\is-thrombocytopenia.html
+is-thrombocytopenic-purpura,Thrombocytopenic Purpura,,Purpura,presentation,exact,Clinical haematology,extracted-illness-scripts\is-thrombocytopenic-purpura.html
+is-thrombophlebitis,Thrombophlebitis,,,unmatched,unmatched,,extracted-illness-scripts\is-thrombophlebitis.html
+is-thyroglossal-cyst,Thyroglossal Cyst,,,unmatched,unmatched,,extracted-illness-scripts\is-thyroglossal-cyst.html
+is-thyroid-cancer,Thyroid Cancer,,,unmatched,unmatched,,extracted-illness-scripts\is-thyroid-cancer.html
+is-thyroid-lump,Thyroid Lump,,,unmatched,unmatched,,extracted-illness-scripts\is-thyroid-lump.html
+is-tmj-dysfunction,TMJ Dysfunction,,,unmatched,unmatched,,extracted-illness-scripts\is-tmj-dysfunction.html
+is-toddlers-diarrhoea,Toddlerâ€™s Diarrhoea (Paediatrics),,Diarrhoea,presentation,exact,Child health; Gastrointestinal including liver; General practice and primary healthcare; Infection,extracted-illness-scripts\is-toddlers-diarrhoea.html
+is-tonsillitis,Tonsillitis,Tonsillitis,,condition,exact,"Child health; Ear, nose and throat; General practice and primary healthcare",extracted-illness-scripts\is-tonsillitis.html
+is-torsades-de-pointes,Torsades de Pointes,,,unmatched,unmatched,,extracted-illness-scripts\is-torsades-de-pointes.html
+is-torticollis,Torticollis,,,unmatched,unmatched,,extracted-illness-scripts\is-torticollis.html
+is-toxic-and-nutritional-optic-neuropathy,Toxic and Nutritional Optic Neuropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-toxic-and-nutritional-optic-neuropathy.html
+is-transient-global-amnesia,Transient Global Amnesia (TGA),,,unmatched,unmatched,,extracted-illness-scripts\is-transient-global-amnesia.html
+is-transient-ischaemic-attack,Transient Ischaemic Attack (TIA),Transient ischaemic attacks,,condition,exact,Neurosciences,extracted-illness-scripts\is-transient-ischaemic-attack.html
+is-transient-synovitis,Transient Synovitis,,,unmatched,unmatched,,extracted-illness-scripts\is-transient-synovitis.html
+is-trauma-induced-bleeding-and-bruising,Trauma-Induced Bleeding and Bruising,,Trauma,presentation,exact,Acute and emergency; Child health; Clinical imaging; General practice and primary healthcare; Musculoskeletal; Neurosciences; Perioperative medicine and anaesthesia; Surgery,extracted-illness-scripts\is-trauma-induced-bleeding-and-bruising.html
+is-trauma-induced-breast-pain-or-swelling,Trauma-induced Breast Pain or Swelling,,Trauma,presentation,exact,Acute and emergency; Child health; Clinical imaging; General practice and primary healthcare; Musculoskeletal; Neurosciences; Perioperative medicine and anaesthesia; Surgery,extracted-illness-scripts\is-trauma-induced-breast-pain-or-swelling.html
+is-trauma-induced-ear-pain,Trauma-induced Ear Pain,,Trauma,presentation,exact,Acute and emergency; Child health; Clinical imaging; General practice and primary healthcare; Musculoskeletal; Neurosciences; Perioperative medicine and anaesthesia; Surgery,extracted-illness-scripts\is-trauma-induced-ear-pain.html
+is-trauma-induced-haematuria,Trauma-Induced Haematuria,,Trauma,presentation,exact,Acute and emergency; Child health; Clinical imaging; General practice and primary healthcare; Musculoskeletal; Neurosciences; Perioperative medicine and anaesthesia; Surgery,extracted-illness-scripts\is-trauma-induced-haematuria.html
+is-trauma-induced-mouth-pain,Trauma-Induced Mouth Pain,,Trauma,presentation,exact,Acute and emergency; Child health; Clinical imaging; General practice and primary healthcare; Musculoskeletal; Neurosciences; Perioperative medicine and anaesthesia; Surgery,extracted-illness-scripts\is-trauma-induced-mouth-pain.html
+is-traumatic-ulcer,Traumatic Ulcer,,,unmatched,unmatched,,extracted-illness-scripts\is-traumatic-ulcer.html
+is-travellers-diarrhoea,Travellerâ€™s Diarrhoea,,Diarrhoea,presentation,exact,Child health; Gastrointestinal including liver; General practice and primary healthcare; Infection,extracted-illness-scripts\is-travellers-diarrhoea.html
+is-trigeminal-neuralgia,Trigeminal Neuralgia,Trigeminal neuralgia,,condition,exact,General practice and primary healthcare; Neurosciences,extracted-illness-scripts\is-trigeminal-neuralgia.html
+is-trochanteric-bursitis,Trochanteric Bursitis,Bursitis,,condition,exact,General practice and primary healthcare; Musculoskeletal,extracted-illness-scripts\is-trochanteric-bursitis.html
+is-tropical-diseases,Tropical Diseases,,,unmatched,unmatched,,extracted-illness-scripts\is-tropical-diseases.html
+is-tuberculosis-lymphadenopathy,Tuberculosis (Lymphadenopathy),Tuberculosis,,condition,fuzzy:1.25,Child health; Infection,extracted-illness-scripts\is-tuberculosis-lymphadenopathy.html
+is-tuberculosis,Tuberculosis (TB),Tuberculosis,,condition,exact,Child health; Infection,extracted-illness-scripts\is-tuberculosis.html
+is-type-1-diabetes-mellitus,Type 1 Diabetes Mellitus,Diabetes mellitus type 1 and 2,,condition,fuzzy:1.32,Child health; Endocrine and metabolic; General practice and primary healthcare; Perioperative medicine and anaesthesia,extracted-illness-scripts\is-type-1-diabetes-mellitus.html
+is-ulcerative-colitis,Ulcerative Colitis,,,unmatched,unmatched,,extracted-illness-scripts\is-ulcerative-colitis.html
+is-ulnar-neuropathy,Ulnar Neuropathy,,,unmatched,unmatched,,extracted-illness-scripts\is-ulnar-neuropathy.html
+is-undescended-testis,Undescended Testis,,,unmatched,unmatched,,extracted-illness-scripts\is-undescended-testis.html
+is-urethral-stricture,Urethral Stricture,,,unmatched,unmatched,,extracted-illness-scripts\is-urethral-stricture.html
+is-urethritis,Urethritis,,,unmatched,unmatched,,extracted-illness-scripts\is-urethritis.html
+is-urinary-tract-stone,Urinary Tract Stone (Urolithiasis),,,unmatched,unmatched,,extracted-illness-scripts\is-urinary-tract-stone.html
+is-urinary-tract-tuberculosis,Urinary Tract Tuberculosis (UTB),Tuberculosis,,condition,exact,Child health; Infection,extracted-illness-scripts\is-urinary-tract-tuberculosis.html
+is-urti,URTI (Common cold),Upper respiratory tract infection,,condition,exact,Child health; Infection,extracted-illness-scripts\is-urti.html
+is-urticaria,Urticaria,Urticaria,,condition,exact,Child health,extracted-illness-scripts\is-urticaria.html
+is-uti,Urinary Tract Infection (UTI),Urinary tract infection,,condition,exact,Child health; Infection; Obstetrics and gynaecology,extracted-illness-scripts\is-uti.html
+is-vaginal-cancer,Vaginal Cancer,,,unmatched,unmatched,,extracted-illness-scripts\is-vaginal-cancer.html
+is-vaginitis,Vaginitis,,,unmatched,unmatched,,extracted-illness-scripts\is-vaginitis.html
+is-valvular-heart-disease,Valvular Heart Disease,Ischaemic heart disease,,condition,fuzzy:1.16,Cardiovascular,extracted-illness-scripts\is-valvular-heart-disease.html
+is-varicella,Varicella (Chickenpox),,,unmatched,unmatched,,extracted-illness-scripts\is-varicella.html
+is-varicose-veins,Varicose Veins,,,unmatched,unmatched,,extracted-illness-scripts\is-varicose-veins.html
+is-vascular-dementia,Vascular Dementia,Dementias,,condition,exact,General practice and primary healthcare; Medicine of older adult; Mental health; Neurosciences,extracted-illness-scripts\is-vascular-dementia.html
+is-vasovagal-syncope,Vasovagal Syncope,,,unmatched,unmatched,,extracted-illness-scripts\is-vasovagal-syncope.html
+is-venous-eczema,Venous Eczema,,,unmatched,unmatched,,extracted-illness-scripts\is-venous-eczema.html
+is-venous-leg-ulcer,Venous Leg Ulcer,,,unmatched,unmatched,,extracted-illness-scripts\is-venous-leg-ulcer.html
+is-ventricular-fibrillation,Ventricular Fibrillation (VF),,,unmatched,unmatched,,extracted-illness-scripts\is-ventricular-fibrillation.html
+is-ventricular-tachycardia,Ventricular Tachycardia (VT),,,unmatched,unmatched,,extracted-illness-scripts\is-ventricular-tachycardia.html
+is-vertebrobasilar-insufficiency,Vertebrobasilar Insufficiency,,,unmatched,unmatched,,extracted-illness-scripts\is-vertebrobasilar-insufficiency.html
+is-vestibular-migraine,Vestibular Migraine,Migraine,,condition,exact,Child health; General practice and primary healthcare; Neurosciences,extracted-illness-scripts\is-vestibular-migraine.html
+is-vestibular-neuritis,Vestibular Neuritis,,,unmatched,unmatched,,extracted-illness-scripts\is-vestibular-neuritis.html
+is-viral-gastroenteritis,Viral Gastroenteritis,Viral gastroenteritis,,condition,exact,Child health; Infection,extracted-illness-scripts\is-viral-gastroenteritis.html
+is-viral-hepatitis,Viral Hepatitis,Hepatitis,,condition,exact,Child health; Gastrointestinal including liver,extracted-illness-scripts\is-viral-hepatitis.html
+is-viral-induced-wheeze,Viral Induced Wheeze,,Wheeze,presentation,exact,Acute and emergency; Cardiovascular; Child health; General practice and primary healthcare; Respiratory,extracted-illness-scripts\is-viral-induced-wheeze.html
+is-viral-infection,Viral Infection,,,unmatched,unmatched,,extracted-illness-scripts\is-viral-infection.html
+is-visual-problems,Visual Problems,,,unmatched,unmatched,,extracted-illness-scripts\is-visual-problems.html
+is-vitamin-b12-deficiency,Vitamin B12 Deficiency,,,unmatched,unmatched,,extracted-illness-scripts\is-vitamin-b12-deficiency.html
+is-vitamin-c-deficiency,Vitamin C Deficiency,,,unmatched,unmatched,,extracted-illness-scripts\is-vitamin-c-deficiency.html
+is-vitamin-d-deficiency,Vitamin D Deficiency,,,unmatched,unmatched,,extracted-illness-scripts\is-vitamin-d-deficiency.html
+is-vitamin-deficiencies,Vitamin Deficiencies,,,unmatched,unmatched,,extracted-illness-scripts\is-vitamin-deficiencies.html
+is-vitamin-k-deficiency,Vitamin K Deficiency,,,unmatched,unmatched,,extracted-illness-scripts\is-vitamin-k-deficiency.html
+is-vitreous-haemorrhage,Vitreous Haemorrhage,,,unmatched,unmatched,,extracted-illness-scripts\is-vitreous-haemorrhage.html
+is-vocal-cord-nodules,Vocal Cord Nodules,,,unmatched,unmatched,,extracted-illness-scripts\is-vocal-cord-nodules.html
+is-voice-overuse,Voice Overuse,,,unmatched,unmatched,,extracted-illness-scripts\is-voice-overuse.html
+is-warts-and-verrucae,Warts and Verrucae,,,unmatched,unmatched,,extracted-illness-scripts\is-warts-and-verrucae.html
+is-wernicke-korsakoff-syndrome-alcohol,Wernicke-Korsakoff Syndrome (Alcohol),,,unmatched,unmatched,,extracted-illness-scripts\is-wernicke-korsakoff-syndrome-alcohol.html
+is-whiplash-injury,Whiplash Injury,,,unmatched,unmatched,,extracted-illness-scripts\is-whiplash-injury.html
+is-white-coat-hypertension,White Coat Hypertension,,Hypertension,presentation,exact,Cardiovascular; Endocrine and metabolic; General practice and primary healthcare; Obstetrics and gynaecology; Renal and urology,extracted-illness-scripts\is-white-coat-hypertension.html
+is-whooping-cough,Whooping Cough (Pertussis),Whooping cough,,condition,exact,Infection,extracted-illness-scripts\is-whooping-cough.html
+is-wilsons-disease,Wilson's Disease,,,unmatched,unmatched,,extracted-illness-scripts\is-wilsons-disease.html
+is-wpw,Wolff-Parkinson-White (WPW) Syndrome,,,unmatched,unmatched,,extracted-illness-scripts\is-wpw.html
+is-wrist-tendinopathy,Wrist Tendinopathy,,,unmatched,unmatched,,extracted-illness-scripts\is-wrist-tendinopathy.html
+is-xerostomia,Xerostomia (Dry Mouth),,,unmatched,unmatched,,extracted-illness-scripts\is-xerostomia.html

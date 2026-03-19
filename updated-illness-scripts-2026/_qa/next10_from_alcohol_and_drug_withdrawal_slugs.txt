@@ -1,0 +1,10 @@
+is-alcohol-and-drug-withdrawal
+is-alcoholic-liver-disease
+is-allergic-rhinitis
+is-alzheimers-disease
+is-amaurosis-fugax
+is-anaemia
+is-anaemia-of-chronic-disease
+is-anaemia-sob
+is-anal-fissure
+is-anaphylaxis

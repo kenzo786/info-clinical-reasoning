@@ -1,0 +1,130 @@
+{
+  "generated_at_utc": "2026-02-28T15:50:28.085327+00:00",
+  "mode": "rewrite-and-lint",
+  "processed_files": 1,
+  "passed_files": 0,
+  "failed_files": 1,
+  "files": [
+    {
+      "slug": "is-acute-pancreatitis",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "boilerplate_banned_phrase",
+          "message": "Banned boilerplate phrase at line 8: recognise pattern, spot instability, check key tests",
+          "section": null
+        },
+        {
+          "rule": "boilerplate_banned_phrase",
+          "message": "Banned boilerplate phrase at line 18: risk is influenced by patient, comorbidity, and exposure context",
+          "section": null
+        },
+        {
+          "rule": "boilerplate_banned_phrase",
+          "message": "Banned boilerplate phrase at line 19: atypical presentations and multimorbidity can delay recognition",
+          "section": null
+        },
+        {
+          "rule": "boilerplate_banned_phrase",
+          "message": "Banned boilerplate phrase at line 109: a generalized representation supports differential diagnosis and initial management planning",
+          "section": null
+        },
+        {
+          "rule": "boilerplate_banned_phrase",
+          "message": "Banned boilerplate phrase at line 121: alternative diagnoses - distinguish by pattern, objective findings, and response to treatment",
+          "section": null
+        },
+        {
+          "rule": "boilerplate_banned_phrase",
+          "message": "Banned boilerplate phrase at line 131: management usually combines condition-specific therapy, supportive care, and shared decision-making",
+          "section": null
+        },
+        {
+          "rule": "boilerplate_banned_phrase",
+          "message": "Banned boilerplate phrase at line 132: review symptoms, objective markers, and treatment response over time",
+          "section": null
+        },
+        {
+          "rule": "boilerplate_banned_phrase",
+          "message": "Banned boilerplate phrase at line 133: arrange urgent specialist review for red flags, rapid deterioration, or diagnostic uncertainty",
+          "section": null
+        },
+        {
+          "rule": "essentials_generic_token",
+          "message": "Section 1 essentials line contains generic tokens without condition-specific anchors",
+          "section": 1
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": false,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": true,
+        "essentials_generic_token": false,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": true,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": true,
+        "signs_action_verb": true,
+        "diagnostic_section_contract": true,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": true,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [
+        {
+          "phrase": "recognise pattern, spot instability, check key tests",
+          "line": 8,
+          "line_text": "<li>UKMLA essentials: recognise pattern, spot instability, check key tests.</li>"
+        },
+        {
+          "phrase": "risk is influenced by patient, comorbidity, and exposure context",
+          "line": 18,
+          "line_text": "<li><b>Risk factors:</b> Risk is influenced by patient, comorbidity, and exposure context.</li>"
+        },
+        {
+          "phrase": "atypical presentations and multimorbidity can delay recognition",
+          "line": 19,
+          "line_text": "<li><b>Higher-risk or missed groups:</b> Atypical presentations and multimorbidity can delay recognition.</li>"
+        },
+        {
+          "phrase": "a generalized representation supports differential diagnosis and initial management planning",
+          "line": 109,
+          "line_text": "<li>A generalized representation supports differential diagnosis and initial management planning.</li>"
+        },
+        {
+          "phrase": "alternative diagnoses - distinguish by pattern, objective findings, and response to treatment",
+          "line": 121,
+          "line_text": "<li>Alternative diagnoses - distinguish by pattern, objective findings, and response to treatment.</li>"
+        },
+        {
+          "phrase": "management usually combines condition-specific therapy, supportive care, and shared decision-making",
+          "line": 131,
+          "line_text": "<li><b>Core care:</b> Management usually combines condition-specific therapy, supportive care, and shared decision-making.</li>"
+        },
+        {
+          "phrase": "review symptoms, objective markers, and treatment response over time",
+          "line": 132,
+          "line_text": "<li><b>Monitoring and follow-up:</b> Review symptoms, objective markers, and treatment response over time.</li>"
+        },
+        {
+          "phrase": "arrange urgent specialist review for red flags, rapid deterioration, or diagnostic uncertainty",
+          "line": 133,
+          "line_text": "<li><b>Escalation and safety-netting:</b> Arrange urgent specialist review for red flags, rapid deterioration, or diagnostic uncertainty.</li>"
+        }
+      ],
+      "essentials_validation": {
+        "exists": true,
+        "item_count_ok": true,
+        "format_ok": true,
+        "word_count": 9,
+        "word_count_ok": true,
+        "specificity_ok": false,
+        "line": "UKMLA essentials: recognise pattern, spot instability, check key tests."
+      }
+    }
+  ]
+}

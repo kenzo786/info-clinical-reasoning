@@ -1,0 +1,430 @@
+condition,status,priority,phase,categories,matched_script_count,matched_scripts
+Abnormal blood film,missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Abscess,covered-needs-refresh,high,phase-1-pilot,Infections,8,is-anorectal-abscess; is-breast-abscess; is-iliopsoas-abscess; is-intra-abdominal-abscess; is-pelvic-abscess; is-peritonsillar-abscess; is-retropharyngeal-abscess; is-spinal-abscess
+Acid-base abnormality,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Acne vulgaris,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Acromegaly,missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Acute bronchitis,missing,high,phase-3-create-priority,"Lungs, pleura and airways",0,
+Acute cholangitis,missing,medium,phase-3-create-backlog,"Liver, pancreas, biliary system",0,
+Acute coronary syndromes,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-acute-coronary-syndrome
+Acute glaucoma,covered-needs-refresh,medium,phase-2-refresh,Eye,1,is-acute-glaucoma
+Acute kidney injury,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Acute pancreatitis,covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",1,is-acute-pancreatitis
+Acute respiratory distress syndrome (ARDS),covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-neonatal-respiratory-distress-syndrome
+Acute stress reaction,missing,medium,phase-3-create-backlog,Mental health,0,
+Adrenal insufficiency (including primary and secondary),missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Adverse drug effects,missing,high,phase-3-create-priority,Drugs and drug effects,0,
+Airway compromise/ management,missing,medium,phase-3-create-backlog,"Ear, nose and throat",0,
+Alcohol related liver disease,covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",1,is-alcoholic-liver-disease
+Alcohol withdrawal and opioid withdrawal,missing,medium,phase-3-create-backlog,Mental health,0,
+Allergic disorder (including food allergy),missing,medium,phase-3-create-backlog,Multi-system diseases,0,
+Anaemia,covered-needs-refresh,medium,phase-2-refresh,Blood and lymph,11,is-anaemia; is-anaemia-sob; is-aplastic-anaemia; is-childhood-anaemia; is-haemolytic-anaemia; is-iron-deficiency-anaemia; is-macrocytic-anaemia; is-medication-induced-anaemia; is-microcytic-anaemia; is-normocytic-anaemia; is-sideroblastic-anaemia
+Anal fissure,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-anal-fissure
+Anaphylaxis,covered-needs-refresh,medium,phase-2-refresh,Multi-system diseases,1,is-anaphylaxis
+"Aneurysms, ischaemic limb and occlusions",missing,high,phase-3-create-priority,Heart and vasculature,0,
+Antepartum haemorrhage,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Aortic aneurysm,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,3,is-aortic-aneurysm; is-aortic-aneurysm-rupture-or-dissection; is-aortic-aneurysm-thoracic
+Aortic dissection,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Aortic valve disease,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Appendicitis,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,2,is-abdominal-pain-appendicitis; is-appendicitis
+Arginine vasopressin deficiency/ resistance (diabetes insipidus),missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Arterial thrombosis/ embolism,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Ascites (including spontaneous bacterial peritonitis),missing,medium,phase-3-create-backlog,"Liver, pancreas, biliary system",0,
+Asthma,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-asthma
+Asthma-chronic obstructive pulmonary disease (COPD) overlap,missing,high,phase-3-create-priority,"Lungs, pleura and airways",0,
+Atopic dermatitis/ eczema,covered-needs-refresh,medium,phase-2-refresh,Skin and soft tissue,1,is-atopic-dermatitis
+Attention deficit hyperactivity disorder (ADHD),missing,medium,phase-3-create-backlog,Mental health,0,
+Autism spectrum disorder (ASD),missing,medium,phase-3-create-backlog,Mental health,0,
+Autonomic neuropathy,covered-needs-refresh,medium,phase-2-refresh,Peripheral nervous system and neuromuscular junction,2,is-autonomic-neuropathy; is-diabetic-autonomic-neuropathy
+Bacterial vaginosis,missing,medium,phase-3-create-backlog,Gynaecological tract,0,
+Bell palsy,covered-needs-refresh,medium,phase-2-refresh,Peripheral nervous system and neuromuscular junction,1,is-bells-palsy
+"Benign eyelid disorders (including blepharitis, ectropion/ entropion, chalazion, hordeolum)",missing,medium,phase-3-create-backlog,Eye,0,
+Benign paroxysmal positional vertigo (BPPV),covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-bppv
+Benign prostatic hyperplasia,covered-needs-refresh,medium,phase-2-refresh,Male genitourinary tract,1,is-benign-prostatic-hypertrophy
+"Benign skin lesion (including melanocytic naevi, epidermal cyst, dermatofibroma, seborrheic keratosis, actinic keratosis)",missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Biliary atresia,missing,high,phase-3-create-priority,Child health,0,
+Bipolar affective disorder (including mania/ hypomania),missing,medium,phase-3-create-backlog,Mental health,0,
+Bladder cancer,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,1,is-bladder-cancer
+Blood group incompatibility in pregnancy,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+"Bone tumours (primary and secondary including osteosarcoma, Ewing sarcoma)",missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+Bradyarrhythmias (including AV block),covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-av-block
+Brain abscess,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-brain-abscess
+Brain tumours (primary and secondary),covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-brain-tumour
+Breast abscess/ mastitis,missing,medium,phase-3-create-backlog,Breast,0,
+Breast cancer,covered-needs-refresh,medium,phase-2-refresh,Breast,1,is-breast-cancer
+Breast cysts,missing,medium,phase-3-create-backlog,Breast,0,
+Bronchiectasis,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-bronchiectasis
+Bronchiolitis,covered-needs-refresh,high,phase-1-pilot,Child health,1,is-bronchiolitis
+Bronchopulmonary dysplasia (chronic lung disease of prematurity),missing,high,phase-3-create-priority,Child health,0,
+Burns,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Bursitis,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,4,is-bursitis; is-olecranon-bursitis; is-prepatellar-bursitis; is-trochanteric-bursitis
+COVID-19,covered-needs-refresh,high,phase-1-pilot,Infections,1,is-covid-19
+Candidiasis,covered-needs-refresh,high,phase-1-pilot,Infections,1,is-oral-candidiasis
+Carbon monoxide poisoning,missing,medium,phase-3-create-backlog,Multi-system diseases,0,
+Cardiac arrest,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Cardiomyopathy,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Carotid dissection,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Cataracts,covered-needs-refresh,medium,phase-2-refresh,Eye,1,is-cataract
+Cauda equina syndrome,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-cauda-equina-syndrome
+Cellulitis,covered-needs-refresh,medium,phase-2-refresh,Skin and soft tissue,2,is-cellulitis; is-orbital-cellulitis
+Central retinal arterial occlusion,missing,medium,phase-3-create-backlog,Eye,0,
+Central retinal vein occlusion,covered-needs-refresh,medium,phase-2-refresh,Eye,1,is-retinal-vein-occlusion
+Cerebral palsy and hypoxic-ischaemic encephalopathy,missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Cerebral venous sinus thrombosis (CVST),missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Cervical cancer,covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-cervical-cancer
+Cervical ectropion,covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-cervical-ectropion
+Cervical screening (human papilloma virus),missing,medium,phase-3-create-backlog,Gynaecological tract,0,
+Childhood cancer (including retinoblastoma),missing,high,phase-3-create-priority,Child health,0,
+"Childhood hip/ leg disorders (including Perthes disease, slipped upper femoral epiphyses, developmental dysplasia of the hip)",covered-needs-refresh,high,phase-1-pilot,Child health,1,is-developmental-dysplasia-of-the-hip
+Chlamydia,covered-needs-refresh,high,phase-1-pilot,Infections,1,is-chlamydia
+Cholecystitis,covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",1,is-cholecystitis
+Cholesteatoma,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-cholesteatoma
+Chorioamnionitis,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Chronic glaucoma,covered-needs-refresh,medium,phase-2-refresh,Eye,1,is-chronic-glaucoma
+Chronic kidney disease,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,2,is-anaemia-of-chronic-disease; is-chronic-kidney-disease
+Chronic liver disease (including decompensation and cirrhosis of the liver),missing,medium,phase-3-create-backlog,"Liver, pancreas, biliary system",0,
+Chronic obstructive pulmonary disease (COPD),covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-copd
+Chronic pancreatitis,covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",1,is-chronic-pancreatitis
+"Coagulation disorders (including haemophilia, Von Willebrand disease, and thrombophilia, and secondary to illness or medication)",missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Coeliac disease,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-coeliac-disease
+Colorectal cancer,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-colorectal-cancer
+"Complications of fractures (including compartment syndrome, non-union, malunion, avascular necrosis)",missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+"Complications of labour (including malpresentation, shoulder-dystocia, preterm labour, cord prolapse)",missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Congenital heart disease,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,2,is-congenital-heart-disease; is-valvular-heart-disease
+Conjunctivitis,covered-needs-refresh,medium,phase-2-refresh,Eye,1,is-conjunctivitis
+Constipation,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,4,is-constipation; is-constipation-induced-delirium; is-medication-induced-constipation; is-simple-constipation
+Contact dermatitis,covered-needs-refresh,medium,phase-2-refresh,Skin and soft tissue,1,is-contact-dermatitis
+Corneal ulcer/ abrasion,covered-needs-refresh,medium,phase-2-refresh,Eye,2,is-corneal-abrasion; is-corneal-ulcer
+Cow milk protein allergy,covered-needs-refresh,high,phase-1-pilot,Child health,1,is-cows-milk-allergy
+Croup,covered-needs-refresh,high,phase-1-pilot,Child health,1,is-croup
+Cryptorchidism,missing,high,phase-3-create-priority,Child health,0,
+Crystal arthropathy,missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+Cushing syndrome,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-cushings-syndrome
+Cutaneous fungal infection,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Cutaneous warts,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Cystic fibrosis,covered-needs-refresh,medium,phase-2-refresh,Genetic and congenital,1,is-cystic-fibrosis
+Deep vein thrombosis,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-dvt
+Delirium,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,2,is-delirium; is-medication-induced-delirium
+Delusional disorder,missing,medium,phase-3-create-backlog,Mental health,0,
+"Dementias (including Alzheimer dementia, Lewy-Body dementia, frontotemporal dementia, vascular dementia)",missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Depression,covered-needs-refresh,medium,phase-2-refresh,Mental health,1,is-depression
+Diabetes in pregnancy (gestational and pre-existing),missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Diabetes mellitus,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-type-1-diabetes-mellitus
+Diabetic ketoacidosis (DKA),covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-diabetic-ketoacidosis
+Diabetic nephropathy,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-diabetic-nephropathy
+Diabetic neuropathy,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-diabetic-neuropathy
+Diabetic retinopathy,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-diabetic-retinopathy
+Disease prevention/ screening,missing,medium,phase-3-create-backlog,Other knowledge,0,
+Disseminated intravascular coagulation (DIC),missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Diverticular disease and diverticulitis,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-diverticular-disease
+Down syndrome,missing,medium,phase-3-create-backlog,Genetic and congenital,0,
+Drug overdose,missing,high,phase-3-create-priority,Drugs and drug effects,0,
+Eating disorders,covered-needs-refresh,medium,phase-2-refresh,Mental health,1,is-eating-disorder
+Ectopic pregnancy,covered-needs-refresh,high,phase-1-pilot,Pregnancy and the puerperium,1,is-ectopic-pregnancy
+Ehlers-Danlos syndrome,missing,medium,phase-3-create-backlog,Genetic and congenital,0,
+Empyema,missing,high,phase-3-create-priority,"Lungs, pleura and airways",0,
+Encephalitis,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-encephalitis
+End stage renal disease (including renal replacement therapy and transplantation),missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Endometrial cancer,covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-endometrial-cancer
+Endometriosis,covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-endometriosis
+Epiglottitis,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-epiglottitis
+Epilepsy,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-epilepsy
+Epistaxis,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-epistaxis
+Erythema nodosum,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Essential tremor,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-essential-tremor
+Extradural haemorrhage,missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Faltering growth (failure to thrive),missing,high,phase-3-create-priority,Child health,0,
+Febrile convulsions,covered-needs-refresh,high,phase-1-pilot,Child health,1,is-febrile-convulsions-children
+Fibroadenoma,missing,medium,phase-3-create-backlog,Breast,0,
+Fibroids,covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-fibroids
+Fibromyalgia,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-fibromyalgia
+Folliculitis and Hidradenitis suppurativa,covered-needs-refresh,medium,phase-2-refresh,Skin and soft tissue,1,is-hidradenitis-suppurativa
+Fracture(s) (including pathological fractures),missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+Gallstones and biliary colic,covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",1,is-biliary-colic
+Gambling disorder,missing,medium,phase-3-create-backlog,Mental health,0,
+Gangrene,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Gastric cancer,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-gastric-cancer
+Gastro-oesophageal reflux disease (including Barrett oesophagus),covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-gord
+Gastrointestinal bleeding (upper and lower GI bleeding),covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-severe-upper-gastrointestinal-bleeding
+Gastrointestinal perforation,missing,medium,phase-3-create-backlog,Gastrointestinal tract,0,
+Gender dysphoria and/ or incongruence,missing,medium,phase-3-create-backlog,Mental health,0,
+Generalised anxiety disorder,covered-needs-refresh,medium,phase-2-refresh,Mental health,1,is-generalised-anxiety-disorder
+Genitourinary syndrome of menopause,missing,medium,phase-3-create-backlog,Gynaecological tract,0,
+Giant cell arteritis,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-temporal-arteritis-gca
+Glomerulonephritis,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,1,is-glomerulonephritis
+Gonorrhoea,covered-needs-refresh,high,phase-1-pilot,Infections,1,is-gonorrhoea
+Graves disease (including thyroid eye disease),missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Guillain- Barré/ inflammatory demyelinating polyneuropathy,missing,medium,phase-3-create-backlog,Peripheral nervous system and neuromuscular junction,0,
+Haemangioma,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Haemochromatosis,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-haemochromatosis
+Haemoglobinopathies,missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Haemorrhoids,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-haemorrhoids
+"Head and neck cancer (including oral, laryngeal and salivary gland)",missing,medium,phase-3-create-backlog,"Ear, nose and throat",0,
+Heart failure,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-heart-failure
+Helicobacter pylori,missing,high,phase-3-create-priority,Infections,0,
+"Hepatitis (including viral, autoimmune, alcoholic)",covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",2,is-autoimmune-hepatitis; is-viral-hepatitis
+Hepatocellular carcinoma,covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",1,is-hepatocellular-carcinoma
+Hernias,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,3,is-hernia; is-incarcerated-hernia; is-inguinal-or-femoral-hernia
+Herpes simplex virus,missing,high,phase-3-create-priority,Infections,0,
+Hiatus hernia,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-hiatus-hernia
+Hospital acquired infections,missing,high,phase-3-create-priority,Infections,0,
+Human immunodeficiency virus (HIV),covered-needs-refresh,high,phase-1-pilot,Infections,1,is-hiv
+Human papilloma virus infection,missing,high,phase-3-create-priority,Infections,0,
+Huntington disease,covered-needs-refresh,medium,phase-2-refresh,Genetic and congenital,1,is-huntingtons-disease
+Hydrocoele/ varicocoele/ epididymal cyst,missing,medium,phase-3-create-backlog,Male genitourinary tract,0,
+Hydronephrosis,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Hypercalcaemia/ hypocalcaemia,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Hyperemesis gravidarum,covered-needs-refresh,high,phase-1-pilot,Pregnancy and the puerperium,1,is-hyperemesis-gravidarum
+Hyperkalaemia/ hypokalaemia,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Hyperlipidaemia,missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Hyperosmolar hyperglycaemic state (HHS),covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-hhs
+Hyperparathyroidism/ hypoparathyroidism,missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Hyperprolactinaemia,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-hyperprolactinaemia
+Hypertension (essential or secondary),covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-essential-hypertension
+"Hypertension in pregnancy (including gestational hypertension, pre-eclampsia, eclampsia)",missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Hypertensive retinopathy,missing,medium,phase-3-create-backlog,Eye,0,
+Hyperthermia and hypothermia,missing,medium,phase-3-create-backlog,Multi-system diseases,0,
+Hyperthyroidism/ thyrotoxicosis,missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Hypoglycaemia,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-hypoglycaemia
+Hyponatraemia/ hypernatraemia,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Hypopituitarism,missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Hyposplenism/ splenectomy,missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Hypothyroidism,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,2,is-hypothyroidism; is-hypothyroidism-myxoedema
+Hypovolaemia/ volume depletion,missing,medium,phase-3-create-backlog,Multi-system diseases,0,
+Iatrogenic condition,missing,medium,phase-3-create-backlog,Other knowledge,0,
+Idiopathic intracranial hypertension,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-idiopathic-intracranial-hypertension
+Idiopathic thrombocytopenic purpura (ITP),covered-needs-refresh,medium,phase-2-refresh,Blood and lymph,1,is-thrombocytopenic-purpura
+IgA vasculitis,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Impetigo,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Incidental finding,missing,medium,phase-3-create-backlog,Multi-system diseases,0,
+Infectious colitis (including Clostridium difficile),missing,medium,phase-3-create-backlog,Gastrointestinal tract,0,
+Infectious diarrhoea (including infective gastroenteritis),missing,medium,phase-3-create-backlog,Gastrointestinal tract,0,
+"Infectious mononucleosis (including Epstein-Barr virus, cytomegalovirus)",missing,high,phase-3-create-priority,Infections,0,
+Infective endocarditis,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-infective-endocarditis
+Infective keratitis,missing,medium,phase-3-create-backlog,Eye,0,
+Infertility/ subfertility,missing,medium,phase-3-create-backlog,Multi-system diseases,0,
+"Inflammatory bowel disease (including Crohn disease, ulcerative colitis)",covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-inflammatory-bowel-disease
+"Inflammatory conditions of the eye (including scleritis, episcleritis, uveitis)",missing,medium,phase-3-create-backlog,Eye,0,
+Influenza,covered-needs-refresh,high,phase-1-pilot,Infections,1,is-influenza
+Interstitial lung disease (including fibrotic lung disease),covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-interstitial-lung-disease
+Intervertebral disc prolapse,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-lumbar-disc-prolapse
+Intestinal ischaemia,missing,medium,phase-3-create-backlog,Gastrointestinal tract,0,
+Intestinal obstruction and ileus,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-intestinal-obstruction
+Irritable bowel syndrome,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,3,is-irritable-bowel-syndrome; is-irritable-bowel-syndrome-adolescents; is-short-bowel-syndrome
+Ischaemic heart disease (including stable angina),missing,high,phase-3-create-priority,Heart and vasculature,0,
+Jaundice in pregnancy,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Joint dislocation or subluxation,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-fracture-or-dislocation
+Juvenile idiopathic arthritis,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-juvenile-idiopathic-arthritis
+Kawasaki disease,missing,high,phase-3-create-priority,Child health,0,
+Klinefelter syndrome,missing,medium,phase-3-create-backlog,Genetic and congenital,0,
+Labyrinthitis / vestibular neuritis,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-vestibular-neuritis
+Leukaemia,covered-needs-refresh,medium,phase-2-refresh,Blood and lymph,1,is-leukaemia
+Lichen planus,covered-needs-refresh,medium,phase-2-refresh,Skin and soft tissue,1,is-lichen-planus
+Lichen sclerosus,missing,medium,phase-3-create-backlog,Gynaecological tract,0,
+Lipoma,covered-needs-refresh,medium,phase-2-refresh,Skin and soft tissue,1,is-lipoma
+Liver abscess,missing,medium,phase-3-create-backlog,"Liver, pancreas, biliary system",0,
+Liver failure,covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",1,is-liver-failure
+Lower back pain and sciatica,missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+Lower respiratory tract infection,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-lrti
+Lung abscess,missing,high,phase-3-create-priority,"Lungs, pleura and airways",0,
+Lung cancer,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-lung-cancer
+Lymphoma,covered-needs-refresh,medium,phase-2-refresh,Blood and lymph,2,is-lymphoma; is-mediastinal-lymphoma
+Macular degeneration,covered-needs-refresh,medium,phase-2-refresh,Eye,1,is-macular-degeneration
+Malabsorption,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-malabsorption
+Malaria,missing,high,phase-3-create-priority,Infections,0,
+"Malignant/ pre-malignant skin lesions (including Bowen disease, malignant melanoma, basal cell carcinoma, squamous cell carcinoma)",missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Mallory-Weiss tear,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-mallory-weiss-tear
+Malnutrition,covered-needs-refresh,medium,phase-2-refresh,Multi-system diseases,1,is-malnutrition
+Marfan syndrome,missing,medium,phase-3-create-backlog,Genetic and congenital,0,
+Mastoiditis,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-mastoiditis
+Measles,covered-needs-refresh,high,phase-1-pilot,Infections,1,is-measles
+Medically unexplained symptoms,covered-needs-refresh,medium,phase-2-refresh,Multi-system diseases,1,is-medically-unexplained-symptoms
+Meningitis,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-meningitis
+Menopause/ perimenopause,missing,medium,phase-3-create-backlog,Gynaecological tract,0,
+Mesenteric adenitis,covered-needs-refresh,high,phase-1-pilot,Child health,1,is-mesenteric-adenitis
+Metabolic dysfunction-associated steatotic liver disease (MASLD),missing,medium,phase-3-create-backlog,"Liver, pancreas, biliary system",0,
+Metabolic syndrome,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-metabolic-syndrome
+Metastatic cancer,covered-needs-refresh,medium,phase-2-refresh,Multi-system diseases,2,is-metastatic-cancer; is-metastatic-cancer-chest-wall
+Miscarriage and intrauterine death,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Mitral valve disease,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Motor neurone disease,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-motor-neurone-disease
+Multi-organ dysfunction syndrome,missing,medium,phase-3-create-backlog,Multi-system diseases,0,
+Multiple myeloma,covered-needs-refresh,medium,phase-2-refresh,Blood and lymph,1,is-multiple-myeloma
+Multiple pregnancy,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Multiple sclerosis (MS),covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-multiple-sclerosis
+Mumps,missing,high,phase-3-create-priority,Infections,0,
+Muscular dystrophies,missing,medium,phase-3-create-backlog,Peripheral nervous system and neuromuscular junction,0,
+Myalgic encephalomyelitis (ME)/ chronic fatigue syndrome (CFS) (awareness and approach),covered-needs-refresh,medium,phase-2-refresh,Multi-system diseases,1,is-chronic-fatigue-syndrome
+Myasthenia gravis,covered-needs-refresh,medium,phase-2-refresh,Peripheral nervous system and neuromuscular junction,1,is-myasthenia-gravis
+Myeloproliferative disorders,missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Myocarditis,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Ménière disease,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-menieres-disease
+Nasal polyps,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-nasal-polyps
+Necrotising enterocolitis,missing,high,phase-3-create-priority,Child health,0,
+Necrotising fasciitis,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Neonatal jaundice (including pathological and physiological jaundice),missing,high,phase-3-create-priority,Child health,0,
+"Neonatal surgical emergencies (including pyloric stenosis, Intussusception)",missing,high,phase-3-create-priority,Child health,0,
+Nephrotic syndrome,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,1,is-nephrotic-syndrome
+Neuroleptic malignant syndrome,missing,high,phase-3-create-priority,Drugs and drug effects,0,
+Neutropenia (including neutropenic sepsis),missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Non-accidental injury,missing,medium,phase-3-create-backlog,Other knowledge,0,
+Notifiable diseases,missing,medium,phase-3-create-backlog,Other knowledge,0,
+Obesity,covered-needs-refresh,medium,phase-2-refresh,Multi-system diseases,1,is-obesity
+Obesity in pregnancy,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Obsessive-compulsive disorder (OCD),missing,medium,phase-3-create-backlog,Mental health,0,
+Obstructive sleep apnoea,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-obstructive-sleep-apnoea
+Occupational lung disease,missing,high,phase-3-create-priority,"Lungs, pleura and airways",0,
+Oesophageal cancer,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-oesophageal-cancer
+Optic neuritis,covered-needs-refresh,medium,phase-2-refresh,Eye,1,is-optic-neuritis
+Orthostatic/ postural hypotension,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-orthostatic-hypotension
+Osteoarthritis,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,3,is-knee-osteoarthritis; is-osteoarthritis; is-shoulder-osteoarthritis
+Osteomalacia,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-osteomalacia
+Osteomyelitis,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-osteomyelitis
+Osteoporosis and fragility fractures,missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+Otitis externa,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",2,is-malignant-otitis-externa; is-otitis-externa
+Otitis media,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-otitis-media
+Ovarian cancer,covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-ovarian-cancer
+Ovarian cysts,covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-ovarian-cyst
+Ovarian torsion,covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-ovarian-torsion
+Pancreatic cancer,covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",1,is-pancreatic-cancer
+Pancytopenia,missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Panic disorder,covered-needs-refresh,medium,phase-2-refresh,Mental health,1,is-panic-disorder
+Papilloedema,missing,medium,phase-3-create-backlog,Eye,0,
+Parkinsonism (including Parkinson disease),missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Pelvic inflammatory disease,covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-pelvic-inflammatory-disease
+Penile cancer,missing,medium,phase-3-create-backlog,Male genitourinary tract,0,
+Peptic ulcer disease and gastritis,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-peptic-ulcer-disease
+Perforated eardrum,missing,medium,phase-3-create-backlog,"Ear, nose and throat",0,
+Perianal abscesses and fistulae,missing,medium,phase-3-create-backlog,Gastrointestinal tract,0,
+"Pericardial disease (including pericarditis, pericardial effusion, cardiac tamponade)",missing,high,phase-3-create-priority,Heart and vasculature,0,
+Periorbital and orbital cellulitis,missing,medium,phase-3-create-backlog,Eye,0,
+Peripheral nerve injuries/ palsies,missing,medium,phase-3-create-backlog,Peripheral nervous system and neuromuscular junction,0,
+Peripheral neuropathy,covered-needs-refresh,medium,phase-2-refresh,Peripheral nervous system and neuromuscular junction,2,is-painful-peripheral-neuropathy; is-peripheral-neuropathy
+Peripheral vascular disease,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Peritonitis,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-peritonitis
+Personality disorder,missing,medium,phase-3-create-backlog,Mental health,0,
+Phaeochromocytoma,covered-needs-refresh,medium,phase-2-refresh,Endocrine and metabolic,1,is-phaeochromocytoma
+Pharyngitis/ tonsillitis,missing,medium,phase-3-create-backlog,"Ear, nose and throat",0,
+Phimosis/ paraphimosis,missing,medium,phase-3-create-backlog,Male genitourinary tract,0,
+Phobias (including agoraphobia),missing,medium,phase-3-create-backlog,Mental health,0,
+Pituitary tumours,missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Placenta praevia,covered-needs-refresh,high,phase-1-pilot,Pregnancy and the puerperium,1,is-placenta-praevia
+Placental abruption,covered-needs-refresh,high,phase-1-pilot,Pregnancy and the puerperium,1,is-placental-abruption
+"Platelet disorders (including thrombocytosis, thrombocytopaenia)",missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Pleural effusion,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-pleural-effusion
+Pneumonia,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",2,is-hiv-associated-pneumocystis-pneumonia; is-pneumonia
+Pneumothorax,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-pneumothorax
+Polycystic kidney disease,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,1,is-pckd
+Polycystic ovary syndrome (PCOS),covered-needs-refresh,medium,phase-2-refresh,Gynaecological tract,1,is-pcos
+Polycythaemia,covered-needs-refresh,medium,phase-2-refresh,Blood and lymph,1,is-polycythaemia
+Polyhydramnios/ oligohydramnios,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Polymyalgia rheumatica,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,2,is-polymyalgia-rheumatica; is-polymyalgia-rheumatica-gca
+Polymyositis and dermatomyositis,missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+Post traumatic stress disorder,missing,medium,phase-3-create-backlog,Mental health,0,
+Postpartum depression,missing,medium,phase-3-create-backlog,Mental health,0,
+Postpartum haemorrhage,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Postpartum psychosis,missing,medium,phase-3-create-backlog,Mental health,0,
+Prediabetes,missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Prematurity,missing,high,phase-3-create-priority,Child health,0,
+Pressure sores,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Primary aldosteronism,missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+"Primary headache disorders (including migraine, cluster headache, tension headache)",missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Prostate cancer,covered-needs-refresh,medium,phase-2-refresh,Male genitourinary tract,2,is-metastatic-cancer-prostate-cancer; is-prostate-cancer
+"Prostatitis, epididymitis and orchitis",missing,medium,phase-3-create-backlog,Male genitourinary tract,0,
+Psoriasis,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Psychotic disorder,missing,medium,phase-3-create-backlog,Mental health,0,
+Pulmonary embolism,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-pulmonary-embolism
+Pulmonary hypertension,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-pulmonary-hypertension
+Pyelonephritis,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,1,is-pyelonephritis
+Pyrexia of unknown origin,missing,high,phase-3-create-priority,Infections,0,
+Quinsy/ peritonsillar abscess,missing,medium,phase-3-create-backlog,"Ear, nose and throat",0,
+Radiculopathies,missing,medium,phase-3-create-backlog,Peripheral nervous system and neuromuscular junction,0,
+Raised intracranial pressure,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-raised-intracranial-pressure
+Raynaud phenomenon,missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+Rectal prolapse,missing,medium,phase-3-create-backlog,Gastrointestinal tract,0,
+Refeeding syndrome,missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Renal cancer,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Respiratory arrest,missing,high,phase-3-create-priority,"Lungs, pleura and airways",0,
+Respiratory failure,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-respiratory-failure
+Retinal detachment,covered-needs-refresh,medium,phase-2-refresh,Eye,1,is-retinal-detachment
+Rhabdomyolysis,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,2,is-rhabdomyolysis; is-statin-related-myopathy-inc-rhabdomyolysis
+Rheumatoid arthritis,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-rheumatoid-arthritis
+Rhinosinusitis,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-rhinosinusitis
+Right heart valve disease,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Rosacea,missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Rubella,covered-needs-refresh,high,phase-1-pilot,Infections,1,is-rubella
+Sarcoidosis,covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",2,is-ocular-sarcoidosis; is-sarcoidosis
+Sarcopenia/ frailty,missing,medium,phase-3-create-backlog,Multi-system diseases,0,
+Scabies,covered-needs-refresh,medium,phase-2-refresh,Skin and soft tissue,1,is-scabies
+Scarlet fever,missing,high,phase-3-create-priority,Child health,0,
+Schizoaffective disorder,missing,medium,phase-3-create-backlog,Mental health,0,
+Schizophrenia,covered-needs-refresh,medium,phase-2-refresh,Mental health,1,is-psychosis-and-schizophrenia
+Scleroderma and mixed connective tissue disease,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-connective-tissue-diseases
+Self-harm,missing,medium,phase-3-create-backlog,Mental health,0,
+Sepsis (including neutropenic sepsis),missing,high,phase-3-create-priority,Infections,0,
+Septic arthritis,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-septic-arthritis
+"Seronegative spondyloarthropathies (including ankylosing spondylitis, reactive arthritis, enteropathic arthritis, psoriatic arthritis)",missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+Serotonin syndrome,covered-needs-refresh,high,phase-1-pilot,Drugs and drug effects,1,is-serotonin-syndrome
+Shock,covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-hypovolaemic-shock
+Sickle cell disease,covered-needs-refresh,medium,phase-2-refresh,Blood and lymph,1,is-sickle-cell-disease
+Sjogren syndrome,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-sjogrens-syndrome
+"Skin manifestations of systemic disease (including acanthosis nigricans, livedo reticularis and petechiae/ purpura)",missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+"Skin ulcers (including arterial, venous and neuropathic ulcers)",missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Soft tissue injury,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-soft-tissue-injury
+Somatic symptom disorder,missing,medium,phase-3-create-backlog,Mental health,0,
+Spinal cord compression,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,2,is-cervical-cord-compression; is-spinal-cord-compression
+Spinal cord injury,missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Status epilepticus,missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Stevens-Johnson Syndrome/ toxic epidermal necrolysis (TEN),missing,medium,phase-3-create-backlog,Skin and soft tissue,0,
+Stroke,missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Subarachnoid haemorrhage,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-subarachnoid-haemorrhage
+Subconjunctival haemorrhage,covered-needs-refresh,medium,phase-2-refresh,Eye,1,is-subconjunctival-haemorrhage
+Subdural haemorrhage,missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Substance use disorder,missing,medium,phase-3-create-backlog,Mental health,0,
+Superior vena cava obstruction,missing,high,phase-3-create-priority,Heart and vasculature,0,
+Surgical site infection,missing,high,phase-3-create-priority,Infections,0,
+"Syncope (including vasovagal, cardiac)",covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-vasovagal-syncope
+Syndrome of inappropriate antidiuretic hormone secretion (SIADH),missing,medium,phase-3-create-backlog,Endocrine and metabolic,0,
+Syphilis,missing,high,phase-3-create-priority,Infections,0,
+Systemic lupus erythematosus,covered-needs-refresh,medium,phase-2-refresh,Musculoskeletal,1,is-systemic-lupus-erythematosus
+"Tachyarrhythmias (including atrial fibrillation, atrial flutter, supraventricular tachycardia, torsades de pointes, ventricular tachycardia, ventricular fibrillation)",missing,high,phase-3-create-priority,Heart and vasculature,0,
+Termination of pregnancy,missing,medium,phase-3-create-backlog,Gynaecological tract,0,
+Testicular cancer,missing,medium,phase-3-create-backlog,Male genitourinary tract,0,
+Testicular torsion,covered-needs-refresh,medium,phase-2-refresh,Male genitourinary tract,1,is-testicular-torsion
+Tetanus,missing,high,phase-3-create-priority,Infections,0,
+Thyroid cancer,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-thyroid-cancer
+Thyroid nodules,missing,medium,phase-3-create-backlog,"Ear, nose and throat",0,
+Toxic megacolon,missing,medium,phase-3-create-backlog,Gastrointestinal tract,0,
+Toxic shock syndrome,missing,high,phase-3-create-priority,Infections,0,
+Toxoplasmosis,missing,high,phase-3-create-priority,Infections,0,
+Transfusion reactions,missing,medium,phase-3-create-backlog,Blood and lymph,0,
+Transient ischaemic attacks (TIA),covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-transient-ischaemic-attack
+Transplantation (including graft rejection and immunosuppression),missing,medium,phase-3-create-backlog,Multi-system diseases,0,
+Trichomonas vaginalis,missing,high,phase-3-create-priority,Infections,0,
+Trigeminal neuralgia,covered-needs-refresh,medium,phase-2-refresh,Peripheral nervous system and neuromuscular junction,1,is-trigeminal-neuralgia
+Tuberculosis,covered-needs-refresh,high,phase-1-pilot,Infections,4,is-spinal-tuberculosis; is-tuberculosis; is-tuberculosis-lymphadenopathy; is-urinary-tract-tuberculosis
+Turner syndrome,missing,medium,phase-3-create-backlog,Genetic and congenital,0,
+Typhoid,missing,high,phase-3-create-priority,Infections,0,
+Upper respiratory tract infection,covered-needs-refresh,medium,phase-2-refresh,"Ear, nose and throat",1,is-urti
+Urinary incontinence,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Urinary retention/ obstructive uropathy,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,1,is-acute-urinary-retention
+Urinary tract calculi,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
+Urinary tract infection,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,2,is-genito-urinary-tract-infection; is-uti
+Urticaria,covered-needs-refresh,medium,phase-2-refresh,Skin and soft tissue,1,is-urticaria
+Vaginal prolapse,missing,medium,phase-3-create-backlog,Gynaecological tract,0,
+Variceal disease (including oesophageal varices),covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-oesophageal-varices
+Varicella zoster virus,missing,high,phase-3-create-priority,Infections,0,
+Vasa praevia,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Vasculitis/ vasculitides,missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+Venous insufficiency (including varicose veins),covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,2,is-chronic-venous-insufficiency; is-varicose-veins
+Venous thromboembolism (VTE) in pregnancy and puerperium,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
+Vestibular schwannoma (acoustic neuroma),covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-acoustic-neuroma
+"Viral exanthema (including measles, rubella, varicella)",missing,high,phase-3-create-priority,Child health,0,
+Visual field defects,missing,medium,phase-3-create-backlog,Eye,0,
+Vitamin B12 and/ or folate deficiency,covered-needs-refresh,medium,phase-2-refresh,Multi-system diseases,1,is-vitamin-b12-deficiency
+Vitamin D deficiency,covered-needs-refresh,medium,phase-2-refresh,Multi-system diseases,1,is-vitamin-d-deficiency
+Volvulus,missing,medium,phase-3-create-backlog,Gastrointestinal tract,0,
+Vulval cancer,missing,medium,phase-3-create-backlog,Gynaecological tract,0,
+Wernicke encephalopathy/ Wernicke-Korsakoff syndrome,missing,high,phase-3-create-priority,Brain and spinal cord,0,
+Whooping cough,covered-needs-refresh,high,phase-1-pilot,Child health,1,is-whooping-cough
+Zoonotic infections (including Lyme disease),covered-needs-refresh,high,phase-1-pilot,Infections,1,is-lyme-disease

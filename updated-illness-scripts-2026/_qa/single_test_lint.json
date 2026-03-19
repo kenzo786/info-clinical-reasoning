@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-02-28T16:26:05.111256+00:00",
+  "mode": "lint",
+  "processed_files": 0,
+  "passed_files": 0,
+  "failed_files": 0,
+  "files": [
+    {
+      "slug": "is-alcohol-and-drug-withdrawal",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "missing_source",
+          "message": "Missing source file: updated-illness-scripts-2026\\is-alcohol-and-drug-withdrawal.html"
+        }
+      ],
+      "checks": {}
+    }
+  ]
+}

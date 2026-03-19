@@ -1,0 +1,43 @@
+{
+  "generated_at_utc": "2026-02-28T17:15:11.208705+00:00",
+  "mode": "lint",
+  "processed_files": 1,
+  "passed_files": 1,
+  "failed_files": 0,
+  "files": [
+    {
+      "slug": "is-viral-induced-wheeze",
+      "passed": true,
+      "issues": [],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": true,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": true,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": true,
+        "signs_action_verb": true,
+        "diagnostic_section_contract": true,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": true,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": true,
+        "item_count_ok": true,
+        "format_ok": true,
+        "word_count": 11,
+        "word_count_ok": true,
+        "specificity_ok": true,
+        "line": "UKMLA essentials: recognise viral features, identify urgent deterioration, prioritise focused testing."
+      }
+    }
+  ]
+}

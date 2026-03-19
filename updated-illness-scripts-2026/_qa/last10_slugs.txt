@@ -1,0 +1,10 @@
+is-acute-pancreatitis
+is-acute-ulcerative-gingivitis
+is-acute-urinary-retention
+is-acute-viral-myositis
+is-addisons-disease
+is-adenoid-hyperplasia
+is-adhesive-capsulitis
+is-age-related-purpura
+is-agranulocytosis
+is-alcohol-abuse

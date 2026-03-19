@@ -1,0 +1,99 @@
+{
+  "generated_at_utc": "2026-02-28T16:32:44.157394+00:00",
+  "mode": "lint",
+  "processed_files": 1,
+  "passed_files": 0,
+  "failed_files": 1,
+  "files": [
+    {
+      "slug": "is-angina",
+      "passed": false,
+      "issues": [
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 1 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 2 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "symptoms_action_verb",
+          "message": "Section 5 list item 3 must start with \"Ask about\" (or \"Consider\" for asymptomatic/screen-detected/partner-notified points)",
+          "section": 5
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 1 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 2 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 3 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "signs_action_verb",
+          "message": "Section 6 list item 4 must start with \"Check\"",
+          "section": 6
+        },
+        {
+          "rule": "differential_discriminator",
+          "message": "Section 11 list item 2 must include discriminator delimiter ' - '",
+          "section": 11
+        },
+        {
+          "rule": "differential_discriminator",
+          "message": "Section 11 list item 5 must include discriminator delimiter ' - '",
+          "section": 11
+        },
+        {
+          "rule": "differential_discriminator",
+          "message": "Section 11 list item 6 must include discriminator delimiter ' - '",
+          "section": 11
+        },
+        {
+          "rule": "differential_discriminator",
+          "message": "Section 11 list item 7 must include discriminator delimiter ' - '",
+          "section": 11
+        }
+      ],
+      "checks": {
+        "boilerplate_banned_phrase": true,
+        "required_ids": true,
+        "duplicate_ids": true,
+        "details_nesting": true,
+        "definition_contract": true,
+        "essentials_generic_token": true,
+        "epi_shortcode_first_li": true,
+        "epi_unsourced_numeric": true,
+        "unsourced_numeric_in_sti": true,
+        "symptoms_action_verb": false,
+        "signs_action_verb": false,
+        "diagnostic_section_contract": true,
+        "diagnostics_clinical_diagnosis_phrase": true,
+        "differential_format": false,
+        "prescriptive_language": true,
+        "uk_spelling_violation": true,
+        "encoding_artifacts": true
+      },
+      "banned_phrase_hits": [],
+      "essentials_validation": {
+        "exists": true,
+        "item_count_ok": true,
+        "format_ok": true,
+        "word_count": 11,
+        "word_count_ok": true,
+        "specificity_ok": true,
+        "line": "UKMLA essentials: recognise angina features, identify urgent deterioration, prioritise focused testing."
+      }
+    }
+  ]
+}

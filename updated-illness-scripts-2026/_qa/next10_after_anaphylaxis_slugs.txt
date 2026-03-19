@@ -1,0 +1,10 @@
+is-angina
+is-angina-old
+is-angiodysplasia
+is-ankle-or-foot-bone-fracture
+is-ankle-sprain
+is-ankylosing-spondylitis
+is-anorectal-abscess
+is-anorexia-nervosa
+is-anticoagulants
+is-anticoagulants-and-antiplatelets
