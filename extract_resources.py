@@ -13,7 +13,7 @@ import re
 import os
 
 XML_PATH = r'C:/Users/amjid/Downloads/clinicalreasoningknowledgebase.WordPress.2026-02-28.xml'
-BASE_OUT = r'C:/Users/amjid/GitHub/Clinical Reasoning'
+BASE_OUT = r'C:/Users/amjid/GitHub/info-clinical-reasoning'
 
 FOLDERS = {
     'skills':     os.path.join(BASE_OUT, 'clinical-skills'),
