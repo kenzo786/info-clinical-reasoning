@@ -25,15 +25,13 @@ For a new staged map, the only value you should need to replace manually is `POS
    - `110` blue
    - `111` blue
 
-## Front Matter Template
+## WordPress Content Header
 
 ```md
----
-title: TOPIC Diagnostic Reasoning
-title_left_html: '<span class="page-context" style="display:none;">Context: TOPIC Primary Care Assessment</span><a href="https://clinicalreasoning.io/iddx/?post_id=POST_ID" class="open-top-sheet sheet-link circle-link purple-circle blue-hover" data-sheet-type="Left" data-sheet-width-px="380"><i class="fas fa-chevron-circle-right"></i></a>'
----
-<!-- Replace POST_ID with the published reference post_id. -->
+[sc name="map-yaml" title="TOPIC" id="POST_ID"][/sc]
 ```
+
+Use this shortcode header for anything you plan to paste directly into WordPress content. Do not use YAML front matter for the WordPress copy.
 
 ## Section Template
 
