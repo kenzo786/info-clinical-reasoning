@@ -1,0 +1,175 @@
+<style>
+.ast-plain-container {
+    background-color: #ffffff;
+}
+.ast-container {
+    padding: 0px;
+}
+
+</style>
+<div id="top">
+<div style="border: 1px solid #ffffff;">
+[dynamic_post_content]
+</div>
+<!-- `floating-link-code` is the live JITL shell contract for this page. -->
+[sc name="floating-link-code"][/sc]
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  /* ---------------- helper utilities ---------------- */
+
+  const closeAllDetails = () => {
+    document.querySelectorAll('details').forEach(details => {
+      details.open = false;
+    });
+  };
+
+  // open ancestor <details> elements
+  const openDetailsAncestors = el => {
+    for (let p = el.parentElement; p; p = p.parentElement) {
+      if (p.tagName.toLowerCase() === 'details' && !p.open) p.open = true;
+    }
+  };
+
+  // scroll + 2-second flash, without disturbing parent page scroll
+  const scrollToId = id => {
+    if (!id) return;
+    const el = document.getElementById(id);
+    if (!el) return;
+
+    closeAllDetails();
+    openDetailsAncestors(el);
+
+    // wait one frame so the details layout is expanded
+    requestAnimationFrame(() => {
+      const y = el.getBoundingClientRect().top + window.pageYOffset - 35; // 35px headroom
+      window.scrollTo({ top: y, behavior: 'smooth' });
+
+      el.classList.add('is-flash');
+      setTimeout(() => el.classList.remove('is-flash'), 2000);
+    });
+  };
+
+  // split "group-1+group-A,group-B"
+  const collectGroups = (s, arr) =>
+    s.split(/[+, ]+/).map(t => t.trim()).filter(Boolean).forEach(t => arr.push(t));
+
+  // parse c= colour spec  (#ff0  or  g1:#f0f;g2:#ccf)
+  const parseColourSpec = spec => {
+    const out = {};
+    if (!spec) return out;
+    if (/^#|^(rgb|hsl)a?\(/i.test(spec) || /^[a-z]+$/i.test(spec)) { out['*'] = spec.trim(); return out; }
+    spec.split(/[;,+]+/).forEach(p => {
+      const [g,c] = p.split(':').map(x => (x||'').trim());
+      if (g && c) out[g] = c;
+    });
+    return out;
+  };
+
+  /* ---------------- state parser ---------------- */
+  const parseState = () => {
+    const st = { id: null, highlight: [], palette: {} };
+
+    // legacy ?highlight=
+    const qs = new URLSearchParams(location.search);
+    qs.getAll('highlight').forEach(v => collectGroups(v, st.highlight));
+
+    // hash
+    const hash = location.hash.replace(/^#/, '');
+    hash && hash.split('&').filter(Boolean).forEach(seg => {
+      const [kRaw, vRaw] = seg.split('=');
+      const k = decodeURIComponent(kRaw || '').toLowerCase();
+      const v = vRaw ? decodeURIComponent(vRaw) : '';
+
+      if (!vRaw) { if (!st.id) st.id = kRaw; return; }
+      if (k === 'id' || k === 'goto' || k === 'anchor') st.id = v;
+      if (k === 'h'  || k === 'highlight')              collectGroups(v, st.highlight);
+      if (k === 'c'  || k === 'colour'   || k === 'color') Object.assign(st.palette, parseColourSpec(v));
+    });
+
+    st.highlight = [...new Set(st.highlight)];
+    return st;
+  };
+
+  /* ---------------- highlight applicator ---------------- */
+  const applyHighlight = (groups, palette) => {
+    document.querySelectorAll('.is-highlighted').forEach(el => {
+      el.classList.remove('is-highlighted');
+      el.style.removeProperty('--hl-bg');
+    });
+
+    if (!groups.length) return;
+
+    document.querySelectorAll('[data-highlight]').forEach(el => {
+      const own = (el.dataset.highlight || '').split(' ').filter(Boolean);
+      const matched = groups.find(g => own.includes(g));
+      if (!matched) return;
+
+      const colour = palette[matched] || palette['*'] || null;
+      if (colour) el.style.setProperty('--hl-bg', colour);
+
+      el.classList.add('is-highlighted');
+      openDetailsAncestors(el);          // ensure section is open
+    });
+  };
+
+/* ---------------- driver ---------------- */
+const handle = () => {
+    const { id, highlight, palette } = parseState();
+    let setupTask = Promise.resolve();
+
+    if (highlight.length > 0 && !id) {
+        setupTask = new Promise(resolve => {
+            closeAllDetails();
+            requestAnimationFrame(resolve);
+        });
+    }
+    setupTask.then(() => {
+        applyHighlight(highlight, palette);
+        if (id) {
+            scrollToId(id);
+        }
+    });
+};
+
+handle();
+addEventListener('hashchange', handle);
+
+  /* -------- smooth in-page links (within iframe) -------- */
+  document.querySelectorAll('a[href^="#"]').forEach(a =>
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      history.pushState(null, '', '#' + a.getAttribute('href').replace(/^#/, ''));
+      handle();
+    })
+  );
+});
+</script>
+
+
+<style>
+/* Persistent group highlight */
+.is-highlighted{
+  background: var(--hl-bg, yellow) !important;
+  box-shadow:0 0 10px rgba(0,0,0,.3);
+  border-radius:4px;
+  transition:all .3s ease-in-out;
+  padding:2px 4px;
+  margin:0;
+  /* ensure anchor never hides under sticky header (35 px) */
+  scroll-margin-top:35px;
+}
+
+/* 2-second flash */
+.is-flash{
+  background:yellow !important;
+  color: black !important;
+  border-radius:4px;
+  transition:background-color .3s ease-in-out;
+  padding:2px 4px;
+}
+</style>
+
+[sc name="open-links-parent-sheet"][/sc]
