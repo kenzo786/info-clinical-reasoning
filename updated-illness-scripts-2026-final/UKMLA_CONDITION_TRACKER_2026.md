@@ -5,6 +5,12 @@ Status: Full curriculum execution tracker for UKMLA illness-script coverage in t
 Source of truth inputs:
 - `archive/categorized-variants/ukmla-categorized-illness-scripts-2026/ukmla_condition_category_mapping.json`
 - `archive/categorized-variants/ukmla-categorized-illness-scripts-2026/ukmla_gap_tracker_2026.csv`
+- `ukmla_canonical_manifest.csv`
+
+Canonical file note:
+- The tracker keeps the original `Canonical final target` slug form for planning continuity.
+- The current on-disk canonical filename may now be post-id-prefixed, for example `1318-is-ukmla-heart-failure.html`.
+- Use `ukmla_canonical_manifest.csv` as the current source of truth for `post_id`, canonical filename, and category-driven shortcode generation.
 
 Working rules:
 - One row per exact UKMLA condition.
