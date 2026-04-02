@@ -124,7 +124,7 @@ is-cholangitis,Cholangitis,,,unmatched,unmatched,,extracted-illness-scripts\is-c
 is-cholecystitis,Cholecystitis,Cholecystitis,,condition,exact,"Liver, pancreas, biliary system",extracted-illness-scripts\is-cholecystitis.html
 is-cholestasis,Cholestasis,,,unmatched,unmatched,,extracted-illness-scripts\is-cholestasis.html
 is-cholesteatoma,Cholesteatoma,Cholesteatoma,,condition,exact,"Ear, nose and throat",extracted-illness-scripts\is-cholesteatoma.html
-is-chronic-fatigue-syndrome,Chronic Fatigue Syndrome (CFS),Myalgic encephalomyelitis (ME)/ chronic fatigue syndrome (CFS) (awareness and approach),,condition,fuzzy:1.16,Multi-system diseases,extracted-illness-scripts\is-chronic-fatigue-syndrome.html
+is-chronic-fatigue-syndrome,Chronic Fatigue Syndrome (CFS),Myalgic encephalomyelitis (ME)/ chronic fatigue syndrome (CFS),,condition,fuzzy:1.16,Multi-system diseases,extracted-illness-scripts\is-chronic-fatigue-syndrome.html
 is-chronic-glaucoma,Chronic Glaucoma,Chronic glaucoma,,condition,exact,Eye,extracted-illness-scripts\is-chronic-glaucoma.html
 is-chronic-infections,Chronic Infections,,,unmatched,unmatched,,extracted-illness-scripts\is-chronic-infections.html
 is-chronic-kidney-disease,Chronic Kidney Disease (CKD),Chronic kidney disease,,condition,exact,Kidneys and urinary tract,extracted-illness-scripts\is-chronic-kidney-disease.html

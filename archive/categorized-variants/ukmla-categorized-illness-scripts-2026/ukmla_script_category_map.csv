@@ -123,7 +123,7 @@ is-cholangitis,Cholangitis,,,unmatched,unmatched,0.00,true,not_covered,,extracte
 is-cholecystitis,Cholecystitis,Cholecystitis,,condition,exact,0.95,false,covered-needs-refresh,"Liver, pancreas, biliary system",extracted-illness-scripts-2026\is-cholecystitis.html
 is-cholestasis,Cholestasis,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-cholestasis.html
 is-cholesteatoma,Cholesteatoma,Cholesteatoma,,condition,exact,0.95,false,covered-needs-refresh,"Ear, nose and throat",extracted-illness-scripts-2026\is-cholesteatoma.html
-is-chronic-fatigue-syndrome,Chronic Fatigue Syndrome (CFS),Myalgic encephalomyelitis (ME)/ chronic fatigue syndrome (CFS) (awareness and approach),,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-chronic-fatigue-syndrome.html
+is-chronic-fatigue-syndrome,Chronic Fatigue Syndrome (CFS),Myalgic encephalomyelitis (ME)/ chronic fatigue syndrome (CFS),,condition,fuzzy:1.16,0.65,true,covered-needs-refresh,Multi-system diseases,extracted-illness-scripts-2026\is-chronic-fatigue-syndrome.html
 is-chronic-glaucoma,Chronic Glaucoma,Chronic glaucoma,,condition,exact,0.95,false,covered-needs-refresh,Eye,extracted-illness-scripts-2026\is-chronic-glaucoma.html
 is-chronic-infections,Chronic Infections,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-chronic-infections.html
 is-chronic-kidney-disease,Chronic Kidney Disease (CKD),Chronic kidney disease,,condition,exact,0.95,false,covered-needs-refresh,Kidneys and urinary tract,extracted-illness-scripts-2026\is-chronic-kidney-disease.html

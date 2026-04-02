@@ -36,7 +36,7 @@ High-priority covered conditions selected for first-pass clinical modernization:
 - Encephalitis (Brain and spinal cord)
 - Epilepsy (Brain and spinal cord)
 - Essential tremor (Brain and spinal cord)
-- Febrile convulsions (Child health)
+- Febrile convulsions
 - Gonorrhoea (Infections)
 - Heart failure (Heart and vasculature)
 - Human immunodeficiency virus (HIV) (Infections)
