@@ -68,7 +68,7 @@
 - Biliary atresia
 - Bipolar affective disorder (including mania/ hypomania)
 - Blood group incompatibility in pregnancy
-- Bone tumours (primary and secondary including osteosarcoma, Ewing sarcoma)
+- Bone tumours
 - Breast abscess/ mastitis
 - Breast cysts
 - Bronchopulmonary dysplasia (chronic lung disease of prematurity)
@@ -84,7 +84,7 @@
 - Childhood cancer (including retinoblastoma)
 - Chorioamnionitis
 - Chronic liver disease (including decompensation and cirrhosis of the liver)
-- Coagulation disorders (including haemophilia, Von Willebrand disease, and thrombophilia, and secondary to illness or medication)
+- Coagulation disorders
 - Complications of fractures (including compartment syndrome, non-union, malunion, avascular necrosis)
 - Complications of labour (including malpresentation, shoulder-dystocia, preterm labour, cord prolapse)
 - Cryptorchidism

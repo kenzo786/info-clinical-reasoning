@@ -46,7 +46,7 @@ Biliary atresia,missing,high,phase-3-create-priority,Child health,0,
 Bipolar affective disorder (including mania/ hypomania),missing,medium,phase-3-create-backlog,Mental health,0,
 Bladder cancer,covered-needs-refresh,medium,phase-2-refresh,Kidneys and urinary tract,1,is-bladder-cancer
 Blood group incompatibility in pregnancy,missing,high,phase-3-create-priority,Pregnancy and the puerperium,0,
-"Bone tumours (primary and secondary including osteosarcoma, Ewing sarcoma)",missing,medium,phase-3-create-backlog,Musculoskeletal,0,
+"Bone tumours",missing,medium,phase-3-create-backlog,Musculoskeletal,0,
 Bradyarrhythmias (including AV block),covered-needs-refresh,high,phase-1-pilot,Heart and vasculature,1,is-av-block
 Brain abscess,covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-brain-abscess
 Brain tumours (primary and secondary),covered-needs-refresh,high,phase-1-pilot,Brain and spinal cord,1,is-brain-tumour
@@ -85,7 +85,7 @@ Chronic kidney disease,covered-needs-refresh,medium,phase-2-refresh,Kidneys and 
 Chronic liver disease (including decompensation and cirrhosis of the liver),missing,medium,phase-3-create-backlog,"Liver, pancreas, biliary system",0,
 Chronic obstructive pulmonary disease (COPD),covered-needs-refresh,high,phase-1-pilot,"Lungs, pleura and airways",1,is-copd
 Chronic pancreatitis,covered-needs-refresh,medium,phase-2-refresh,"Liver, pancreas, biliary system",1,is-chronic-pancreatitis
-"Coagulation disorders (including haemophilia, Von Willebrand disease, and thrombophilia, and secondary to illness or medication)",missing,medium,phase-3-create-backlog,Blood and lymph,0,
+"Coagulation disorders",missing,medium,phase-3-create-backlog,Blood and lymph,0,
 Coeliac disease,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-coeliac-disease
 Colorectal cancer,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal tract,1,is-colorectal-cancer
 "Complications of fractures (including compartment syndrome, non-union, malunion, avascular necrosis)",missing,medium,phase-3-create-backlog,Musculoskeletal,0,
@@ -170,7 +170,7 @@ Hiatus hernia,covered-needs-refresh,medium,phase-2-refresh,Gastrointestinal trac
 Hospital acquired infections,missing,high,phase-3-create-priority,Infections,0,
 Human immunodeficiency virus (HIV),covered-needs-refresh,high,phase-1-pilot,Infections,1,is-hiv
 Human papilloma virus infection,missing,high,phase-3-create-priority,Infections,0,
-Huntington disease,covered-needs-refresh,medium,phase-2-refresh,Genetic and congenital,1,is-huntingtons-disease
+Huntington's disease,covered-needs-refresh,medium,phase-2-refresh,Genetic and congenital,1,is-huntingtons-disease
 Hydrocoele/ varicocoele/ epididymal cyst,missing,medium,phase-3-create-backlog,Male genitourinary tract,0,
 Hydronephrosis,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,
 Hypercalcaemia/ hypocalcaemia,missing,medium,phase-3-create-backlog,Kidneys and urinary tract,0,

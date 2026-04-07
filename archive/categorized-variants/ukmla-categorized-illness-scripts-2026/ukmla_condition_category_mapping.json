@@ -19,7 +19,7 @@
     "Blood and lymph": [
       "Abnormal blood film",
       "Anaemia",
-      "Coagulation disorders (including haemophilia, Von Willebrand disease, and thrombophilia, and secondary to illness or medication)",
+      "Coagulation disorders",
       "Disseminated intravascular coagulation (DIC)",
       "Haemoglobinopathies",
       "Hyposplenism/ splenectomy",
@@ -213,7 +213,7 @@
       "Cystic fibrosis",
       "Down syndrome",
       "Ehlers-Danlos syndrome",
-      "Huntington disease",
+      "Huntington's disease",
       "Klinefelter syndrome",
       "Marfan syndrome",
       "Turner syndrome"
@@ -434,7 +434,7 @@
       "Urinary tract infection"
     ],
     "Musculoskeletal": [
-      "Bone tumours (primary and secondary including osteosarcoma, Ewing sarcoma)",
+      "Bone tumours",
       "Bursitis",
       "Cauda equina syndrome",
       "Complications of fractures (including compartment syndrome, non-union, malunion, avascular necrosis)",

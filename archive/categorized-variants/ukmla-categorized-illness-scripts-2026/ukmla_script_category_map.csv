@@ -281,7 +281,7 @@ is-hiv-ars,HIV (Acute Retroviral Syndrome),,,unmatched,unmatched,0.00,true,not_c
 is-hiv-associated-pneumocystis-pneumonia,HIV-Associated Pneumocystis Pneumonia (PCP),Pneumonia,,condition,exact,0.95,false,covered-needs-refresh,"Lungs, pleura and airways",extracted-illness-scripts-2026\is-hiv-associated-pneumocystis-pneumonia.html
 is-hiv,HIV (Human Immunodeficiency Virus),Human immunodeficiency virus (HIV),,condition,fuzzy:1.60,0.65,true,covered-needs-refresh,Infections,extracted-illness-scripts-2026\is-hiv.html
 is-hsp,Henoch-Schönlein Purpura (HSP),,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hsp.html
-is-huntingtons-disease,Huntington's Disease,Huntington disease,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,Genetic and congenital,extracted-illness-scripts-2026\is-huntingtons-disease.html
+is-huntingtons-disease,Huntington's Disease,Huntington's disease,,condition,fuzzy:1.35,0.65,true,covered-needs-refresh,Genetic and congenital,extracted-illness-scripts-2026\is-huntingtons-disease.html
 is-hydrocephalus,Hydrocephalus,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hydrocephalus.html
 is-hyperaldosteronism,Hyperaldosteronism,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hyperaldosteronism.html
 is-hypercalcaemia,Hypercalcaemia,,,unmatched,unmatched,0.00,true,not_covered,,extracted-illness-scripts-2026\is-hypercalcaemia.html

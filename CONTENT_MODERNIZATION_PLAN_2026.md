@@ -25,11 +25,11 @@ High-priority covered conditions selected for first-pass clinical modernization:
 - COVID-19 (Infections)
 - Candidiasis (Infections)
 - Childhood hip/ leg disorders (including Perthes disease, slipped upper femoral epiphyses, developmental dysplasia of the hip) (Child health)
-- Chlamydia (Infections)
+- Chlamydia
 - Chronic obstructive pulmonary disease (COPD) (Lungs, pleura and airways)
 - Congenital heart disease (Heart and vasculature)
-- Cow milk protein allergy (Child health)
-- Croup (Child health)
+- Cow milk protein allergy
+- Croup
 - Deep vein thrombosis (Heart and vasculature)
 - Delirium (Brain and spinal cord)
 - Ectopic pregnancy (Pregnancy and the puerperium)
@@ -37,7 +37,7 @@ High-priority covered conditions selected for first-pass clinical modernization:
 - Epilepsy (Brain and spinal cord)
 - Essential tremor (Brain and spinal cord)
 - Febrile convulsions
-- Gonorrhoea (Infections)
+- Gonorrhoea
 - Heart failure (Heart and vasculature)
 - Human immunodeficiency virus (HIV) (Infections)
 - Hyperemesis gravidarum (Pregnancy and the puerperium)
@@ -50,7 +50,7 @@ High-priority covered conditions selected for first-pass clinical modernization:
 - Lung cancer (Lungs, pleura and airways)
 - Measles (Infections)
 - Meningitis (Brain and spinal cord)
-- Mesenteric adenitis (Child health)
+- Mesenteric adenitis
 - Motor neurone disease (Brain and spinal cord)
 - Multiple sclerosis (MS) (Brain and spinal cord)
 - Obstructive sleep apnoea (Lungs, pleura and airways)

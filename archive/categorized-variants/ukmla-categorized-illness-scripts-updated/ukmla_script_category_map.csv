@@ -284,7 +284,7 @@ is-hiv-ars,HIV (Acute Retroviral Syndrome),,,unmatched,unmatched,,extracted-illn
 is-hiv-associated-pneumocystis-pneumonia,HIV-Associated Pneumocystis Pneumonia (PCP),Pneumonia,,condition,exact,"Lungs, pleura and airways",extracted-illness-scripts\is-hiv-associated-pneumocystis-pneumonia.html
 is-hiv,HIV (Human Immunodeficiency Virus),Human immunodeficiency virus (HIV),,condition,fuzzy:1.60,Infections,extracted-illness-scripts\is-hiv.html
 is-hsp,Henoch-SchÃ¶nlein Purpura (HSP),,,unmatched,unmatched,,extracted-illness-scripts\is-hsp.html
-is-huntingtons-disease,Huntington's Disease,Huntington disease,,condition,fuzzy:1.35,Genetic and congenital,extracted-illness-scripts\is-huntingtons-disease.html
+is-huntingtons-disease,Huntington's Disease,Huntington's disease,,condition,fuzzy:1.35,Genetic and congenital,extracted-illness-scripts\is-huntingtons-disease.html
 is-hydrocephalus,Hydrocephalus,,,unmatched,unmatched,,extracted-illness-scripts\is-hydrocephalus.html
 is-hyperaldosteronism,Hyperaldosteronism,,,unmatched,unmatched,,extracted-illness-scripts\is-hyperaldosteronism.html
 is-hypercalcaemia,Hypercalcaemia,,,unmatched,unmatched,,extracted-illness-scripts\is-hypercalcaemia.html
