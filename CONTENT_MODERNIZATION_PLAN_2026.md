@@ -55,7 +55,7 @@ High-priority covered conditions selected for first-pass clinical modernization:
 - Multiple sclerosis (MS) (Brain and spinal cord)
 - Obstructive sleep apnoea (Lungs, pleura and airways)
 - Orthostatic/ postural hypotension (Heart and vasculature)
-- Placenta praevia (Pregnancy and the puerperium)
+- Placenta praevia
 - Placental abruption (Pregnancy and the puerperium)
 - Pleural effusion (Lungs, pleura and airways)
 - Pneumonia (Lungs, pleura and airways)
