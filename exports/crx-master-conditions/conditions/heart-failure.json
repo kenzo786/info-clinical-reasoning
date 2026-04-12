@@ -1,0 +1,457 @@
+{
+  "schemaVersion": "2026-04-12",
+  "exportedAt": "2026-04-12T17:28:59.153196+00:00",
+  "conditionId": "ukmla-heart-failure",
+  "slug": "heart-failure",
+  "title": "Heart Failure",
+  "subtitle": "Heart and vasculature UKMLA condition master export",
+  "conditionType": "condition",
+  "ukmla": {
+    "conditionLabel": "Heart failure",
+    "category": "Heart and vasculature",
+    "gapTrackerStatus": "covered-needs-refresh",
+    "priority": "high",
+    "phase": "phase-1-pilot"
+  },
+  "source": {
+    "repo": "info-clinical-reasoning",
+    "htmlFile": "updated-illness-scripts-2026-final/1318-is-ukmla-heart-failure.html",
+    "canonicalFile": "1318-is-ukmla-heart-failure.html",
+    "legacyPostId": "1318",
+    "postIdSource": "pilot-manifest"
+  },
+  "publication": {
+    "legacyWordpressStatus": "pending-transfer",
+    "knowledgeBaseStatus": "exported",
+    "conditionsProjectionStatus": "not-generated",
+    "ddxProjectionStatus": "not-generated",
+    "reviewStatus": "clinician-review-needed"
+  },
+  "taxonomy": {
+    "specialty": "Cardiology",
+    "tags": [
+      "UKMLA",
+      "illness-script",
+      "Heart and vasculature",
+      "Cardiology",
+      "prescribing"
+    ]
+  },
+  "signals": {
+    "clusterResolutionNeeded": false,
+    "clinicianPriority": "clinician-review-needed",
+    "notes": [
+      "manifest-current-file-status=canonical-final-exists",
+      "tracker-next-action=replace-live-now",
+      "Canonical final file present in final folder. Batch 1 live-replacement candidate."
+    ]
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "key": "overview",
+      "title": "Overview",
+      "order": 1,
+      "sourceSectionIds": [
+        "c-is.1.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Heart failure is a clinical syndrome in which the heart cannot pump sufficient blood to meet the body's metabolic demands — or can only do so at the cost of elevated filling pressures — resulting in progressive dyspnoea, fluid overload, fatigue, and reduced exercise tolerance.</li>\n            <li><b>UKMLA learning outcome:</b> Recognise acute and chronic heart failure presentations, distinguish heart failure with reduced ejection fraction (HFrEF) from heart failure with preserved ejection fraction (HFpEF), interpret BNP/NT-proBNP and echocardiography findings, identify acute decompensation and its precipitants, apply the NYHA functional classification, and understand the evidence-based pharmacological framework for HFrEF.</li>\n        </ul>",
+      "plainText": "Heart failure is a clinical syndrome in which the heart cannot pump sufficient blood to meet the body's metabolic demands — or can only do so at the cost of elevated filling pressures — resulting in progressive dyspnoea, fluid overload, fatigue, and reduced exercise tolerance. UKMLA learning outcome: Recognise acute and chronic heart failure presentations, distinguish heart failure with reduced ejection fraction (HFrEF) from heart failure with preserved ejection fraction (HFpEF), interpret BNP/NT-proBNP and echocardiography findings, identify acute decompensation and its precipitants, apply the NYHA functional classification, and understand the evidence-based pharmacological framework for HFrEF.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.1.0"
+    },
+    {
+      "id": "risk-factors",
+      "key": "risk-factors",
+      "title": "Risk Factors",
+      "order": 2,
+      "sourceSectionIds": [
+        "c-is.2.0"
+      ],
+      "rawHtml": "<ul>\n            <li>[sc name=\"jitl-query\" Q=\"Heart Failure epidemiology\" text=\"Epidemiology deep dive\"][/sc]</li>\n            <li>Heart failure affects approximately 1–2% of the UK adult population — around 900,000 people — rising to over 10% in adults aged over 70. It is the leading cause of hospital admission in adults over 65. Five-year mortality is approximately 50% overall, comparable to or worse than many common cancers, though outcome varies significantly with aetiology, ejection fraction category, and access to disease-modifying therapy. HFrEF (ejection fraction &lt;40%) is more prevalent in men; HFpEF (ejection fraction ≥50%) is more common in older women and those with hypertension, obesity, and diabetes.</li>\n            <li>Risk factors for developing heart failure include ischaemic heart disease (the most common cause in the UK), hypertension, valvular heart disease, cardiomyopathy, atrial fibrillation, type 2 diabetes, obesity, alcohol excess, and cardiotoxic treatments (particularly anthracycline chemotherapy). Groups at particular risk of delayed diagnosis or rapid decompensation include older adults with multiple comorbidities, those with diabetes and renal impairment (cardiorenal overlap), and patients on nephrotoxic or NSAIDs who develop fluid retention.</li>\n        </ul>",
+      "plainText": "Epidemiology deep dive Heart failure affects approximately 1–2% of the UK adult population — around 900,000 people — rising to over 10% in adults aged over 70. It is the leading cause of hospital admission in adults over 65. Five-year mortality is approximately 50% overall, comparable to or worse than many common cancers, though outcome varies significantly with aetiology, ejection fraction category, and access to disease-modifying therapy. HFrEF (ejection fraction <40%) is more prevalent in men; HFpEF (ejection fraction ≥50%) is more common in older women and those with hypertension, obesity, and diabetes. Risk factors for developing heart failure include ischaemic heart disease (the most common cause in the UK), hypertension, valvular heart disease, cardiomyopathy, atrial fibrillation, type 2 diabetes, obesity, alcohol excess, and cardiotoxic treatments (particularly anthracycline chemotherapy). Groups at particular risk of delayed diagnosis or rapid decompensation include older adults with multiple comorbidities, those with diabetes and renal impairment (cardiorenal overlap), and patients on nephrotoxic or NSAIDs who develop fluid retention.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Heart Failure epidemiology",
+          "text": "Epidemiology deep dive",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Heart Failure epidemiology\" text=\"Epidemiology deep dive\"][/sc]",
+          "sourceSectionKey": "risk-factors"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.2.0"
+    },
+    {
+      "id": "pathophysiology",
+      "key": "pathophysiology",
+      "title": "Pathophysiology",
+      "order": 3,
+      "sourceSectionIds": [
+        "c-is.3.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Myocardial injury or sustained pressure or volume overload — most commonly from coronary artery disease, hypertension, or valvular disease — reduces cardiac output and activates compensatory neurohumoral responses including the [sc name=\"jitl-query\" Q=\"Renin-angiotensin-aldosterone system: what is it and why does it matter clinically?\" text=\"renin-angiotensin-aldosterone system (RAAS)\"][/sc], sympathetic nervous system, and vasopressin release.</li>\n            <li>These initially adaptive responses drive progressive [sc name=\"jitl-query\" Q=\"Ventricular remodelling: what is it and why does it matter clinically?\" text=\"ventricular remodelling\"][/sc], worsening diastolic and systolic dysfunction; rising filling pressures cause pulmonary congestion (dyspnoea, orthopnoea, pulmonary oedema) and systemic venous congestion (raised JVP, peripheral oedema, ascites), while reduced forward flow worsens renal perfusion and fluid retention.</li>\n            <li>Untreated or inadequately controlled heart failure progresses to end-stage cardiomyopathy, refractory fluid overload, cardiogenic shock, and death — predominantly from sudden cardiac death due to ventricular arrhythmias (approximately 50% of heart failure deaths) or progressive pump failure; the neurohormonal pathways driving remodelling are the primary targets of disease-modifying pharmacotherapy.</li>\n        </ul>",
+      "plainText": "Myocardial injury or sustained pressure or volume overload — most commonly from coronary artery disease, hypertension, or valvular disease — reduces cardiac output and activates compensatory neurohumoral responses including the renin-angiotensin-aldosterone system (RAAS), sympathetic nervous system, and vasopressin release. These initially adaptive responses drive progressive ventricular remodelling, worsening diastolic and systolic dysfunction; rising filling pressures cause pulmonary congestion (dyspnoea, orthopnoea, pulmonary oedema) and systemic venous congestion (raised JVP, peripheral oedema, ascites), while reduced forward flow worsens renal perfusion and fluid retention. Untreated or inadequately controlled heart failure progresses to end-stage cardiomyopathy, refractory fluid overload, cardiogenic shock, and death — predominantly from sudden cardiac death due to ventricular arrhythmias (approximately 50% of heart failure deaths) or progressive pump failure; the neurohormonal pathways driving remodelling are the primary targets of disease-modifying pharmacotherapy.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Renin-angiotensin-aldosterone system: what is it and why does it matter clinically?",
+          "text": "renin-angiotensin-aldosterone system (RAAS)",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Renin-angiotensin-aldosterone system: what is it and why does it matter clinically?\" text=\"renin-angiotensin-aldosterone system (RAAS)\"][/sc]",
+          "sourceSectionKey": "pathophysiology"
+        },
+        {
+          "type": "query",
+          "query": "Ventricular remodelling: what is it and why does it matter clinically?",
+          "text": "ventricular remodelling",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Ventricular remodelling: what is it and why does it matter clinically?\" text=\"ventricular remodelling\"][/sc]",
+          "sourceSectionKey": "pathophysiology"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.3.0"
+    },
+    {
+      "id": "time-course",
+      "key": "time-course",
+      "title": "Time Course",
+      "order": 4,
+      "sourceSectionIds": [
+        "c-is.4.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Early phase:</b> Exertional dyspnoea and fatigue, often attributed to deconditioning or ageing; mild ankle swelling, nocturnal cough, and reduced exercise tolerance may be present for months before diagnosis; NYHA Class I–II function at this stage.</li>\n            <li><b>Progressive phase:</b> Orthopnoea, paroxysmal nocturnal dyspnoea, increasing peripheral oedema, and worsening exercise limitation as filling pressures rise; acute decompensation may be triggered at any stage by respiratory infection, new or uncontrolled atrial fibrillation, dietary indiscretion (excess salt or fluid), medication non-adherence, an acute coronary event, or pulmonary embolism.</li>\n            <li><b>Late phase:</b> Cardiogenic shock, acute pulmonary oedema, refractory fluid overload, and end-organ dysfunction develop particularly beyond 24–48 hours of acute decompensation without treatment; cardiorenal syndrome limits diuretic effectiveness and accelerates deterioration; ventricular arrhythmias may cause sudden cardiac death at any stage.</li>\n        </ul>",
+      "plainText": "Early phase: Exertional dyspnoea and fatigue, often attributed to deconditioning or ageing; mild ankle swelling, nocturnal cough, and reduced exercise tolerance may be present for months before diagnosis; NYHA Class I–II function at this stage. Progressive phase: Orthopnoea, paroxysmal nocturnal dyspnoea, increasing peripheral oedema, and worsening exercise limitation as filling pressures rise; acute decompensation may be triggered at any stage by respiratory infection, new or uncontrolled atrial fibrillation, dietary indiscretion (excess salt or fluid), medication non-adherence, an acute coronary event, or pulmonary embolism. Late phase: Cardiogenic shock, acute pulmonary oedema, refractory fluid overload, and end-organ dysfunction develop particularly beyond 24–48 hours of acute decompensation without treatment; cardiorenal syndrome limits diuretic effectiveness and accelerates deterioration; ventricular arrhythmias may cause sudden cardiac death at any stage.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.4.0"
+    },
+    {
+      "id": "clinical-features",
+      "key": "clinical-features",
+      "title": "Clinical Features",
+      "order": 5,
+      "sourceSectionIds": [
+        "c-is.5.0",
+        "c-is.6.0"
+      ],
+      "rawHtml": "<section class=\"crx-export-clinical-features\"><h3>Symptoms</h3><ul>\n            <li><b>Ask about</b> dyspnoea — the cardinal presenting symptom; characterise onset (acute vs gradual), severity at rest vs exertion, and trajectory; orthopnoea (breathlessness on lying flat, asking about number of pillows used) and paroxysmal nocturnal dyspnoea (woken from sleep by breathlessness, often relieved by sitting upright or opening a window) are highly specific for elevated left ventricular filling pressures and discriminate HF from pulmonary causes.</li>\n            <li><b>Ask about</b> ankle and leg swelling — bilateral pitting oedema, typically worse in the evening and improving overnight, points to systemic venous congestion from right-sided or biventricular failure; ascites and scrotal or labial oedema in severe cases; unilateral oedema suggests DVT rather than HF.</li>\n            <li><b>Ask about</b> fatigue and reduced exercise tolerance — commonly present months before dyspnoea becomes prominent; ask specifically about functional change compared with 6–12 months previously to apply the NYHA classification; profound fatigue disproportionate to breathlessness may indicate low cardiac output rather than congestion alone.</li>\n            <li><b>Ask about</b> nocturnal symptoms — a persistent nocturnal cough (sometimes misdiagnosed as asthma) may reflect early pulmonary congestion; it is also a recognised side effect of ACE inhibitors and should be distinguished in patients already on treatment.</li>\n            <li><b>Ask about</b> precipitating factors and the pattern of deterioration — acute-onset dyspnoea with haemodynamic instability points to a new precipitant (ACS, new AF, PE, sepsis, medication non-adherence); gradual worsening over weeks suggests progressive disease or dietary excess; establishing the tempo and trigger is essential for both diagnosis and management.</li>\n        </ul><h3>Signs</h3><ul>\n            <li><b>Check</b> the jugular venous pressure (JVP) — the most specific sign of elevated right-sided filling pressures; assess at 45° with the patient relaxed; a JVP raised more than 3–4 cm above the sternal angle indicates raised right atrial pressure; hepatojugular reflux (sustained JVP elevation on pressing the liver) is a useful confirmatory sign and should be assessed if JVP is borderline.</li>\n            <li><b>Check</b> for bilateral basal fine inspiratory crackles — reflect pulmonary interstitial oedema from elevated left-sided filling pressures; present in the lower zones bilaterally in decompensated HF; may be absent in chronic compensated HF where pulmonary lymphatic drainage has adapted, making their absence unreliable for ruling out chronic HF.</li>\n            <li><b>Check</b> for a third heart sound (S3 gallop) — an early diastolic sound heard at the cardiac apex with the bell of the stethoscope; indicates rapid ventricular filling into a non-compliant or dilated ventricle; its presence significantly increases the likelihood of HF and is an important exam-relevant sign.</li>\n            <li><b>Check</b> peripheral oedema, heart rate, and blood pressure — bilateral pitting oedema (assess ankle, shin, and sacral levels); tachycardia in acute decompensation or from AF; a narrow pulse pressure or hypotension indicates cardiogenic shock with impaired forward flow; Cheyne-Stokes breathing (cyclical crescendo-decrescendo respiration with apnoeic episodes) may be present in severe HF.</li>\n        </ul></section>",
+      "plainText": "Symptoms Ask about dyspnoea — the cardinal presenting symptom; characterise onset (acute vs gradual), severity at rest vs exertion, and trajectory; orthopnoea (breathlessness on lying flat, asking about number of pillows used) and paroxysmal nocturnal dyspnoea (woken from sleep by breathlessness, often relieved by sitting upright or opening a window) are highly specific for elevated left ventricular filling pressures and discriminate HF from pulmonary causes. Ask about ankle and leg swelling — bilateral pitting oedema, typically worse in the evening and improving overnight, points to systemic venous congestion from right-sided or biventricular failure; ascites and scrotal or labial oedema in severe cases; unilateral oedema suggests DVT rather than HF. Ask about fatigue and reduced exercise tolerance — commonly present months before dyspnoea becomes prominent; ask specifically about functional change compared with 6–12 months previously to apply the NYHA classification; profound fatigue disproportionate to breathlessness may indicate low cardiac output rather than congestion alone. Ask about nocturnal symptoms — a persistent nocturnal cough (sometimes misdiagnosed as asthma) may reflect early pulmonary congestion; it is also a recognised side effect of ACE inhibitors and should be distinguished in patients already on treatment. Ask about precipitating factors and the pattern of deterioration — acute-onset dyspnoea with haemodynamic instability points to a new precipitant (ACS, new AF, PE, sepsis, medication non-adherence); gradual worsening over weeks suggests progressive disease or dietary excess; establishing the tempo and trigger is essential for both diagnosis and management. Signs Check the jugular venous pressure (JVP) — the most specific sign of elevated right-sided filling pressures; assess at 45° with the patient relaxed; a JVP raised more than 3–4 cm above the sternal angle indicates raised right atrial pressure; hepatojugular reflux (sustained JVP elevation on pressing the liver) is a useful confirmatory sign and should be assessed if JVP is borderline. Check for bilateral basal fine inspiratory crackles — reflect pulmonary interstitial oedema from elevated left-sided filling pressures; present in the lower zones bilaterally in decompensated HF; may be absent in chronic compensated HF where pulmonary lymphatic drainage has adapted, making their absence unreliable for ruling out chronic HF. Check for a third heart sound (S3 gallop) — an early diastolic sound heard at the cardiac apex with the bell of the stethoscope; indicates rapid ventricular filling into a non-compliant or dilated ventricle; its presence significantly increases the likelihood of HF and is an important exam-relevant sign. Check peripheral oedema, heart rate, and blood pressure — bilateral pitting oedema (assess ankle, shin, and sacral levels); tachycardia in acute decompensation or from AF; a narrow pulse pressure or hypotension indicates cardiogenic shock with impaired forward flow; Cheyne-Stokes breathing (cyclical crescendo-decrescendo respiration with apnoeic episodes) may be present in severe HF.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.5.0"
+    },
+    {
+      "id": "red-flags",
+      "key": "red-flags",
+      "title": "Red Flags",
+      "order": 6,
+      "sourceSectionIds": [
+        "c-is.7.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Acute pulmonary oedema</b> — sudden severe dyspnoea at rest, inability to lie flat, hypoxia (SpO₂ &lt;90%), pink frothy sputum, and widespread crackles with wheeze (\"cardiac asthma\"); a life-threatening emergency requiring immediate admission, urgent diuresis, vasodilation, and non-invasive ventilation support.</li>\n            <li><b>Cardiogenic shock (hypotension with cold peripheries and oliguria)</b> — impaired cardiac output causing multiorgan hypoperfusion; manifests as systolic BP &lt;90 mmHg, cool mottled extremities, reduced urine output, and altered consciousness; carries approximately 40–50% in-hospital mortality and requires urgent haemodynamic assessment and specialist cardiology input.</li>\n            <li><b>New or rapid atrial fibrillation</b> — a common precipitant of acute decompensation via loss of atrial contribution to ventricular filling and rapid ventricular rate; warrants rate or rhythm control alongside heart failure treatment; also identifies patients at significantly elevated thromboembolic risk requiring anticoagulation.</li>\n            <li><b>Worsening renal function or rapidly increasing oedema despite diuresis</b> — may indicate cardiorenal syndrome from inadequate cardiac output, diuretic resistance from gut oedema and poor absorption, or an intercurrent precipitant such as ACS or sepsis; requires reassessment of the underlying cause rather than simple dose escalation.</li>\n        </ul>",
+      "plainText": "Acute pulmonary oedema — sudden severe dyspnoea at rest, inability to lie flat, hypoxia (SpO₂ <90%), pink frothy sputum, and widespread crackles with wheeze (\"cardiac asthma\"); a life-threatening emergency requiring immediate admission, urgent diuresis, vasodilation, and non-invasive ventilation support. Cardiogenic shock (hypotension with cold peripheries and oliguria) — impaired cardiac output causing multiorgan hypoperfusion; manifests as systolic BP <90 mmHg, cool mottled extremities, reduced urine output, and altered consciousness; carries approximately 40–50% in-hospital mortality and requires urgent haemodynamic assessment and specialist cardiology input. New or rapid atrial fibrillation — a common precipitant of acute decompensation via loss of atrial contribution to ventricular filling and rapid ventricular rate; warrants rate or rhythm control alongside heart failure treatment; also identifies patients at significantly elevated thromboembolic risk requiring anticoagulation. Worsening renal function or rapidly increasing oedema despite diuresis — may indicate cardiorenal syndrome from inadequate cardiac output, diuretic resistance from gut oedema and poor absorption, or an intercurrent precipitant such as ACS or sepsis; requires reassessment of the underlying cause rather than simple dose escalation.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.7.0"
+    },
+    {
+      "id": "atypical-presentations",
+      "key": "atypical-presentations",
+      "title": "Atypical Presentations",
+      "order": 7,
+      "sourceSectionIds": [
+        "c-is.8.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>HFpEF (heart failure with preserved ejection fraction, EF ≥50%):</b> Symptoms and signs are identical to HFrEF but echocardiography shows preserved systolic function with evidence of diastolic dysfunction; predominantly affects older women with hypertension, obesity, and diabetes; BNP/NT-proBNP elevation with structural cardiac changes (left atrial enlargement, LV hypertrophy) and symptoms confirms the diagnosis; the evidence base for pharmacological mortality reduction in HFpEF is less established than in HFrEF — SGLT2 inhibitors have shown benefit (EMPEROR-Preserved, DELIVER trials).</li>\n            <li><b>Right heart failure predominance:</b> Features of systemic venous congestion — raised JVP, hepatomegaly, ascites, and peripheral oedema — may be prominent without significant dyspnoea; common in cor pulmonale (from chronic respiratory disease), pulmonary hypertension, and severe tricuspid regurgitation; may mimic chronic liver disease or nephrotic syndrome if dyspnoea is minimal.</li>\n            <li><b>Older adults:</b> Symptoms are often attributed to ageing or deconditioning and diagnosis is frequently delayed; reduced mobility and falls may be more prominent presenting features than dyspnoea; multiple comorbidities (COPD, renal impairment, atrial fibrillation) complicate both diagnosis and treatment; polypharmacy interactions and NSAID use are significant precipitants of decompensation in this group.</li>\n            <li><b>Peripartum cardiomyopathy:</b> New-onset HFrEF presenting in the last month of pregnancy or within the first 5 months postpartum in the absence of a pre-existing cause; presents with dyspnoea, oedema, and reduced ejection fraction on echocardiography; a rare but exam-relevant cause of HF in young women requiring specialist obstetric cardiology involvement; recurrence risk in subsequent pregnancies is clinically significant.</li>\n        </ul>",
+      "plainText": "HFpEF (heart failure with preserved ejection fraction, EF ≥50%): Symptoms and signs are identical to HFrEF but echocardiography shows preserved systolic function with evidence of diastolic dysfunction; predominantly affects older women with hypertension, obesity, and diabetes; BNP/NT-proBNP elevation with structural cardiac changes (left atrial enlargement, LV hypertrophy) and symptoms confirms the diagnosis; the evidence base for pharmacological mortality reduction in HFpEF is less established than in HFrEF — SGLT2 inhibitors have shown benefit (EMPEROR-Preserved, DELIVER trials). Right heart failure predominance: Features of systemic venous congestion — raised JVP, hepatomegaly, ascites, and peripheral oedema — may be prominent without significant dyspnoea; common in cor pulmonale (from chronic respiratory disease), pulmonary hypertension, and severe tricuspid regurgitation; may mimic chronic liver disease or nephrotic syndrome if dyspnoea is minimal. Older adults: Symptoms are often attributed to ageing or deconditioning and diagnosis is frequently delayed; reduced mobility and falls may be more prominent presenting features than dyspnoea; multiple comorbidities (COPD, renal impairment, atrial fibrillation) complicate both diagnosis and treatment; polypharmacy interactions and NSAID use are significant precipitants of decompensation in this group. Peripartum cardiomyopathy: New-onset HFrEF presenting in the last month of pregnancy or within the first 5 months postpartum in the absence of a pre-existing cause; presents with dyspnoea, oedema, and reduced ejection fraction on echocardiography; a rare but exam-relevant cause of HF in young women requiring specialist obstetric cardiology involvement; recurrence risk in subsequent pregnancies is clinically significant.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.8.0"
+    },
+    {
+      "id": "investigations",
+      "key": "investigations",
+      "title": "Investigations",
+      "order": 8,
+      "sourceSectionIds": [
+        "c-is.9.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Core for suspected heart failure:</b> BNP or NT-proBNP (the primary diagnostic biomarker — a normal BNP makes HF unlikely in an undifferentiated dyspnoeic patient; elevated in decompensated HF, though also raised in AF, PE, renal failure, and sepsis; may be falsely normal or low in obesity); ECG (almost always abnormal in significant HF — look for LV hypertrophy, LBBB, AF, or ischaemic changes; a normal ECG reduces the probability of HF); FBC (anaemia is a common precipitant and comorbidity); U&amp;Es and creatinine (baseline renal function and potassium for safe diuretic and RAAS inhibitor use); TFTs (hypo- or hyperthyroidism as a precipitant); blood glucose and HbA1c (diabetes as risk factor and comorbidity).</li>\n            <li><b>If an alternative diagnosis is plausible:</b> Troponin if an acute coronary event is suspected as precipitant; D-dimer followed by CTPA if pulmonary embolism is the primary concern; CRP and procalcitonin if sepsis-related decompensation is suspected; spirometry and peak flow if obstructive airways disease is the main differential for dyspnoea; urinalysis and protein:creatinine ratio if nephrotic syndrome is in the differential for peripheral oedema.</li>\n            <li><b>Imaging — chest X-ray:</b> Essential in acute presentations; cardiomegaly (cardiothoracic ratio &gt;0.5), upper lobe blood diversion, Kerley B lines (interstitial oedema), perihilar \"bat-wing\" alveolar shadowing, and pleural effusions (typically bilateral, right &gt; left) are the hallmark features; a normal CXR does not exclude chronic compensated HF or HFpEF; serial CXR is useful to assess response to diuresis.</li>\n            <li><b>Imaging — echocardiography:</b> The definitive investigation for confirming heart failure and establishing its phenotype; transthoracic echocardiography (TTE) assesses left ventricular and right ventricular size and systolic function (ejection fraction), diastolic function (E/e' ratio, LA size), valvular disease, wall motion abnormalities, and pericardial effusion; distinguishes HFrEF from HFpEF and guides disease-modifying treatment decisions; urgent bedside echo is warranted in haemodynamic instability.</li>\n            <li><b>Serial reassessment:</b> Daily weight monitoring and fluid balance are standard in hospitalised decompensated HF to assess diuretic response; renal function and electrolytes require reassessment every 24–48 hours during IV diuresis; BNP or NT-proBNP trends are useful for assessing clinical improvement and guiding discharge readiness; repeat echocardiography at 3–6 months after optimising therapy is recommended to reassess EF and guide device decisions (ICD, CRT) per NICE NG106.</li>\n        </ul>",
+      "plainText": "Core for suspected heart failure: BNP or NT-proBNP (the primary diagnostic biomarker — a normal BNP makes HF unlikely in an undifferentiated dyspnoeic patient; elevated in decompensated HF, though also raised in AF, PE, renal failure, and sepsis; may be falsely normal or low in obesity); ECG (almost always abnormal in significant HF — look for LV hypertrophy, LBBB, AF, or ischaemic changes; a normal ECG reduces the probability of HF); FBC (anaemia is a common precipitant and comorbidity); U&Es and creatinine (baseline renal function and potassium for safe diuretic and RAAS inhibitor use); TFTs (hypo- or hyperthyroidism as a precipitant); blood glucose and HbA1c (diabetes as risk factor and comorbidity). If an alternative diagnosis is plausible: Troponin if an acute coronary event is suspected as precipitant; D-dimer followed by CTPA if pulmonary embolism is the primary concern; CRP and procalcitonin if sepsis-related decompensation is suspected; spirometry and peak flow if obstructive airways disease is the main differential for dyspnoea; urinalysis and protein:creatinine ratio if nephrotic syndrome is in the differential for peripheral oedema. Imaging — chest X-ray: Essential in acute presentations; cardiomegaly (cardiothoracic ratio >0.5), upper lobe blood diversion, Kerley B lines (interstitial oedema), perihilar \"bat-wing\" alveolar shadowing, and pleural effusions (typically bilateral, right > left) are the hallmark features; a normal CXR does not exclude chronic compensated HF or HFpEF; serial CXR is useful to assess response to diuresis. Imaging — echocardiography: The definitive investigation for confirming heart failure and establishing its phenotype; transthoracic echocardiography (TTE) assesses left ventricular and right ventricular size and systolic function (ejection fraction), diastolic function (E/e' ratio, LA size), valvular disease, wall motion abnormalities, and pericardial effusion; distinguishes HFrEF from HFpEF and guides disease-modifying treatment decisions; urgent bedside echo is warranted in haemodynamic instability. Serial reassessment: Daily weight monitoring and fluid balance are standard in hospitalised decompensated HF to assess diuretic response; renal function and electrolytes require reassessment every 24–48 hours during IV diuresis; BNP or NT-proBNP trends are useful for assessing clinical improvement and guiding discharge readiness; repeat echocardiography at 3–6 months after optimising therapy is recommended to reassess EF and guide device decisions (ICD, CRT) per NICE NG106.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.9.0"
+    },
+    {
+      "id": "problem-representation",
+      "key": "problem-representation",
+      "title": "Problem Representation",
+      "order": 9,
+      "sourceSectionIds": [
+        "c-is.10.0"
+      ],
+      "rawHtml": "<ul>\n            <li>A 74-year-old man with known ischaemic heart disease presents with 5 days of worsening dyspnoea on minimal exertion, 2-pillow orthopnoea, bilateral ankle swelling to the knee, and an episode of paroxysmal nocturnal dyspnoea last night; examination reveals a raised JVP at 6 cm, bilateral basal crackles, an S3 gallop, and pitting oedema to both shins.</li>\n            <li>Older man with known ischaemic heart disease presenting with progressive congestive symptoms — orthopnoea, paroxysmal nocturnal dyspnoea, bilateral oedema, raised JVP, and S3 gallop — consistent with acute decompensation of chronic heart failure.</li>\n        </ul>",
+      "plainText": "A 74-year-old man with known ischaemic heart disease presents with 5 days of worsening dyspnoea on minimal exertion, 2-pillow orthopnoea, bilateral ankle swelling to the knee, and an episode of paroxysmal nocturnal dyspnoea last night; examination reveals a raised JVP at 6 cm, bilateral basal crackles, an S3 gallop, and pitting oedema to both shins. Older man with known ischaemic heart disease presenting with progressive congestive symptoms — orthopnoea, paroxysmal nocturnal dyspnoea, bilateral oedema, raised JVP, and S3 gallop — consistent with acute decompensation of chronic heart failure.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.10.0"
+    },
+    {
+      "id": "key-differentials",
+      "key": "key-differentials",
+      "title": "Key Differentials",
+      "order": 10,
+      "sourceSectionIds": [
+        "c-is.11.0"
+      ],
+      "rawHtml": "<ul>\n            <li>COPD exacerbation — productive cough, wheeze, and bilateral airflow obstruction on auscultation; spirometry shows obstructive pattern; CXR shows hyperinflation rather than cardiomegaly; BNP may be mildly elevated from cor pulmonale but not to the levels typical of acute decompensated HF.</li>\n            <li>Pneumonia — fever, productive cough, lobar consolidation signs, and raised inflammatory markers; CXR shows consolidation rather than bilateral interstitial shadowing or cardiomegaly; may coexist with or precipitate HF decompensation in a patient with pre-existing cardiac disease.</li>\n            <li>Pulmonary embolism — acute dyspnoea and pleuritic chest pain without the bilateral congestive features; raised JVP from right heart strain but without peripheral oedema and with pleuritic rather than orthopnoeic symptom pattern; D-dimer and CTPA differentiate; BNP may be elevated from acute RV strain.</li>\n            <li>Nephrotic syndrome — bilateral pitting oedema with periorbital oedema and ascites but without raised JVP, S3, or pulmonary crackles; massive proteinuria on urinalysis (3+ or more); BNP not elevated in nephrotic syndrome alone; renal causes include membranous nephropathy, minimal change disease, and diabetic nephropathy.</li>\n            <li>Constrictive pericarditis — raised JVP, ascites, and peripheral oedema mimicking right HF; Kussmaul's sign (JVP rises on inspiration, unlike normal fall); normal or near-normal LV function on echo; CT or MRI may show pericardial thickening; important surgical diagnosis not to miss.</li>\n            <li>Chronic liver disease with portal hypertension — ascites, peripheral oedema, and raised JVP in severe cases, but stigmata of chronic liver disease (spider naevi, palmar erythema, jaundice), severely deranged LFTs, and low albumin distinguish; BNP not elevated; hepatic cirrhosis may cause a dilated cardiomyopathy (alcoholic cardiomyopathy) complicating the picture.</li>\n            <li>Severe anaemia — dyspnoea, fatigue, and tachycardia mimicking HF but without raised JVP, S3, or typical CXR changes; high-output cardiac failure may develop in severe chronic anaemia; FBC is diagnostic.</li>\n        </ul>",
+      "plainText": "COPD exacerbation — productive cough, wheeze, and bilateral airflow obstruction on auscultation; spirometry shows obstructive pattern; CXR shows hyperinflation rather than cardiomegaly; BNP may be mildly elevated from cor pulmonale but not to the levels typical of acute decompensated HF. Pneumonia — fever, productive cough, lobar consolidation signs, and raised inflammatory markers; CXR shows consolidation rather than bilateral interstitial shadowing or cardiomegaly; may coexist with or precipitate HF decompensation in a patient with pre-existing cardiac disease. Pulmonary embolism — acute dyspnoea and pleuritic chest pain without the bilateral congestive features; raised JVP from right heart strain but without peripheral oedema and with pleuritic rather than orthopnoeic symptom pattern; D-dimer and CTPA differentiate; BNP may be elevated from acute RV strain. Nephrotic syndrome — bilateral pitting oedema with periorbital oedema and ascites but without raised JVP, S3, or pulmonary crackles; massive proteinuria on urinalysis (3+ or more); BNP not elevated in nephrotic syndrome alone; renal causes include membranous nephropathy, minimal change disease, and diabetic nephropathy. Constrictive pericarditis — raised JVP, ascites, and peripheral oedema mimicking right HF; Kussmaul's sign (JVP rises on inspiration, unlike normal fall); normal or near-normal LV function on echo; CT or MRI may show pericardial thickening; important surgical diagnosis not to miss. Chronic liver disease with portal hypertension — ascites, peripheral oedema, and raised JVP in severe cases, but stigmata of chronic liver disease (spider naevi, palmar erythema, jaundice), severely deranged LFTs, and low albumin distinguish; BNP not elevated; hepatic cirrhosis may cause a dilated cardiomyopathy (alcoholic cardiomyopathy) complicating the picture. Severe anaemia — dyspnoea, fatigue, and tachycardia mimicking HF but without raised JVP, S3, or typical CXR changes; high-output cardiac failure may develop in severe chronic anaemia; FBC is diagnostic.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.11.0"
+    },
+    {
+      "id": "management-thinking",
+      "key": "management-thinking",
+      "title": "Management Thinking",
+      "order": 11,
+      "sourceSectionIds": [
+        "c-is.12.0"
+      ],
+      "rawHtml": "<ul><li><b>Immediate priorities:</b> Recognise acute decompensation and haemodynamic instability early. Supportive care often includes oxygen, diuresis, and sometimes non-invasive ventilation, but the main practical implication is urgent senior review and close monitoring when pulmonary oedema or shock features are present.</li><li><b>Definitive management:</b> HFrEF treatment is built around a disease-modifying framework targeting neurohormonal activation, while diuretics mainly relieve congestion; acute decompensation also requires attention to precipitants such as ACS, arrhythmia, infection, or pulmonary embolism.</li><li><b>Adjunctive management:</b> Device therapy, revascularisation, fluid and salt advice, rehabilitation, and self-monitoring become relevant when symptoms persist despite optimised medical treatment or when structural disease makes a purely pharmacological approach incomplete.</li><li><b>Monitoring and follow-up:</b> Reassess weight, fluid balance, renal function, electrolytes, natriuretic peptides, and functional response after treatment changes; repeat echocardiography is useful once therapy is stabilised to clarify phenotype and longer-term risk.</li><li><b>Escalation and safety-netting:</b> Worsening dyspnoea, hypotension, rapidly rising weight, progressive oedema, syncope, palpitations, or worsening renal function should prompt reassessment for decompensation, arrhythmia, or a new precipitant rather than simple outpatient drift.</li></ul>",
+      "plainText": "Immediate priorities: Recognise acute decompensation and haemodynamic instability early. Supportive care often includes oxygen, diuresis, and sometimes non-invasive ventilation, but the main practical implication is urgent senior review and close monitoring when pulmonary oedema or shock features are present. Definitive management: HFrEF treatment is built around a disease-modifying framework targeting neurohormonal activation, while diuretics mainly relieve congestion; acute decompensation also requires attention to precipitants such as ACS, arrhythmia, infection, or pulmonary embolism. Adjunctive management: Device therapy, revascularisation, fluid and salt advice, rehabilitation, and self-monitoring become relevant when symptoms persist despite optimised medical treatment or when structural disease makes a purely pharmacological approach incomplete. Monitoring and follow-up: Reassess weight, fluid balance, renal function, electrolytes, natriuretic peptides, and functional response after treatment changes; repeat echocardiography is useful once therapy is stabilised to clarify phenotype and longer-term risk. Escalation and safety-netting: Worsening dyspnoea, hypotension, rapidly rising weight, progressive oedema, syncope, palpitations, or worsening renal function should prompt reassessment for decompensation, arrhythmia, or a new precipitant rather than simple outpatient drift.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.12.0"
+    },
+    {
+      "id": "prescribing",
+      "key": "prescribing",
+      "title": "Prescribing",
+      "order": 12,
+      "sourceSectionIds": [
+        "c-is.12.0"
+      ],
+      "rawHtml": "NICE NG106 describes four key disease-modifying drug groups for HFrEF: ACE inhibitor therapy such as [sc name=\"jitl-medication\" Q=\"Ramipril use in Heart Failure\" text=\"ramipril\"][/sc] or [sc name=\"jitl-medication\" Q=\"Enalapril use in Heart Failure\" text=\"enalapril\"][/sc], or an ARNI such as [sc name=\"jitl-medication\" Q=\"Sacubitril-valsartan use in Heart Failure\" text=\"sacubitril-valsartan\"][/sc] in selected patients; beta-blockers such as [sc name=\"jitl-medication\" Q=\"Bisoprolol use in Heart Failure\" text=\"bisoprolol\"][/sc] or [sc name=\"jitl-medication\" Q=\"Carvedilol use in Heart Failure\" text=\"carvedilol\"][/sc]; MRAs such as [sc name=\"jitl-medication\" Q=\"Spironolactone use in Heart Failure\" text=\"spironolactone\"][/sc] or [sc name=\"jitl-medication\" Q=\"Eplerenone use in Heart Failure\" text=\"eplerenone\"][/sc]; and SGLT2 inhibitors such as [sc name=\"jitl-medication\" Q=\"Dapagliflozin use in Heart Failure\" text=\"dapagliflozin\"][/sc] or [sc name=\"jitl-medication\" Q=\"Empagliflozin use in Heart Failure\" text=\"empagliflozin\"][/sc]. [sc name=\"jitl-medication\" Q=\"Furosemide use in Heart Failure\" text=\"furosemide\"][/sc] is important for symptomatic congestion relief but is not primarily disease-modifying. No doses or frequencies are cited here — always verify against your local prescribing and cardiology guidance before prescribing.",
+      "plainText": "NICE NG106 describes four key disease-modifying drug groups for HFrEF: ACE inhibitor therapy such as ramipril or enalapril, or an ARNI such as sacubitril-valsartan in selected patients; beta-blockers such as bisoprolol or carvedilol; MRAs such as spironolactone or eplerenone; and SGLT2 inhibitors such as dapagliflozin or empagliflozin. furosemide is important for symptomatic congestion relief but is not primarily disease-modifying. No doses or frequencies are cited here — always verify against your local prescribing and cardiology guidance before prescribing.",
+      "jitlReferences": [
+        {
+          "type": "medication",
+          "query": "Ramipril use in Heart Failure",
+          "text": "ramipril",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Ramipril use in Heart Failure\" text=\"ramipril\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Enalapril use in Heart Failure",
+          "text": "enalapril",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Enalapril use in Heart Failure\" text=\"enalapril\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Sacubitril-valsartan use in Heart Failure",
+          "text": "sacubitril-valsartan",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Sacubitril-valsartan use in Heart Failure\" text=\"sacubitril-valsartan\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Bisoprolol use in Heart Failure",
+          "text": "bisoprolol",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Bisoprolol use in Heart Failure\" text=\"bisoprolol\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Carvedilol use in Heart Failure",
+          "text": "carvedilol",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Carvedilol use in Heart Failure\" text=\"carvedilol\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Spironolactone use in Heart Failure",
+          "text": "spironolactone",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Spironolactone use in Heart Failure\" text=\"spironolactone\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Eplerenone use in Heart Failure",
+          "text": "eplerenone",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Eplerenone use in Heart Failure\" text=\"eplerenone\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Dapagliflozin use in Heart Failure",
+          "text": "dapagliflozin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Dapagliflozin use in Heart Failure\" text=\"dapagliflozin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Empagliflozin use in Heart Failure",
+          "text": "empagliflozin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Empagliflozin use in Heart Failure\" text=\"empagliflozin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Furosemide use in Heart Failure",
+          "text": "furosemide",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Furosemide use in Heart Failure\" text=\"furosemide\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.12.0"
+    },
+    {
+      "id": "complications",
+      "key": "complications",
+      "title": "Complications",
+      "order": 13,
+      "sourceSectionIds": [
+        "c-is.13.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Sudden cardiac death from ventricular arrhythmia:</b> Can occur even in apparently stable heart failure, reflecting the arrhythmic substrate created by myocardial fibrosis and remodelling.</li>\n            <li><b>Cardiogenic shock:</b> Represents severe pump failure with multiorgan hypoperfusion and marks the transition from decompensated HF to an immediately life-threatening state.</li>\n            <li><b>[sc name=\"jitl-query\" Q=\"Cardiorenal syndrome: what is it and why does it matter clinically?\" text=\"Cardiorenal syndrome\"][/sc]:</b> Worsening renal function can both result from and worsen heart failure, making a deteriorating creatinine during treatment a reasoning problem rather than a simple signal to stop therapy automatically.</li>\n            <li><b>Atrial fibrillation:</b> Both a cause and consequence of heart failure, because loss of atrial contribution and rapid ventricular rate can quickly worsen symptoms and destabilise the overall picture.</li>\n        </ul>",
+      "plainText": "Sudden cardiac death from ventricular arrhythmia: Can occur even in apparently stable heart failure, reflecting the arrhythmic substrate created by myocardial fibrosis and remodelling. Cardiogenic shock: Represents severe pump failure with multiorgan hypoperfusion and marks the transition from decompensated HF to an immediately life-threatening state. Cardiorenal syndrome: Worsening renal function can both result from and worsen heart failure, making a deteriorating creatinine during treatment a reasoning problem rather than a simple signal to stop therapy automatically. Atrial fibrillation: Both a cause and consequence of heart failure, because loss of atrial contribution and rapid ventricular rate can quickly worsen symptoms and destabilise the overall picture.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Cardiorenal syndrome: what is it and why does it matter clinically?",
+          "text": "Cardiorenal syndrome",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Cardiorenal syndrome: what is it and why does it matter clinically?\" text=\"Cardiorenal syndrome\"][/sc]",
+          "sourceSectionKey": "complications"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.13.0"
+    }
+  ],
+  "jitl": {
+    "medications": [
+      {
+        "type": "medication",
+        "query": "Ramipril use in Heart Failure",
+        "text": "ramipril",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Ramipril use in Heart Failure\" text=\"ramipril\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Enalapril use in Heart Failure",
+        "text": "enalapril",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Enalapril use in Heart Failure\" text=\"enalapril\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Sacubitril-valsartan use in Heart Failure",
+        "text": "sacubitril-valsartan",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Sacubitril-valsartan use in Heart Failure\" text=\"sacubitril-valsartan\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Bisoprolol use in Heart Failure",
+        "text": "bisoprolol",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Bisoprolol use in Heart Failure\" text=\"bisoprolol\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Carvedilol use in Heart Failure",
+        "text": "carvedilol",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Carvedilol use in Heart Failure\" text=\"carvedilol\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Spironolactone use in Heart Failure",
+        "text": "spironolactone",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Spironolactone use in Heart Failure\" text=\"spironolactone\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Eplerenone use in Heart Failure",
+        "text": "eplerenone",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Eplerenone use in Heart Failure\" text=\"eplerenone\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Dapagliflozin use in Heart Failure",
+        "text": "dapagliflozin",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Dapagliflozin use in Heart Failure\" text=\"dapagliflozin\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Empagliflozin use in Heart Failure",
+        "text": "empagliflozin",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Empagliflozin use in Heart Failure\" text=\"empagliflozin\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Furosemide use in Heart Failure",
+        "text": "furosemide",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Furosemide use in Heart Failure\" text=\"furosemide\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      }
+    ],
+    "queries": [
+      {
+        "type": "query",
+        "query": "Heart Failure epidemiology",
+        "text": "Epidemiology deep dive",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Heart Failure epidemiology\" text=\"Epidemiology deep dive\"][/sc]",
+        "sourceSectionKey": "risk-factors"
+      },
+      {
+        "type": "query",
+        "query": "Renin-angiotensin-aldosterone system: what is it and why does it matter clinically?",
+        "text": "renin-angiotensin-aldosterone system (RAAS)",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Renin-angiotensin-aldosterone system: what is it and why does it matter clinically?\" text=\"renin-angiotensin-aldosterone system (RAAS)\"][/sc]",
+        "sourceSectionKey": "pathophysiology"
+      },
+      {
+        "type": "query",
+        "query": "Ventricular remodelling: what is it and why does it matter clinically?",
+        "text": "ventricular remodelling",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Ventricular remodelling: what is it and why does it matter clinically?\" text=\"ventricular remodelling\"][/sc]",
+        "sourceSectionKey": "pathophysiology"
+      },
+      {
+        "type": "query",
+        "query": "Cardiorenal syndrome: what is it and why does it matter clinically?",
+        "text": "Cardiorenal syndrome",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Cardiorenal syndrome: what is it and why does it matter clinically?\" text=\"Cardiorenal syndrome\"][/sc]",
+        "sourceSectionKey": "complications"
+      }
+    ]
+  },
+  "downstreamHints": {
+    "knowledgeBase": {
+      "canonicalTopicUrl": "https://kb.clinicalreasoning.io/topic/heart-failure"
+    },
+    "reasoningCompass": {
+      "topicSlug": "heart-failure",
+      "suggestedAccentTheme": "red",
+      "sectionKeys": [
+        "overview",
+        "risk-factors",
+        "pathophysiology",
+        "time-course",
+        "clinical-features",
+        "red-flags",
+        "atypical-presentations",
+        "investigations",
+        "problem-representation",
+        "key-differentials",
+        "management-thinking",
+        "prescribing",
+        "complications"
+      ]
+    },
+    "ddxExplorer": {
+      "knowledgeBaseUrl": "https://kb.clinicalreasoning.io/topic/heart-failure",
+      "summary": "Heart failure is a clinical syndrome in which the heart cannot pump sufficient blood to meet the body's metabolic demands — or can only do so at the cost of elevated filling pressures — resulting in progressive dyspnoea, fluid overload, fatigue, and reduced exercise tolerance.",
+      "redFlagSummary": "Acute pulmonary oedema — sudden severe dyspnoea at rest, inability to lie flat, hypoxia (SpO₂ <90%), pink frothy sputum, and widespread crackles with wheeze (\"cardiac asthma\"); a life-threatening emergency requiring immediate admission, urgent diuresis, vasodilation, and non-invasive ventilation support.",
+      "featureSummary": "Symptoms Ask about dyspnoea — the cardinal presenting symptom; characterise onset (acute vs gradual), severity at rest vs exertion, and trajectory; orthopnoea (breathlessness on lying flat, asking about number of pillows used) and paroxysmal nocturnal dyspnoea (woken from sleep by breathlessness, often relieved by sitting upright or opening a window) are highly specific for elevated left ventricular filling pressures and discriminate HF from pulmonary causes."
+    }
+  }
+}

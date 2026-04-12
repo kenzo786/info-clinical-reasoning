@@ -1,0 +1,401 @@
+{
+  "schemaVersion": "2026-04-12",
+  "exportedAt": "2026-04-12T17:28:59.159151+00:00",
+  "conditionId": "ukmla-pulmonary-embolism",
+  "slug": "pulmonary-embolism",
+  "title": "Pulmonary Embolism",
+  "subtitle": "Heart and vasculature UKMLA condition master export",
+  "conditionType": "condition",
+  "ukmla": {
+    "conditionLabel": "Pulmonary embolism",
+    "category": "Heart and vasculature",
+    "gapTrackerStatus": "covered-needs-refresh",
+    "priority": "high",
+    "phase": "phase-1-pilot"
+  },
+  "source": {
+    "repo": "info-clinical-reasoning",
+    "htmlFile": "updated-illness-scripts-2026-final/1320-is-ukmla-pulmonary-embolism.html",
+    "canonicalFile": "1320-is-ukmla-pulmonary-embolism.html",
+    "legacyPostId": "1320",
+    "postIdSource": "pilot-manifest"
+  },
+  "publication": {
+    "legacyWordpressStatus": "pending-transfer",
+    "knowledgeBaseStatus": "exported",
+    "conditionsProjectionStatus": "not-generated",
+    "ddxProjectionStatus": "not-generated",
+    "reviewStatus": "clinician-review-needed"
+  },
+  "taxonomy": {
+    "specialty": "Cardiology",
+    "tags": [
+      "UKMLA",
+      "illness-script",
+      "Heart and vasculature",
+      "Cardiology",
+      "prescribing"
+    ]
+  },
+  "signals": {
+    "clusterResolutionNeeded": false,
+    "clinicianPriority": "clinician-review-needed",
+    "notes": [
+      "manifest-current-file-status=canonical-final-exists",
+      "tracker-next-action=replace-live-now",
+      "Canonical final file present in final folder. Batch 1 live-replacement candidate."
+    ]
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "key": "overview",
+      "title": "Overview",
+      "order": 1,
+      "sourceSectionIds": [
+        "c-is.1.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Pulmonary embolism (PE) is occlusion of one or more pulmonary arteries by thrombus — most commonly arising from deep vein thrombosis — causing impaired gas exchange, raised pulmonary vascular resistance, and potentially acute right ventricular strain.</li>\n            <li><b>UKMLA learning outcome:</b> Recognise the clinical presentations of PE across the spectrum from sub-massive to massive, apply the Wells PE score to risk-stratify and direct investigation, interpret D-dimer and CTPA findings appropriately, and identify haemodynamically compromised PE requiring urgent escalation beyond standard anticoagulation.</li>\n        </ul>",
+      "plainText": "Pulmonary embolism (PE) is occlusion of one or more pulmonary arteries by thrombus — most commonly arising from deep vein thrombosis — causing impaired gas exchange, raised pulmonary vascular resistance, and potentially acute right ventricular strain. UKMLA learning outcome: Recognise the clinical presentations of PE across the spectrum from sub-massive to massive, apply the Wells PE score to risk-stratify and direct investigation, interpret D-dimer and CTPA findings appropriately, and identify haemodynamically compromised PE requiring urgent escalation beyond standard anticoagulation.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.1.0"
+    },
+    {
+      "id": "risk-factors",
+      "key": "risk-factors",
+      "title": "Risk Factors",
+      "order": 2,
+      "sourceSectionIds": [
+        "c-is.2.0"
+      ],
+      "rawHtml": "<ul>\n            <li>[sc name=\"jitl-query\" Q=\"Pulmonary Embolism epidemiology\" text=\"Epidemiology deep dive\"][/sc]</li>\n            <li>Venous thromboembolism (VTE), comprising DVT and PE, affects approximately 1–2 per 1,000 adults annually in the UK; PE accounts for roughly one-third of VTE events. Thirty-day case fatality is approximately 10% overall, rising to 30–50% in massive PE with haemodynamic compromise. Incidence increases with age; those over 60 account for the majority of cases.</li>\n            <li>Risk factors follow Virchow's triad: venous stasis (prolonged immobility, hospitalisation, long-haul travel, heart failure), hypercoagulability (active malignancy, pregnancy and puerperium, oral contraceptive pill or HRT, inherited thrombophilia, antiphospholipid syndrome), and endothelial injury (surgery, trauma, indwelling catheters). Cancer patients have a 4–7-fold increased VTE risk. Pregnancy increases risk approximately 10-fold, with the puerperium carrying the highest absolute risk.</li>\n        </ul>",
+      "plainText": "Epidemiology deep dive Venous thromboembolism (VTE), comprising DVT and PE, affects approximately 1–2 per 1,000 adults annually in the UK; PE accounts for roughly one-third of VTE events. Thirty-day case fatality is approximately 10% overall, rising to 30–50% in massive PE with haemodynamic compromise. Incidence increases with age; those over 60 account for the majority of cases. Risk factors follow Virchow's triad: venous stasis (prolonged immobility, hospitalisation, long-haul travel, heart failure), hypercoagulability (active malignancy, pregnancy and puerperium, oral contraceptive pill or HRT, inherited thrombophilia, antiphospholipid syndrome), and endothelial injury (surgery, trauma, indwelling catheters). Cancer patients have a 4–7-fold increased VTE risk. Pregnancy increases risk approximately 10-fold, with the puerperium carrying the highest absolute risk.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Pulmonary Embolism epidemiology",
+          "text": "Epidemiology deep dive",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Pulmonary Embolism epidemiology\" text=\"Epidemiology deep dive\"][/sc]",
+          "sourceSectionKey": "risk-factors"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.2.0"
+    },
+    {
+      "id": "pathophysiology",
+      "key": "pathophysiology",
+      "title": "Pathophysiology",
+      "order": 3,
+      "sourceSectionIds": [
+        "c-is.3.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Thrombus — most commonly from the deep veins of the lower limb or pelvis, propagated by [sc name=\"jitl-query\" Q=\"Virchow's triad: what is it and why does it matter clinically?\" text=\"Virchow's triad\"][/sc] — detaches and lodges in the pulmonary arterial circulation, with clot burden and vessel calibre determining haemodynamic impact.</li>\n            <li>Vascular occlusion creates [sc name=\"jitl-query\" Q=\"Ventilation-perfusion mismatch: what is it and why does it matter clinically?\" text=\"ventilation-perfusion mismatch\"][/sc], causing hypoxaemia; simultaneously, obstruction raises right ventricular afterload, leading to [sc name=\"jitl-query\" Q=\"Right ventricular strain: what is it and why does it matter clinically?\" text=\"RV strain\"][/sc] and reduced cardiac output in more severe disease.</li>\n            <li>If untreated, massive PE causes acute cor pulmonale, cardiogenic shock, and cardiac arrest; incomplete thrombus resolution can later contribute to chronic thromboembolic pulmonary hypertension.</li>\n        </ul>",
+      "plainText": "Thrombus — most commonly from the deep veins of the lower limb or pelvis, propagated by Virchow's triad — detaches and lodges in the pulmonary arterial circulation, with clot burden and vessel calibre determining haemodynamic impact. Vascular occlusion creates ventilation-perfusion mismatch, causing hypoxaemia; simultaneously, obstruction raises right ventricular afterload, leading to RV strain and reduced cardiac output in more severe disease. If untreated, massive PE causes acute cor pulmonale, cardiogenic shock, and cardiac arrest; incomplete thrombus resolution can later contribute to chronic thromboembolic pulmonary hypertension.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Virchow's triad: what is it and why does it matter clinically?",
+          "text": "Virchow's triad",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Virchow's triad: what is it and why does it matter clinically?\" text=\"Virchow's triad\"][/sc]",
+          "sourceSectionKey": "pathophysiology"
+        },
+        {
+          "type": "query",
+          "query": "Ventilation-perfusion mismatch: what is it and why does it matter clinically?",
+          "text": "ventilation-perfusion mismatch",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Ventilation-perfusion mismatch: what is it and why does it matter clinically?\" text=\"ventilation-perfusion mismatch\"][/sc]",
+          "sourceSectionKey": "pathophysiology"
+        },
+        {
+          "type": "query",
+          "query": "Right ventricular strain: what is it and why does it matter clinically?",
+          "text": "RV strain",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Right ventricular strain: what is it and why does it matter clinically?\" text=\"RV strain\"][/sc]",
+          "sourceSectionKey": "pathophysiology"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.3.0"
+    },
+    {
+      "id": "time-course",
+      "key": "time-course",
+      "title": "Time Course",
+      "order": 4,
+      "sourceSectionIds": [
+        "c-is.4.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Early phase:</b> Sudden-onset dyspnoea is typically the first symptom, often at rest or with minimal exertion; unexplained tachycardia or mild oxygen desaturation may precede the full clinical picture, particularly with smaller emboli where symptoms may be dismissed as anxiety or musculoskeletal.</li>\n            <li><b>Progressive phase:</b> Pleuritic chest pain and haemoptysis develop as peripheral pulmonary infarction occurs over hours to days; hypoxia worsens with larger clot burden; ECG and biomarker changes reflecting right heart strain emerge in submassive disease.</li>\n            <li><b>Late phase:</b> Haemodynamic collapse — hypotension, syncope, or cardiac arrest — may occur particularly with large or bilateral emboli in the absence of treatment; untreated or under-treated PE risks CTEPH, presenting as progressive exertional dyspnoea months to years later.</li>\n        </ul>",
+      "plainText": "Early phase: Sudden-onset dyspnoea is typically the first symptom, often at rest or with minimal exertion; unexplained tachycardia or mild oxygen desaturation may precede the full clinical picture, particularly with smaller emboli where symptoms may be dismissed as anxiety or musculoskeletal. Progressive phase: Pleuritic chest pain and haemoptysis develop as peripheral pulmonary infarction occurs over hours to days; hypoxia worsens with larger clot burden; ECG and biomarker changes reflecting right heart strain emerge in submassive disease. Late phase: Haemodynamic collapse — hypotension, syncope, or cardiac arrest — may occur particularly with large or bilateral emboli in the absence of treatment; untreated or under-treated PE risks CTEPH, presenting as progressive exertional dyspnoea months to years later.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.4.0"
+    },
+    {
+      "id": "clinical-features",
+      "key": "clinical-features",
+      "title": "Clinical Features",
+      "order": 5,
+      "sourceSectionIds": [
+        "c-is.5.0",
+        "c-is.6.0"
+      ],
+      "rawHtml": "<section class=\"crx-export-clinical-features\"><h3>Symptoms</h3><ul>\n            <li><b>Ask about</b> sudden-onset dyspnoea — the most common presenting symptom, often occurring at rest or with minimal exertion; unexplained breathlessness disproportionate to clinical findings in a patient with risk factors should raise immediate suspicion, even without pleuritic pain or haemoptysis.</li>\n            <li><b>Ask about</b> pleuritic chest pain — sharp, localised pain that worsens with deep breathing or coughing indicates peripheral pulmonary infarction involving the pleura; its presence increases Wells score probability and helps distinguish PE from central cardiac causes of dyspnoea.</li>\n            <li><b>Ask about</b> haemoptysis — blood-streaked sputum is a feature of pulmonary infarction, occurring in approximately 10–15% of cases; combined with pleuritic pain and dyspnoea it forms a characteristic triad of peripheral PE, though its absence does not reduce suspicion for larger or more central emboli.</li>\n            <li><b>Ask about</b> syncope or presyncope — transient loss of consciousness or near-collapse indicates haemodynamic compromise from massive or submassive PE causing sudden impairment of cardiac output; its presence is a red flag warranting immediate haemodynamic assessment.</li>\n            <li><b>Ask about</b> risk factor history and symptom context — recent surgery (particularly orthopaedic or abdominal), prolonged immobility, long-haul travel, current pregnancy, known malignancy, oral contraceptive use, or prior VTE are strong probabilistic modifiers; establishing whether dyspnoea or leg symptoms preceded the current presentation helps build the clinical probability picture that underpins Wells scoring.</li>\n        </ul><h3>Signs</h3><ul>\n            <li><b>Check</b> respiratory rate and oxygen saturations — tachypnoea (>20 breaths/min) and hypoxia are the most consistent signs; a normal SpO₂ does not exclude PE, particularly in younger patients with small peripheral emboli, so saturation should be interpreted alongside clinical probability rather than used as a standalone rule-out.</li>\n            <li><b>Check</b> heart rate and blood pressure — tachycardia (>100 bpm) is a Wells score component and reflects haemodynamic stress; hypotension or shock index >1 (heart rate divided by systolic blood pressure) indicates massive PE with right ventricular failure and is a haemodynamic emergency requiring immediate escalation.</li>\n            <li><b>Check</b> the lower limbs for DVT signs — asymmetric calf or thigh swelling, erythema, and tenderness indicate proximal DVT; its presence scores 3 points on Wells and, in a patient with suspected PE, is sufficient evidence to initiate anticoagulation without awaiting CTPA if the patient is haemodynamically stable.</li>\n            <li><b>Check</b> for right heart strain signs — raised JVP, a parasternal heave (RV dilation), and a loud pulmonary component of the second heart sound (P2) indicate acute cor pulmonale; these signs, combined with troponin or BNP elevation, stratify PE as intermediate-high risk and guide decisions around escalation beyond standard anticoagulation.</li>\n        </ul></section>",
+      "plainText": "Symptoms Ask about sudden-onset dyspnoea — the most common presenting symptom, often occurring at rest or with minimal exertion; unexplained breathlessness disproportionate to clinical findings in a patient with risk factors should raise immediate suspicion, even without pleuritic pain or haemoptysis. Ask about pleuritic chest pain — sharp, localised pain that worsens with deep breathing or coughing indicates peripheral pulmonary infarction involving the pleura; its presence increases Wells score probability and helps distinguish PE from central cardiac causes of dyspnoea. Ask about haemoptysis — blood-streaked sputum is a feature of pulmonary infarction, occurring in approximately 10–15% of cases; combined with pleuritic pain and dyspnoea it forms a characteristic triad of peripheral PE, though its absence does not reduce suspicion for larger or more central emboli. Ask about syncope or presyncope — transient loss of consciousness or near-collapse indicates haemodynamic compromise from massive or submassive PE causing sudden impairment of cardiac output; its presence is a red flag warranting immediate haemodynamic assessment. Ask about risk factor history and symptom context — recent surgery (particularly orthopaedic or abdominal), prolonged immobility, long-haul travel, current pregnancy, known malignancy, oral contraceptive use, or prior VTE are strong probabilistic modifiers; establishing whether dyspnoea or leg symptoms preceded the current presentation helps build the clinical probability picture that underpins Wells scoring. Signs Check respiratory rate and oxygen saturations — tachypnoea (>20 breaths/min) and hypoxia are the most consistent signs; a normal SpO₂ does not exclude PE, particularly in younger patients with small peripheral emboli, so saturation should be interpreted alongside clinical probability rather than used as a standalone rule-out. Check heart rate and blood pressure — tachycardia (>100 bpm) is a Wells score component and reflects haemodynamic stress; hypotension or shock index >1 (heart rate divided by systolic blood pressure) indicates massive PE with right ventricular failure and is a haemodynamic emergency requiring immediate escalation. Check the lower limbs for DVT signs — asymmetric calf or thigh swelling, erythema, and tenderness indicate proximal DVT; its presence scores 3 points on Wells and, in a patient with suspected PE, is sufficient evidence to initiate anticoagulation without awaiting CTPA if the patient is haemodynamically stable. Check for right heart strain signs — raised JVP, a parasternal heave (RV dilation), and a loud pulmonary component of the second heart sound (P2) indicate acute cor pulmonale; these signs, combined with troponin or BNP elevation, stratify PE as intermediate-high risk and guide decisions around escalation beyond standard anticoagulation.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.5.0"
+    },
+    {
+      "id": "red-flags",
+      "key": "red-flags",
+      "title": "Red Flags",
+      "order": 6,
+      "sourceSectionIds": [
+        "c-is.7.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Haemodynamic compromise (hypotension or shock)</b> — indicates massive PE with acute right ventricular failure; typically warrants urgent consideration of systemic thrombolysis or catheter/surgical embolectomy in addition to anticoagulation; this carries the highest short-term mortality among PE presentations.</li>\n            <li><b>Syncope or presyncope</b> — sudden impairment of cardiac output from a large embolus; warrants immediate haemodynamic assessment, urgent CTPA or bedside echocardiography, and critical care involvement regardless of Wells score band.</li>\n            <li><b>Right ventricular strain on imaging or biomarkers</b> — RV dilation on CTPA or echocardiography combined with troponin or BNP elevation indicates submassive (intermediate-high risk) PE; associated with significantly higher in-hospital mortality than haemodynamically stable PE and warrants close monitoring and specialist input on anticoagulation escalation.</li>\n            <li><b>Failure to improve or clinical deterioration on anticoagulation</b> — worsening hypoxia, haemodynamic instability, or new syncope despite adequate anticoagulation should prompt reassessment for clot propagation, inadequate treatment, or an alternative or coexisting diagnosis.</li>\n        </ul>",
+      "plainText": "Haemodynamic compromise (hypotension or shock) — indicates massive PE with acute right ventricular failure; typically warrants urgent consideration of systemic thrombolysis or catheter/surgical embolectomy in addition to anticoagulation; this carries the highest short-term mortality among PE presentations. Syncope or presyncope — sudden impairment of cardiac output from a large embolus; warrants immediate haemodynamic assessment, urgent CTPA or bedside echocardiography, and critical care involvement regardless of Wells score band. Right ventricular strain on imaging or biomarkers — RV dilation on CTPA or echocardiography combined with troponin or BNP elevation indicates submassive (intermediate-high risk) PE; associated with significantly higher in-hospital mortality than haemodynamically stable PE and warrants close monitoring and specialist input on anticoagulation escalation. Failure to improve or clinical deterioration on anticoagulation — worsening hypoxia, haemodynamic instability, or new syncope despite adequate anticoagulation should prompt reassessment for clot propagation, inadequate treatment, or an alternative or coexisting diagnosis.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.7.0"
+    },
+    {
+      "id": "atypical-presentations",
+      "key": "atypical-presentations",
+      "title": "Atypical Presentations",
+      "order": 7,
+      "sourceSectionIds": [
+        "c-is.8.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Saddle PE:</b> Large thrombus straddling the main pulmonary artery bifurcation; may present with sudden cardiovascular collapse or rapidly progressive right heart failure rather than the typical peripheral triad of dyspnoea, pleuritic pain, and haemoptysis; often diagnosed on CTPA after resuscitation and carries the highest mortality among PE subtypes.</li>\n            <li><b>Pregnancy:</b> The physiological hypercoagulable state, venous stasis from uterine compression, and increased circulating volume make PE the leading cause of maternal death in the UK; Wells criteria are not validated in pregnancy; dyspnoea is common physiologically, increasing diagnostic difficulty; D-dimer is physiologically elevated and unreliable as a rule-out test; V/Q scanning is preferred to minimise fetal radiation, with CTPA reserved where V/Q is inconclusive or unavailable; LMWH is the anticoagulant of choice in pregnancy.</li>\n            <li><b>Older adults:</b> May present insidiously with confusion, functional decline, or worsening breathlessness attributed to cardiac failure or COPD; the absence of pleuritic pain or haemoptysis should not reduce suspicion in a frail older adult with unexplained new hypoxia and a history of recent immobility or hospitalisation.</li>\n            <li><b>Incidental PE in cancer patients:</b> Increasingly identified on staging CT without classic symptoms; management decisions (immediate anticoagulation vs surveillance) depend on clot burden, bleeding risk, and oncology pathway guidance; cancer-associated VTE typically warrants extended anticoagulation with an LMWH or DOAC.</li>\n        </ul>",
+      "plainText": "Saddle PE: Large thrombus straddling the main pulmonary artery bifurcation; may present with sudden cardiovascular collapse or rapidly progressive right heart failure rather than the typical peripheral triad of dyspnoea, pleuritic pain, and haemoptysis; often diagnosed on CTPA after resuscitation and carries the highest mortality among PE subtypes. Pregnancy: The physiological hypercoagulable state, venous stasis from uterine compression, and increased circulating volume make PE the leading cause of maternal death in the UK; Wells criteria are not validated in pregnancy; dyspnoea is common physiologically, increasing diagnostic difficulty; D-dimer is physiologically elevated and unreliable as a rule-out test; V/Q scanning is preferred to minimise fetal radiation, with CTPA reserved where V/Q is inconclusive or unavailable; LMWH is the anticoagulant of choice in pregnancy. Older adults: May present insidiously with confusion, functional decline, or worsening breathlessness attributed to cardiac failure or COPD; the absence of pleuritic pain or haemoptysis should not reduce suspicion in a frail older adult with unexplained new hypoxia and a history of recent immobility or hospitalisation. Incidental PE in cancer patients: Increasingly identified on staging CT without classic symptoms; management decisions (immediate anticoagulation vs surveillance) depend on clot burden, bleeding risk, and oncology pathway guidance; cancer-associated VTE typically warrants extended anticoagulation with an LMWH or DOAC.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.8.0"
+    },
+    {
+      "id": "investigations",
+      "key": "investigations",
+      "title": "Investigations",
+      "order": 8,
+      "sourceSectionIds": [
+        "c-is.9.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Core for suspected PE:</b> Wells PE score can support pre-test probability assessment and the choice between D-dimer and direct imaging; a calculator is available at <a href=\"https://www.mdcalc.com/calc/115/wells-criteria-pulmonary-embolism\" target=\"_blank\" rel=\"noopener noreferrer\">Wells criteria for pulmonary embolism on MDCalc</a>. D-dimer is highly sensitive but non-specific, so a negative result is most useful in lower-probability patients; oxygen saturations, ECG, troponin, and BNP or NT-proBNP help judge severity rather than confirm the diagnosis.</li>\n            <li><b>If an alternative diagnosis is plausible:</b> BNP and echocardiography if acute left ventricular failure is suspected; 12-lead ECG and serial troponin if ACS is the primary concern; CXR (usually near-normal in PE, which itself heightens suspicion when combined with significant dyspnoea; Hampton's hump — wedge-shaped pleural consolidation — and Westermark sign — relative oligaemia — are classically cited but insensitive).</li>\n            <li><b>Imaging — CTPA:</b> Definitive first-line imaging in most patients with Wells >4, or Wells ≤4 with a positive D-dimer; high sensitivity and specificity; allows direct visualisation of clot burden, RV strain, and incidental alternative diagnoses; contrast nephropathy risk should be considered in renal impairment; may under-detect sub-segmental PE.</li>\n            <li><b>Imaging — V/Q scan:</b> Preferred over CTPA in pregnancy (lower fetal radiation), significant renal impairment, or contrast allergy; reported as normal, low, intermediate, or high probability; a normal result effectively excludes clinically significant PE; intermediate results may require further imaging or clinical reassessment; less useful where there is underlying lung disease (COPD, pleural effusion) as background V/Q inhomogeneity reduces diagnostic accuracy.</li>\n            <li><b>Serial reassessment:</b> Repeat haemodynamic observations, oxygen saturations, and right heart biomarkers at 24–48 hours are appropriate in hospitalised submassive PE to monitor for clinical deterioration; formal echocardiography and repeat CTPA may be warranted if the clinical course worsens despite anticoagulation; compression duplex ultrasound of the lower limbs is a useful adjunct if DVT signs are present and CTPA is delayed or contraindicated.</li>\n        </ul>",
+      "plainText": "Core for suspected PE: Wells PE score can support pre-test probability assessment and the choice between D-dimer and direct imaging; a calculator is available at Wells criteria for pulmonary embolism on MDCalc . D-dimer is highly sensitive but non-specific, so a negative result is most useful in lower-probability patients; oxygen saturations, ECG, troponin, and BNP or NT-proBNP help judge severity rather than confirm the diagnosis. If an alternative diagnosis is plausible: BNP and echocardiography if acute left ventricular failure is suspected; 12-lead ECG and serial troponin if ACS is the primary concern; CXR (usually near-normal in PE, which itself heightens suspicion when combined with significant dyspnoea; Hampton's hump — wedge-shaped pleural consolidation — and Westermark sign — relative oligaemia — are classically cited but insensitive). Imaging — CTPA: Definitive first-line imaging in most patients with Wells >4, or Wells ≤4 with a positive D-dimer; high sensitivity and specificity; allows direct visualisation of clot burden, RV strain, and incidental alternative diagnoses; contrast nephropathy risk should be considered in renal impairment; may under-detect sub-segmental PE. Imaging — V/Q scan: Preferred over CTPA in pregnancy (lower fetal radiation), significant renal impairment, or contrast allergy; reported as normal, low, intermediate, or high probability; a normal result effectively excludes clinically significant PE; intermediate results may require further imaging or clinical reassessment; less useful where there is underlying lung disease (COPD, pleural effusion) as background V/Q inhomogeneity reduces diagnostic accuracy. Serial reassessment: Repeat haemodynamic observations, oxygen saturations, and right heart biomarkers at 24–48 hours are appropriate in hospitalised submassive PE to monitor for clinical deterioration; formal echocardiography and repeat CTPA may be warranted if the clinical course worsens despite anticoagulation; compression duplex ultrasound of the lower limbs is a useful adjunct if DVT signs are present and CTPA is delayed or contraindicated.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.9.0"
+    },
+    {
+      "id": "problem-representation",
+      "key": "problem-representation",
+      "title": "Problem Representation",
+      "order": 9,
+      "sourceSectionIds": [
+        "c-is.10.0"
+      ],
+      "rawHtml": "<ul>\n            <li>A 54-year-old woman presents with 2 days of sudden-onset dyspnoea and right-sided pleuritic chest pain, 4 weeks after a right total hip replacement, with a heart rate of 108, SpO₂ of 92% on air, and asymmetric right calf swelling and tenderness on examination.</li>\n            <li>Middle-aged woman with acute pleuritic dyspnoea, haemodynamic stress, and DVT signs following recent orthopaedic surgery — high-probability Wells PE score — concerning for pulmonary embolism with likely pulmonary infarction.</li>\n        </ul>",
+      "plainText": "A 54-year-old woman presents with 2 days of sudden-onset dyspnoea and right-sided pleuritic chest pain, 4 weeks after a right total hip replacement, with a heart rate of 108, SpO₂ of 92% on air, and asymmetric right calf swelling and tenderness on examination. Middle-aged woman with acute pleuritic dyspnoea, haemodynamic stress, and DVT signs following recent orthopaedic surgery — high-probability Wells PE score — concerning for pulmonary embolism with likely pulmonary infarction.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.10.0"
+    },
+    {
+      "id": "key-differentials",
+      "key": "key-differentials",
+      "title": "Key Differentials",
+      "order": 10,
+      "sourceSectionIds": [
+        "c-is.11.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Pneumonia — fever, productive cough, and lobar consolidation signs with raised inflammatory markers and CXR changes distinguish from PE; though PE and pneumonia can coexist, particularly in cancer or post-operative patients.</li>\n            <li>Acute coronary syndrome — central crushing or pressure-like chest pain with ECG ischaemic changes (ST elevation or depression) and troponin rise in the absence of right heart strain or DVT signs; pleuritic quality and Wells risk factors help differentiate.</li>\n            <li>Pneumothorax — sudden dyspnoea and pleuritic pain but with absent breath sounds, hyperresonance, and possible tracheal deviation (tension pneumothorax) on the affected side; confirmed by CXR or ultrasound.</li>\n            <li>Acute cardiac failure — bilateral basal crackles, orthopnoea, raised JVP, and peripheral oedema with cardiomegaly and interstitial shadowing on CXR; significantly elevated BNP with left ventricular rather than right ventricular predominance on echocardiography.</li>\n            <li>Pericarditis — sharp pleuritic chest pain relieved by sitting forward, pericardial friction rub, saddle-shaped ST elevation on ECG; echocardiography showing pericardial effusion distinguishes from PE-related right heart strain.</li>\n            <li>Aortic dissection — tearing or ripping chest pain radiating to the back, blood pressure differential between arms, and mediastinal widening on CXR; D-dimer may be elevated but CT aortogram is the differentiating investigation.</li>\n            <li>Musculoskeletal chest wall pain — reproducible tenderness on palpation of the chest wall; normal oxygen saturations at rest; no haemodynamic compromise or strong thromboembolic risk pattern; a diagnosis of exclusion in the context of new pleuritic pain.</li>\n        </ul>",
+      "plainText": "Pneumonia — fever, productive cough, and lobar consolidation signs with raised inflammatory markers and CXR changes distinguish from PE; though PE and pneumonia can coexist, particularly in cancer or post-operative patients. Acute coronary syndrome — central crushing or pressure-like chest pain with ECG ischaemic changes (ST elevation or depression) and troponin rise in the absence of right heart strain or DVT signs; pleuritic quality and Wells risk factors help differentiate. Pneumothorax — sudden dyspnoea and pleuritic pain but with absent breath sounds, hyperresonance, and possible tracheal deviation (tension pneumothorax) on the affected side; confirmed by CXR or ultrasound. Acute cardiac failure — bilateral basal crackles, orthopnoea, raised JVP, and peripheral oedema with cardiomegaly and interstitial shadowing on CXR; significantly elevated BNP with left ventricular rather than right ventricular predominance on echocardiography. Pericarditis — sharp pleuritic chest pain relieved by sitting forward, pericardial friction rub, saddle-shaped ST elevation on ECG; echocardiography showing pericardial effusion distinguishes from PE-related right heart strain. Aortic dissection — tearing or ripping chest pain radiating to the back, blood pressure differential between arms, and mediastinal widening on CXR; D-dimer may be elevated but CT aortogram is the differentiating investigation. Musculoskeletal chest wall pain — reproducible tenderness on palpation of the chest wall; normal oxygen saturations at rest; no haemodynamic compromise or strong thromboembolic risk pattern; a diagnosis of exclusion in the context of new pleuritic pain.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.11.0"
+    },
+    {
+      "id": "management-thinking",
+      "key": "management-thinking",
+      "title": "Management Thinking",
+      "order": 11,
+      "sourceSectionIds": [
+        "c-is.12.0"
+      ],
+      "rawHtml": "<ul><li><b>Immediate priorities:</b> Recognise haemodynamic instability and right ventricular failure early. Supportive care often includes oxygen, IV access, and cautious fluids, but the main implication is a shift toward urgent senior review and higher-acuity monitoring.</li><li><b>Definitive management:</b> Anticoagulation is the cornerstone of treatment for haemodynamically stable PE; duration is shaped by whether the event is provoked, unprovoked, cancer-associated, or recurrent, alongside bleeding risk and the likely persistence of thromboembolic risk factors.</li><li><b>Adjunctive and advanced management:</b> Massive PE or clinical deterioration despite anticoagulation should raise consideration of reperfusion strategies and specialist review, rather than routine anticoagulation alone.</li><li><b>Monitoring and follow-up:</b> Reassess haemodynamics, oxygenation, and bleeding risk over the first 24–48 hours in admitted patients; persistent exertional breathlessness or poor recovery should prompt review for post-PE syndrome or CTEPH.</li><li><b>Escalation and safety-netting:</b> Worsening dyspnoea, syncope, new hypoxia, or haemodynamic deterioration during treatment should trigger urgent reassessment for decompensation, clot progression, or an alternative explanation.</li></ul>",
+      "plainText": "Immediate priorities: Recognise haemodynamic instability and right ventricular failure early. Supportive care often includes oxygen, IV access, and cautious fluids, but the main implication is a shift toward urgent senior review and higher-acuity monitoring. Definitive management: Anticoagulation is the cornerstone of treatment for haemodynamically stable PE; duration is shaped by whether the event is provoked, unprovoked, cancer-associated, or recurrent, alongside bleeding risk and the likely persistence of thromboembolic risk factors. Adjunctive and advanced management: Massive PE or clinical deterioration despite anticoagulation should raise consideration of reperfusion strategies and specialist review, rather than routine anticoagulation alone. Monitoring and follow-up: Reassess haemodynamics, oxygenation, and bleeding risk over the first 24–48 hours in admitted patients; persistent exertional breathlessness or poor recovery should prompt review for post-PE syndrome or CTEPH. Escalation and safety-netting: Worsening dyspnoea, syncope, new hypoxia, or haemodynamic deterioration during treatment should trigger urgent reassessment for decompensation, clot progression, or an alternative explanation.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.12.0"
+    },
+    {
+      "id": "prescribing",
+      "key": "prescribing",
+      "title": "Prescribing",
+      "order": 12,
+      "sourceSectionIds": [
+        "c-is.12.0"
+      ],
+      "rawHtml": "NICE NG158 describes direct oral anticoagulants as first-line for most adults with confirmed PE, particularly [sc name=\"jitl-medication\" Q=\"Apixaban use in Pulmonary Embolism\" text=\"apixaban\"][/sc] and [sc name=\"jitl-medication\" Q=\"Rivaroxaban use in Pulmonary Embolism\" text=\"rivaroxaban\"][/sc]; [sc name=\"jitl-medication\" Q=\"Low molecular weight heparin use in Pulmonary Embolism\" text=\"low molecular weight heparin\"][/sc] with or without [sc name=\"jitl-medication\" Q=\"Warfarin use in Pulmonary Embolism\" text=\"warfarin\"][/sc] remains an alternative when DOACs are unsuitable, and [sc name=\"jitl-medication\" Q=\"Unfractionated heparin use in Pulmonary Embolism\" text=\"unfractionated heparin\"][/sc] is important when rapid escalation or thrombolysis is being considered. No doses or frequencies are cited here — always verify against your local anticoagulation and prescribing guidelines before prescribing.",
+      "plainText": "NICE NG158 describes direct oral anticoagulants as first-line for most adults with confirmed PE, particularly apixaban and rivaroxaban; low molecular weight heparin with or without warfarin remains an alternative when DOACs are unsuitable, and unfractionated heparin is important when rapid escalation or thrombolysis is being considered. No doses or frequencies are cited here — always verify against your local anticoagulation and prescribing guidelines before prescribing.",
+      "jitlReferences": [
+        {
+          "type": "medication",
+          "query": "Apixaban use in Pulmonary Embolism",
+          "text": "apixaban",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Apixaban use in Pulmonary Embolism\" text=\"apixaban\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Rivaroxaban use in Pulmonary Embolism",
+          "text": "rivaroxaban",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Rivaroxaban use in Pulmonary Embolism\" text=\"rivaroxaban\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Low molecular weight heparin use in Pulmonary Embolism",
+          "text": "low molecular weight heparin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Low molecular weight heparin use in Pulmonary Embolism\" text=\"low molecular weight heparin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Warfarin use in Pulmonary Embolism",
+          "text": "warfarin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Warfarin use in Pulmonary Embolism\" text=\"warfarin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Unfractionated heparin use in Pulmonary Embolism",
+          "text": "unfractionated heparin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Unfractionated heparin use in Pulmonary Embolism\" text=\"unfractionated heparin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.12.0"
+    },
+    {
+      "id": "complications",
+      "key": "complications",
+      "title": "Complications",
+      "order": 13,
+      "sourceSectionIds": [
+        "c-is.13.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Haemodynamic collapse and cardiac arrest:</b> The acute consequence of massive PE with overwhelming right ventricular failure; rapid deterioration should always make this feel like a high-mortality emergency rather than routine VTE.</li>\n            <li><b>[sc name=\"jitl-query\" Q=\"Chronic thromboembolic pulmonary hypertension: what is it and why does it matter clinically?\" text=\"Chronic thromboembolic pulmonary hypertension (CTEPH)\"][/sc]:</b> Presents as persistent or progressive exertional breathlessness months to years after acute PE, signalling incomplete recovery rather than simple post-illness deconditioning.</li>\n            <li><b>Post-PE syndrome:</b> Persistent breathlessness, fatigue, and reduced exercise capacity can continue even when acute clot burden has settled, so failure to recover functionally should not be dismissed too quickly.</li>\n            <li><b>Major haemorrhage on anticoagulation:</b> An important treatment complication that can alter the balance between recurrent VTE prevention and ongoing anticoagulation risk.</li>\n        </ul>",
+      "plainText": "Haemodynamic collapse and cardiac arrest: The acute consequence of massive PE with overwhelming right ventricular failure; rapid deterioration should always make this feel like a high-mortality emergency rather than routine VTE. Chronic thromboembolic pulmonary hypertension (CTEPH): Presents as persistent or progressive exertional breathlessness months to years after acute PE, signalling incomplete recovery rather than simple post-illness deconditioning. Post-PE syndrome: Persistent breathlessness, fatigue, and reduced exercise capacity can continue even when acute clot burden has settled, so failure to recover functionally should not be dismissed too quickly. Major haemorrhage on anticoagulation: An important treatment complication that can alter the balance between recurrent VTE prevention and ongoing anticoagulation risk.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Chronic thromboembolic pulmonary hypertension: what is it and why does it matter clinically?",
+          "text": "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Chronic thromboembolic pulmonary hypertension: what is it and why does it matter clinically?\" text=\"Chronic thromboembolic pulmonary hypertension (CTEPH)\"][/sc]",
+          "sourceSectionKey": "complications"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.13.0"
+    }
+  ],
+  "jitl": {
+    "medications": [
+      {
+        "type": "medication",
+        "query": "Apixaban use in Pulmonary Embolism",
+        "text": "apixaban",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Apixaban use in Pulmonary Embolism\" text=\"apixaban\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Rivaroxaban use in Pulmonary Embolism",
+        "text": "rivaroxaban",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Rivaroxaban use in Pulmonary Embolism\" text=\"rivaroxaban\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Low molecular weight heparin use in Pulmonary Embolism",
+        "text": "low molecular weight heparin",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Low molecular weight heparin use in Pulmonary Embolism\" text=\"low molecular weight heparin\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Warfarin use in Pulmonary Embolism",
+        "text": "warfarin",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Warfarin use in Pulmonary Embolism\" text=\"warfarin\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Unfractionated heparin use in Pulmonary Embolism",
+        "text": "unfractionated heparin",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Unfractionated heparin use in Pulmonary Embolism\" text=\"unfractionated heparin\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      }
+    ],
+    "queries": [
+      {
+        "type": "query",
+        "query": "Pulmonary Embolism epidemiology",
+        "text": "Epidemiology deep dive",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Pulmonary Embolism epidemiology\" text=\"Epidemiology deep dive\"][/sc]",
+        "sourceSectionKey": "risk-factors"
+      },
+      {
+        "type": "query",
+        "query": "Virchow's triad: what is it and why does it matter clinically?",
+        "text": "Virchow's triad",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Virchow's triad: what is it and why does it matter clinically?\" text=\"Virchow's triad\"][/sc]",
+        "sourceSectionKey": "pathophysiology"
+      },
+      {
+        "type": "query",
+        "query": "Ventilation-perfusion mismatch: what is it and why does it matter clinically?",
+        "text": "ventilation-perfusion mismatch",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Ventilation-perfusion mismatch: what is it and why does it matter clinically?\" text=\"ventilation-perfusion mismatch\"][/sc]",
+        "sourceSectionKey": "pathophysiology"
+      },
+      {
+        "type": "query",
+        "query": "Right ventricular strain: what is it and why does it matter clinically?",
+        "text": "RV strain",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Right ventricular strain: what is it and why does it matter clinically?\" text=\"RV strain\"][/sc]",
+        "sourceSectionKey": "pathophysiology"
+      },
+      {
+        "type": "query",
+        "query": "Chronic thromboembolic pulmonary hypertension: what is it and why does it matter clinically?",
+        "text": "Chronic thromboembolic pulmonary hypertension (CTEPH)",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Chronic thromboembolic pulmonary hypertension: what is it and why does it matter clinically?\" text=\"Chronic thromboembolic pulmonary hypertension (CTEPH)\"][/sc]",
+        "sourceSectionKey": "complications"
+      }
+    ]
+  },
+  "downstreamHints": {
+    "knowledgeBase": {
+      "canonicalTopicUrl": "https://kb.clinicalreasoning.io/topic/pulmonary-embolism"
+    },
+    "reasoningCompass": {
+      "topicSlug": "pulmonary-embolism",
+      "suggestedAccentTheme": "red",
+      "sectionKeys": [
+        "overview",
+        "risk-factors",
+        "pathophysiology",
+        "time-course",
+        "clinical-features",
+        "red-flags",
+        "atypical-presentations",
+        "investigations",
+        "problem-representation",
+        "key-differentials",
+        "management-thinking",
+        "prescribing",
+        "complications"
+      ]
+    },
+    "ddxExplorer": {
+      "knowledgeBaseUrl": "https://kb.clinicalreasoning.io/topic/pulmonary-embolism",
+      "summary": "Pulmonary embolism (PE) is occlusion of one or more pulmonary arteries by thrombus — most commonly arising from deep vein thrombosis — causing impaired gas exchange, raised pulmonary vascular resistance, and potentially acute right ventricular strain.",
+      "redFlagSummary": "Haemodynamic compromise (hypotension or shock) — indicates massive PE with acute right ventricular failure; typically warrants urgent consideration of systemic thrombolysis or catheter/surgical embolectomy in addition to anticoagulation; this carries the highest short-term mortality among PE presentations.",
+      "featureSummary": "Symptoms Ask about sudden-onset dyspnoea — the most common presenting symptom, often occurring at rest or with minimal exertion; unexplained breathlessness disproportionate to clinical findings in a patient with risk factors should raise immediate suspicion, even without pleuritic pain or haemoptysis."
+    }
+  }
+}

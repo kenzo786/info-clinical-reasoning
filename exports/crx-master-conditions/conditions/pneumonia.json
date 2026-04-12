@@ -1,0 +1,409 @@
+{
+  "schemaVersion": "2026-04-12",
+  "exportedAt": "2026-04-12T17:28:59.155933+00:00",
+  "conditionId": "ukmla-pneumonia",
+  "slug": "pneumonia",
+  "title": "Pneumonia",
+  "subtitle": "Lungs, pleura and airways UKMLA condition master export",
+  "conditionType": "condition",
+  "ukmla": {
+    "conditionLabel": "Pneumonia",
+    "category": "Lungs, pleura and airways",
+    "gapTrackerStatus": "covered-needs-refresh",
+    "priority": "high",
+    "phase": "phase-1-pilot"
+  },
+  "source": {
+    "repo": "info-clinical-reasoning",
+    "htmlFile": "updated-illness-scripts-2026-final/99-is-ukmla-pneumonia.html",
+    "canonicalFile": "99-is-ukmla-pneumonia.html",
+    "legacyPostId": "99",
+    "postIdSource": "wordpress-export-slug"
+  },
+  "publication": {
+    "legacyWordpressStatus": "published",
+    "knowledgeBaseStatus": "exported",
+    "conditionsProjectionStatus": "not-generated",
+    "ddxProjectionStatus": "not-generated",
+    "reviewStatus": "clinician-review-needed"
+  },
+  "taxonomy": {
+    "specialty": "Respiratory",
+    "tags": [
+      "UKMLA",
+      "illness-script",
+      "Lungs, pleura and airways",
+      "Respiratory",
+      "prescribing"
+    ]
+  },
+  "signals": {
+    "clusterResolutionNeeded": false,
+    "clinicianPriority": "clinician-review-needed",
+    "notes": [
+      "manifest-current-file-status=canonical-final-exists",
+      "tracker-next-action=replace-live-now",
+      "Canonical final file present in final folder. Batch 1 live-replacement candidate."
+    ]
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "key": "overview",
+      "title": "Overview",
+      "order": 1,
+      "sourceSectionIds": [
+        "c-is.1.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Pneumonia is acute infection of the lung parenchyma in which alveolar inflammation and exudate produce consolidation, impaired gas exchange, and systemic illness; this script focuses on adult community-acquired pneumonia (CAP).</li>\n            <li><b>UKMLA learning outcome:</b> Recognise the illness script of adult CAP, use CRB-65 in primary care and CURB-65 in hospital alongside clinical judgement, identify patients needing admission or escalation, and distinguish pneumonia from important mimics such as pulmonary embolism and acute heart failure.</li>\n        </ul>",
+      "plainText": "Pneumonia is acute infection of the lung parenchyma in which alveolar inflammation and exudate produce consolidation, impaired gas exchange, and systemic illness; this script focuses on adult community-acquired pneumonia (CAP). UKMLA learning outcome: Recognise the illness script of adult CAP, use CRB-65 in primary care and CURB-65 in hospital alongside clinical judgement, identify patients needing admission or escalation, and distinguish pneumonia from important mimics such as pulmonary embolism and acute heart failure.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.1.0"
+    },
+    {
+      "id": "risk-factors",
+      "key": "risk-factors",
+      "title": "Risk Factors",
+      "order": 2,
+      "sourceSectionIds": [
+        "c-is.2.0"
+      ],
+      "rawHtml": "<ul>\n            <li>[sc name=\"jitl-query\" Q=\"Pneumonia epidemiology\" text=\"Epidemiology deep dive\"][/sc]</li>\n            <li>NICE NG250 states that community-acquired pneumonia affects around 5 to 10 per 1,000 adults each year in the UK, accounts for 5% to 12% of lower respiratory tract infections managed in primary care, and leads to hospital care in about 22% to 42% of cases; 30-day mortality is about 5% to 15% in hospitalised CAP and rises further in critical care.</li>\n            <li>Risk rises with older age, frailty, smoking, COPD, heart failure, diabetes, chronic kidney or liver disease, alcohol dependence, aspiration risk, and immunosuppression; pregnancy, frailty, and major comorbidity may also make severity scores less reliable and can lower the threshold for admission.</li>\n        </ul>",
+      "plainText": "Epidemiology deep dive NICE NG250 states that community-acquired pneumonia affects around 5 to 10 per 1,000 adults each year in the UK, accounts for 5% to 12% of lower respiratory tract infections managed in primary care, and leads to hospital care in about 22% to 42% of cases; 30-day mortality is about 5% to 15% in hospitalised CAP and rises further in critical care. Risk rises with older age, frailty, smoking, COPD, heart failure, diabetes, chronic kidney or liver disease, alcohol dependence, aspiration risk, and immunosuppression; pregnancy, frailty, and major comorbidity may also make severity scores less reliable and can lower the threshold for admission.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Pneumonia epidemiology",
+          "text": "Epidemiology deep dive",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Pneumonia epidemiology\" text=\"Epidemiology deep dive\"][/sc]",
+          "sourceSectionKey": "risk-factors"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.2.0"
+    },
+    {
+      "id": "pathophysiology",
+      "key": "pathophysiology",
+      "title": "Pathophysiology",
+      "order": 3,
+      "sourceSectionIds": [
+        "c-is.3.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Inhaled or aspirated organisms overcome upper airway, mucociliary, and alveolar macrophage defences, allowing infection to establish in the distal airways and alveoli.</li>\n            <li>Alveolar inflammation then produces oedema and exudate, causing consolidation and [sc name=\"jitl-query\" Q=\"Ventilation-perfusion mismatch: what is it and why does it matter clinically?\" text=\"ventilation-perfusion mismatch\"][/sc]; this drives cough, pleuritic pain, dyspnoea, fever, tachypnoea, and hypoxaemia.</li>\n            <li>If unchecked, infection may extend into the pleural space or bloodstream, leading to empyema, sepsis, respiratory failure, and occasionally cavitating or necrotising disease.</li>\n        </ul>",
+      "plainText": "Inhaled or aspirated organisms overcome upper airway, mucociliary, and alveolar macrophage defences, allowing infection to establish in the distal airways and alveoli. Alveolar inflammation then produces oedema and exudate, causing consolidation and ventilation-perfusion mismatch; this drives cough, pleuritic pain, dyspnoea, fever, tachypnoea, and hypoxaemia. If unchecked, infection may extend into the pleural space or bloodstream, leading to empyema, sepsis, respiratory failure, and occasionally cavitating or necrotising disease.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Ventilation-perfusion mismatch: what is it and why does it matter clinically?",
+          "text": "ventilation-perfusion mismatch",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Ventilation-perfusion mismatch: what is it and why does it matter clinically?\" text=\"ventilation-perfusion mismatch\"][/sc]",
+          "sourceSectionKey": "pathophysiology"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.3.0"
+    },
+    {
+      "id": "time-course",
+      "key": "time-course",
+      "title": "Time Course",
+      "order": 4,
+      "sourceSectionIds": [
+        "c-is.4.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Early phase:</b> Fever, malaise, cough, and myalgia may develop over hours to a few days; atypical pathogens often produce a more insidious prodrome.</li>\n            <li><b>Progressive phase:</b> Productive cough, pleuritic chest pain, dyspnoea, tachypnoea, and focal chest signs usually become clearer over 24-72 hours as consolidation evolves.</li>\n            <li><b>Late phase:</b> Failure to improve or complications such as pleural infection, sepsis, or respiratory failure become more likely particularly beyond 48-72 hours, especially in severe or undertreated disease.</li>\n        </ul>",
+      "plainText": "Early phase: Fever, malaise, cough, and myalgia may develop over hours to a few days; atypical pathogens often produce a more insidious prodrome. Progressive phase: Productive cough, pleuritic chest pain, dyspnoea, tachypnoea, and focal chest signs usually become clearer over 24-72 hours as consolidation evolves. Late phase: Failure to improve or complications such as pleural infection, sepsis, or respiratory failure become more likely particularly beyond 48-72 hours, especially in severe or undertreated disease.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.4.0"
+    },
+    {
+      "id": "clinical-features",
+      "key": "clinical-features",
+      "title": "Clinical Features",
+      "order": 5,
+      "sourceSectionIds": [
+        "c-is.5.0",
+        "c-is.6.0"
+      ],
+      "rawHtml": "<section class=\"crx-export-clinical-features\"><h3>Symptoms</h3><ul>\n            <li><b>Ask about</b> cough and sputum character - a new productive cough supports alveolar infection, while foul-smelling sputum raises concern for aspiration or abscess and a persistently dry cough can point towards atypical pathogens.</li>\n            <li><b>Ask about</b> pleuritic chest pain - sharp pain worsened by breathing or coughing suggests pleural irritation and makes isolated cardiac chest pain less likely.</li>\n            <li><b>Ask about</b> dyspnoea and functional decline - breathlessness at rest, reduced exercise tolerance, or inability to speak comfortably suggests more significant gas-exchange impairment and a higher-risk presentation.</li>\n            <li><b>Ask about</b> fever, rigors, sweats, or confusion - systemic upset supports infection, but confusion may be the dominant presenting symptom in older adults even when fever or cough is modest.</li>\n            <li><b>Ask about</b> the onset pattern and associated features - abrupt fever with pleuritic pain and productive cough fits typical bacterial CAP, whereas a slower onset with headache, myalgia, diarrhoea, or dry cough is more in keeping with atypical infection.</li>\n        </ul><h3>Signs</h3><ul>\n            <li><b>Check</b> for focal consolidation signs - bronchial breathing, dullness to percussion, increased vocal resonance, or localised crackles make alveolar consolidation more likely and help localise the process.</li>\n            <li><b>Check</b> work of breathing and oxygen saturation - tachypnoea, accessory muscle use, and hypoxia indicate clinically important respiratory compromise and weigh more heavily than the chest examination alone.</li>\n            <li><b>Check</b> for pleural involvement - reduced breath sounds with stony dullness suggest parapneumonic effusion rather than uncomplicated lobar consolidation and may indicate a need for pleural imaging or drainage.</li>\n            <li><b>Check</b> temperature, pulse, blood pressure, and mental state - fever with tachycardia supports systemic inflammation, while hypotension or new confusion raises concern for sepsis and severe CAP.</li>\n        </ul></section>",
+      "plainText": "Symptoms Ask about cough and sputum character - a new productive cough supports alveolar infection, while foul-smelling sputum raises concern for aspiration or abscess and a persistently dry cough can point towards atypical pathogens. Ask about pleuritic chest pain - sharp pain worsened by breathing or coughing suggests pleural irritation and makes isolated cardiac chest pain less likely. Ask about dyspnoea and functional decline - breathlessness at rest, reduced exercise tolerance, or inability to speak comfortably suggests more significant gas-exchange impairment and a higher-risk presentation. Ask about fever, rigors, sweats, or confusion - systemic upset supports infection, but confusion may be the dominant presenting symptom in older adults even when fever or cough is modest. Ask about the onset pattern and associated features - abrupt fever with pleuritic pain and productive cough fits typical bacterial CAP, whereas a slower onset with headache, myalgia, diarrhoea, or dry cough is more in keeping with atypical infection. Signs Check for focal consolidation signs - bronchial breathing, dullness to percussion, increased vocal resonance, or localised crackles make alveolar consolidation more likely and help localise the process. Check work of breathing and oxygen saturation - tachypnoea, accessory muscle use, and hypoxia indicate clinically important respiratory compromise and weigh more heavily than the chest examination alone. Check for pleural involvement - reduced breath sounds with stony dullness suggest parapneumonic effusion rather than uncomplicated lobar consolidation and may indicate a need for pleural imaging or drainage. Check temperature, pulse, blood pressure, and mental state - fever with tachycardia supports systemic inflammation, while hypotension or new confusion raises concern for sepsis and severe CAP.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.5.0"
+    },
+    {
+      "id": "red-flags",
+      "key": "red-flags",
+      "title": "Red Flags",
+      "order": 6,
+      "sourceSectionIds": [
+        "c-is.7.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Hypoxia or escalating work of breathing</b> - suggests significant gas-exchange failure and often warrants urgent hospital-level assessment even if the rest of the examination is not dramatic.</li>\n            <li><b>New confusion or reduced consciousness</b> - may represent severe infection, delirium, or sepsis; in older adults it can be the main clue to serious pneumonia rather than a late add-on feature.</li>\n            <li><b>Haemodynamic compromise</b> - hypotension, poor peripheral perfusion, or persistent tachycardia suggests sepsis physiology and raises the risk of rapid deterioration and multi-organ dysfunction.</li>\n            <li><b>Failure to improve particularly beyond 48-72 hours</b> - should prompt reassessment for empyema, abscess, resistant or atypical organisms, pulmonary embolism, or an underlying obstructing lesion.</li>\n        </ul>",
+      "plainText": "Hypoxia or escalating work of breathing - suggests significant gas-exchange failure and often warrants urgent hospital-level assessment even if the rest of the examination is not dramatic. New confusion or reduced consciousness - may represent severe infection, delirium, or sepsis; in older adults it can be the main clue to serious pneumonia rather than a late add-on feature. Haemodynamic compromise - hypotension, poor peripheral perfusion, or persistent tachycardia suggests sepsis physiology and raises the risk of rapid deterioration and multi-organ dysfunction. Failure to improve particularly beyond 48-72 hours - should prompt reassessment for empyema, abscess, resistant or atypical organisms, pulmonary embolism, or an underlying obstructing lesion.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.7.0"
+    },
+    {
+      "id": "atypical-presentations",
+      "key": "atypical-presentations",
+      "title": "Atypical Presentations",
+      "order": 7,
+      "sourceSectionIds": [
+        "c-is.8.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Lower lobe pneumonia:</b> May present with upper abdominal pain, vomiting, or relatively little cough, creating diagnostic overlap with biliary, gastric, or intra-abdominal pathology.</li>\n            <li><b>Atypical-pathogen pattern:</b> Dry cough, headache, myalgia, or diarrhoea with relatively sparse focal chest signs can delay recognition because the illness looks more viral or systemic than lobar.</li>\n            <li><b>Pregnancy:</b> Breathlessness is harder to interpret because physiological respiratory changes reduce the usefulness of baseline symptoms, and severity scores may underestimate risk; the threshold for hospital assessment is often lower.</li>\n            <li><b>Older adults:</b> Fever, pleuritic pain, and productive cough may be absent or muted; falls, delirium, reduced oral intake, or functional decline may be the presenting pattern and delay diagnosis.</li>\n            <li><b>Immunosuppressed patients:</b> Symptoms and inflammatory markers may be blunted despite extensive disease, and the differential broadens to include opportunistic infection and non-bacterial causes, making CT imaging or specialist input more likely.</li>\n        </ul>",
+      "plainText": "Lower lobe pneumonia: May present with upper abdominal pain, vomiting, or relatively little cough, creating diagnostic overlap with biliary, gastric, or intra-abdominal pathology. Atypical-pathogen pattern: Dry cough, headache, myalgia, or diarrhoea with relatively sparse focal chest signs can delay recognition because the illness looks more viral or systemic than lobar. Pregnancy: Breathlessness is harder to interpret because physiological respiratory changes reduce the usefulness of baseline symptoms, and severity scores may underestimate risk; the threshold for hospital assessment is often lower. Older adults: Fever, pleuritic pain, and productive cough may be absent or muted; falls, delirium, reduced oral intake, or functional decline may be the presenting pattern and delay diagnosis. Immunosuppressed patients: Symptoms and inflammatory markers may be blunted despite extensive disease, and the differential broadens to include opportunistic infection and non-bacterial causes, making CT imaging or specialist input more likely.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.8.0"
+    },
+    {
+      "id": "investigations",
+      "key": "investigations",
+      "title": "Investigations",
+      "order": 8,
+      "sourceSectionIds": [
+        "c-is.9.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Core for suspected pneumonia:</b> Bedside observations including oxygen saturation are essential for severity assessment; FBC, CRP, and U&amp;Es may support the diagnosis and help assess severity, but normal inflammatory markers do not exclude early or atypical pneumonia; in hospital, blood cultures and sputum sampling are most useful in moderate or high-severity disease or when the course is not straightforward.</li>\n            <li><b>Severity tools:</b> CRB-65 in primary care and CURB-65 in hospital can support severity stratification, but they should sit alongside clinical judgement rather than replace it; a calculator is available at <a href=\"https://www.mdcalc.com/calc/324/curb-65-score-pneumonia-severity\" target=\"_blank\" rel=\"noopener noreferrer\">CURB-65 on MDCalc</a>.</li>\n            <li><b>If an alternative diagnosis is plausible:</b> Consider BNP or echocardiography for acute heart failure, D-dimer followed by CTPA for pulmonary embolism when clinically appropriate, and tuberculosis or viral testing when the history or imaging pattern points away from routine CAP.</li>\n            <li><b>Imaging - chest X-ray:</b> First-line hospital imaging that may show lobar or patchy consolidation, pleural effusion, or multilobar disease; a normal film does not exclude very early pneumonia or disease in dehydrated or immunosuppressed patients, so a reassuring X-ray should not outweigh a strong evolving clinical pattern.</li>\n            <li><b>Imaging - lung ultrasound:</b> NICE NG250 notes that this can support rapid point-of-care diagnosis in a sick or deteriorating patient and can help identify [sc name=\"jitl-query\" Q=\"Parapneumonic effusion: what is it and why does it matter clinically?\" text=\"pleural complications\"][/sc]; it is operator dependent and complements rather than replaces the wider clinical assessment.</li>\n            <li><b>Imaging - CT chest:</b> Consider when chest X-ray is equivocal, the patient is immunosuppressed, complications such as abscess or empyema are suspected, or non-resolving consolidation raises concern for malignancy or another diagnosis.</li>\n            <li><b>Serial reassessment:</b> Repeated observations, oxygenation, chest findings, and inflammatory markers over 48-72 hours are most useful in inpatient or closely monitored pathways, where evolving signs can clarify whether the diagnosis and severity assessment still fit.</li>\n        </ul>",
+      "plainText": "Core for suspected pneumonia: Bedside observations including oxygen saturation are essential for severity assessment; FBC, CRP, and U&Es may support the diagnosis and help assess severity, but normal inflammatory markers do not exclude early or atypical pneumonia; in hospital, blood cultures and sputum sampling are most useful in moderate or high-severity disease or when the course is not straightforward. Severity tools: CRB-65 in primary care and CURB-65 in hospital can support severity stratification, but they should sit alongside clinical judgement rather than replace it; a calculator is available at CURB-65 on MDCalc . If an alternative diagnosis is plausible: Consider BNP or echocardiography for acute heart failure, D-dimer followed by CTPA for pulmonary embolism when clinically appropriate, and tuberculosis or viral testing when the history or imaging pattern points away from routine CAP. Imaging - chest X-ray: First-line hospital imaging that may show lobar or patchy consolidation, pleural effusion, or multilobar disease; a normal film does not exclude very early pneumonia or disease in dehydrated or immunosuppressed patients, so a reassuring X-ray should not outweigh a strong evolving clinical pattern. Imaging - lung ultrasound: NICE NG250 notes that this can support rapid point-of-care diagnosis in a sick or deteriorating patient and can help identify pleural complications; it is operator dependent and complements rather than replaces the wider clinical assessment. Imaging - CT chest: Consider when chest X-ray is equivocal, the patient is immunosuppressed, complications such as abscess or empyema are suspected, or non-resolving consolidation raises concern for malignancy or another diagnosis. Serial reassessment: Repeated observations, oxygenation, chest findings, and inflammatory markers over 48-72 hours are most useful in inpatient or closely monitored pathways, where evolving signs can clarify whether the diagnosis and severity assessment still fit.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Parapneumonic effusion: what is it and why does it matter clinically?",
+          "text": "pleural complications",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Parapneumonic effusion: what is it and why does it matter clinically?\" text=\"pleural complications\"][/sc]",
+          "sourceSectionKey": "investigations"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.9.0"
+    },
+    {
+      "id": "problem-representation",
+      "key": "problem-representation",
+      "title": "Problem Representation",
+      "order": 9,
+      "sourceSectionIds": [
+        "c-is.10.0"
+      ],
+      "rawHtml": "<ul>\n            <li>A 72-year-old man presents with 3 days of fever, productive cough, right-sided pleuritic chest pain, and worsening breathlessness, with tachypnoea, hypoxia, and focal right basal crackles with bronchial breathing on assessment.</li>\n            <li>Older adult with an acute febrile lower respiratory illness, focal consolidation signs, and systemic upset, concerning for community-acquired pneumonia with possible pleural complication.</li>\n        </ul>",
+      "plainText": "A 72-year-old man presents with 3 days of fever, productive cough, right-sided pleuritic chest pain, and worsening breathlessness, with tachypnoea, hypoxia, and focal right basal crackles with bronchial breathing on assessment. Older adult with an acute febrile lower respiratory illness, focal consolidation signs, and systemic upset, concerning for community-acquired pneumonia with possible pleural complication.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.10.0"
+    },
+    {
+      "id": "key-differentials",
+      "key": "key-differentials",
+      "title": "Key Differentials",
+      "order": 10,
+      "sourceSectionIds": [
+        "c-is.11.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Pulmonary embolism - may cause pleuritic pain and dyspnoea, but focal infective symptoms and new consolidation signs are usually absent; the history often includes thromboembolic risk factors.</li>\n            <li>Acute heart failure - bilateral crackles, orthopnoea, elevated JVP, and peripheral oedema favour cardiogenic pulmonary oedema over a focal infective process.</li>\n            <li>COPD exacerbation - wheeze and prolonged expiration dominate, and there may be no focal percussion or auscultatory findings to suggest consolidation.</li>\n            <li>Viral lower respiratory tract infection or viral pneumonitis - systemic symptoms may be prominent, but focal lobar signs are often less marked and imaging may show a more diffuse interstitial pattern.</li>\n            <li>Pulmonary tuberculosis - usually has a more subacute course with weight loss, night sweats, haemoptysis, and upper-zone disease rather than abrupt pleuritic CAP.</li>\n            <li>Lung cancer with [sc name=\"jitl-query\" Q=\"Post-obstructive change: what is it and why does it matter clinically?\" text=\"post-obstructive change\"][/sc] - recurrent or non-resolving consolidation in the same area, haemoptysis, or weight loss should prompt concern for an underlying obstructing lesion.</li>\n        </ul>",
+      "plainText": "Pulmonary embolism - may cause pleuritic pain and dyspnoea, but focal infective symptoms and new consolidation signs are usually absent; the history often includes thromboembolic risk factors. Acute heart failure - bilateral crackles, orthopnoea, elevated JVP, and peripheral oedema favour cardiogenic pulmonary oedema over a focal infective process. COPD exacerbation - wheeze and prolonged expiration dominate, and there may be no focal percussion or auscultatory findings to suggest consolidation. Viral lower respiratory tract infection or viral pneumonitis - systemic symptoms may be prominent, but focal lobar signs are often less marked and imaging may show a more diffuse interstitial pattern. Pulmonary tuberculosis - usually has a more subacute course with weight loss, night sweats, haemoptysis, and upper-zone disease rather than abrupt pleuritic CAP. Lung cancer with post-obstructive change - recurrent or non-resolving consolidation in the same area, haemoptysis, or weight loss should prompt concern for an underlying obstructing lesion.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Post-obstructive change: what is it and why does it matter clinically?",
+          "text": "post-obstructive change",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Post-obstructive change: what is it and why does it matter clinically?\" text=\"post-obstructive change\"][/sc]",
+          "sourceSectionKey": "key-differentials"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.11.0"
+    },
+    {
+      "id": "management-thinking",
+      "key": "management-thinking",
+      "title": "Management Thinking",
+      "order": 11,
+      "sourceSectionIds": [
+        "c-is.12.0"
+      ],
+      "rawHtml": "<ul><li><b>Immediate priorities:</b> Hypoxia, sepsis, haemodynamic instability, or respiratory failure early in the presentation often change the monitoring setting and usually prompt senior review. Supportive care often includes oxygen, fluids, analgesia, and closer observation in line with local acute pathways.</li><li><b>Definitive management:</b> CAP treatment is usually severity-stratified antimicrobial therapy guided by clinical judgement plus CRB-65 or CURB-65, with oral treatment more plausible in lower-severity disease and hospital pathways more likely when severity is higher or oral therapy is not feasible.</li><li><b>Adjunctive management:</b> Pleural infection or persistent deterioration should raise concern for a more complicated course, often changing imaging needs, procedural planning, or senior respiratory review; selected adults in hospital with high-severity CAP may also be considered for adjunctive corticosteroids under current guideline criteria and local policy.</li><li><b>Monitoring and follow-up:</b> Reassess observations, oxygen requirement, mental state, oral intake, and inflammatory markers over 48-72 hours to confirm improvement; NICE NG250 advises that follow-up chest X-ray is not routine after discharge but may be considered at 6 weeks in those with lung cancer risk factors, persistent symptoms, unexplained weight loss, or suspected underlying respiratory disease.</li><li><b>Escalation and safety-netting:</b> Worsening breathlessness, new confusion, haemoptysis, pleuritic pain with enlarging effusion, or failure to improve particularly beyond 48-72 hours should prompt reassessment for empyema, abscess, resistant or atypical infection, pulmonary embolism, or underlying malignancy.</li></ul>",
+      "plainText": "Immediate priorities: Hypoxia, sepsis, haemodynamic instability, or respiratory failure early in the presentation often change the monitoring setting and usually prompt senior review. Supportive care often includes oxygen, fluids, analgesia, and closer observation in line with local acute pathways. Definitive management: CAP treatment is usually severity-stratified antimicrobial therapy guided by clinical judgement plus CRB-65 or CURB-65, with oral treatment more plausible in lower-severity disease and hospital pathways more likely when severity is higher or oral therapy is not feasible. Adjunctive management: Pleural infection or persistent deterioration should raise concern for a more complicated course, often changing imaging needs, procedural planning, or senior respiratory review; selected adults in hospital with high-severity CAP may also be considered for adjunctive corticosteroids under current guideline criteria and local policy. Monitoring and follow-up: Reassess observations, oxygen requirement, mental state, oral intake, and inflammatory markers over 48-72 hours to confirm improvement; NICE NG250 advises that follow-up chest X-ray is not routine after discharge but may be considered at 6 weeks in those with lung cancer risk factors, persistent symptoms, unexplained weight loss, or suspected underlying respiratory disease. Escalation and safety-netting: Worsening breathlessness, new confusion, haemoptysis, pleuritic pain with enlarging effusion, or failure to improve particularly beyond 48-72 hours should prompt reassessment for empyema, abscess, resistant or atypical infection, pulmonary embolism, or underlying malignancy.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.12.0"
+    },
+    {
+      "id": "prescribing",
+      "key": "prescribing",
+      "title": "Prescribing",
+      "order": 12,
+      "sourceSectionIds": [
+        "c-is.12.0"
+      ],
+      "rawHtml": "NICE NG250 describes [sc name=\"jitl-medication\" Q=\"Amoxicillin use in Pneumonia\" text=\"amoxicillin\"][/sc] as typically first-line for low-severity adult CAP; [sc name=\"jitl-medication\" Q=\"Doxycycline use in Pneumonia\" text=\"doxycycline\"][/sc] or [sc name=\"jitl-medication\" Q=\"Clarithromycin use in Pneumonia\" text=\"clarithromycin\"][/sc] are alternatives when penicillin allergy is documented or atypical pathogens are suspected; moderate-severity CAP often uses [sc name=\"jitl-medication\" Q=\"Amoxicillin use in Pneumonia\" text=\"amoxicillin\"][/sc] with [sc name=\"jitl-medication\" Q=\"Clarithromycin use in Pneumonia\" text=\"clarithromycin\"][/sc], and high-severity CAP often uses [sc name=\"jitl-medication\" Q=\"Co-amoxiclav use in Pneumonia\" text=\"co-amoxiclav\"][/sc] with [sc name=\"jitl-medication\" Q=\"Clarithromycin use in Pneumonia\" text=\"clarithromycin\"][/sc], with [sc name=\"jitl-medication\" Q=\"Erythromycin use in Pneumonia\" text=\"erythromycin\"][/sc] used as the macrolide option in pregnancy. No doses or frequencies are cited here — always verify against your local antimicrobial/prescribing formulary before prescribing.",
+      "plainText": "NICE NG250 describes amoxicillin as typically first-line for low-severity adult CAP; doxycycline or clarithromycin are alternatives when penicillin allergy is documented or atypical pathogens are suspected; moderate-severity CAP often uses amoxicillin with clarithromycin, and high-severity CAP often uses co-amoxiclav with clarithromycin, with erythromycin used as the macrolide option in pregnancy. No doses or frequencies are cited here — always verify against your local antimicrobial/prescribing formulary before prescribing.",
+      "jitlReferences": [
+        {
+          "type": "medication",
+          "query": "Amoxicillin use in Pneumonia",
+          "text": "amoxicillin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Amoxicillin use in Pneumonia\" text=\"amoxicillin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Doxycycline use in Pneumonia",
+          "text": "doxycycline",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Doxycycline use in Pneumonia\" text=\"doxycycline\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Clarithromycin use in Pneumonia",
+          "text": "clarithromycin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Clarithromycin use in Pneumonia\" text=\"clarithromycin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Amoxicillin use in Pneumonia",
+          "text": "amoxicillin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Amoxicillin use in Pneumonia\" text=\"amoxicillin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Clarithromycin use in Pneumonia",
+          "text": "clarithromycin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Clarithromycin use in Pneumonia\" text=\"clarithromycin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Co-amoxiclav use in Pneumonia",
+          "text": "co-amoxiclav",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Co-amoxiclav use in Pneumonia\" text=\"co-amoxiclav\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Clarithromycin use in Pneumonia",
+          "text": "clarithromycin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Clarithromycin use in Pneumonia\" text=\"clarithromycin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Erythromycin use in Pneumonia",
+          "text": "erythromycin",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Erythromycin use in Pneumonia\" text=\"erythromycin\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.12.0"
+    },
+    {
+      "id": "complications",
+      "key": "complications",
+      "title": "Complications",
+      "order": 13,
+      "sourceSectionIds": [
+        "c-is.13.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Parapneumonic effusion or empyema:</b> Infection can extend into the pleural space; pleural sepsis becomes more likely particularly beyond 48-72 hours and should make the case feel less like uncomplicated CAP.</li>\n            <li><b>Sepsis and septic shock:</b> Bloodstream spread or overwhelming inflammatory response can cause haemodynamic collapse and organ dysfunction, signalling severe disease with high short-term risk.</li>\n            <li><b>Respiratory failure:</b> Progressive consolidation and ventilation-perfusion mismatch can cause worsening hypoxaemia and exhaustion, marking a shift from routine CAP to life-threatening respiratory compromise.</li>\n            <li><b>Necrotising or cavitating pneumonia:</b> A rare but exam-relevant complication in which tissue destruction leads to persistent fever, systemic toxicity, and delayed radiological resolution, raising concern when the illness course stops fitting simple CAP.</li>\n        </ul>",
+      "plainText": "Parapneumonic effusion or empyema: Infection can extend into the pleural space; pleural sepsis becomes more likely particularly beyond 48-72 hours and should make the case feel less like uncomplicated CAP. Sepsis and septic shock: Bloodstream spread or overwhelming inflammatory response can cause haemodynamic collapse and organ dysfunction, signalling severe disease with high short-term risk. Respiratory failure: Progressive consolidation and ventilation-perfusion mismatch can cause worsening hypoxaemia and exhaustion, marking a shift from routine CAP to life-threatening respiratory compromise. Necrotising or cavitating pneumonia: A rare but exam-relevant complication in which tissue destruction leads to persistent fever, systemic toxicity, and delayed radiological resolution, raising concern when the illness course stops fitting simple CAP.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.13.0"
+    }
+  ],
+  "jitl": {
+    "medications": [
+      {
+        "type": "medication",
+        "query": "Amoxicillin use in Pneumonia",
+        "text": "amoxicillin",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Amoxicillin use in Pneumonia\" text=\"amoxicillin\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Doxycycline use in Pneumonia",
+        "text": "doxycycline",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Doxycycline use in Pneumonia\" text=\"doxycycline\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Clarithromycin use in Pneumonia",
+        "text": "clarithromycin",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Clarithromycin use in Pneumonia\" text=\"clarithromycin\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Co-amoxiclav use in Pneumonia",
+        "text": "co-amoxiclav",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Co-amoxiclav use in Pneumonia\" text=\"co-amoxiclav\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Erythromycin use in Pneumonia",
+        "text": "erythromycin",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Erythromycin use in Pneumonia\" text=\"erythromycin\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      }
+    ],
+    "queries": [
+      {
+        "type": "query",
+        "query": "Pneumonia epidemiology",
+        "text": "Epidemiology deep dive",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Pneumonia epidemiology\" text=\"Epidemiology deep dive\"][/sc]",
+        "sourceSectionKey": "risk-factors"
+      },
+      {
+        "type": "query",
+        "query": "Ventilation-perfusion mismatch: what is it and why does it matter clinically?",
+        "text": "ventilation-perfusion mismatch",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Ventilation-perfusion mismatch: what is it and why does it matter clinically?\" text=\"ventilation-perfusion mismatch\"][/sc]",
+        "sourceSectionKey": "pathophysiology"
+      },
+      {
+        "type": "query",
+        "query": "Parapneumonic effusion: what is it and why does it matter clinically?",
+        "text": "pleural complications",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Parapneumonic effusion: what is it and why does it matter clinically?\" text=\"pleural complications\"][/sc]",
+        "sourceSectionKey": "investigations"
+      },
+      {
+        "type": "query",
+        "query": "Post-obstructive change: what is it and why does it matter clinically?",
+        "text": "post-obstructive change",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Post-obstructive change: what is it and why does it matter clinically?\" text=\"post-obstructive change\"][/sc]",
+        "sourceSectionKey": "key-differentials"
+      }
+    ]
+  },
+  "downstreamHints": {
+    "knowledgeBase": {
+      "canonicalTopicUrl": "https://kb.clinicalreasoning.io/topic/pneumonia"
+    },
+    "reasoningCompass": {
+      "topicSlug": "pneumonia",
+      "suggestedAccentTheme": "green",
+      "sectionKeys": [
+        "overview",
+        "risk-factors",
+        "pathophysiology",
+        "time-course",
+        "clinical-features",
+        "red-flags",
+        "atypical-presentations",
+        "investigations",
+        "problem-representation",
+        "key-differentials",
+        "management-thinking",
+        "prescribing",
+        "complications"
+      ]
+    },
+    "ddxExplorer": {
+      "knowledgeBaseUrl": "https://kb.clinicalreasoning.io/topic/pneumonia",
+      "summary": "Pneumonia is acute infection of the lung parenchyma in which alveolar inflammation and exudate produce consolidation, impaired gas exchange, and systemic illness; this script focuses on adult community-acquired pneumonia (CAP).",
+      "redFlagSummary": "Hypoxia or escalating work of breathing - suggests significant gas-exchange failure and often warrants urgent hospital-level assessment even if the rest of the examination is not dramatic.",
+      "featureSummary": "Symptoms Ask about cough and sputum character - a new productive cough supports alveolar infection, while foul-smelling sputum raises concern for aspiration or abscess and a persistently dry cough can point towards atypical pathogens."
+    }
+  }
+}

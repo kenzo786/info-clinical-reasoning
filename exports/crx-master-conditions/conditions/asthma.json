@@ -1,0 +1,513 @@
+{
+  "schemaVersion": "2026-04-12",
+  "exportedAt": "2026-04-12T17:28:59.149428+00:00",
+  "conditionId": "ukmla-asthma",
+  "slug": "asthma",
+  "title": "Asthma",
+  "subtitle": "Lungs, pleura and airways UKMLA condition master export",
+  "conditionType": "condition",
+  "ukmla": {
+    "conditionLabel": "Asthma",
+    "category": "Lungs, pleura and airways",
+    "gapTrackerStatus": "covered-needs-refresh",
+    "priority": "high",
+    "phase": "phase-1-pilot"
+  },
+  "source": {
+    "repo": "info-clinical-reasoning",
+    "htmlFile": "updated-illness-scripts-2026-final/132-is-ukmla-asthma.html",
+    "canonicalFile": "132-is-ukmla-asthma.html",
+    "legacyPostId": "132",
+    "postIdSource": "wordpress-export-slug"
+  },
+  "publication": {
+    "legacyWordpressStatus": "published",
+    "knowledgeBaseStatus": "exported",
+    "conditionsProjectionStatus": "not-generated",
+    "ddxProjectionStatus": "not-generated",
+    "reviewStatus": "clinician-review-needed"
+  },
+  "taxonomy": {
+    "specialty": "Respiratory",
+    "tags": [
+      "UKMLA",
+      "illness-script",
+      "Lungs, pleura and airways",
+      "Respiratory",
+      "prescribing"
+    ]
+  },
+  "signals": {
+    "clusterResolutionNeeded": false,
+    "clinicianPriority": "clinician-review-needed",
+    "notes": [
+      "manifest-current-file-status=canonical-final-exists",
+      "tracker-next-action=replace-live-now",
+      "Canonical final file present in final folder. Batch 1 live-replacement candidate."
+    ]
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "key": "overview",
+      "title": "Overview",
+      "order": 1,
+      "sourceSectionIds": [
+        "c-is.1.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Asthma is a chronic inflammatory airway disease characterised by variable and reversible airflow obstruction, bronchial hyperresponsiveness, and airway remodelling — resulting in episodic wheeze, dyspnoea, chest tightness, and cough that typically worsen at night or in the early morning.</li>\n            <li><b>UKMLA learning outcome:</b> Recognise acute asthma and classify its severity using BTS/SIGN objective criteria (moderate / acute severe / life-threatening / near-fatal); distinguish asthma from COPD using reversibility testing; identify life-threatening features and escalate appropriately; understand the stepwise pharmacological management framework and the role of personalised asthma action plans in reducing preventable deaths.</li>\n        </ul>",
+      "plainText": "Asthma is a chronic inflammatory airway disease characterised by variable and reversible airflow obstruction, bronchial hyperresponsiveness, and airway remodelling — resulting in episodic wheeze, dyspnoea, chest tightness, and cough that typically worsen at night or in the early morning. UKMLA learning outcome: Recognise acute asthma and classify its severity using BTS/SIGN objective criteria (moderate / acute severe / life-threatening / near-fatal); distinguish asthma from COPD using reversibility testing; identify life-threatening features and escalate appropriately; understand the stepwise pharmacological management framework and the role of personalised asthma action plans in reducing preventable deaths.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.1.0"
+    },
+    {
+      "id": "risk-factors",
+      "key": "risk-factors",
+      "title": "Risk Factors",
+      "order": 2,
+      "sourceSectionIds": [
+        "c-is.2.0"
+      ],
+      "rawHtml": "<ul>\n            <li>[sc name=\"jitl-query\" Q=\"Asthma epidemiology\" text=\"Epidemiology deep dive\"][/sc]</li>\n            <li>Asthma affects approximately 5.4 million people in the UK — around 1 in 11 children and 1 in 12 adults. It accounts for approximately 1,200–1,400 deaths per year in the UK, the majority of which are considered preventable by improved recognition, monitoring, and treatment optimisation. Childhood asthma is more common in boys; adult-onset asthma is more common in women. Asthma is the most common chronic disease of childhood in the UK.</li>\n            <li>Key risk factors include atopy (personal or family history of eczema, allergic rhinitis, or food allergy), exposure to tobacco smoke in utero or in early childhood, viral lower respiratory tract infections in infancy, obesity, and occupational sensitiser exposure. Groups at particular risk of fatal or near-fatal attacks include those with a previous intensive care unit admission or ventilator requirement, those with poor perception of their own dyspnoea severity, those with frequent oral corticosteroid courses, and patients with comorbid psychosocial problems or poor healthcare access.</li>\n        </ul>",
+      "plainText": "Epidemiology deep dive Asthma affects approximately 5.4 million people in the UK — around 1 in 11 children and 1 in 12 adults. It accounts for approximately 1,200–1,400 deaths per year in the UK, the majority of which are considered preventable by improved recognition, monitoring, and treatment optimisation. Childhood asthma is more common in boys; adult-onset asthma is more common in women. Asthma is the most common chronic disease of childhood in the UK. Key risk factors include atopy (personal or family history of eczema, allergic rhinitis, or food allergy), exposure to tobacco smoke in utero or in early childhood, viral lower respiratory tract infections in infancy, obesity, and occupational sensitiser exposure. Groups at particular risk of fatal or near-fatal attacks include those with a previous intensive care unit admission or ventilator requirement, those with poor perception of their own dyspnoea severity, those with frequent oral corticosteroid courses, and patients with comorbid psychosocial problems or poor healthcare access.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Asthma epidemiology",
+          "text": "Epidemiology deep dive",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Asthma epidemiology\" text=\"Epidemiology deep dive\"][/sc]",
+          "sourceSectionKey": "risk-factors"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.2.0"
+    },
+    {
+      "id": "pathophysiology",
+      "key": "pathophysiology",
+      "title": "Pathophysiology",
+      "order": 3,
+      "sourceSectionIds": [
+        "c-is.3.0"
+      ],
+      "rawHtml": "<ul>\n            <li>Exposure to an allergen or irritant (infection, cold air, exercise, chemical sensitiser) activates mast cells and airway dendritic cells, triggering Th2-skewed inflammatory cascades and an immediate bronchospastic response.</li>\n            <li>Persistent airway inflammation causes bronchial hyperresponsiveness, mucus plugging, and [sc name=\"jitl-query\" Q=\"Dynamic hyperinflation: what is it and why does it matter clinically?\" text=\"dynamic hyperinflation\"][/sc], generating wheeze, chest tightness, and dyspnoea; falling peak expiratory flow rate (PEFR) reflects the degree of airflow obstruction.</li>\n            <li>Untreated or severely acute asthma progresses to respiratory muscle fatigue and CO₂ retention — a rising or normal PaCO₂ in a tachypnoeic patient signals impending respiratory failure (because hyperventilation should keep PaCO₂ low; any rise towards or above normal indicates fatigue); in chronic uncontrolled asthma, repeated cycles of inflammation and remodelling can lead to irreversible fixed airflow obstruction and loss of reversibility.</li>\n        </ul>",
+      "plainText": "Exposure to an allergen or irritant (infection, cold air, exercise, chemical sensitiser) activates mast cells and airway dendritic cells, triggering Th2-skewed inflammatory cascades and an immediate bronchospastic response. Persistent airway inflammation causes bronchial hyperresponsiveness, mucus plugging, and dynamic hyperinflation, generating wheeze, chest tightness, and dyspnoea; falling peak expiratory flow rate (PEFR) reflects the degree of airflow obstruction. Untreated or severely acute asthma progresses to respiratory muscle fatigue and CO₂ retention — a rising or normal PaCO₂ in a tachypnoeic patient signals impending respiratory failure (because hyperventilation should keep PaCO₂ low; any rise towards or above normal indicates fatigue); in chronic uncontrolled asthma, repeated cycles of inflammation and remodelling can lead to irreversible fixed airflow obstruction and loss of reversibility.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Dynamic hyperinflation: what is it and why does it matter clinically?",
+          "text": "dynamic hyperinflation",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Dynamic hyperinflation: what is it and why does it matter clinically?\" text=\"dynamic hyperinflation\"][/sc]",
+          "sourceSectionKey": "pathophysiology"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.3.0"
+    },
+    {
+      "id": "time-course",
+      "key": "time-course",
+      "title": "Time Course",
+      "order": 4,
+      "sourceSectionIds": [
+        "c-is.4.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Early phase:</b> Prodromal symptoms — itchy eyes, sneezing, heightened chest sensitivity, or mood change — may precede an acute attack by hours; initial wheeze is often expiratory and mild, triggered by a recognisable precipitant (allergen, infection, exercise, cold air); symptoms are typically episodic with symptom-free intervals.</li>\n            <li><b>Progressive phase:</b> Worsening dyspnoea, increasing wheeze, and rising use of reliever bronchodilators over minutes to hours; nocturnal and early-morning symptoms become prominent; objective PEFR falls progressively; if the precipitant is not removed or treatment is inadequate, bronchoconstriction escalates from moderate to acute severe severity by BTS/SIGN criteria.</li>\n            <li><b>Late phase:</b> Life-threatening features — silent chest, cyanosis, exhaustion, hypercapnia, and altered consciousness — develop particularly beyond several hours of acute bronchoconstriction without adequate treatment; respiratory arrest may follow rapidly once PaCO₂ rises; near-fatal asthma is defined by raised PaCO₂ or ventilatory requirement.</li>\n        </ul>",
+      "plainText": "Early phase: Prodromal symptoms — itchy eyes, sneezing, heightened chest sensitivity, or mood change — may precede an acute attack by hours; initial wheeze is often expiratory and mild, triggered by a recognisable precipitant (allergen, infection, exercise, cold air); symptoms are typically episodic with symptom-free intervals. Progressive phase: Worsening dyspnoea, increasing wheeze, and rising use of reliever bronchodilators over minutes to hours; nocturnal and early-morning symptoms become prominent; objective PEFR falls progressively; if the precipitant is not removed or treatment is inadequate, bronchoconstriction escalates from moderate to acute severe severity by BTS/SIGN criteria. Late phase: Life-threatening features — silent chest, cyanosis, exhaustion, hypercapnia, and altered consciousness — develop particularly beyond several hours of acute bronchoconstriction without adequate treatment; respiratory arrest may follow rapidly once PaCO₂ rises; near-fatal asthma is defined by raised PaCO₂ or ventilatory requirement.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.4.0"
+    },
+    {
+      "id": "clinical-features",
+      "key": "clinical-features",
+      "title": "Clinical Features",
+      "order": 5,
+      "sourceSectionIds": [
+        "c-is.5.0",
+        "c-is.6.0"
+      ],
+      "rawHtml": "<section class=\"crx-export-clinical-features\"><h3>Symptoms</h3><ul>\n            <li><b>Ask about</b> wheeze — the cardinal symptom; characterise as bilateral and expiratory (in contrast to monophonic inspiratory stridor from an upper airway cause); episodic wheeze with symptom-free intervals is highly suggestive of asthma; ask whether wheeze is worse at night, early morning, or with specific triggers (exercise, cold air, allergens, infections).</li>\n            <li><b>Ask about</b> nocturnal and early-morning cough — a dry, persistent nocturnal cough that wakes the patient is sometimes the sole presenting symptom (cough-variant asthma); it reflects airway hyperresponsiveness peaking at circadian nadir of endogenous cortisol and is often misdiagnosed as post-nasal drip, reflux, or habit cough.</li>\n            <li><b>Ask about</b> chest tightness and dyspnoea — particularly with exertion, cold air exposure, or trigger contact; the sensation of chest tightness precedes wheeze in many patients and may be misinterpreted as cardiac pain; exercise-induced bronchoconstriction causing dyspnoea during or within minutes of activity is a common presentation in younger patients.</li>\n            <li><b>Ask about</b> known triggers and recent exposures — allergens (house dust mite, pets, pollen), viral respiratory infections, occupational agents (flour, isocyanates, latex), NSAIDs or aspirin (in aspirin-sensitive asthma), and beta-blocker use; identifying triggers is essential for avoidance advice and supports the diagnosis.</li>\n            <li><b>Ask about</b> the pattern of reliever use and previous attack history — increasing short-acting bronchodilator use (needing reliever more than twice a week) signals worsening control; a history of previous hospital admissions, oral corticosteroid courses, or ITU admission identifies patients at substantially higher risk of a fatal or near-fatal attack and warrants a lower threshold for hospitalisation in any acute presentation.</li>\n        </ul><h3>Signs</h3><ul>\n            <li><b>Check</b> for bilateral expiratory wheeze — polyphonic wheeze throughout both lung fields reflects widespread bronchospasm; a [sc name=\"jitl-query\" Q=\"Silent chest: what is it and why does it matter clinically?\" text=\"silent chest\"][/sc] is a critically important sign indicating near-total airflow obstruction and impending respiratory arrest.</li>\n            <li><b>Check</b> peak expiratory flow rate (PEFR) — the single most important objective bedside measurement in acute asthma; compare to the patient's personal best or predicted value: PEF 50–75% = moderate; PEF 33–50% = acute severe; PEF &lt;33% = life-threatening; serial measurements after each treatment dose track response and guide discharge or escalation decisions.</li>\n            <li><b>Check</b> for accessory muscle use and chest hyperinflation — sternocleidomastoid and intercostal muscle recruitment indicates significant airways obstruction; increased AP chest diameter and prolonged expiratory phase on auscultation reflect dynamic air trapping; paradoxical chest wall inward movement on inspiration in severe attacks indicates impending respiratory failure.</li>\n            <li><b>Check</b> respiratory rate, heart rate, and SpO₂ — RR &gt;25/min and HR &gt;110/min indicate acute severe asthma by BTS/SIGN criteria; SpO₂ &lt;92% defines a life-threatening attack and warrants ABG for assessment of PaCO₂; a rising or normal PaCO₂ in a tachypnoeic patient signals respiratory muscle fatigue and impending arrest; fever suggests an infectious precipitant.</li>\n        </ul></section>",
+      "plainText": "Symptoms Ask about wheeze — the cardinal symptom; characterise as bilateral and expiratory (in contrast to monophonic inspiratory stridor from an upper airway cause); episodic wheeze with symptom-free intervals is highly suggestive of asthma; ask whether wheeze is worse at night, early morning, or with specific triggers (exercise, cold air, allergens, infections). Ask about nocturnal and early-morning cough — a dry, persistent nocturnal cough that wakes the patient is sometimes the sole presenting symptom (cough-variant asthma); it reflects airway hyperresponsiveness peaking at circadian nadir of endogenous cortisol and is often misdiagnosed as post-nasal drip, reflux, or habit cough. Ask about chest tightness and dyspnoea — particularly with exertion, cold air exposure, or trigger contact; the sensation of chest tightness precedes wheeze in many patients and may be misinterpreted as cardiac pain; exercise-induced bronchoconstriction causing dyspnoea during or within minutes of activity is a common presentation in younger patients. Ask about known triggers and recent exposures — allergens (house dust mite, pets, pollen), viral respiratory infections, occupational agents (flour, isocyanates, latex), NSAIDs or aspirin (in aspirin-sensitive asthma), and beta-blocker use; identifying triggers is essential for avoidance advice and supports the diagnosis. Ask about the pattern of reliever use and previous attack history — increasing short-acting bronchodilator use (needing reliever more than twice a week) signals worsening control; a history of previous hospital admissions, oral corticosteroid courses, or ITU admission identifies patients at substantially higher risk of a fatal or near-fatal attack and warrants a lower threshold for hospitalisation in any acute presentation. Signs Check for bilateral expiratory wheeze — polyphonic wheeze throughout both lung fields reflects widespread bronchospasm; a silent chest is a critically important sign indicating near-total airflow obstruction and impending respiratory arrest. Check peak expiratory flow rate (PEFR) — the single most important objective bedside measurement in acute asthma; compare to the patient's personal best or predicted value: PEF 50–75% = moderate; PEF 33–50% = acute severe; PEF <33% = life-threatening; serial measurements after each treatment dose track response and guide discharge or escalation decisions. Check for accessory muscle use and chest hyperinflation — sternocleidomastoid and intercostal muscle recruitment indicates significant airways obstruction; increased AP chest diameter and prolonged expiratory phase on auscultation reflect dynamic air trapping; paradoxical chest wall inward movement on inspiration in severe attacks indicates impending respiratory failure. Check respiratory rate, heart rate, and SpO₂ — RR >25/min and HR >110/min indicate acute severe asthma by BTS/SIGN criteria; SpO₂ <92% defines a life-threatening attack and warrants ABG for assessment of PaCO₂; a rising or normal PaCO₂ in a tachypnoeic patient signals respiratory muscle fatigue and impending arrest; fever suggests an infectious precipitant.",
+      "jitlReferences": [
+        {
+          "type": "query",
+          "query": "Silent chest: what is it and why does it matter clinically?",
+          "text": "silent chest",
+          "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Silent chest: what is it and why does it matter clinically?\" text=\"silent chest\"][/sc]",
+          "sourceSectionKey": "clinical-features"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.5.0"
+    },
+    {
+      "id": "red-flags",
+      "key": "red-flags",
+      "title": "Red Flags",
+      "order": 6,
+      "sourceSectionIds": [
+        "c-is.7.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Life-threatening features (BTS/SIGN criteria)</b> — SpO₂ &lt;92%, PEF &lt;33% of predicted, silent chest, cyanosis, poor respiratory effort, exhaustion, cardiac arrhythmia, or altered consciousness; any one of these in combination with acute breathlessness indicates imminent respiratory arrest and requires immediate intensive care escalation, not further outpatient management.</li>\n            <li><b>Previous near-fatal or ITU-requiring asthma</b> — patients who have previously required mechanical ventilation or intensive care for asthma carry a substantially higher risk of death in subsequent attacks; any acute presentation in this group warrants a lower threshold for hospital admission and early senior review, even if current severity appears moderate.</li>\n            <li><b>Failure to respond to initial bronchodilator therapy</b> — persistent acute severe features (PEF &lt;50%, RR &gt;25, inability to complete sentences) after repeated SABA nebulisations indicates refractory bronchoconstriction requiring escalation to intravenous bronchodilator therapy, intravenous smooth muscle relaxants, and intensive care input.</li>\n            <li><b>Prolonged acute attack without improvement</b> — symptoms persisting particularly beyond several hours of acute bronchoconstriction without adequate treatment are associated with worsening respiratory muscle fatigue, CO₂ retention, and progression to near-fatal asthma; duration of attack is an independent risk factor for fatal outcome.</li>\n        </ul>",
+      "plainText": "Life-threatening features (BTS/SIGN criteria) — SpO₂ <92%, PEF <33% of predicted, silent chest, cyanosis, poor respiratory effort, exhaustion, cardiac arrhythmia, or altered consciousness; any one of these in combination with acute breathlessness indicates imminent respiratory arrest and requires immediate intensive care escalation, not further outpatient management. Previous near-fatal or ITU-requiring asthma — patients who have previously required mechanical ventilation or intensive care for asthma carry a substantially higher risk of death in subsequent attacks; any acute presentation in this group warrants a lower threshold for hospital admission and early senior review, even if current severity appears moderate. Failure to respond to initial bronchodilator therapy — persistent acute severe features (PEF <50%, RR >25, inability to complete sentences) after repeated SABA nebulisations indicates refractory bronchoconstriction requiring escalation to intravenous bronchodilator therapy, intravenous smooth muscle relaxants, and intensive care input. Prolonged acute attack without improvement — symptoms persisting particularly beyond several hours of acute bronchoconstriction without adequate treatment are associated with worsening respiratory muscle fatigue, CO₂ retention, and progression to near-fatal asthma; duration of attack is an independent risk factor for fatal outcome.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.7.0"
+    },
+    {
+      "id": "atypical-presentations",
+      "key": "atypical-presentations",
+      "title": "Atypical Presentations",
+      "order": 7,
+      "sourceSectionIds": [
+        "c-is.8.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Cough-variant asthma:</b> Chronic dry nocturnal cough without wheeze or dyspnoea as the predominant or sole symptom; spirometry may be normal between attacks, and the diagnosis requires demonstration of airway hyperresponsiveness by bronchial challenge testing (e.g., methacholine or mannitol challenge) or diurnal PEF variability on a diary; frequently misattributed to post-nasal drip, gastro-oesophageal reflux, or habit cough, causing significant diagnostic delay.</li>\n            <li><b>Occupational asthma:</b> New-onset wheeze and breathlessness that characteristically improve during weekends, holidays, or periods away from work and worsen on return; caused by sensitisation to workplace agents (flour dust, isocyanates, latex, animal dander); early recognition and removal from exposure are critical since continued exposure leads to irreversible sensitisation and fixed obstruction; serial PEF diaries at work and away from work support the diagnosis.</li>\n            <li><b>Pregnancy:</b> Asthma affects approximately 8% of pregnancies and may worsen, improve, or remain unchanged; poorly controlled asthma increases the risk of preterm labour, intrauterine growth restriction, and pre-eclampsia; inhaled corticosteroids are safe in pregnancy and should not be discontinued; acute severe asthma in pregnancy requires aggressive management, as maternal hypoxia rapidly compromises fetal oxygenation.</li>\n            <li><b>Children:</b> Asthma is the most common chronic disease of childhood; infants and young children may present with recurrent viral-triggered wheeze (not true atopic asthma) that resolves before school age; objective PEF measurement is unreliable below age 5–6 years; diagnosis in young children relies on symptom pattern, trigger history, and therapeutic response; over-diagnosis and under-diagnosis are both common, and the distinction from viral-induced wheeze has management implications.</li>\n            <li><b>Older adults:</b> Classic episodic wheeze may be attributed to heart failure or COPD, causing significant diagnostic delay; longstanding airway remodelling reduces post-bronchodilator reversibility on spirometry, making distinction from COPD difficult; beta-blocker use for cardiovascular comorbidity is a common precipitant of bronchospasm in this group; inhaler technique is frequently suboptimal; reduced perception of dyspnoea severity is more common in older adults and increases the risk of delayed presentation during acute attacks.</li>\n        </ul>",
+      "plainText": "Cough-variant asthma: Chronic dry nocturnal cough without wheeze or dyspnoea as the predominant or sole symptom; spirometry may be normal between attacks, and the diagnosis requires demonstration of airway hyperresponsiveness by bronchial challenge testing (e.g., methacholine or mannitol challenge) or diurnal PEF variability on a diary; frequently misattributed to post-nasal drip, gastro-oesophageal reflux, or habit cough, causing significant diagnostic delay. Occupational asthma: New-onset wheeze and breathlessness that characteristically improve during weekends, holidays, or periods away from work and worsen on return; caused by sensitisation to workplace agents (flour dust, isocyanates, latex, animal dander); early recognition and removal from exposure are critical since continued exposure leads to irreversible sensitisation and fixed obstruction; serial PEF diaries at work and away from work support the diagnosis. Pregnancy: Asthma affects approximately 8% of pregnancies and may worsen, improve, or remain unchanged; poorly controlled asthma increases the risk of preterm labour, intrauterine growth restriction, and pre-eclampsia; inhaled corticosteroids are safe in pregnancy and should not be discontinued; acute severe asthma in pregnancy requires aggressive management, as maternal hypoxia rapidly compromises fetal oxygenation. Children: Asthma is the most common chronic disease of childhood; infants and young children may present with recurrent viral-triggered wheeze (not true atopic asthma) that resolves before school age; objective PEF measurement is unreliable below age 5–6 years; diagnosis in young children relies on symptom pattern, trigger history, and therapeutic response; over-diagnosis and under-diagnosis are both common, and the distinction from viral-induced wheeze has management implications. Older adults: Classic episodic wheeze may be attributed to heart failure or COPD, causing significant diagnostic delay; longstanding airway remodelling reduces post-bronchodilator reversibility on spirometry, making distinction from COPD difficult; beta-blocker use for cardiovascular comorbidity is a common precipitant of bronchospasm in this group; inhaler technique is frequently suboptimal; reduced perception of dyspnoea severity is more common in older adults and increases the risk of delayed presentation during acute attacks.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.8.0"
+    },
+    {
+      "id": "investigations",
+      "key": "investigations",
+      "title": "Investigations",
+      "order": 8,
+      "sourceSectionIds": [
+        "c-is.9.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Core for suspected asthma:</b> Peak expiratory flow rate (PEFR) — essential objective bedside measure in both acute assessment and outpatient diagnosis (diurnal variability &gt;20% on a 2-week diary supports asthma); spirometry with bronchodilator reversibility testing — an increase in FEV1 of ≥200 ml and ≥12% from baseline after a short-acting bronchodilator confirms significant reversible airflow obstruction; SpO₂ monitoring in acute presentations; FeNO (fractional exhaled nitric oxide) — elevated (&gt;40 ppb) supports eosinophilic airway inflammation and likelihood of corticosteroid responsiveness (NICE 2017 diagnostic pathway); a normal spirometry between attacks does not exclude asthma.</li>\n            <li><b>If an alternative diagnosis is plausible:</b> ABG in life-threatening or near-fatal presentations — normal or rising PaCO₂ in a tachypnoeic patient signals impending respiratory failure; FBC (eosinophilia supports atopic disease; neutrophilia or raised CRP suggests infective precipitant); allergy testing (specific IgE or skin prick test) to identify atopic triggers; bronchial challenge testing (methacholine, mannitol, or exercise) when spirometry is normal and diagnosis is uncertain; laryngoscopy or flow-volume loop if inducible laryngeal obstruction (vocal cord dysfunction) is suspected.</li>\n            <li><b>Imaging — chest X-ray:</b> Not routinely required for straightforward acute asthma but indicated if there is clinical suspicion of pneumothorax (sudden worsening, asymmetrical signs), consolidation suggesting a pneumonic precipitant, foreign body aspiration (especially in children), or mediastinal shift; hyperinflation and flattened hemi-diaphragms are non-specific findings; a normal CXR does not exclude significant asthma severity.</li>\n            <li><b>Serial reassessment:</b> Serial PEFR measurements before and 15–30 minutes after each bronchodilator dose track response and guide severity reclassification; continuous SpO₂ and RR monitoring in acute severe or life-threatening presentations; repeat ABG if initial CO₂ retention was identified or if clinical status is deteriorating; diurnal PEF diary over 2 weeks is the standard outpatient diagnostic and monitoring tool for chronic disease.</li>\n        </ul>",
+      "plainText": "Core for suspected asthma: Peak expiratory flow rate (PEFR) — essential objective bedside measure in both acute assessment and outpatient diagnosis (diurnal variability >20% on a 2-week diary supports asthma); spirometry with bronchodilator reversibility testing — an increase in FEV1 of ≥200 ml and ≥12% from baseline after a short-acting bronchodilator confirms significant reversible airflow obstruction; SpO₂ monitoring in acute presentations; FeNO (fractional exhaled nitric oxide) — elevated (>40 ppb) supports eosinophilic airway inflammation and likelihood of corticosteroid responsiveness (NICE 2017 diagnostic pathway); a normal spirometry between attacks does not exclude asthma. If an alternative diagnosis is plausible: ABG in life-threatening or near-fatal presentations — normal or rising PaCO₂ in a tachypnoeic patient signals impending respiratory failure; FBC (eosinophilia supports atopic disease; neutrophilia or raised CRP suggests infective precipitant); allergy testing (specific IgE or skin prick test) to identify atopic triggers; bronchial challenge testing (methacholine, mannitol, or exercise) when spirometry is normal and diagnosis is uncertain; laryngoscopy or flow-volume loop if inducible laryngeal obstruction (vocal cord dysfunction) is suspected. Imaging — chest X-ray: Not routinely required for straightforward acute asthma but indicated if there is clinical suspicion of pneumothorax (sudden worsening, asymmetrical signs), consolidation suggesting a pneumonic precipitant, foreign body aspiration (especially in children), or mediastinal shift; hyperinflation and flattened hemi-diaphragms are non-specific findings; a normal CXR does not exclude significant asthma severity. Serial reassessment: Serial PEFR measurements before and 15–30 minutes after each bronchodilator dose track response and guide severity reclassification; continuous SpO₂ and RR monitoring in acute severe or life-threatening presentations; repeat ABG if initial CO₂ retention was identified or if clinical status is deteriorating; diurnal PEF diary over 2 weeks is the standard outpatient diagnostic and monitoring tool for chronic disease.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.9.0"
+    },
+    {
+      "id": "problem-representation",
+      "key": "problem-representation",
+      "title": "Problem Representation",
+      "order": 9,
+      "sourceSectionIds": [
+        "c-is.10.0"
+      ],
+      "rawHtml": "<ul>\n            <li>A 24-year-old woman with known atopic asthma presents with 3 hours of worsening wheeze and dyspnoea triggered by a viral upper respiratory tract infection; she has used her reliever inhaler six times without sustained improvement; examination reveals bilateral expiratory wheeze, accessory muscle use, RR 28/min, HR 118/min, SpO₂ 93%, and PEF 38% of her personal best.</li>\n            <li>Young atopic woman with episodic wheeze and recognised asthma, acutely decompensating with objective acute severe criteria (PEF &lt;50%, RR &gt;25, HR &gt;110, SpO₂ 93%), consistent with acute severe asthma triggered by viral infection.</li>\n        </ul>",
+      "plainText": "A 24-year-old woman with known atopic asthma presents with 3 hours of worsening wheeze and dyspnoea triggered by a viral upper respiratory tract infection; she has used her reliever inhaler six times without sustained improvement; examination reveals bilateral expiratory wheeze, accessory muscle use, RR 28/min, HR 118/min, SpO₂ 93%, and PEF 38% of her personal best. Young atopic woman with episodic wheeze and recognised asthma, acutely decompensating with objective acute severe criteria (PEF <50%, RR >25, HR >110, SpO₂ 93%), consistent with acute severe asthma triggered by viral infection.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.10.0"
+    },
+    {
+      "id": "key-differentials",
+      "key": "key-differentials",
+      "title": "Key Differentials",
+      "order": 10,
+      "sourceSectionIds": [
+        "c-is.11.0"
+      ],
+      "rawHtml": "<ul>\n            <li>COPD exacerbation — persistent airflow obstruction without significant reversibility on spirometry (&lt;200 ml or &lt;12% improvement post-bronchodilator); typically in patients over 40 with significant smoking history; productive cough more prominent; CXR may show hyperinflation but without the episodic pattern of asthma.</li>\n            <li>Cardiac asthma (acute heart failure) — wheeze from pulmonary oedema in an older patient; raised JVP, bilateral basal crackles, S3 gallop, and peripheral oedema point to left ventricular failure rather than bronchospasm; BNP or NT-proBNP significantly elevated; responds to diuresis rather than bronchodilators.</li>\n            <li>Inducible laryngeal obstruction (vocal cord dysfunction) — episodic dyspnoea with predominantly inspiratory stridor rather than expiratory wheeze; flow-volume loop shows variable extrathoracic obstruction; spirometry is normal; no response to bronchodilator; frequently misdiagnosed as asthma; laryngoscopy during an episode is diagnostic.</li>\n            <li>Anaphylaxis — acute wheeze in the context of allergen exposure (food, medication, insect sting) accompanied by urticaria, angioedema, or cardiovascular collapse; onset typically within minutes; requires immediate sympathomimetic treatment rather than bronchodilators alone — a key management distinction; asthma is a significant risk factor for severe and fatal anaphylaxis.</li>\n            <li>Pulmonary embolism — acute dyspnoea without wheeze; pleuritic chest pain and haemoptysis where present; risk factors (immobility, malignancy, prior VTE); PE may precipitate wheeze in patients with underlying asthma, confounding the picture; D-dimer and CTPA differentiate.</li>\n            <li>Foreign body aspiration — sudden onset in a young child, often with a witnessed choking episode; monophonic wheeze unilaterally or persistent segmental collapse on CXR; no personal or family history of atopy; bronchoscopy is both diagnostic and therapeutic.</li>\n            <li>Hyperventilation syndrome — dyspnoea, chest tightness, and perioral or peripheral tingling with normal spirometry and normal or above-normal SpO₂; ABG shows respiratory alkalosis without hypoxia; often misdiagnosed as asthma; does not respond to bronchodilators.</li>\n        </ul>",
+      "plainText": "COPD exacerbation — persistent airflow obstruction without significant reversibility on spirometry (<200 ml or <12% improvement post-bronchodilator); typically in patients over 40 with significant smoking history; productive cough more prominent; CXR may show hyperinflation but without the episodic pattern of asthma. Cardiac asthma (acute heart failure) — wheeze from pulmonary oedema in an older patient; raised JVP, bilateral basal crackles, S3 gallop, and peripheral oedema point to left ventricular failure rather than bronchospasm; BNP or NT-proBNP significantly elevated; responds to diuresis rather than bronchodilators. Inducible laryngeal obstruction (vocal cord dysfunction) — episodic dyspnoea with predominantly inspiratory stridor rather than expiratory wheeze; flow-volume loop shows variable extrathoracic obstruction; spirometry is normal; no response to bronchodilator; frequently misdiagnosed as asthma; laryngoscopy during an episode is diagnostic. Anaphylaxis — acute wheeze in the context of allergen exposure (food, medication, insect sting) accompanied by urticaria, angioedema, or cardiovascular collapse; onset typically within minutes; requires immediate sympathomimetic treatment rather than bronchodilators alone — a key management distinction; asthma is a significant risk factor for severe and fatal anaphylaxis. Pulmonary embolism — acute dyspnoea without wheeze; pleuritic chest pain and haemoptysis where present; risk factors (immobility, malignancy, prior VTE); PE may precipitate wheeze in patients with underlying asthma, confounding the picture; D-dimer and CTPA differentiate. Foreign body aspiration — sudden onset in a young child, often with a witnessed choking episode; monophonic wheeze unilaterally or persistent segmental collapse on CXR; no personal or family history of atopy; bronchoscopy is both diagnostic and therapeutic. Hyperventilation syndrome — dyspnoea, chest tightness, and perioral or peripheral tingling with normal spirometry and normal or above-normal SpO₂; ABG shows respiratory alkalosis without hypoxia; often misdiagnosed as asthma; does not respond to bronchodilators.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.11.0"
+    },
+    {
+      "id": "management-thinking",
+      "key": "management-thinking",
+      "title": "Management Thinking",
+      "order": 11,
+      "sourceSectionIds": [
+        "c-is.12.0"
+      ],
+      "rawHtml": "<ul><li><b>Immediate priorities:</b> Recognise acute severe and life-threatening asthma early using objective criteria and obtain urgent senior review. Supportive care often includes oxygen, repeated bronchodilation, and systemic corticosteroids, but the main practical implication is rapid escalation when objective severity markers are worsening.</li><li><b>Definitive management:</b> Chronic asthma treatment follows a stepwise framework built around anti-inflammatory preventer therapy, reliever use, and trigger reduction; acute attacks need reassessment of long-term control rather than being treated as isolated events.</li><li><b>Adjunctive management:</b> Personalised asthma action plans, inhaler-technique review, trigger avoidance, smoking cessation, and rehabilitation-style education are part of the disease-control strategy rather than optional extras.</li><li><b>Monitoring and follow-up:</b> Review symptom pattern, reliever use, inhaler technique, PEFR variability, and post-attack recovery; poor control despite apparent treatment should prompt a check for adherence, technique, alternative diagnoses, or severe refractory disease.</li><li><b>Escalation and safety-netting:</b> Failure to respond to initial bronchodilator treatment, SpO₂ remaining below 92%, any life-threatening feature, or rapidly rising reliever requirement should trigger urgent reassessment and a lower threshold for hospital care.</li></ul>",
+      "plainText": "Immediate priorities: Recognise acute severe and life-threatening asthma early using objective criteria and obtain urgent senior review. Supportive care often includes oxygen, repeated bronchodilation, and systemic corticosteroids, but the main practical implication is rapid escalation when objective severity markers are worsening. Definitive management: Chronic asthma treatment follows a stepwise framework built around anti-inflammatory preventer therapy, reliever use, and trigger reduction; acute attacks need reassessment of long-term control rather than being treated as isolated events. Adjunctive management: Personalised asthma action plans, inhaler-technique review, trigger avoidance, smoking cessation, and rehabilitation-style education are part of the disease-control strategy rather than optional extras. Monitoring and follow-up: Review symptom pattern, reliever use, inhaler technique, PEFR variability, and post-attack recovery; poor control despite apparent treatment should prompt a check for adherence, technique, alternative diagnoses, or severe refractory disease. Escalation and safety-netting: Failure to respond to initial bronchodilator treatment, SpO₂ remaining below 92%, any life-threatening feature, or rapidly rising reliever requirement should trigger urgent reassessment and a lower threshold for hospital care.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.12.0"
+    },
+    {
+      "id": "prescribing",
+      "key": "prescribing",
+      "title": "Prescribing",
+      "order": 12,
+      "sourceSectionIds": [
+        "c-is.12.0"
+      ],
+      "rawHtml": "<ul>\n                    <li>[sc name=\"jitl-medication\" Q=\"Salbutamol use in Asthma\" text=\"salbutamol\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Ipratropium bromide use in Asthma\" text=\"ipratropium bromide\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Beclometasone dipropionate use in Asthma\" text=\"beclometasone dipropionate\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Budesonide use in Asthma\" text=\"budesonide\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Fluticasone propionate use in Asthma\" text=\"fluticasone propionate\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Salmeterol use in Asthma\" text=\"salmeterol\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Formoterol use in Asthma\" text=\"formoterol\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Montelukast use in Asthma\" text=\"montelukast\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Tiotropium use in Asthma\" text=\"tiotropium\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Prednisolone use in Asthma\" text=\"prednisolone\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Magnesium sulphate use in Asthma\" text=\"magnesium sulphate\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Aminophylline use in Asthma\" text=\"aminophylline\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Omalizumab use in Asthma\" text=\"omalizumab\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Mepolizumab use in Asthma\" text=\"mepolizumab\"][/sc]</li>\n                    <li>[sc name=\"jitl-medication\" Q=\"Benralizumab use in Asthma\" text=\"benralizumab\"][/sc]</li>\n                </ul>\n                No doses or frequencies are cited here — always verify against your local antimicrobial/prescribing formulary before prescribing.",
+      "plainText": "salbutamol ipratropium bromide beclometasone dipropionate budesonide fluticasone propionate salmeterol formoterol montelukast tiotropium prednisolone magnesium sulphate aminophylline omalizumab mepolizumab benralizumab No doses or frequencies are cited here — always verify against your local antimicrobial/prescribing formulary before prescribing.",
+      "jitlReferences": [
+        {
+          "type": "medication",
+          "query": "Salbutamol use in Asthma",
+          "text": "salbutamol",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Salbutamol use in Asthma\" text=\"salbutamol\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Ipratropium bromide use in Asthma",
+          "text": "ipratropium bromide",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Ipratropium bromide use in Asthma\" text=\"ipratropium bromide\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Beclometasone dipropionate use in Asthma",
+          "text": "beclometasone dipropionate",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Beclometasone dipropionate use in Asthma\" text=\"beclometasone dipropionate\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Budesonide use in Asthma",
+          "text": "budesonide",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Budesonide use in Asthma\" text=\"budesonide\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Fluticasone propionate use in Asthma",
+          "text": "fluticasone propionate",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Fluticasone propionate use in Asthma\" text=\"fluticasone propionate\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Salmeterol use in Asthma",
+          "text": "salmeterol",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Salmeterol use in Asthma\" text=\"salmeterol\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Formoterol use in Asthma",
+          "text": "formoterol",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Formoterol use in Asthma\" text=\"formoterol\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Montelukast use in Asthma",
+          "text": "montelukast",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Montelukast use in Asthma\" text=\"montelukast\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Tiotropium use in Asthma",
+          "text": "tiotropium",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Tiotropium use in Asthma\" text=\"tiotropium\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Prednisolone use in Asthma",
+          "text": "prednisolone",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Prednisolone use in Asthma\" text=\"prednisolone\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Magnesium sulphate use in Asthma",
+          "text": "magnesium sulphate",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Magnesium sulphate use in Asthma\" text=\"magnesium sulphate\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Aminophylline use in Asthma",
+          "text": "aminophylline",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Aminophylline use in Asthma\" text=\"aminophylline\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Omalizumab use in Asthma",
+          "text": "omalizumab",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Omalizumab use in Asthma\" text=\"omalizumab\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Mepolizumab use in Asthma",
+          "text": "mepolizumab",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Mepolizumab use in Asthma\" text=\"mepolizumab\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        },
+        {
+          "type": "medication",
+          "query": "Benralizumab use in Asthma",
+          "text": "benralizumab",
+          "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Benralizumab use in Asthma\" text=\"benralizumab\"][/sc]",
+          "sourceSectionKey": "prescribing"
+        }
+      ],
+      "deepDiveAnchor": "#s-is.12.0"
+    },
+    {
+      "id": "complications",
+      "key": "complications",
+      "title": "Complications",
+      "order": 13,
+      "sourceSectionIds": [
+        "c-is.13.0"
+      ],
+      "rawHtml": "<ul>\n            <li><b>Near-fatal and fatal asthma:</b> Develops when acute bronchoconstriction progresses to respiratory muscle fatigue, CO₂ retention, and hypoxic respiratory failure, turning a familiar chronic condition into an immediate airway emergency.</li>\n            <li><b>Pneumothorax:</b> A recognised complication of severe acute asthma from markedly raised intrathoracic pressures, and an important explanation for sudden unilateral deterioration mid-attack.</li>\n            <li><b>Airway remodelling and fixed airflow obstruction:</b> Chronic uncontrolled inflammation can produce increasingly irreversible obstruction, which is why recurrent “just another wheeze” episodes matter even outside acute attacks.</li>\n            <li><b>Adverse effects of systemic corticosteroid dependency:</b> Frequent oral corticosteroid exposure should signal poorly controlled or severe asthma rather than routine maintenance, and may shift the case toward specialist review.</li>\n        </ul>",
+      "plainText": "Near-fatal and fatal asthma: Develops when acute bronchoconstriction progresses to respiratory muscle fatigue, CO₂ retention, and hypoxic respiratory failure, turning a familiar chronic condition into an immediate airway emergency. Pneumothorax: A recognised complication of severe acute asthma from markedly raised intrathoracic pressures, and an important explanation for sudden unilateral deterioration mid-attack. Airway remodelling and fixed airflow obstruction: Chronic uncontrolled inflammation can produce increasingly irreversible obstruction, which is why recurrent “just another wheeze” episodes matter even outside acute attacks. Adverse effects of systemic corticosteroid dependency: Frequent oral corticosteroid exposure should signal poorly controlled or severe asthma rather than routine maintenance, and may shift the case toward specialist review.",
+      "jitlReferences": [],
+      "deepDiveAnchor": "#s-is.13.0"
+    }
+  ],
+  "jitl": {
+    "medications": [
+      {
+        "type": "medication",
+        "query": "Salbutamol use in Asthma",
+        "text": "salbutamol",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Salbutamol use in Asthma\" text=\"salbutamol\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Ipratropium bromide use in Asthma",
+        "text": "ipratropium bromide",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Ipratropium bromide use in Asthma\" text=\"ipratropium bromide\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Beclometasone dipropionate use in Asthma",
+        "text": "beclometasone dipropionate",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Beclometasone dipropionate use in Asthma\" text=\"beclometasone dipropionate\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Budesonide use in Asthma",
+        "text": "budesonide",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Budesonide use in Asthma\" text=\"budesonide\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Fluticasone propionate use in Asthma",
+        "text": "fluticasone propionate",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Fluticasone propionate use in Asthma\" text=\"fluticasone propionate\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Salmeterol use in Asthma",
+        "text": "salmeterol",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Salmeterol use in Asthma\" text=\"salmeterol\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Formoterol use in Asthma",
+        "text": "formoterol",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Formoterol use in Asthma\" text=\"formoterol\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Montelukast use in Asthma",
+        "text": "montelukast",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Montelukast use in Asthma\" text=\"montelukast\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Tiotropium use in Asthma",
+        "text": "tiotropium",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Tiotropium use in Asthma\" text=\"tiotropium\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Prednisolone use in Asthma",
+        "text": "prednisolone",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Prednisolone use in Asthma\" text=\"prednisolone\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Magnesium sulphate use in Asthma",
+        "text": "magnesium sulphate",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Magnesium sulphate use in Asthma\" text=\"magnesium sulphate\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Aminophylline use in Asthma",
+        "text": "aminophylline",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Aminophylline use in Asthma\" text=\"aminophylline\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Omalizumab use in Asthma",
+        "text": "omalizumab",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Omalizumab use in Asthma\" text=\"omalizumab\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Mepolizumab use in Asthma",
+        "text": "mepolizumab",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Mepolizumab use in Asthma\" text=\"mepolizumab\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      },
+      {
+        "type": "medication",
+        "query": "Benralizumab use in Asthma",
+        "text": "benralizumab",
+        "sourceShortcode": "[sc name=\"jitl-medication\" Q=\"Benralizumab use in Asthma\" text=\"benralizumab\"][/sc]",
+        "sourceSectionKey": "prescribing"
+      }
+    ],
+    "queries": [
+      {
+        "type": "query",
+        "query": "Asthma epidemiology",
+        "text": "Epidemiology deep dive",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Asthma epidemiology\" text=\"Epidemiology deep dive\"][/sc]",
+        "sourceSectionKey": "risk-factors"
+      },
+      {
+        "type": "query",
+        "query": "Dynamic hyperinflation: what is it and why does it matter clinically?",
+        "text": "dynamic hyperinflation",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Dynamic hyperinflation: what is it and why does it matter clinically?\" text=\"dynamic hyperinflation\"][/sc]",
+        "sourceSectionKey": "pathophysiology"
+      },
+      {
+        "type": "query",
+        "query": "Silent chest: what is it and why does it matter clinically?",
+        "text": "silent chest",
+        "sourceShortcode": "[sc name=\"jitl-query\" Q=\"Silent chest: what is it and why does it matter clinically?\" text=\"silent chest\"][/sc]",
+        "sourceSectionKey": "clinical-features"
+      }
+    ]
+  },
+  "downstreamHints": {
+    "knowledgeBase": {
+      "canonicalTopicUrl": "https://kb.clinicalreasoning.io/topic/asthma"
+    },
+    "reasoningCompass": {
+      "topicSlug": "asthma",
+      "suggestedAccentTheme": "green",
+      "sectionKeys": [
+        "overview",
+        "risk-factors",
+        "pathophysiology",
+        "time-course",
+        "clinical-features",
+        "red-flags",
+        "atypical-presentations",
+        "investigations",
+        "problem-representation",
+        "key-differentials",
+        "management-thinking",
+        "prescribing",
+        "complications"
+      ]
+    },
+    "ddxExplorer": {
+      "knowledgeBaseUrl": "https://kb.clinicalreasoning.io/topic/asthma",
+      "summary": "Asthma is a chronic inflammatory airway disease characterised by variable and reversible airflow obstruction, bronchial hyperresponsiveness, and airway remodelling — resulting in episodic wheeze, dyspnoea, chest tightness, and cough that typically worsen at night or in the early morning.",
+      "redFlagSummary": "Life-threatening features (BTS/SIGN criteria) — SpO₂ <92%, PEF <33% of predicted, silent chest, cyanosis, poor respiratory effort, exhaustion, cardiac arrhythmia, or altered consciousness; any one of these in combination with acute breathlessness indicates imminent respiratory arrest and requires immediate intensive care escalation, not further outpatient management.",
+      "featureSummary": "Symptoms Ask about wheeze — the cardinal symptom; characterise as bilateral and expiratory (in contrast to monophonic inspiratory stridor from an upper airway cause); episodic wheeze with symptom-free intervals is highly suggestive of asthma; ask whether wheeze is worse at night, early morning, or with specific triggers (exercise, cold air, allergens, infections)."
+    }
+  }
+}

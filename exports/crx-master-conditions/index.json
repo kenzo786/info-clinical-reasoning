@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "2026-04-12",
+  "exportedAt": "2026-04-12T17:28:59.167517+00:00",
+  "count": 4,
+  "conditions": [
+    {
+      "conditionId": "ukmla-asthma",
+      "slug": "asthma",
+      "title": "Asthma",
+      "category": "Lungs, pleura and airways",
+      "legacyPostId": "132",
+      "reviewStatus": "clinician-review-needed",
+      "knowledgeBaseUrl": "https://kb.clinicalreasoning.io/topic/asthma",
+      "file": "conditions/asthma.json"
+    },
+    {
+      "conditionId": "ukmla-heart-failure",
+      "slug": "heart-failure",
+      "title": "Heart Failure",
+      "category": "Heart and vasculature",
+      "legacyPostId": "1318",
+      "reviewStatus": "clinician-review-needed",
+      "knowledgeBaseUrl": "https://kb.clinicalreasoning.io/topic/heart-failure",
+      "file": "conditions/heart-failure.json"
+    },
+    {
+      "conditionId": "ukmla-pneumonia",
+      "slug": "pneumonia",
+      "title": "Pneumonia",
+      "category": "Lungs, pleura and airways",
+      "legacyPostId": "99",
+      "reviewStatus": "clinician-review-needed",
+      "knowledgeBaseUrl": "https://kb.clinicalreasoning.io/topic/pneumonia",
+      "file": "conditions/pneumonia.json"
+    },
+    {
+      "conditionId": "ukmla-pulmonary-embolism",
+      "slug": "pulmonary-embolism",
+      "title": "Pulmonary Embolism",
+      "category": "Heart and vasculature",
+      "legacyPostId": "1320",
+      "reviewStatus": "clinician-review-needed",
+      "knowledgeBaseUrl": "https://kb.clinicalreasoning.io/topic/pulmonary-embolism",
+      "file": "conditions/pulmonary-embolism.json"
+    }
+  ]
+}
