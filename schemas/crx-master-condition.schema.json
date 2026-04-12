@@ -1,0 +1,399 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://clinicalreasoning.io/schemas/crx-master-condition.schema.json",
+  "title": "CRx Master Condition",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "exportedAt",
+    "conditionId",
+    "slug",
+    "title",
+    "ukmla",
+    "source",
+    "publication",
+    "taxonomy",
+    "sections",
+    "jitl",
+    "downstreamHints"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "exportedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "conditionId": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "conditionType": {
+      "type": "string",
+      "enum": [
+        "condition",
+        "cluster-condition"
+      ]
+    },
+    "ukmla": {
+      "type": "object",
+      "required": [
+        "conditionLabel",
+        "category",
+        "gapTrackerStatus",
+        "priority",
+        "phase"
+      ],
+      "properties": {
+        "conditionLabel": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "gapTrackerStatus": {
+          "type": "string"
+        },
+        "priority": {
+          "type": "string"
+        },
+        "phase": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "repo",
+        "htmlFile",
+        "canonicalFile"
+      ],
+      "properties": {
+        "repo": {
+          "type": "string"
+        },
+        "htmlFile": {
+          "type": "string"
+        },
+        "canonicalFile": {
+          "type": "string"
+        },
+        "legacyPostId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "postIdSource": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "publication": {
+      "type": "object",
+      "required": [
+        "legacyWordpressStatus",
+        "knowledgeBaseStatus",
+        "conditionsProjectionStatus",
+        "ddxProjectionStatus",
+        "reviewStatus"
+      ],
+      "properties": {
+        "legacyWordpressStatus": {
+          "type": "string",
+          "enum": [
+            "not-published",
+            "pending-transfer",
+            "published"
+          ]
+        },
+        "knowledgeBaseStatus": {
+          "type": "string",
+          "enum": [
+            "not-exported",
+            "exported",
+            "live"
+          ]
+        },
+        "conditionsProjectionStatus": {
+          "type": "string",
+          "enum": [
+            "not-generated",
+            "generated",
+            "live"
+          ]
+        },
+        "ddxProjectionStatus": {
+          "type": "string",
+          "enum": [
+            "not-generated",
+            "generated",
+            "live"
+          ]
+        },
+        "reviewStatus": {
+          "type": "string",
+          "enum": [
+            "not-started",
+            "drafted",
+            "codex-standardised",
+            "clinician-review-needed",
+            "ready-to-publish",
+            "published"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "taxonomy": {
+      "type": "object",
+      "required": [
+        "specialty",
+        "tags"
+      ],
+      "properties": {
+        "specialty": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "signals": {
+      "type": "object",
+      "properties": {
+        "clusterResolutionNeeded": {
+          "type": "boolean"
+        },
+        "clinicianPriority": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 13,
+      "maxItems": 13,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "key",
+          "title",
+          "order",
+          "sourceSectionIds",
+          "rawHtml",
+          "plainText",
+          "jitlReferences",
+          "deepDiveAnchor"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "key": {
+            "type": "string",
+            "enum": [
+              "overview",
+              "risk-factors",
+              "pathophysiology",
+              "time-course",
+              "clinical-features",
+              "red-flags",
+              "atypical-presentations",
+              "investigations",
+              "problem-representation",
+              "key-differentials",
+              "management-thinking",
+              "prescribing",
+              "complications"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 13
+          },
+          "sourceSectionIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "rawHtml": {
+            "type": "string"
+          },
+          "plainText": {
+            "type": "string"
+          },
+          "deepDiveAnchor": {
+            "type": "string"
+          },
+          "jitlReferences": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/jitlReference"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "jitl": {
+      "type": "object",
+      "required": [
+        "medications",
+        "queries"
+      ],
+      "properties": {
+        "medications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/jitlReference"
+          }
+        },
+        "queries": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/jitlReference"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "downstreamHints": {
+      "type": "object",
+      "required": [
+        "knowledgeBase",
+        "reasoningCompass",
+        "ddxExplorer"
+      ],
+      "properties": {
+        "knowledgeBase": {
+          "type": "object",
+          "required": [
+            "canonicalTopicUrl"
+          ],
+          "properties": {
+            "canonicalTopicUrl": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "reasoningCompass": {
+          "type": "object",
+          "required": [
+            "topicSlug",
+            "suggestedAccentTheme",
+            "sectionKeys"
+          ],
+          "properties": {
+            "topicSlug": {
+              "type": "string"
+            },
+            "suggestedAccentTheme": {
+              "type": "string"
+            },
+            "sectionKeys": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "ddxExplorer": {
+          "type": "object",
+          "required": [
+            "knowledgeBaseUrl",
+            "summary",
+            "redFlagSummary",
+            "featureSummary"
+          ],
+          "properties": {
+            "knowledgeBaseUrl": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            },
+            "redFlagSummary": {
+              "type": "string"
+            },
+            "featureSummary": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "jitlReference": {
+      "type": "object",
+      "required": [
+        "type",
+        "query",
+        "text",
+        "sourceSectionKey"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "medication",
+            "query"
+          ]
+        },
+        "query": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "sourceShortcode": {
+          "type": "string"
+        },
+        "sourceSectionKey": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
