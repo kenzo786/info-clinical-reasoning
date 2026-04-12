@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-04-12",
-  "exportedAt": "2026-04-12T17:28:59.149428+00:00",
+  "exportedAt": "2026-04-12T19:26:56.878114+00:00",
   "conditionId": "ukmla-asthma",
   "slug": "asthma",
   "title": "Asthma",
@@ -29,6 +29,10 @@
   },
   "taxonomy": {
     "specialty": "Respiratory",
+    "aliases": [
+      "acute asthma",
+      "wheeze"
+    ],
     "tags": [
       "UKMLA",
       "illness-script",
@@ -37,6 +41,33 @@
       "prescribing"
     ]
   },
+  "familyEntityKey": "asthma",
+  "relatedApps": [
+    {
+      "appId": "kb",
+      "label": "Knowledge Base",
+      "url": "https://kb.clinicalreasoning.io/topic/asthma",
+      "source": "export-hint"
+    },
+    {
+      "appId": "kb",
+      "label": "Knowledge Base",
+      "url": "https://kb.clinicalreasoning.io/?post_id=132",
+      "source": "registry"
+    },
+    {
+      "appId": "pharm",
+      "label": "Pharmacology",
+      "url": "https://pharm.clinicalreasoning.io/condition/asthma",
+      "source": "registry"
+    },
+    {
+      "appId": "ddx",
+      "label": "Diagnostic Reasoning",
+      "url": "https://ddx.clinicalreasoning.io/presentation/shortness-of-breath",
+      "source": "registry"
+    }
+  ],
   "signals": {
     "clusterResolutionNeeded": false,
     "clinicianPriority": "clinician-review-needed",

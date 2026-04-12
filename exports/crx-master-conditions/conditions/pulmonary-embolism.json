@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-04-12",
-  "exportedAt": "2026-04-12T17:28:59.159151+00:00",
+  "exportedAt": "2026-04-12T19:26:56.883106+00:00",
   "conditionId": "ukmla-pulmonary-embolism",
   "slug": "pulmonary-embolism",
   "title": "Pulmonary Embolism",
@@ -29,6 +29,11 @@
   },
   "taxonomy": {
     "specialty": "Cardiology",
+    "aliases": [
+      "pulmonary embolism",
+      "PE",
+      "venous thromboembolism"
+    ],
     "tags": [
       "UKMLA",
       "illness-script",
@@ -37,6 +42,27 @@
       "prescribing"
     ]
   },
+  "familyEntityKey": "pulmonaryembolism",
+  "relatedApps": [
+    {
+      "appId": "kb",
+      "label": "Knowledge Base",
+      "url": "https://kb.clinicalreasoning.io/topic/pulmonary-embolism",
+      "source": "export-hint"
+    },
+    {
+      "appId": "crx",
+      "label": "Conditions",
+      "url": "https://conditions.clinicalreasoning.io/?topic=pulmonary-embolism&mode=reasoning-map",
+      "source": "registry"
+    },
+    {
+      "appId": "ddx",
+      "label": "Diagnostic Reasoning",
+      "url": "https://ddx.clinicalreasoning.io/presentation/shortness-of-breath",
+      "source": "registry"
+    }
+  ],
   "signals": {
     "clusterResolutionNeeded": false,
     "clinicianPriority": "clinician-review-needed",

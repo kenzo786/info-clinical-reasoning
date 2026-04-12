@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026-04-12",
-  "exportedAt": "2026-04-12T17:28:59.153196+00:00",
+  "exportedAt": "2026-04-12T19:26:56.879633+00:00",
   "conditionId": "ukmla-heart-failure",
   "slug": "heart-failure",
   "title": "Heart Failure",
@@ -29,6 +29,12 @@
   },
   "taxonomy": {
     "specialty": "Cardiology",
+    "aliases": [
+      "heart failure",
+      "HF",
+      "HFrEF",
+      "HFpEF"
+    ],
     "tags": [
       "UKMLA",
       "illness-script",
@@ -37,6 +43,63 @@
       "prescribing"
     ]
   },
+  "familyEntityKey": "heartfailure",
+  "relatedApps": [
+    {
+      "appId": "kb",
+      "label": "Knowledge Base",
+      "url": "https://kb.clinicalreasoning.io/topic/heart-failure",
+      "source": "export-hint"
+    },
+    {
+      "appId": "foundations",
+      "label": "Foundations",
+      "url": "https://foundations.clinicalreasoning.io/topic/heart-failure",
+      "source": "registry"
+    },
+    {
+      "appId": "crx",
+      "label": "Conditions",
+      "url": "https://conditions.clinicalreasoning.io/?topic=heart-failure&mode=reasoning-map",
+      "source": "registry"
+    },
+    {
+      "appId": "kb",
+      "label": "Knowledge Base",
+      "url": "https://kb.clinicalreasoning.io/?post_id=1318",
+      "source": "registry"
+    },
+    {
+      "appId": "trx",
+      "label": "Therapeutic Reasoning",
+      "url": "https://trx.clinicalreasoning.io/topics/heartfailure",
+      "source": "registry"
+    },
+    {
+      "appId": "pharm",
+      "label": "Pharmacology",
+      "url": "https://pharm.clinicalreasoning.io/condition/heart-failure",
+      "source": "registry"
+    },
+    {
+      "appId": "results",
+      "label": "Investigations",
+      "url": "https://results.clinicalreasoning.io/topic/cardiac-biomarkers",
+      "source": "registry"
+    },
+    {
+      "appId": "quicknotes",
+      "label": "Clinical Documentation",
+      "url": "https://quicknotes.clinicalreasoning.io/library/cardiovascular",
+      "source": "registry"
+    },
+    {
+      "appId": "ddx",
+      "label": "Diagnostic Reasoning",
+      "url": "https://ddx.clinicalreasoning.io/presentation/shortness-of-breath",
+      "source": "registry"
+    }
+  ],
   "signals": {
     "clusterResolutionNeeded": false,
     "clinicianPriority": "clinician-review-needed",

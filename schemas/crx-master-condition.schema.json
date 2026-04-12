@@ -13,6 +13,7 @@
     "source",
     "publication",
     "taxonomy",
+    "relatedApps",
     "sections",
     "jitl",
     "downstreamHints"
@@ -164,11 +165,18 @@
       "type": "object",
       "required": [
         "specialty",
+        "aliases",
         "tags"
       ],
       "properties": {
         "specialty": {
           "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         },
         "tags": {
           "type": "array",
@@ -178,6 +186,18 @@
         }
       },
       "additionalProperties": false
+    },
+    "familyEntityKey": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relatedApps": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relatedApp"
+      }
     },
     "signals": {
       "type": "object",
@@ -390,6 +410,34 @@
         },
         "sourceSectionKey": {
           "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "relatedApp": {
+      "type": "object",
+      "required": [
+        "appId",
+        "label",
+        "url",
+        "source"
+      ],
+      "properties": {
+        "appId": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string",
+          "enum": [
+            "registry",
+            "export-hint"
+          ]
         }
       },
       "additionalProperties": false

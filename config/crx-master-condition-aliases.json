@@ -1,0 +1,30 @@
+{
+  "asthma": {
+    "aliases": ["acute asthma", "wheeze"],
+    "familyEntityKey": "asthma"
+  },
+  "heartfailure": {
+    "aliases": ["heart failure", "HF", "HFrEF", "HFpEF"],
+    "familyEntityKey": "heartfailure"
+  },
+  "pneumonia": {
+    "aliases": ["community-acquired pneumonia", "CAP", "lower respiratory tract infection"],
+    "familyEntityKey": "pneumonia"
+  },
+  "pulmonaryembolism": {
+    "aliases": ["pulmonary embolism", "PE", "venous thromboembolism"],
+    "familyEntityKey": "pulmonaryembolism"
+  },
+  "chronickidneydisease": {
+    "aliases": ["chronic kidney disease", "CKD", "chronic renal disease"],
+    "familyEntityKey": "ckd"
+  },
+  "hypertension": {
+    "aliases": ["high blood pressure", "HTN"],
+    "familyEntityKey": "hypertension"
+  },
+  "type2diabetes": {
+    "aliases": ["type 2 diabetes", "T2DM", "type 2 DM"],
+    "familyEntityKey": "type2diabetes"
+  }
+}

@@ -26,6 +26,8 @@ ROOT = Path(__file__).resolve().parent
 FINAL_DIR = ROOT / "updated-illness-scripts-2026-final"
 MANIFEST_PATH = FINAL_DIR / "ukmla_canonical_manifest.csv"
 TRACKER_PATH = FINAL_DIR / "UKMLA_CONDITION_TRACKER_2026.md"
+ALIAS_OVERRIDES_PATH = ROOT / "config" / "crx-master-condition-aliases.json"
+CENTRAL_FAMILY_JSON_PATH = ROOT.parent / "clinicalreasoning-central" / "ops" / "linked-clinicalreasoning-family.json"
 DEFAULT_EXPORT_ROOT = ROOT / "exports" / "crx-master-conditions"
 SCHEMA_VERSION = "2026-04-12"
 
@@ -360,6 +362,92 @@ def load_tracker_rows() -> dict[str, dict[str, str]]:
     return rows
 
 
+def load_alias_overrides() -> dict[str, dict[str, Any]]:
+    if not ALIAS_OVERRIDES_PATH.exists():
+        return {}
+    return json.loads(ALIAS_OVERRIDES_PATH.read_text(encoding="utf-8"))
+
+
+def load_central_family_registry() -> dict[str, Any]:
+    if not CENTRAL_FAMILY_JSON_PATH.exists():
+        return {"apps": [], "entities": {}}
+    return json.loads(CENTRAL_FAMILY_JSON_PATH.read_text(encoding="utf-8"))
+
+
+def find_matching_entity_key(
+    title: str,
+    slug: str,
+    legacy_post_id: str | None,
+    family_registry: dict[str, Any],
+    alias_override: dict[str, Any] | None = None,
+) -> str | None:
+    if alias_override and alias_override.get("familyEntityKey"):
+        return str(alias_override["familyEntityKey"])
+
+    normalized_title = normalize_value(title)
+    normalized_topic_url = f"https://kb.clinicalreasoning.io/topic/{slug}".lower()
+
+    for entity_key, entity in family_registry.get("entities", {}).items():
+        canonical_label = str(entity.get("canonicalLabel", ""))
+        if normalize_value(canonical_label) == normalized_title:
+            return entity_key
+
+        verified_urls = entity.get("verifiedUrls", {})
+        kb_url = str(verified_urls.get("kb", "")).lower()
+        if not kb_url:
+            continue
+        if legacy_post_id and f"post_id={legacy_post_id}".lower() in kb_url:
+            return entity_key
+        if normalized_topic_url == kb_url:
+            return entity_key
+
+    return None
+
+
+def get_family_app_label(app_id: str, family_registry: dict[str, Any]) -> str:
+    for app in family_registry.get("apps", []):
+        if app.get("id") == app_id:
+            return re.sub(r"^CRx\s+", "", str(app.get("label", app_id)))
+    return app_id
+
+
+def build_related_apps(
+    family_entity_key: str | None,
+    knowledge_base_url: str,
+    family_registry: dict[str, Any],
+) -> list[dict[str, str]]:
+    related_apps: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+
+    def add_related(app_id: str, url: str | None, source: str) -> None:
+        normalized_url = (url or "").strip()
+        if not normalized_url:
+            return
+        key = (app_id, normalized_url)
+        if key in seen:
+            return
+        seen.add(key)
+        related_apps.append(
+            {
+                "appId": app_id,
+                "label": get_family_app_label(app_id, family_registry),
+                "url": normalized_url,
+                "source": source,
+            }
+        )
+
+    add_related("kb", knowledge_base_url, "export-hint")
+
+    entity = family_registry.get("entities", {}).get(family_entity_key or "")
+    if entity:
+        for app_id, url in entity.get("verifiedUrls", {}).items():
+            add_related(str(app_id), str(url), "registry")
+        for app_id, url in entity.get("linkedPresentationUrls", {}).items():
+            add_related(str(app_id), str(url), "registry")
+
+    return related_apps
+
+
 def resolve_manifest_rows(selected_terms: list[str], manifest_rows: list[dict[str, str]], export_all: bool) -> list[dict[str, str]]:
     if export_all:
         return manifest_rows
@@ -393,7 +481,12 @@ def extract_title(source_text: str, fallback_title: str) -> str:
     return explicit or fallback_title
 
 
-def build_export_record(row: dict[str, str], tracker_rows: dict[str, dict[str, str]]) -> dict[str, Any]:
+def build_export_record(
+    row: dict[str, str],
+    tracker_rows: dict[str, dict[str, str]],
+    alias_overrides: dict[str, dict[str, Any]],
+    family_registry: dict[str, Any],
+) -> dict[str, Any]:
     title = row["title"].strip()
     normalized_title = normalize_value(title)
     tracker = tracker_rows.get(normalized_title, {})
@@ -466,6 +559,27 @@ def build_export_record(row: dict[str, str], tracker_rows: dict[str, dict[str, s
     specialty = SPECIALTY_BY_CATEGORY.get(row["ukmla_categories"], "General Medicine")
     accent_theme = ACCENT_THEME_BY_CATEGORY.get(row["ukmla_categories"], "slate")
     unique_references = dedupe_references(all_references)
+    alias_override = alias_overrides.get(normalized_title, {})
+    aliases = list(dict.fromkeys([str(alias).strip() for alias in alias_override.get("aliases", []) if str(alias).strip()]))
+    family_entity_key = find_matching_entity_key(extracted_title, slug, post_id, family_registry, alias_override)
+
+    downstream_hints = {
+        "knowledgeBase": {
+            "canonicalTopicUrl": knowledge_base_url,
+        },
+        "reasoningCompass": {
+            "topicSlug": slug,
+            "suggestedAccentTheme": accent_theme,
+            "sectionKeys": [section["key"] for section in section_records],
+        },
+        "ddxExplorer": {
+            "knowledgeBaseUrl": knowledge_base_url,
+            "summary": first_sentence(overview_section["plainText"]),
+            "redFlagSummary": first_sentence(red_flags_section["plainText"]),
+            "featureSummary": first_sentence(clinical_features_section["plainText"]),
+        },
+    }
+    related_apps = build_related_apps(family_entity_key, knowledge_base_url, family_registry)
 
     return {
         "schemaVersion": SCHEMA_VERSION,
@@ -498,6 +612,7 @@ def build_export_record(row: dict[str, str], tracker_rows: dict[str, dict[str, s
         },
         "taxonomy": {
             "specialty": specialty,
+            "aliases": aliases,
             "tags": [
                 "UKMLA",
                 "illness-script",
@@ -506,6 +621,8 @@ def build_export_record(row: dict[str, str], tracker_rows: dict[str, dict[str, s
             ]
             + (["prescribing"] if any(ref["type"] == "medication" for ref in unique_references) else []),
         },
+        "familyEntityKey": family_entity_key,
+        "relatedApps": related_apps,
         "signals": {
             "clusterResolutionNeeded": tracker.get("nextAction") == "cluster-resolution-first",
             "clinicianPriority": row.get("review_status", "").strip() or tracker.get("reviewStatus", "not-started"),
@@ -524,22 +641,7 @@ def build_export_record(row: dict[str, str], tracker_rows: dict[str, dict[str, s
             "medications": [ref for ref in unique_references if ref["type"] == "medication"],
             "queries": [ref for ref in unique_references if ref["type"] == "query"],
         },
-        "downstreamHints": {
-            "knowledgeBase": {
-                "canonicalTopicUrl": knowledge_base_url,
-            },
-            "reasoningCompass": {
-                "topicSlug": slug,
-                "suggestedAccentTheme": accent_theme,
-                "sectionKeys": [section["key"] for section in section_records],
-            },
-            "ddxExplorer": {
-                "knowledgeBaseUrl": knowledge_base_url,
-                "summary": first_sentence(overview_section["plainText"]),
-                "redFlagSummary": first_sentence(red_flags_section["plainText"]),
-                "featureSummary": first_sentence(clinical_features_section["plainText"]),
-            },
-        },
+        "downstreamHints": downstream_hints,
     }
 
 
@@ -596,9 +698,11 @@ def main() -> None:
     args = parse_args()
     manifest_rows = load_manifest()
     tracker_rows = load_tracker_rows()
+    alias_overrides = load_alias_overrides()
+    family_registry = load_central_family_registry()
     selected_titles = args.titles or DEFAULT_EXEMPLARS
     resolved_rows = resolve_manifest_rows(selected_titles, manifest_rows, args.all)
-    records = [build_export_record(row, tracker_rows) for row in resolved_rows]
+    records = [build_export_record(row, tracker_rows, alias_overrides, family_registry) for row in resolved_rows]
     write_exports(records, Path(args.output_root))
     print(f"Exported {len(records)} master-condition JSON files to {args.output_root}")
 
