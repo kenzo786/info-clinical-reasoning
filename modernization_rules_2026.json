@@ -6,7 +6,7 @@
     "(?is)\\b(once|twice|three times|tds|bd|od|qds|qid|tid)\\s+(daily|a day|per day)\\b",
     "(?is)\\bstart\\s+supportive\\s+measures\\b"
   ],
-  "_drug_naming_rule": "Generic drug names are ALLOWED in the Treatment section only, inside a clearly labelled 'Exam pharmacology reference (UKMLA/MRCGP)' bullet with guideline attribution (BTS/NICE/SIGN/BNF) and a local-formulary caveat. The forbidden_prescriptive_patterns above catch doses and frequencies (absolutely forbidden) and prescriptive verbs + doses (absolutely forbidden). Brand names are caught by the uk_spelling_violations list if US spellings, and should be flagged manually otherwise.",
+  "_drug_naming_rule": "Generic drug names are ALLOWED in the Treatment section only, inside a clearly labelled 'Prescribing reference (JITL)' bullet or subsection. Prefer a short nested list of jitl-medication links rather than prose-heavy pharmacology paragraphs; if guideline framing is useful, keep it to one short introductory sentence before the list. The subsection must end with the local-formulary caveat. The forbidden_prescriptive_patterns above catch doses and frequencies (absolutely forbidden) and prescriptive verbs + doses (absolutely forbidden). Brand names are caught by the uk_spelling_violations list if US spellings, and should be flagged manually otherwise.",
   "prescriptive_whitelist_patterns": [
     "(?is)\\bserum magnesium\\b",
     "(?is)\\bphosphate\\b"
@@ -59,5 +59,5 @@
       "local sepsis pathway"
     ]
   },
-  "_comment": "Updated 2026-03 (v2) — replaced blanket drug-name prohibition with two-tier rule: doses/frequencies always forbidden; generic drug names allowed in Treatment 'Exam pharmacology reference' bullet only with guideline attribution. Added dose-only pattern and frequency patterns. See CLAUDE.md for full drug naming rule."
+  "_comment": "Updated 2026-04 (v3) — Treatment drug content now prefers a dedicated 'Prescribing reference (JITL)' subsection with nested jitl-medication links and the standard local-formulary caveat. Doses and frequencies remain absolutely forbidden. See CLAUDE.md for the full rule."
 }

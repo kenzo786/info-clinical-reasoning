@@ -76,7 +76,7 @@ Shortcodes use a `1xx` numbering prefix (matching WordPress shortcode definition
 - **Drug naming — two-tier rule**:
   - **Doses, frequencies, and brand names**: never permitted under any circumstances
   - **Drug classes** (β-lactam, macrolide, SSRI, SGLT2 inhibitor, etc.): always allowed anywhere
-  - **Generic drug names**: allowed in the **Treatment section only**, inside a clearly labelled **"Exam pharmacology reference (UKMLA/MRCGP)"** bullet that must (a) attribute the drug choice to a named guideline (BTS, NICE, SIGN, or BNF), (b) render every generic drug name with `[sc name="jitl-medication" Q="[Drug] use in [Condition]" text="[drug name]"][/sc]`, and (c) end with: *"No doses or frequencies are cited here — always verify against your local antimicrobial/prescribing formulary before prescribing."* Plain generic drug names appearing outside this bullet, or without guideline attribution, must be removed.
+  - **Generic drug names**: allowed in the **Treatment section only**, inside a clearly labelled **"Prescribing reference (JITL)"** bullet or subsection. Prefer a short nested list of `jitl-medication` links rather than prose-heavy pharmacology paragraphs. If a guideline frame is helpful, keep it to one short introductory sentence before the list. End with: *"No doses or frequencies are cited here — always verify against your local antimicrobial/prescribing formulary before prescribing."* Plain generic drug names appearing outside this subsection, or without `jitl-medication`, must be removed.
 - **JITL query use**:
   - Use `[sc name="jitl-query" ...]` only for high-yield non-drug concepts that materially improve reasoning, discrimination, or exam understanding
   - Default limit: maximum **1** `jitl-query` per bullet and **4–6** per script unless an exemplar proves higher density remains readable
@@ -108,7 +108,7 @@ If a validated score matters clinically, mention it briefly in section 9 only an
 - Separate "Operative/Definitive" and "Non-operative/Conservative" where both are relevant
 - Include trial citations where evidence base is well established (e.g., APPAC for appendicitis)
 - "start supportive measures" → "supportive care often includes..."
-- Include an **"Exam pharmacology reference (UKMLA/MRCGP)"** bullet when drug knowledge is commonly tested for this condition. Every generic drug name in that bullet must use `jitl-medication`. Format: *"[Guideline] describes [sc name="jitl-medication" Q="[Drug] use in [Condition]" text="[drug name]"][/sc] as typically first-line for [indication/severity band]; [alternative] for [specific scenario e.g. penicillin allergy]. No doses or frequencies are cited here — always verify against your local antimicrobial/prescribing formulary before prescribing."*
+- Include a **"Prescribing reference (JITL)"** bullet when drug knowledge is commonly tested for this condition. Prefer a nested list of `jitl-medication` links rather than inline sentences. If you need context, add a single short introductory sentence above the list with guideline attribution. End the subsection with: *"No doses or frequencies are cited here — always verify against your local antimicrobial/prescribing formulary before prescribing."*
 
 **Complications**: Use timing language consistent with Time Course section. Include mechanism and management approach, not just the complication name.
 

@@ -21,13 +21,13 @@ Last updated: `2026-03-18`
 - Audience priority: UKMLA finals, MRCGP candidates, novice clinicians using scripts for bedside reasoning
 - No dedicated scoring section in platform scripts
 - Scoring tools, if used, are mentioned briefly in section `9` and linked externally to MDCalc
-- Generic drug names in the section `12` pharmacology bullet must use `jitl-medication`
+- Generic drug names in the section `12` prescribing subsection must use `jitl-medication`
 - High-yield non-drug concepts may use selective `jitl-query`
 
 ### Do not change without review
 - Do not let scripts drift into mini-guidelines or ward protocols.
 - Do not use non-UK sources as primary authorities for production content.
-- Do not move generic drug names outside the `Exam pharmacology reference (UKMLA/MRCGP)` bullet.
+- Do not move generic drug names outside the section `12` `Prescribing reference (JITL)` subsection.
 - Do not reintroduce a dedicated scoring section or inline score-component breakdowns.
 - Do not overuse `jitl-query`; maximum one per bullet and usually no more than 4–6 per script.
 - Do not optimise for completeness at the expense of scan speed and recognisable illness-script patterning.
